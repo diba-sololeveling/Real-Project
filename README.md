@@ -1,16 +1,15 @@
-# 🚀 LabVIEW Projects Portfolio
+# 🚀 LabVIEW Real-World Projects Portfolio
 
-Hello! 👋  
-This repository showcases a **collection of real-world LabVIEW projects** that I developed and used over **10 years of professional experience**.  
-The purpose of this portfolio is to share practical projects and inspire other engineers and LabVIEW enthusiasts.
+Welcome! 👋  
 
----
+This repository is a curated collection of **real-world LabVIEW projects** that I have developed and used over the course of **10 years of professional work**.  
+These projects were applied in **industrial, research, and hardware-integration environments**, making them practical examples rather than just tutorials.  
 
-## 🎯 Purpose
-- ✅ Demonstrate **practical, industrial, and research-based** LabVIEW projects  
-- ✅ Share **design solutions and insights** with other developers  
-- ✅ Serve as a **learning and reference collection** for LabVIEW users  
-
+The goal of this portfolio is to:
+- ✅ Share **proven, field-tested LabVIEW solutions**  
+- ✅ Demonstrate expertise with **PXI, cRIO, EtherCAT, PROFINET, OPC UA, and database integration**  
+- ✅ Provide a **learning resource** for LabVIEW developers and engineers  
+- ✅ Showcase the **breadth of applications**, from UI/UX to real-time hardware control 
 ---
 
 ## 📂 Project Overview
@@ -58,28 +57,29 @@ The projects cover a wide range of topics:
 ---
 
 ## 📑 Project Directory
-Explore the main projects in this repository:
+Explore a selection of the most representative LabVIEW projects in this repository:
 
 | 📁 Project Name | 📌 Description |
 |-----------------|----------------|
 | [Control References](./Control%20References) | Working with LabVIEW control references |
-| [DF PROFINET IO](./DF%20PROFINET%20IO) | PROFINET communication example |
+| [DF PROFINET IO](./DF%20PROFINET%20IO) | Industrial PROFINET communication example |
 | [Design Pattern](./Design%20Pattern) | Classic LabVIEW design pattern implementation |
-| [Discovering EtherCAT Devices](./Discovering%20EtherCAT%20Devices) | EtherCAT hardware discovery and management |
-| [Events](./Events) | Event-driven programming in LabVIEW |
-| [Functional Global Variable (FGV)](./Functional%20Global%20Variable_LV2012_NI%20Verified) | NI verified FGV implementation |
-| [Gauge Control](./Gauge%20Control) | Example of dynamic gauge visualization |
-| [Multi Functional Global Variable](./Multi%20Functional%20Global%20Variable%202012%20NIVerified) | Multi-use global variable structure |
-| [Multiple VIs in Subpanel](./Multiple%20VIs%20in%20a%20Sub%20panel) | Hosting multiple VIs in one interface |
-| [OPC UA Demo](./OPC%20UA%20Demo) | OPC Unified Architecture example |
-| [Publisher Subscriber](./Publisher%20Subscriber) | Pub/Sub communication model |
-| [Simple TCP](./Simple%20TCP) | TCP networking example |
-| [Simple Network Streams](./Simple%20Network%20Streams) | NI Streams example |
+| [Discovering EtherCAT Devices](./Discovering%20EtherCAT%20Devices) | EtherCAT device discovery and hardware management |
+| [Events](./Events) | Event-driven programming and UI interaction |
+| [Functional Global Variable (FGV)](./Functional%20Global%20Variable_LV2012_NI%20Verified) | NI-verified functional global variable implementation |
+| [Gauge Control](./Gauge%20Control) | Dynamic gauge visualization and control |
+| [Get Excel Data From SpecifiedField](./Get%20Excel%20Data%20From%20SpecifiedField) | Reading structured data from Excel |
+| [Multi Functional Global Variable](./Multi%20Functional%20Global%20Variable%202012%20NIVerified) | Multi-use global variable implementation |
+| [Multiple VIs in a Subpanel](./Multiple%20VIs%20in%20a%20Sub%20panel) | Hosting and managing multiple VIs in a single UI |
+| [OPC UA Demo](./OPC%20UA%20Demo) | OPC Unified Architecture communication example |
+| [Publisher Subscriber](./Publisher%20Subscriber) | Pub/Sub communication model in LabVIEW |
+| [Simple Network Streams](./Simple%20Network%20Streams) | NI Stream-based networking |
+| [Simple TCP](./Simple%20TCP) | TCP client-server communication example |
 | [Stored Procedure DB](./Stored%20procedure%20DB) | Database stored procedure integration |
-| [Tree - All Type](./Tree%20-%20All%20Type) | Working with tree UI elements |
+| [Tree - All Type](./Tree%20-%20All%20Type) | Working with different tree UI elements |
 | [Web-based Communication](./Web-based%20Communication) | HTTP/web communication examples |
 
-> 💡 *Note: This table lists only key projects. The repository contains **dozens more**, all showcasing different aspects of LabVIEW.*  
+> 💡 *This list highlights the most representative projects. The repository contains many additional examples, covering topics such as PXI/cRIO hardware integration, resource monitoring, advanced UI controls, and more.*
 
 ---
 
