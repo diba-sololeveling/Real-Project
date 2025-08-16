@@ -1,0 +1,249 @@
+FPAttributeValueFile
+n SubType="IVI"
+n SubVersion="1"
+
+v Boolean_values
+ VI_TRUE (1)
+  "True"
+
+ VI_FALSE (0)
+  "False"
+
+
+0 tkdpo4kgensignals_SetAttributeViInt32     3 4 false s  DataType="ViInt32"
+0 tkdpo4kgensignals_GetAttributeViInt32     3 4 false g  DataType="ViInt32"
+0 tkdpo4kgensignals_CheckAttributeViInt32   3 4 false s  DataType="ViInt32"
+0 tkdpo4kgensignals_SetAttributeViInt64     3 4 false s  DataType="ViInt64"
+0 tkdpo4kgensignals_GetAttributeViInt64     3 4 false g  DataType="ViInt64"
+0 tkdpo4kgensignals_CheckAttributeViInt64   3 4 false s  DataType="ViInt64"
+0 tkdpo4kgensignals_SetAttributeViReal64    3 4 false s  DataType="ViReal64"
+0 tkdpo4kgensignals_GetAttributeViReal64    3 4 false g  DataType="ViReal64"
+0 tkdpo4kgensignals_CheckAttributeViReal64  3 4 false s  DataType="ViReal64"
+0 tkdpo4kgensignals_SetAttributeViString    3 4 false s  DataType="ViString"
+0 tkdpo4kgensignals_GetAttributeViString    3 5 false g  DataType="ViString"
+0 tkdpo4kgensignals_CheckAttributeViString  3 4 false s  DataType="ViString"
+0 tkdpo4kgensignals_SetAttributeViBoolean   3 4 false s  DataType="ViBoolean"
+0 tkdpo4kgensignals_GetAttributeViBoolean   3 4 false g  DataType="ViBoolean"
+0 tkdpo4kgensignals_CheckAttributeViBoolean 3 4 false s  DataType="ViBoolean"
+0 tkdpo4kgensignals_SetAttributeViSession   3 4 false s  DataType="ViSession"
+0 tkdpo4kgensignals_GetAttributeViSession   3 4 false g  DataType="ViSession"
+0 tkdpo4kgensignals_CheckAttributeViSession 3 4 false s  DataType="ViSession"
+
+1 all "Inherent IVI Attributes"
+  "Attributes common to all IVI instrument drivers."
+
+2 all "User Options" 
+  "Attributes you can set to affect the operation of this instrument driver.\n"
+  "    "
+
+3 all "Range Check" TKDPO4KGENSIGNALS_ATTR_RANGE_CHECK ViBoolean gs Boolean_values 
+  "Specifies whether to validate attribute values and function parameters.  "
+  "If enabled, the instrument driver validates the parameter values that "
+  "you pass to driver functions.  Range checking parameters is very useful "
+  "for debugging.  After you validate your program, you can set this attribute to "
+  "VI_FALSE to disable range checking and maximize performance.\n"
+  "    The default value is VI_TRUE.  Use the tkdpo4kgensignals_InitWithOptions "
+  "function to override this value.\n"
+  "    "
+
+3 all "Query Instrument Status" TKDPO4KGENSIGNALS_ATTR_QUERY_INSTRUMENT_STATUS ViBoolean gs Boolean_values 
+  "Specifies whether the instrument driver queries the instrument status "
+  "after each operation.  Querying the instrument status is very useful "
+  "for debugging.  After you validate your program, you can set this "
+  "attribute to VI_FALSE to disable status checking and maximize "
+  "performance\n"
+  "    The instrument driver can choose to ignore status checking for "
+  "particular attributes regardless of the setting of this attribute.\n"
+  "    The default value is VI_FALSE.  Use the tkdpo4kgensignals_InitWithOptions "
+  "function to override this value.\n"
+  "    "
+
+3 all "Cache" TKDPO4KGENSIGNALS_ATTR_CACHE ViBoolean gs Boolean_values 
+  "Specifies whether to cache the value of attributes.  "
+  "When caching is enabled, the instrument driver keeps track of "
+  "the current instrument settings and avoids sending redundant commands to "
+  "the instrument.  Thus, you can significantly increase execution speed.\n"
+  "    The instrument driver can choose always to cache or never to cache "
+  "particular attributes regardless of the setting of this attribute.\n"
+  "    The default value is VI_TRUE.  Use the tkdpo4kgensignals_InitWithOptions "
+  "function to override this value.\n"
+  "    "
+ 
+3 all "Simulate" TKDPO4KGENSIGNALS_ATTR_SIMULATE ViBoolean gs Boolean_values 
+  "Specifies whether or not to simulate instrument driver I/O operations.  "
+  "If simulation is enabled, instrument driver "
+  "functions perform range checking and call Ivi_GetAttribute and "
+  "Ivi_SetAttribute functions, but they do not perform instrument I/O.  "
+  "For output parameters that represent instrument data, the instrument "
+  "driver functions return calculated values.\n"
+  "    The default value is VI_FALSE.  Use the tkdpo4kgensignals_InitWithOptions "
+  "function to override this value.\n"
+  "    "
+ 
+3 all "Record Value Coercions" TKDPO4KGENSIGNALS_ATTR_RECORD_COERCIONS ViBoolean gs Boolean_values       
+  "Specifies whether the IVI engine keeps a list of the value coercions it "
+  "makes for integer and real type attributes.  "  
+  "You call tkdpo4kgensignals Get Next Coercion Record to extract and delete the oldest "
+  "coercion record from the list.\n"  
+  "    The default value is VI_FALSE.  Use the "
+  "tkdpo4kgensignals_InitWithOptions function to override this value.\n"
+  "    "
+
+3 all "Interchange Check" TKDPO4KGENSIGNALS_ATTR_INTERCHANGE_CHECK ViBoolean gs Boolean_values 
+  "Specifies whether to perform interchangeability checking and retrieve "
+  "interchangeability warnings.\n"
+  "\n"
+  "The default value is VI_FALSE.\n\n"
+  "Interchangeability warnings indicate that using your application with a "
+  "different instrument might cause different behavior.  "
+  "You call "
+  "tkdpo4kgensignals Get Next Interchange Warning to extract interchange warnings.  "
+  "Call the tkdpo4kgensignals_ClearInterchangeWarnings function to clear the list "
+  "of interchangeability warnings without reading them.\n"
+  "Interchangeability checking logs a warning for each attribute you have not set "
+  "that affects the behavior of the instrument.\n"
+  "    "
+
+2 all "Driver Identification"
+  "Attributes that provide identity and version information about this instrument driver.\n"
+  "    "
+
+3 all "Description" TKDPO4KGENSIGNALS_ATTR_SPECIFIC_DRIVER_DESCRIPTION ViString g
+  "A string that contains a brief description of the specific "
+  "driver.\n"
+  "    "
+
+3 all "Driver Prefix" TKDPO4KGENSIGNALS_ATTR_SPECIFIC_DRIVER_PREFIX ViString g  
+  "A string that contains the prefix for the instrument driver.  The name of each "
+  "user-callable function in this driver starts with this prefix.\n"
+  "    "
+
+3 all "Driver Vendor" TKDPO4KGENSIGNALS_ATTR_SPECIFIC_DRIVER_VENDOR ViString g
+  "A string that contains the name of the vendor that supplies this driver.\n"
+  "    "
+
+3 all "Revision" TKDPO4KGENSIGNALS_ATTR_SPECIFIC_DRIVER_REVISION ViString g 
+  "A string that contains additional version information about this "
+  "instrument driver.\n"
+  "    "
+
+3 all "Class Specification Major Version" TKDPO4KGENSIGNALS_ATTR_SPECIFIC_DRIVER_CLASS_SPEC_MAJOR_VERSION ViInt32 g
+  "The major version number of the class specification with which this driver is compliant.\n"
+  "    "
+
+3 all "Class Specification Minor Version" TKDPO4KGENSIGNALS_ATTR_SPECIFIC_DRIVER_CLASS_SPEC_MINOR_VERSION ViInt32 g
+  "The minor version number of the class specification with which this driver is compliant.\n"
+  "    "
+
+2 all "Driver Capabilities"
+  "Attributes that provide information about the capabilities of this instrument driver.\n"
+  "    "
+
+3 all "Supported Instrument Models" TKDPO4KGENSIGNALS_ATTR_SUPPORTED_INSTRUMENT_MODELS ViString  g
+  "Contains a model code of the instrument. For drivers that support more than one device, this "
+  "attribute contains a comma-separated list of supported instrument "
+  "models.\n"
+  "    "
+
+3 all "Class Group Capabilities" TKDPO4KGENSIGNALS_ATTR_GROUP_CAPABILITIES ViString g
+  "A string that contains a comma-separated list of class-extension groups that "
+  "this driver implements.\n"
+  "    "
+
+2 all "Instrument Identification" 
+  "Attributes that provide identity information about the instrument that you are using."
+  "    "
+
+3 all "Manufacturer" TKDPO4KGENSIGNALS_ATTR_INSTRUMENT_MANUFACTURER ViString g
+  "A string that contains the name of the instrument manufacturer you are currently "
+  "using.\n"
+  "    "
+
+3 all "Model" TKDPO4KGENSIGNALS_ATTR_INSTRUMENT_MODEL ViString g
+  "A string that contains the model number or name of the instrument that you "
+  "are currently using.\n"
+  "    "
+
+3 all "Firmware Revision" TKDPO4KGENSIGNALS_ATTR_INSTRUMENT_FIRMWARE_REVISION ViString g
+  "A string that contains the firmware revision information "
+  "for the instrument you are currently using.\n"
+  "    "
+
+2 all "Advanced Session Information" 
+  "Attributes that contain additional information concerning the instrument driver session.  "
+  "    "
+
+3 all "Logical Name" TKDPO4KGENSIGNALS_ATTR_LOGICAL_NAME ViString  g
+  "A string containing the logical name you specified when opening the "
+  "current IVI session.\n"
+  "     You may pass a logical name to the tkdpo4kgensignals_init or "
+  "tkdpo4kgensignals_InitWithOptions functions.  "
+  "The IVI Configuration utility must contain an entry for the logical name.  "
+  "The logical name entry refers to a virtual instrument section in the "
+  "IVI Configuration file.  The virtual instrument section specifies a physical "
+  "device and initial user options.\n"
+  "    "
+
+3 all "I/O Resource Descriptor" TKDPO4KGENSIGNALS_ATTR_IO_RESOURCE_DESCRIPTOR ViString  g
+  "Indicates the resource descriptor the driver "
+  "uses to identify the physical device.\n"
+  "    If you initialize the driver with a logical name, this "
+  "attribute contains the resource descriptor that corresponds "
+  "to the entry in the IVI Configuration utility.  \n"
+  "    If you initialize the instrument driver with the resource "
+  "descriptor, this attribute contains that value.\n"
+  "    "
+
+3 all "Driver Setup" TKDPO4KGENSIGNALS_ATTR_DRIVER_SETUP ViString g
+  "Some cases exist where you must specify instrument driver "
+  "options at initialization time.  An example of this is specifying "
+  "a particular instrument model from among a family of instruments "
+  "that the driver supports.  This is useful when using simulation.  "
+  "You can specify driver-specific options through "
+  "the DriverSetup keyword in the optionsString parameter to the "
+  "tkdpo4kgensignals_InitWithOptions function.  If you open an instrument "
+  "using a logical name, you can also specify the options "
+  "through the IVI Configuration Utility.\n" 
+  "    The default value is an empty string.\n"
+  "    "
+
+
+1 all "Miscellaneous Attributes"
+  "Additional Attributes."
+
+2 all "ID Query Response" TKDPO4KGENSIGNALS_ATTR_ID_QUERY_RESPONSE ViString g 
+ "Returns the ID Query response string.  The instrument driver gets the value of "
+ "this attribute when you pass VI_TRUE for the ID Query parameter to the "
+ "tkdpo4kgensignals_init or tkdpo4kgensignals_InitWithOptions function.\n"
+ "    "
+
+
+
+2 all "Hidden Attributes (not user-viewable)" 
+  "    "
+
+
+3 all "OPC Callback Timeout" TKDPO4KGENSIGNALS_ATTR_OPC_TIMEOUT ViInt32 hidden 
+  "This attribute is hidden.  The driver uses this attribute internally to set the "
+  "timeout for the OPC callback.\n"
+  "    "
+
+3 all "IO Session" TKDPO4KGENSIGNALS_ATTR_SYSTEM_IO_SESSION ViSession hidden
+  "This attribute is hidden."
+  "\n"
+  "    "
+
+3 all "OPC Callback" TKDPO4KGENSIGNALS_ATTR_OPC_CALLBACK ViAddr hidden
+  "This attribute is hidden."
+  "\n"
+  "    "
+
+3 all "Check Status Callback" TKDPO4KGENSIGNALS_ATTR_CHECK_STATUS_CALLBACK ViAddr hidden
+  "This attribute is hidden."
+  "\n"
+  "    "
+
+3 all "User Interchange Check Callback" TKDPO4KGENSIGNALS_ATTR_USER_INTERCHANGE_CHECK_CALLBACK ViAddr hidden
+  "This attribute is hidden."
+  "\n"
+  "    "

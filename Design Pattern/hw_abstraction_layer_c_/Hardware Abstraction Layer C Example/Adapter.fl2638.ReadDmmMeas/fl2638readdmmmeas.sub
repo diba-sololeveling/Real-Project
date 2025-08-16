@@ -1,0 +1,879 @@
+FPAttributeValueFile
+n SubType="IVI"
+n SubVersion="1"
+
+v Boolean_values
+ VI_TRUE (1)
+  "True"
+
+ VI_FALSE (0)
+  "False"
+
+v attrFunctionRangeTable
+ FL2638MULTIMETERMEAS_VAL_DC_VOLTS (1)
+  "DC Volts"
+
+ FL2638MULTIMETERMEAS_VAL_AC_VOLTS (2)
+  "AC Volts"
+
+ FL2638MULTIMETERMEAS_VAL_DC_CURRENT (3)
+  "DC Current"
+
+ FL2638MULTIMETERMEAS_VAL_AC_CURRENT (4)
+  "AC Current"
+
+ FL2638MULTIMETERMEAS_VAL_2_WIRE_RES (5)
+  "2 Wire Resistance"
+
+ FL2638MULTIMETERMEAS_VAL_4_WIRE_RES (101)
+  "4 Wire Resistance"
+
+ FL2638MULTIMETERMEAS_VAL_FREQ (104)
+  "Frequency"
+
+ FL2638MULTIMETERMEAS_VAL_PERIOD (105)
+  "Period"
+
+ FL2638MULTIMETERMEAS_VAL_AC_PLUS_DC_VOLTS (106)
+  "AC + DC Volts"
+
+ FL2638MULTIMETERMEAS_VAL_AC_PLUS_DC_CURRENT (107)
+  "AC + DC Current"
+
+ FL2638MULTIMETERMEAS_VAL_TEMPERATURE (108)
+  "Temperature (C)"
+
+v VDCRangeTable DataType="d"
+ FL2638MULTIMETERMEAS_VAL_AUTO_RANGE_ON (-1.0)
+  "Configures the DMM to calculate the range before each measurement automatically. "
+  
+ FL2638MULTIMETERMEAS_VAL_AUTO_RANGE_OFF (-2.0)
+  "Disables auto-ranging.  The DMM sets the range to the value it most recently calculated."
+  
+ FL2638MULTIMETERMEAS_VAL_AUTO_RANGE_ONCE (-3.0)
+  "Configures the DMM to calculate the range before the next measurement.  "
+  "The DMM uses this range value for all subsequent measurements."
+
+v VACRangeTable DataType="d"
+ FL2638MULTIMETERMEAS_VAL_AUTO_RANGE_ON (-1.0)
+  "Configures the DMM to calculate the range before each measurement automatically. "
+  
+ FL2638MULTIMETERMEAS_VAL_AUTO_RANGE_OFF (-2.0)
+  "Disables auto-ranging.  The DMM sets the range to the value it most recently calculated."
+  
+ FL2638MULTIMETERMEAS_VAL_AUTO_RANGE_ONCE (-3.0)
+  "Configures the DMM to calculate the range before the next measurement.  "
+  "The DMM uses this range value for all subsequent measurements."
+
+v ohmsRangeTable DataType="d"
+ FL2638MULTIMETERMEAS_VAL_AUTO_RANGE_ON (-1.0)
+  "Configures the DMM to calculate the range before each measurement automatically. "
+  
+ FL2638MULTIMETERMEAS_VAL_AUTO_RANGE_OFF (-2.0)
+  "Disables auto-ranging.  The DMM sets the range to the value it most recently calculated."
+  
+ FL2638MULTIMETERMEAS_VAL_AUTO_RANGE_ONCE (-3.0)
+  "Configures the DMM to calculate the range before the next measurement.  "
+  "The DMM uses this range value for all subsequent measurements."
+
+v attrTriggerSourceRangeTable
+ FL2638MULTIMETERMEAS_VAL_IMMEDIATE (1)
+  "The DMM does not wait for a trigger of any kind."
+
+ FL2638MULTIMETERMEAS_VAL_EXTERNAL (2)
+  "The DMM waits for a trigger on the external trigger input."
+
+ FL2638MULTIMETERMEAS_VAL_SOFTWARE_TRIG (3)
+  "The DMM waits until you call the fl2638multimetermeas_SendSoftwareTrigger function."
+
+ FL2638MULTIMETERMEAS_VAL_GPIB_GET (101)
+  "The DMM waits until it receives a GPIB Group Execute Trigger (GET)."
+
+ FL2638MULTIMETERMEAS_VAL_TTL0 (111)
+  "The DMM waits until it receives a trigger on the PXI TRIG0 line (for PXI "
+  "instruments) or the VXI TTL0 line (for VXI instruments)."
+
+ FL2638MULTIMETERMEAS_VAL_TTL1 (112)
+  "The DMM waits until it receives a trigger on the PXI TRIG1 line (for PXI "
+  "instruments) or the VXI TTL1 line (for VXI instruments)."
+
+ FL2638MULTIMETERMEAS_VAL_TTL2 (113)
+  "The DMM waits until it receives a trigger on the PXI TRIG2 line (for PXI "
+  "instruments) or the VXI TTL2 line (for VXI instruments)."
+
+ FL2638MULTIMETERMEAS_VAL_TTL3 (114)
+  "The DMM waits until it receives a trigger on the PXI TRIG3 line (for PXI "
+  "instruments) or the VXI TTL3 line (for VXI instruments)."
+
+ FL2638MULTIMETERMEAS_VAL_TTL4 (115)
+  "The DMM waits until it receives a trigger on the PXI TRIG4 line (for PXI "
+  "instruments) or the VXI TTL4 line (for VXI instruments)."
+
+ FL2638MULTIMETERMEAS_VAL_TTL5 (116)
+  "The DMM waits until it receives a trigger on the PXI TRIG5 line (for PXI "
+  "instruments) or the VXI TTL5 line (for VXI instruments)."
+
+ FL2638MULTIMETERMEAS_VAL_TTL6 (117)
+  "The DMM waits until it receives a trigger on the PXI TRIG6 line (for PXI "
+  "instruments) or the VXI TTL6 line (for VXI instruments)."
+
+ FL2638MULTIMETERMEAS_VAL_TTL7 (118)
+  "The DMM waits until it receives a trigger on the PXI TRIG7 line (for PXI "
+  "instruments) or the VXI TTL7 line (for VXI instruments)."
+
+ FL2638MULTIMETERMEAS_VAL_ECL0 (119)
+  "The DMM waits until it receives a trigger on the VXI ECL0 line."
+
+ FL2638MULTIMETERMEAS_VAL_ECL1 (120)
+  "The DMM waits until it receives a trigger on the VXI ECL1 line."
+
+ FL2638MULTIMETERMEAS_VAL_PXI_STAR (131)
+  "The DMM waits until it receives a trigger on the PXI STAR trigger bus."
+  
+ FL2638MULTIMETERMEAS_VAL_RTSI_0 (140)
+  "The DMM waits until it receives a trigger on RTSI line 0 ."
+
+ FL2638MULTIMETERMEAS_VAL_RTSI_1 (141)
+  "The DMM waits until it receives a trigger on RTSI line 1."
+
+ FL2638MULTIMETERMEAS_VAL_RTSI_2 (142)
+  "The DMM waits until it receives a trigger on RTSI line 2."
+
+ FL2638MULTIMETERMEAS_VAL_RTSI_3 (143)
+  "The DMM waits until it receives a trigger on RTSI line 3."
+
+ FL2638MULTIMETERMEAS_VAL_RTSI_4 (144)
+  "The DMM waits until it receives a trigger on RTSI line 4."
+
+ FL2638MULTIMETERMEAS_VAL_RTSI_5 (145)
+  "The DMM waits until it receives a trigger on RTSI line 5."
+
+ FL2638MULTIMETERMEAS_VAL_RTSI_6 (146)
+  "The DMM waits until it receives a trigger on RTSI line 6."
+  
+
+v attrSampleTriggerRangeTable
+ FL2638MULTIMETERMEAS_VAL_IMMEDIATE (1)
+  "The DMM does not wait for a trigger of any kind between measurements."
+
+ FL2638MULTIMETERMEAS_VAL_EXTERNAL (2)
+  "The DMM waits between measurements for a trigger on the external trigger input."
+
+ FL2638MULTIMETERMEAS_VAL_SOFTWARE_TRIG (3)
+  "The DMM waits between measurements until you call the fl2638multimetermeas_SendSoftwareTrigger function."
+
+ FL2638MULTIMETERMEAS_VAL_INTERVAL (10)
+  "The DMM waits between measurements for the length of time you specify with the "
+  "FL2638MULTIMETERMEAS_SAMPLE_INTERVAL attribute."
+
+ FL2638MULTIMETERMEAS_VAL_GPIB_GET (101)
+  "The DMM waits between measurements until it receives a GPIB Group Execute Trigger (GET)."
+
+ FL2638MULTIMETERMEAS_VAL_TTL0 (111)
+  "The DMM waits between measurements until it receives a trigger on the TTL0 line."
+
+ FL2638MULTIMETERMEAS_VAL_TTL1 (112)
+  "The DMM waits between measurements until it receives a trigger on the TTL1 line."
+
+ FL2638MULTIMETERMEAS_VAL_TTL2 (113)
+  "The DMM waits between measurements until it receives a trigger on the TTL2 line."
+
+ FL2638MULTIMETERMEAS_VAL_TTL3 (114)
+  "The DMM waits between measurements until it receives a trigger on the TTL3 line."
+
+ FL2638MULTIMETERMEAS_VAL_TTL4 (115)
+  "The DMM waits between measurements until it receives a trigger on the TTL4 line."
+
+ FL2638MULTIMETERMEAS_VAL_TTL5 (116)
+  "The DMM waits between measurements until it receives a trigger on the TTL5 line."
+
+ FL2638MULTIMETERMEAS_VAL_TTL6 (117)
+  "The DMM waits between measurements until it receives a trigger on the TTL6 line."
+
+ FL2638MULTIMETERMEAS_VAL_TTL7 (118)
+  "The DMM waits between measurements until it receives a trigger on the TTL7 line."
+
+ FL2638MULTIMETERMEAS_VAL_ECL0 (119)
+  "The DMM waits between measurements until it receives a trigger on the ECL0 line."
+  
+ FL2638MULTIMETERMEAS_VAL_ECL1 (120)
+  "The DMM waits between measurements until it receives a trigger on the ECL1 line."
+
+ FL2638MULTIMETERMEAS_VAL_PXI_STAR (131)
+  "The DMM waits between measurements until it receives a trigger on the PXI STAR bus."
+
+
+v attrTriggerSlopeRangeTable
+ FL2638MULTIMETERMEAS_VAL_POSITIVE (0)
+  "Positive slope"
+
+ FL2638MULTIMETERMEAS_VAL_NEGATIVE (1)
+  "Negative slope"
+
+
+v attrAutoZeroRangeTable
+ FL2638MULTIMETERMEAS_VAL_AUTO_ZERO_ON (1)
+  "Configures the DMM to take a Zero Reading for each measurement.  The DMM subtracts "
+  "the Zero Reading from the value it measures."
+  
+ FL2638MULTIMETERMEAS_VAL_AUTO_ZERO_OFF (0)
+  "Disables the DMM from taking any more Zero Readings.  The DMM subtract the last "
+  "Zero Reading from all subsequent values it measures."
+
+ FL2638MULTIMETERMEAS_VAL_AUTO_ZERO_ONCE (2)
+  "Configures the DMM to take a Zero Reading immediately.  "
+  "The DMM then subtracts this Zero Reading from all subsequent values it measures."
+
+
+v attrTriggerDelayRangeTable DataType="d"
+ FL2638MULTIMETERMEAS_VAL_AUTO_DELAY_ON (-1.0)
+  "Configures the DMM to calculate the trigger delay before each measurement."
+
+ FL2638MULTIMETERMEAS_VAL_AUTO_DELAY_OFF (-2.0)
+  "Stops the DMM from calculating the trigger delay.  Sets the trigger delay "
+  "to the last trigger delay the DMM calculated.\n"
+ 
+
+v attrMeasCompleteDestRangeTable
+ FL2638MULTIMETERMEAS_VAL_NONE (-1)
+  "The DMM does not send the measurement-complete signal."
+
+ FL2638MULTIMETERMEAS_VAL_EXTERNAL (2)
+  "The DMM sends the measurement-complete signal on the external trigger line."
+
+ FL2638MULTIMETERMEAS_VAL_TTL0 (111)
+  "The DMM sends the measurement-complete signal on TTL0 line."
+
+ FL2638MULTIMETERMEAS_VAL_TTL1 (112)
+  "The DMM sends the measurement-complete signal on TTL1 line."
+
+ FL2638MULTIMETERMEAS_VAL_TTL2 (113)
+  "The DMM sends the measurement-complete signal on TTL2 line."
+
+ FL2638MULTIMETERMEAS_VAL_TTL3 (114)
+  "The DMM sends the measurement-complete signal on TTL3 line."
+
+ FL2638MULTIMETERMEAS_VAL_TTL4 (115)
+  "The DMM sends the measurement-complete signal on TTL4 line."
+
+ FL2638MULTIMETERMEAS_VAL_TTL5 (116)
+  "The DMM sends the measurement-complete signal on TTL5 line."
+
+ FL2638MULTIMETERMEAS_VAL_TTL6 (117)
+  "The DMM sends the measurement-complete signal on TTL6 line."
+
+ FL2638MULTIMETERMEAS_VAL_TTL7 (118)
+  "The DMM sends the measurement-complete signal on TTL7 line."
+
+ FL2638MULTIMETERMEAS_VAL_ECL0 (119)
+  "The DMM sends the measurement-complete signal on ECL0 line."
+
+ FL2638MULTIMETERMEAS_VAL_ECL1 (120)
+  "The DMM sends the measurement-complete signal on ECL1 line."
+
+ FL2638MULTIMETERMEAS_VAL_PXI_STAR (131)
+  "The DMM sends the measurement-complete signal on PXI STAR bus."
+
+
+v attrApertureTimeUnitsRangeTable
+ FL2638MULTIMETERMEAS_VAL_SECONDS (0)
+  "Seconds"
+
+ FL2638MULTIMETERMEAS_VAL_POWER_LINE_CYCLES (1)
+  "Power Line Cycles"
+  
+v attrAcMinFreqTable DataType="d" 
+ 20.0 (20.0)
+  "20.0 hertz"
+
+v attrAcMaxFreqTable DataType="d" 
+ 300000.0 (300.0E+3)
+  "300.0k hertz"
+
+v attrTempTcRefJuncTypeRangeTable DataType="i" 
+ FL2638MULTIMETERMEAS_VAL_TEMP_REF_JUNC_INTERNAL (1)
+  "Sets the DMM to use an internal sensor at the thermocouple junction for the junction compensation."
+
+ FL2638MULTIMETERMEAS_VAL_TEMP_REF_JUNC_FIXED (2)
+  "Sets the DMM to use a fixed value for the thermocouple junction compensation. Use the Thermocouple Fixed Reference Junction attribute to set the fixed reference junction value."
+
+
+v attrTempTcTypeRangeTable DataType="i" 
+ FL2638MULTIMETERMEAS_VAL_TEMP_TC_B (1)
+  "Sets the DMM to measure temperature from a B-type thermocouple."
+
+ FL2638MULTIMETERMEAS_VAL_TEMP_TC_C (2)
+  "Sets the DM7M to measure temperature from a C-type thermocouple."
+
+ FL2638MULTIMETERMEAS_VAL_TEMP_TC_D (3)
+  "Sets the DMM to measure temperature from a D-type thermocouple."
+
+ FL2638MULTIMETERMEAS_VAL_TEMP_TC_E (4)
+  "Sets the DMM to measure temperature from an E-type thermocouple."
+
+ FL2638MULTIMETERMEAS_VAL_TEMP_TC_G (5)
+  "Sets the DMM to measure temperature from a G-type thermocouple."
+
+ FL2638MULTIMETERMEAS_VAL_TEMP_TC_J (6)
+  "Sets the DMM to measure temperature from a J-type thermocouple."
+
+ FL2638MULTIMETERMEAS_VAL_TEMP_TC_K (7)
+  "Sets the DMM to measure temperature from a K-type thermocouple."
+
+ FL2638MULTIMETERMEAS_VAL_TEMP_TC_N (8)
+  "Sets the DMM to measure temperature from an N-type thermocouple."
+
+ FL2638MULTIMETERMEAS_VAL_TEMP_TC_R (9)
+  "Sets the DMM to measure temperature from an R-type thermocouple."
+
+ FL2638MULTIMETERMEAS_VAL_TEMP_TC_S (10)
+  "Sets the DMM to measure temperature from an S-type thermocouple."
+
+ FL2638MULTIMETERMEAS_VAL_TEMP_TC_T (11)
+  "Sets the DMM to measure temperature from a T-type thermocouple."
+
+ FL2638MULTIMETERMEAS_VAL_TEMP_TC_U (12)
+  "Sets the DMM to measure temperature from a U-type thermocouple."
+
+ FL2638MULTIMETERMEAS_VAL_TEMP_TC_V (13)
+  "Sets the DMM to measure temperature from a V-type thermocouple."
+
+
+v attrTempTransducerTypeRangeTable DataType="i" 
+ FL2638MULTIMETERMEAS_VAL_THERMOCOUPLE (1)
+  "Sets the DMM to measure temperature using a thermocouple. Use the IviDmmThermocouple extension group to configure additional settings for this transducer type."
+
+ FL2638MULTIMETERMEAS_VAL_THERMISTOR (2)
+  "Sets the DMM to measure temperature using a thermistor. Use the IviDmmThermistor extension group to configure additional settings for this transducer type."
+
+ FL2638MULTIMETERMEAS_VAL_2_WIRE_RTD (3)
+  "Sets the DMM to measure temperature using a 2-wire temperature resistance device. Use the IviDmmResistanceTemperatureDevice extension group to configure additional settings for this transducer type."
+
+ FL2638MULTIMETERMEAS_VAL_4_WIRE_RTD (4)
+  "Sets the DMM to measure temperature using a 4-wire temperature resistance device. Use the IviDmmResistanceTemperatureDevice extension group to configure additional settings for this transducer type."
+
+v attrResolutionAbsoluteRangeTable DataType="d" 
+ .0000001 (1.00000000000000E-7)
+  ""
+
+ .000001 (1.00000000000000E-6)
+  ""
+
+ .00001 (1.00000000000000E-5)
+  ""
+
+ .0001 (1.00000000000000E-4)
+  ""
+
+ .001 (1.00000000000000E-3)
+  ""
+
+ .01 (1.00000000000000E-2)
+  ""
+
+ .1 (1.00000000000000E-1)
+  ""
+
+v attrTempRtdAlphaRangeTable DataType="d"
+ 0.000385 (0.385E-3)
+ ""
+ 
+ 0.000391 (0.391E-3)
+ ""
+
+0 fl2638multimetermeas_SetAttributeViInt32     3 4 false s  DataType="ViInt32"
+0 fl2638multimetermeas_GetAttributeViInt32     3 4 false g  DataType="ViInt32"
+0 fl2638multimetermeas_CheckAttributeViInt32   3 4 false s  DataType="ViInt32"
+0 fl2638multimetermeas_SetAttributeViInt64     3 4 false s  DataType="ViInt64"
+0 fl2638multimetermeas_GetAttributeViInt64     3 4 false g  DataType="ViInt64"
+0 fl2638multimetermeas_CheckAttributeViInt64   3 4 false s  DataType="ViInt64"
+0 fl2638multimetermeas_SetAttributeViReal64    3 4 false s  DataType="ViReal64"
+0 fl2638multimetermeas_GetAttributeViReal64    3 4 false g  DataType="ViReal64"
+0 fl2638multimetermeas_CheckAttributeViReal64  3 4 false s  DataType="ViReal64"
+0 fl2638multimetermeas_SetAttributeViString    3 4 false s  DataType="ViString"
+0 fl2638multimetermeas_GetAttributeViString    3 5 false g  DataType="ViString"
+0 fl2638multimetermeas_CheckAttributeViString  3 4 false s  DataType="ViString"
+0 fl2638multimetermeas_SetAttributeViBoolean   3 4 false s  DataType="ViBoolean"
+0 fl2638multimetermeas_GetAttributeViBoolean   3 4 false g  DataType="ViBoolean"
+0 fl2638multimetermeas_CheckAttributeViBoolean 3 4 false s  DataType="ViBoolean"
+0 fl2638multimetermeas_SetAttributeViSession   3 4 false s  DataType="ViSession"
+0 fl2638multimetermeas_GetAttributeViSession   3 4 false g  DataType="ViSession"
+0 fl2638multimetermeas_CheckAttributeViSession 3 4 false s  DataType="ViSession"
+
+1 all "Inherent IVI Attributes"
+  "Attributes common to all IVI instrument drivers."
+
+2 all "User Options" 
+  "Attributes you can set to affect the operation of this instrument driver.\n"
+  "    "
+
+3 all "Range Check" FL2638MULTIMETERMEAS_ATTR_RANGE_CHECK ViBoolean gs Boolean_values 
+  "Specifies whether to validate attribute values and function parameters.  "
+  "If enabled, the instrument driver validates the parameter values that "
+  "you pass to driver functions.  Range checking parameters is very useful "
+  "for debugging.  After you validate your program, you can set this attribute to "
+  "VI_FALSE to disable range checking and maximize performance.\n"
+  "    The default value is VI_TRUE.  Use the fl2638multimetermeas_InitWithOptions "
+  "function to override this value.\n"
+  "    "
+
+3 all "Query Instrument Status" FL2638MULTIMETERMEAS_ATTR_QUERY_INSTRUMENT_STATUS ViBoolean gs Boolean_values 
+  "Specifies whether the instrument driver queries the instrument status "
+  "after each operation.  Querying the instrument status is very useful "
+  "for debugging.  After you validate your program, you can set this "
+  "attribute to VI_FALSE to disable status checking and maximize "
+  "performance\n"
+  "    The instrument driver can choose to ignore status checking for "
+  "particular attributes regardless of the setting of this attribute.\n"
+  "    The default value is VI_FALSE.  Use the fl2638multimetermeas_InitWithOptions "
+  "function to override this value.\n"
+  "    "
+
+3 all "Cache" FL2638MULTIMETERMEAS_ATTR_CACHE ViBoolean gs Boolean_values 
+  "Specifies whether to cache the value of attributes.  "
+  "When caching is enabled, the instrument driver keeps track of "
+  "the current instrument settings and avoids sending redundant commands to "
+  "the instrument.  Thus, you can significantly increase execution speed.\n"
+  "    The instrument driver can choose always to cache or never to cache "
+  "particular attributes regardless of the setting of this attribute.\n"
+  "    The default value is VI_TRUE.  Use the fl2638multimetermeas_InitWithOptions "
+  "function to override this value.\n"
+  "    "
+ 
+3 all "Simulate" FL2638MULTIMETERMEAS_ATTR_SIMULATE ViBoolean gs Boolean_values 
+  "Specifies whether or not to simulate instrument driver I/O operations.  "
+  "If simulation is enabled, instrument driver "
+  "functions perform range checking and call Ivi_GetAttribute and "
+  "Ivi_SetAttribute functions, but they do not perform instrument I/O.  "
+  "For output parameters that represent instrument data, the instrument "
+  "driver functions return calculated values.\n"
+  "    The default value is VI_FALSE.  Use the fl2638multimetermeas_InitWithOptions "
+  "function to override this value.\n"
+  "    "
+ 
+3 all "Record Value Coercions" FL2638MULTIMETERMEAS_ATTR_RECORD_COERCIONS ViBoolean gs Boolean_values       
+  "Specifies whether the IVI engine keeps a list of the value coercions it "
+  "makes for integer and real type attributes.  "  
+  "You call fl2638multimetermeas Get Next Coercion Record to extract and delete the oldest "
+  "coercion record from the list.\n"  
+  "    The default value is VI_FALSE.  Use the "
+  "fl2638multimetermeas_InitWithOptions function to override this value.\n"
+  "    "
+
+3 all "Interchange Check" FL2638MULTIMETERMEAS_ATTR_INTERCHANGE_CHECK ViBoolean gs Boolean_values 
+  "Specifies whether to perform interchangeability checking and retrieve "
+  "interchangeability warnings.\n"
+  "\n"
+  "The default value is VI_FALSE.\n\n"
+  "Interchangeability warnings indicate that using your application with a "
+  "different instrument might cause different behavior.  "
+  "You call "
+  "fl2638multimetermeas Get Next Interchange Warning to extract interchange warnings.  "
+  "Call the fl2638multimetermeas_ClearInterchangeWarnings function to clear the list "
+  "of interchangeability warnings without reading them.\n"
+  "Interchangeability checking logs a warning for each attribute you have not set "
+  "that affects the behavior of the instrument.\n"
+  "    "
+
+2 all "Driver Identification"
+  "Attributes that provide identity and version information about this instrument driver.\n"
+  "    "
+
+3 all "Description" FL2638MULTIMETERMEAS_ATTR_SPECIFIC_DRIVER_DESCRIPTION ViString g
+  "A string that contains a brief description of the specific "
+  "driver.\n"
+  "    "
+
+3 all "Driver Prefix" FL2638MULTIMETERMEAS_ATTR_SPECIFIC_DRIVER_PREFIX ViString g  
+  "A string that contains the prefix for the instrument driver.  The name of each "
+  "user-callable function in this driver starts with this prefix.\n"
+  "    "
+
+3 all "Driver Vendor" FL2638MULTIMETERMEAS_ATTR_SPECIFIC_DRIVER_VENDOR ViString g
+  "A string that contains the name of the vendor that supplies this driver.\n"
+  "    "
+
+3 all "Revision" FL2638MULTIMETERMEAS_ATTR_SPECIFIC_DRIVER_REVISION ViString g 
+  "A string that contains additional version information about this "
+  "instrument driver.\n"
+  "    "
+
+3 all "Class Specification Major Version" FL2638MULTIMETERMEAS_ATTR_SPECIFIC_DRIVER_CLASS_SPEC_MAJOR_VERSION ViInt32 g
+  "The major version number of the class specification with which this driver is compliant.\n"
+  "    "
+
+3 all "Class Specification Minor Version" FL2638MULTIMETERMEAS_ATTR_SPECIFIC_DRIVER_CLASS_SPEC_MINOR_VERSION ViInt32 g
+  "The minor version number of the class specification with which this driver is compliant.\n"
+  "    "
+
+2 all "Driver Capabilities"
+  "Attributes that provide information about the capabilities of this instrument driver.\n"
+  "    "
+
+3 all "Supported Instrument Models" FL2638MULTIMETERMEAS_ATTR_SUPPORTED_INSTRUMENT_MODELS ViString  g
+  "Contains a model code of the instrument. For drivers that support more than one device, this "
+  "attribute contains a comma-separated list of supported instrument "
+  "models.\n"
+  "    "
+
+3 all "Class Group Capabilities" FL2638MULTIMETERMEAS_ATTR_GROUP_CAPABILITIES ViString g
+  "A string that contains a comma-separated list of class-extension groups that "
+  "this driver implements.\n"
+  "    "
+
+2 all "Instrument Identification" 
+  "Attributes that provide identity information about the instrument that you are using."
+  "    "
+
+3 all "Manufacturer" FL2638MULTIMETERMEAS_ATTR_INSTRUMENT_MANUFACTURER ViString g
+  "A string that contains the name of the instrument manufacturer you are currently "
+  "using.\n"
+  "    "
+
+3 all "Model" FL2638MULTIMETERMEAS_ATTR_INSTRUMENT_MODEL ViString g
+  "A string that contains the model number or name of the instrument that you "
+  "are currently using.\n"
+  "    "
+
+3 all "Firmware Revision" FL2638MULTIMETERMEAS_ATTR_INSTRUMENT_FIRMWARE_REVISION ViString g
+  "A string that contains the firmware revision information "
+  "for the instrument you are currently using.\n"
+  "    "
+
+2 all "Advanced Session Information" 
+  "Attributes that contain additional information concerning the instrument driver session.  "
+  "    "
+
+3 all "Logical Name" FL2638MULTIMETERMEAS_ATTR_LOGICAL_NAME ViString  g
+  "A string containing the logical name you specified when opening the "
+  "current IVI session.\n"
+  "     You may pass a logical name to the fl2638multimetermeas_init or "
+  "fl2638multimetermeas_InitWithOptions functions.  "
+  "The IVI Configuration utility must contain an entry for the logical name.  "
+  "The logical name entry refers to a virtual instrument section in the "
+  "IVI Configuration file.  The virtual instrument section specifies a physical "
+  "device and initial user options.\n"
+  "    "
+
+3 all "I/O Resource Descriptor" FL2638MULTIMETERMEAS_ATTR_IO_RESOURCE_DESCRIPTOR ViString  g
+  "Indicates the resource descriptor the driver "
+  "uses to identify the physical device.\n"
+  "    If you initialize the driver with a logical name, this "
+  "attribute contains the resource descriptor that corresponds "
+  "to the entry in the IVI Configuration utility.  \n"
+  "    If you initialize the instrument driver with the resource "
+  "descriptor, this attribute contains that value.\n"
+  "    "
+
+3 all "Driver Setup" FL2638MULTIMETERMEAS_ATTR_DRIVER_SETUP ViString g
+  "Some cases exist where you must specify instrument driver "
+  "options at initialization time.  An example of this is specifying "
+  "a particular instrument model from among a family of instruments "
+  "that the driver supports.  This is useful when using simulation.  "
+  "You can specify driver-specific options through "
+  "the DriverSetup keyword in the optionsString parameter to the "
+  "fl2638multimetermeas_InitWithOptions function.  If you open an instrument "
+  "using a logical name, you can also specify the options "
+  "through the IVI Configuration Utility.\n" 
+  "    The default value is an empty string.\n"
+  "    "
+
+1 all "Basic Operation" 
+ "Attributes that control the basic features of the DMM."
+
+2 all "Function" FL2638MULTIMETERMEAS_ATTR_FUNCTION ViInt32 gs attrFunctionRangeTable 
+ "Specifies the measurement function.\n"
+ "    "
+
+2 all "Range" FL2638MULTIMETERMEAS_ATTR_RANGE ViReal64 gs 
+ "Specifies the measurement range.  You use positive values to represent the "
+ "absolute value of the maximum expected measurement.\n"
+ "\n"
+ "The value is in units appropriate for the current value of the "
+ "FL2638MULTIMETERMEAS_ATTR_FUNCTION attribute.  For example, setting this attribute to 10.0 "
+ "configures the DMM to measure DC voltages from -10.0 to +10.0 volts.\n"
+ "Negative values are reserved for controlling the DMM's auto-ranging "
+ "capability.\n"
+ "\n"
+ "Defined Values:\n"
+ "- FL2638MULTIMETERMEAS_VAL_AUTO_RANGE_ON (-1.0) - Configures the DMM to calculate the "
+ "range before each measurement automatically.\n"
+ "- FL2638MULTIMETERMEAS_VAL_AUTO_RANGE_OFF (-2.0) - Disables auto-ranging.  The DMM sets "
+ "the range to the value it most recently calculated.\n"
+ "- FL2638MULTIMETERMEAS_VAL_AUTO_RANGE_ONCE (-3.0) - Configures the DMM to calculate the "
+ "range before the next measurement.  The DMM uses this range value for all "
+ "subsequent measurements.\n"
+ "After you set this attribute to FL2638MULTIMETERMEAS_VAL_AUTO_RANGE_OFF or "
+ "FL2638MULTIMETERMEAS_VAL_AUTO_RANGE_ONCE, further queries of this attribute return the "
+ "actual range.\n"
+ "When you set this attribute to FL2638MULTIMETERMEAS_VAL_AUTO_RANGE_ON, you can obtain the "
+ "actual range the DMM is currently using by getting the value of the "
+ "FL2638MULTIMETERMEAS_ATTR_AUTO_RANGE_VALUE attribute.\n"
+ "    \n"
+ "Valid Manual Range:  The valid manual range depends on the measurement "
+ "function you select with the FL2638MULTIMETERMEAS_ATTR_FUNCTION attribute.\n"
+ "    "
+
+2 all "Resolution" FL2638MULTIMETERMEAS_ATTR_RESOLUTION_ABSOLUTE ViReal64 gs 
+ "This attribute configures the measurement resolution of the DMM in "
+ "absolute units.Setting this attribute to lower values increases the "
+ "measurement accuracy.  Setting this attribute to higher values increases "
+ "the measurement speed.\n"
+ "The valid range for this attribute depends on the current measurement function and "
+ "the value of the FL2638MULTIMETERMEAS_ATTR_RANGE attribute.\n"
+
+1 all "Trigger" 
+ "Attributes that configure the triggering capabilities of the DMM."
+
+2 all "Trigger Source" FL2638MULTIMETERMEAS_ATTR_TRIGGER_SOURCE ViInt32 gs attrTriggerSourceRangeTable 
+ "Specifies the trigger source.  After you call one of the fl2638multimetermeas_Measure, "
+ "fl2638multimetermeas_Read, or fl2638multimetermeas_Initiate functions, the DMM waits for the trigger you "
+ "specify with this attribute.  After it receives the trigger, the DMM waits "
+ "the length of time you specify with the FL2638MULTIMETERMEAS_ATTR_TRIGGER_DELAY attribute. "
+ " The DMM then takes a measurement.\n"
+ "    "
+
+2 all "Trigger Delay" FL2638MULTIMETERMEAS_ATTR_TRIGGER_DELAY ViReal64 gs 
+ "Specifies length of time the DMM waits after it receives the trigger and "
+ "before it takes a measurement.  Use positive values to set the trigger "
+ "delay in seconds.  Negative values are reserved for configuring the DMM to "
+ "calculate the trigger delay automatically.\n"
+ "    Setting this attribute to FL2638MULTIMETERMEAS_VAL_AUTO_DELAY_ON configures the DMM to "
+ "calculate the trigger delay before each measurement.  Setting this "
+ "attribute to FL2638MULTIMETERMEAS_VAL_AUTO_DELAY_OFF stops the DMM from calculating the "
+ "trigger delay and sets the trigger delay to the last automatically "
+ "calculated value.\n"
+ "    \n"
+ "/*=CHANGE:==========*/\n"
+ "Modify the following to represent the valid range for your instrument.\n"
+ "    \n"
+ "    Valid Range:  0.0 - 10.0 seconds\n"
+ "/*=END=CHANGE=======*/\n"
+ "    "
+
+2 all "Trigger Slope" FL2638MULTIMETERMEAS_ATTR_TRIGGER_SLOPE ViInt32 gs attrTriggerSlopeRangeTable 
+ "Specifies the polarity of the external trigger signal.\n"
+ "    "
+
+1 all "AC Measurements" 
+ "Attributes that configure additional parameters for AC volts and AC "
+ "current measurements.\n"
+
+2 all "AC Minimum Frequency" FL2638MULTIMETERMEAS_ATTR_AC_MIN_FREQ ViReal64 gs attrAcMinFreqTable 
+ "Specifies the minimum frequency component of the input signal for AC "
+ "measurements. The value of this attribute affects instrument behavior only "
+ "when you set the FL2638MULTIMETERMEAS_ATTR_FUNCTION attribute to an AC measurement.\n"
+ "    "
+
+2 all "AC Maximum Frequency" FL2638MULTIMETERMEAS_ATTR_AC_MAX_FREQ ViReal64 gs attrAcMaxFreqTable 
+ "Specifies the maximum frequency component of the input signal for AC "
+ "measurements. The value of this attribute affects instrument behavior only "
+ "when you set the FL2638MULTIMETERMEAS_ATTR_FUNCTION attribute to an AC measurement.\n"
+ "    "
+
+1 all "Frequency Measurements" 
+ "Attributes that configure additional parameters for frequency and period "
+ "measurements."
+
+2 all "Frequency Voltage Range" FL2638MULTIMETERMEAS_ATTR_FREQ_VOLTAGE_RANGE ViReal64 gs 
+ "The expected maximum value of the input signal for frequency and period "
+ "measurements in volts RMS."
+
+1 all "Temperature Measurements" 
+ "Attribues that configure additional parameters for temperature "
+ "measurements."
+
+2 all "Transducer Type" FL2638MULTIMETERMEAS_ATTR_TEMP_TRANSDUCER_TYPE ViInt32 gs attrTempTransducerTypeRangeTable 
+ "Specifies the device used to measure the temperature."
+
+2 all "Thermocouple" 
+ "Attributes for configuring the thermocoulple transducer type."
+
+3 all "Fixed Reference Junction" FL2638MULTIMETERMEAS_ATTR_TEMP_TC_FIXED_REF_JUNC ViReal64 gs 
+ "Specifies the external reference junction temperature when a fixed "
+ "reference junction type thermocouple is used to take the temperature "
+ "measurement.\n"
+
+3 all "Reference Junction Type" FL2638MULTIMETERMEAS_ATTR_TEMP_TC_REF_JUNC_TYPE ViInt32 gs attrTempTcRefJuncTypeRangeTable 
+ "Specifies the type of reference junction to be used in the reference "
+ "junction compensation of a thermocouple measurement.\n"
+
+3 all "Thermocouple Type" FL2638MULTIMETERMEAS_ATTR_TEMP_TC_TYPE ViInt32 gs attrTempTcTypeRangeTable 
+ "Specifies the type of thermocouple used to measure the temperature.\n"
+
+2 all "Resistance Temperature Device" 
+ "Attributes that configure the RTD transducer type."
+
+3 all "RTD Resistance" FL2638MULTIMETERMEAS_ATTR_TEMP_RTD_RES ViReal64 gs 
+ "Specifies the R0 parameter (resistance) for a resistance temperature "
+ "device.\n"
+
+3 all "RTD Alpha" FL2638MULTIMETERMEAS_ATTR_TEMP_RTD_ALPHA ViReal64 gs 
+ "The alpha parameter for a resistance temperature device.\n"
+
+2 all "Thermistor" 
+ "Attributes that configure the thermistor transducer type.\n"
+
+3 all "Thermistor Resistance" FL2638MULTIMETERMEAS_ATTR_TEMP_THERMISTOR_RES ViReal64 gs 
+ "Specifies the resistance of the thermistor in ohms.\n"
+
+1 all "MultiPoint Acquisition" 
+ "Attributes for acquiring data on multiple triggers and multiple "
+ "measurements per trigger.\n"
+ "    "
+
+2 all "Trigger Count" FL2638MULTIMETERMEAS_ATTR_TRIGGER_COUNT ViInt32 gs 
+ "Specifies the number of triggers the DMM accepts before it returns to the "
+ "idle state.\n"
+ "    \n"
+ "/*=CHANGE:==========*/\n"
+ "Modify the following to represent the valid range for your instrument.\n"
+ "    \n"
+ "    Valid Range:  1 - 1024\n"
+ "/*=END=CHANGE=======*/\n"
+ "    "
+
+2 all "Sample Count" FL2638MULTIMETERMEAS_ATTR_SAMPLE_COUNT ViInt32 gs 
+ "Specifies the number of measurements the DMM takes each time it receives a "
+ "trigger.\n"
+ "    \n"
+ "/*=CHANGE:==========*/\n"
+ "Modify the following to represent the valid range for your instrument.\n"
+ "    \n"
+ "    Valid Range:  1 - 1024\n"
+ "/*=END=CHANGE=======*/\n"
+ "    "
+
+2 all "Sample Trigger" FL2638MULTIMETERMEAS_ATTR_SAMPLE_TRIGGER ViInt32 gs attrSampleTriggerRangeTable 
+ "Specifies the sample trigger source. This attribute affects instrument "
+ "operation only when the FL2638MULTIMETERMEAS_ATTR_SAMPLE_COUNT attribute is greater than "
+ "1.\n"
+ "When the DMM takes a measurement and the FL2638MULTIMETERMEAS_ATTR_SAMPLE_COUNT attribute "
+ "is greater than 1, the DMM does not take the next measurement until the "
+ "event you specify with this attribute occurs.\n"
+ "    When you set this attribute to FL2638MULTIMETERMEAS_VAL_IMMEDIATE, the DMM does not "
+ "wait for a trigger of any kind between measurements.  When you set this "
+ "attribute to FL2638MULTIMETERMEAS_VAL_EXTERNAL, the DMM waits for a trigger on the "
+ "external trigger input before it takes the next measurement.  When you set "
+ "this attribute to FL2638MULTIMETERMEAS_VAL_SOFTWARE_TRIG, the DMM waits until you call the "
+ "fl2638multimetermeas_SendSoftwareTrigger function before it takes the next measurement.  "
+ "When you set this attribute to FL2638MULTIMETERMEAS_VAL_INTERVAL, the DMM waits the length "
+ "of time you specify with the FL2638MULTIMETERMEAS_ATTR_SAMPLE_INTERVAL attribute before it "
+ "takes the next measurement.\n"
+ "    "
+
+2 all "Sample Interval" FL2638MULTIMETERMEAS_ATTR_SAMPLE_INTERVAL ViReal64 gs 
+ "Specifies the interval between samples in seconds. This attribute affects "
+ "instrument operation only when the FL2638MULTIMETERMEAS_ATTR_SAMPLE_COUNT attribute is "
+ "greater than 1 and the FL2638MULTIMETERMEAS_ATTR_SAMPLE_TRIGGER attribute is set to "
+ "FL2638MULTIMETERMEAS_VAL_INTERVAL.  In this case, the DMM waits between measurements for "
+ "the length the time you specify with this attribute.\n"
+ "    \n"
+ "/*=CHANGE:==========*/\n"
+ "Modify the following to represent the valid range for your instrument.\n"
+ "    \n"
+ "    Valid Range:  0.0 - 10.0 seconds\n"
+ "/*=END=CHANGE=======*/\n"
+ "    "
+
+2 all "Meas Complete Destination" FL2638MULTIMETERMEAS_ATTR_MEAS_COMPLETE_DEST ViInt32 gs attrMeasCompleteDestRangeTable 
+ "After each measurement, the DMM generates a measurement-complete signal.  "
+ "This attributes specifies the destination of the measurement-complete "
+ "signal.  This signal is commonly referred to as Voltmeter Complete.\n"
+ "    "
+
+1 all "Configuration Information" 
+ "Attributes that return information about the current state of the "
+ "instrument.\n"
+
+2 all "Aperture Time" FL2638MULTIMETERMEAS_ATTR_APERTURE_TIME ViReal64 g 
+ "Returns the measurement aperture time for the current configuration.  The "
+ "units for this attribute are either seconds or powerline cycles (PLCs) and "
+ "are determined by the value of the FL2638MULTIMETERMEAS_ATTR_APERTURE_TIME_UNITS "
+ "attribute.\n"
+ "    "
+
+2 all "Aperture Time Units" FL2638MULTIMETERMEAS_ATTR_APERTURE_TIME_UNITS ViInt32 g 
+ "Returns the units for the attribute FL2638MULTIMETERMEAS_ATTR_APERTURE_TIME.  Possible "
+ "values are the following:\n"
+ "\n"
+ "Defined Values:\n"
+ "    FL2638MULTIMETERMEAS_VAL_SECONDS (0) - The units for the FL2638MULTIMETERMEAS_ATTR_APERTURE_TIME "
+ "attribute are seconds.\n"
+ "    FL2638MULTIMETERMEAS_VAL_POWER_LINE_CYCLES (1) - The units for the "
+ "FL2638MULTIMETERMEAS_ATTR_APERTURE_TIME attribute are powerline cycles.\n"
+ "\n"
+ "  "
+
+2 all "Auto Range Value" FL2638MULTIMETERMEAS_ATTR_AUTO_RANGE_VALUE ViReal64 g 
+ "Always returns the actual range the DMM is currently using, even when the "
+ "DMM is auto-ranging.\n"
+ "    "
+
+1 all "Measurement Operation Options" 
+ "Attributes that configure different measurement operations.\n"
+ "     "
+
+2 all "Auto Zero" FL2638MULTIMETERMEAS_ATTR_AUTO_ZERO ViInt32 gs attrAutoZeroRangeTable 
+ "Specifies the auto-zero mode.  In general, the auto-zero capability of a "
+ "DMM normalizes all measurements based on a Zero Reading.  When "
+ "auto-zeroing is enabled, the DMM internally disconnects the input signal "
+ "and takes a Zero Reading.  The DMM then subtracts the Zero Reading from "
+ "the measurement.  This prevents offset voltages present in the DMM's input "
+ "circuitry from affecting measurement accuracy.\n"
+ "\n"
+ "Defined Values:\n"
+ "\n"
+ "FL2638MULTIMETERMEAS_VAL_AUTO_ZERO_ON  - Configures the DMM to take a "
+ "Zero Reading for each measurement. The DMM subtracts the Zero Reading from "
+ "the value it measures.\n"
+ "\n"
+ "FL2638MULTIMETERMEAS_VAL_AUTO_ZERO_OFF - Disables the auto-zero feature.\n"
+ "\n"
+ "FL2638MULTIMETERMEAS_VAL_AUTO_ZERO_ONCE - Configures the DMM to take a "
+ "Zero Reading immediately. The DMM then subtracts this Zero Reading from "
+ "all subsequent values it measures.\n"
+
+2 all "Powerline Frequency" FL2638MULTIMETERMEAS_ATTR_POWERLINE_FREQ ViReal64 gs 
+ "Specifies the powerline frequency in hertz.\n"
+ "    "
+
+1 all "Miscellaneous Attributes"
+  "Additional Attributes."
+
+2 all "ID Query Response" FL2638MULTIMETERMEAS_ATTR_ID_QUERY_RESPONSE ViString g 
+ "Returns the ID Query response string.  The instrument driver gets the value of "
+ "this attribute when you pass VI_TRUE for the ID Query parameter to the "
+ "fl2638multimetermeas_init or fl2638multimetermeas_InitWithOptions function.\n"
+ "    "
+
+
+
+2 all "Hidden Attributes (not user-viewable)" 
+  "    "
+
+
+3 all "OPC Callback Timeout" FL2638MULTIMETERMEAS_ATTR_OPC_TIMEOUT ViInt32 hidden 
+  "This attribute is hidden.  The driver uses this attribute internally to set the "
+  "timeout for the OPC callback.\n"
+  "    "
+
+3 all "IO Session" FL2638MULTIMETERMEAS_ATTR_SYSTEM_IO_SESSION ViSession hidden
+  "This attribute is hidden."
+  "\n"
+  "    "
+
+3 all "OPC Callback" FL2638MULTIMETERMEAS_ATTR_OPC_CALLBACK ViAddr hidden
+  "This attribute is hidden."
+  "\n"
+  "    "
+
+3 all "Check Status Callback" FL2638MULTIMETERMEAS_ATTR_CHECK_STATUS_CALLBACK ViAddr hidden
+  "This attribute is hidden."
+  "\n"
+  "    "
+
+3 all "User Interchange Check Callback" FL2638MULTIMETERMEAS_ATTR_USER_INTERCHANGE_CHECK_CALLBACK ViAddr hidden
+  "This attribute is hidden."
+  "\n"
+  "    "

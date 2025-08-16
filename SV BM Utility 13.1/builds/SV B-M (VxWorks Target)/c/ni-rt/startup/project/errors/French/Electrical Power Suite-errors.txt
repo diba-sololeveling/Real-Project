@@ -1,0 +1,325 @@
+<?XML Version="1.0">
+<nidocument>
+<nicomment>
+<nifamily familyname="Electrical Power Suite" displayname="Electrical Power Suite">
+</nifamily>
+</nicomment>
+<nierror code="-363499">
+Electrical Power Suite:  <b>time multiplier setting</b> ne peut pas être inférieur à 0,025 ou supérieur à 20.
+</nierror>
+<nierror code="-363498">
+Electrical Power Suite:  <b>GD</b> ne peut pas être inférieur à 2 ou supérieur à 64.
+</nierror>
+<nierror code="-363497">
+Electrical Power Suite:  Les valeurs de <b>reset time parameters</b> doivent être supérieures à 0.
+</nierror>
+<nierror code="-363496">
+Electrical Power Suite:  Les valeurs de <b>curve data</b> doivent être supérieures ou égales à 0.
+</nierror>
+<nierror code="-363495">
+Electrical Power Suite:  La quantité G de stimulation en entrée dépasse la valeur de définition du pick-up, Gs, alors que pick-up signal? est encore Faux.
+</nierror>
+<nierror code="-363494">
+Electrical Power Suite:  <b>reset level</b> doit être inférieur ou égal à <b>Gs</b> dans le VI FPGA Threshold (Over) et supérieur ou égal à <b>Gs</b> dans le VI FPGA Threshold (Under).
+</nierror>
+<nierror code="-354699">
+Electrical Power Suite:  Vous devez définir <b>open mode</b> à Create ou Create or replace si vous exécutez ce VI sur des cibles temps réel.
+</nierror>
+<nierror code="-354698">
+Electrical Power Suite:  Les nombres de <b>analog channel info</b> et <b>status channel info</b> ne peuvent ni être vides, ni dépasser 999999.
+</nierror>
+<nierror code="-354697">
+Electrical Power Suite:  <b>timestamp multiplier</b> doit être égal ou supérieur à 0.
+</nierror>
+<nierror code="-354696">
+Electrical Power Suite:  Le nombre de voies de données n'est pas valide pour la configuration actuelle.
+</nierror>
+<nierror code="-354695">
+Electrical Power Suite:  Le fichier requis n'est pas ouvert.
+</nierror>
+<nierror code="-354694">
+Electrical Power Suite:  Les noms de fabricant doivent commencer par une lettre.
+</nierror>
+<nierror code="-354693">
+Electrical Power Suite:  Le code ASCII des caractères des noms d'entrée doit être décimal et compris entre 33 et 127.
+</nierror>
+<nierror code="-354692">
+Electrical Power Suite:  Un nom d'entrée doit commencer par un mot comportant entre 3 et 32 caractères.
+</nierror>
+<nierror code="-354691">
+Electrical Power Suite:  Vous devez définir <b>open mode</b> à Create ou Create or replace.
+</nierror>
+<nierror code="-354690">
+Electrical Power Suite:  Vous devez définir <b>open mode</b> à Open (read only).
+</nierror>
+<nierror code="-354689">
+Electrical Power Suite:  Le paramètre <b>physical channels</b>  contient plusieurs fois la même voie.
+</nierror>
+<nierror code="-354688">
+Electrical Power Suite:  Le paramètre <b>physical channels</b> ne contient pas les voies de vecteurs de phase spécifiées.
+</nierror>
+<nierror code="-354687">
+Electrical Power Suite:  La valeur de <b>reporting rate</b> n'est pas valide.
+</nierror>
+<nierror code="-354686">
+Electrical Power Suite:  Les valeurs de <b>time base</b> et de <b>number of PMUs</b> ne peuvent pas être 0.
+</nierror>
+<nierror code="-354685">
+Electrical Power Suite:  Un mot numérique ne peut pas avoir plus de 16 voies.
+</nierror>
+<nierror code="-354684">
+Electrical Power Suite:  <b>phasors</b> et <b>magnitudes and phases</b> doivent avoir la même taille de tableau.
+</nierror>
+<nierror code="-354683">
+Electrical Power Suite:  Les valeurs de <b>frequency high limit</b>, de <b>frequency low limit</b> et de <b>df/dt limit</b> doivent toutes être supérieures à 0.
+</nierror>
+<nierror code="-354682">
+Electrical Power Suite:  La valeur de <b>frequency high limit</b> doit être supérieure à celle de <b>frequency low limit</b>.
+</nierror>
+<nierror code="-354681">
+Electrical Power Suite:  Les valeurs de <b>magnitude low limit</b> et de <b>magnitude high limit</b> doivent être supérieures à 0.
+</nierror>
+<nierror code="-354680">
+Electrical Power Suite:  La valeur de <b>magnitude high limit</b> doit être supérieure à celle de <b>magnitude low limit</b>.
+</nierror>
+<nierror code="-354679">
+Electrical Power Suite:  La valeur de <b>phase-angle diff limit</b> doit être supérieure à 0, et inférieure ou égale à pi.
+</nierror>
+<nierror code="-354678">
+Electrical Power Suite:  La taille de <b>magnitudes in</b> et de <b>timestamps</b> doit être égale au nombre de voies physiques.
+</nierror>
+<nierror code="-354677">
+Electrical Power Suite:  Les nombres de voies de <b>magnitudes</b>, <b>phases</b> et <b>timestamps</b> doivent être identiques.
+</nierror>
+<nierror code="-354676">
+Electrical Power Suite:  Le nombre d'échantillons de <b>data in</b> doit être égal à la valeur de  <b>samples to read</b> de l'itération précédente.
+</nierror>
+<nierror code="-354675">
+Electrical Power Suite:  Le nombre d'échantillons de <b>GPS information</b> doit être égal à la valeur de  <b>samples to read</b> de l'itération précédente.
+</nierror>
+<nierror code="-354674">
+Electrical Power Suite:  La valeur de <b>max time error</b> doit être supérieure ou égale à 0.
+</nierror>
+<nierror code="-354673">
+Electrical Power Suite:  La valeur de <b>channel index</b> doit être inférieure au nombre de voies - 1.
+</nierror>
+<nierror code="-354672">
+Electrical Power Suite:  La valeur de <b>nominal Fs/actual Fs</b> doit être supérieure à 0.
+</nierror>
+<nierror code="-354669">
+Electrical Power Suite:  L'intervalle d'agrégation spécifié doit être divisible par l'unité de temps supérieure suivante de l'intervalle d'agrégation. Par exemple, si vous spécifiez des secondes comme unité de temps, l'unité de temps supérieure suivante est la minute. Par conséquent, l'intervalle d'agrégation peut être n'importe quel facteur de 60 (10, 12, 15, 20, par exemple).
+</nierror>
+<nierror code="-354668">
+Electrical Power Suite:  L'intervalle d'agrégation doit être supérieur à la différence de temps entre deux exécutions successives.
+</nierror>
+<nierror code="-354667">
+Electrical Power Suite:  La taille de <b>data flags</b> doit être la même que celle de <b>data</b>.
+</nierror>
+<nierror code="-354666">
+Electrical Power Suite:  La taille de la première dimension de <b>data flags</b> doit être identique à celle de la première dimension de <b>data</b>.
+</nierror>
+<nierror code="-354665">
+Electrical Power Suite:  La taille de <b>EN50160 limits</b> doit être identique à celle de la troisième dimension de <b>data</b>.
+</nierror>
+<nierror code="-354664">
+Electrical Power Suite:  La longueur de <b>channel units</b> est hors gamme. La longueur de <b>channel units</b> doit se trouver dans la gamme [1;32].
+</nierror>
+<nierror code="-354659">
+Electrical Power Suite:  <b>min rate of change</b> est hors gamme.
+</nierror>
+<nierror code="-354658">
+Electrical Power Suite:  <b>max voltage change</b> est hors gamme.
+</nierror>
+<nierror code="-354657">
+Electrical Power Suite:  <b>min steady state difference</b> est hors gamme.
+</nierror>
+<nierror code="-354656">
+Electrical Power Suite:  <b>steadiness of steady state</b> est hors gamme.
+</nierror>
+<nierror code="-354655">
+Electrical Power Suite:  <b>min steady state duration</b> est hors gamme.
+</nierror>
+<nierror code="-354654">
+Electrical Power Suite:  <b>swell threshold</b> est hors gamme.
+</nierror>
+<nierror code="-354653">
+Electrical Power Suite:  <b>dip threshold</b> est hors gamme.
+</nierror>
+<nierror code="-354652">
+Electrical Power Suite:  <b>interruption threshold</b> est hors gamme.
+</nierror>
+<nierror code="-354651">
+Electrical Power Suite:  <b>hysteresis</b> est hors gamme.
+</nierror>
+<nierror code="-354649">
+Electrical Power Suite:  La taille de <b>actual ranges</b> doit être identique à celle de <b>spectra in</b>.
+</nierror>
+<nierror code="-354648">
+Electrical Power Suite:  La taille de la première dimension de <b>gains</b> et de <b>phase delays</b> doit être supérieure ou égale à la taille de <b>spectra in</b>.
+</nierror>
+<nierror code="-354647">
+Electrical Power Suite:  La taille de la deuxième dimension de <b>gains</b> et de <b>phase delays</b> doit être la même que la taille de <b>frequencies to calibrate</b>.
+</nierror>
+<nierror code="-354646">
+Electrical Power Suite:  La taille de la troisième dimension de <b>gains</b> et de <b>phase delays</b> doit être la même que la taille de <b>ranges to calibrate</b>.
+</nierror>
+<nierror code="-354645">
+Electrical Power Suite:  La configuration des voies physiques ne correspond pas aux informations de câblage de <b>data in</b>.
+</nierror>
+<nierror code="-354644">
+Electrical Power Suite:  Les valeurs de <b>frequencies to calibrate</b> doivent être en ordre croissant.
+</nierror>
+<nierror code="-354643">
+Electrical Power Suite:  Le nombre de lignes de <b>phase delays</b> doit être supérieur ou égal à la taille de <b>one-cycle fundamental vectors in</b>.
+</nierror>
+<nierror code="-354642">
+Electrical Power Suite:  Le nombre de colonnes de <b>phase delays</b> doit être identique à la taille de <b>ranges to calibrate</b>.
+</nierror>
+<nierror code="-354641">
+Electrical Power Suite:  La taille de <b>actual ranges</b> doit être identique à celle de <b>one-cycle fundamental vectors in</b>.
+</nierror>
+<nierror code="-354640">
+Electrical Power Suite:  Les valeurs de <b>ranges to calibrate</b> doivent être en ordre croissant.
+</nierror>
+<nierror code="-354639">
+Electrical Power Suite:  La taille de <b>full-range RMS values</b> doit être supérieure ou égale à celle de <b>waveforms</b>.
+</nierror>
+<nierror code="-354638">
+Electrical Power Suite:  La taille d'<b>offsets</b> doit être supérieure ou égale à celle de <b>waveforms in</b>.
+</nierror>
+<nierror code="-354637">
+Electrical Power Suite:  Le nombre de lignes de <b>gains</b> doit être supérieur ou égal à la taille de <b>waveforms in</b>.
+</nierror>
+<nierror code="-354636">
+Electrical Power Suite:  Le nombre de colonnes de <b>gains</b> doit être identique au nombre de colonnes de <b>ranges to calibrate</b>.
+</nierror>
+<nierror code="-354635">
+Electrical Power Suite:  La taille de <b>actual ranges</b> doit être identique à celle de <b>waveforms in</b>.
+</nierror>
+<nierror code="-354634">
+Electrical Power Suite:  <b>detection threshold</b> est hors gamme.
+</nierror>
+<nierror code="-354633">
+Electrical Power Suite:  <b>start logical 1 length</b> est hors gamme.
+</nierror>
+<nierror code="-354632">
+Electrical Power Suite:  <b>start logical 0 length</b> est hors gamme.
+</nierror>
+<nierror code="-354631">
+Electrical Power Suite:  <b>maximum event length</b> est hors gamme.
+</nierror>
+<nierror code="-354630">
+Electrical Power Suite:  <b>signaling frequency</b> est hors gamme.
+</nierror>
+<nierror code="-354629">
+Electrical Power Suite:  La valeur de <b>data index</b> ne correspond pas à celle de <b>data in</b>.
+</nierror>
+<nierror code="-354628">
+Electrical Power Suite:  La valeur de <b>spectra index</b> ou de <b>vector index</b> ne correspond pas à <b>complex spectra</b>.
+</nierror>
+<nierror code="-354627">
+Electrical Power Suite:  Le nombre de colonnes de <b>data in</b> ne correspond pas au nombre de voies physiques.
+</nierror>
+<nierror code="-354626">
+Electrical Power Suite:  La valeur de <b>channel index</b> ne correspond pas à <b>waveforms</b>.
+</nierror>
+<nierror code="-354625">
+Electrical Power Suite:  <b>high limit</b> doit être supérieur à <b>low limit</b>.
+</nierror>
+<nierror code="-354624">
+Electrical Power Suite:  <b>hysteresis</b> doit être supérieur ou égal à 0.
+</nierror>
+<nierror code="-354623">
+Electrical Power Suite:  Ce n'est pas une fonction de formule numérique valide.
+</nierror>
+<nierror code="-354622">
+Electrical Power Suite:  Le nombre de lignes de <b>data in</b> ne correspond pas au nombre d'échantillons par 10 ou 12 périodes.
+</nierror>
+<nierror code="-354619">
+Electrical Power Suite:  La taille de <b>sensitivity</b> doit être supérieure ou égale à celle de <b>waveforms in</b>.
+</nierror>
+<nierror code="-354618">
+Electrical Power Suite:  La taille de <b>CT/VT ratio</b> doit être supérieure ou égale à celle de <b>waveforms in</b>.
+</nierror>
+<nierror code="-354617">
+Electrical Power Suite:  Le nombre d'échantillons par période doit se trouver dans la gamme [128; 512].
+</nierror>
+<nierror code="-354616">
+Electrical Power Suite:  Le nombre d'échantillons par période doit être pair.
+</nierror>
+<nierror code="-354615">
+Electrical Power Suite:  La valeur de <b>vitesse</b> dans le VI DAQmx - Cadencement (horloge d'échantillonnage) doit être supérieure à celle d'<b>échantillons par cycle</b> dans le VI Initialize System VI multipliée par 57,5 pour un système d'alimentation 50 Hz ou par 69 pour un système d'alimentation 60 Hz.
+</nierror>
+<nierror code="-354614">
+Electrical Power Suite:  <b>number of channels</b> doit se trouver entre 1 et 16.
+</nierror>
+<nierror code="-354613">
+Electrical Power Suite:  <b>reference channel index</b> doit être inférieur à <b>number of channels</b> moins 1.
+</nierror>
+<nierror code="-354612">
+Electrical Power Suite:  Le nombre d'échantillons par période doit être 192.
+</nierror>
+<nierror code="-354609">
+Electrical Power Suite:  <b>interval length</b> est hors gamme. <b>interval length</b> ne peut pas être inférieur à 0.
+</nierror>
+<nierror code="-354606">
+Electrical Power Suite:  <b>maximum harmonic order</b> est hors gamme.
+</nierror>
+<nierror code="-354604">
+Electrical Power Suite:  La taille du tableau en entrée doit être égale à 3.
+</nierror>
+<nierror code="354609">
+Electrical Power Suite:  Les nombres de voies des données de tension et de courant sont différents.
+</nierror>
+<nierror code="354618">
+Electrical Power Suite:  Dans un système déséquilibré, les valeurs de tension de phase recalculées sont des valeurs approximatives.
+</nierror>
+<nierror code="354669">
+Electrical Power Suite:  La longueur des tableaux de données en entrée doit être au minimum une semaine pour que le résultat soit valide.
+</nierror>
+<nierror code="354671">
+Electrical Power Suite:  La valeur de <b>analogs</b> est en dehors de la gamme des entiers 16 bits. Définissez Bit 1 à 2 dans le paramètre <b>data format</b> du VI Initialize System pour changer le format de <b>analogs</b> en virgule flottante.
+</nierror>
+<nierror code="354672">
+Electrical Power Suite:  La valeur de <b>df/dt</b> est en dehors de la gamme des entiers 16 bits. Définissez Bit 1 à 1 dans le paramètre <b>data format</b> du VI Initialize System pour changer le format de <b>df/dt</b> en virgule flottante.
+</nierror>
+<nierror code="354673">
+Electrical Power Suite:  La variation de fréquence par rapport à la fréquence nominale est en dehors de la gamme des entiers 16 bits. Définissez Bit 1 à 1 dans le paramètre <b>data format</b> du VI Initialize System pour changer le format de <b>frequency</b> en virgule flottante.
+</nierror>
+<nierror code="354674">
+Electrical Power Suite:  La valeur de <b>phasors</b> est en dehors de la gamme des entiers 16 bits. Définissez Bit 1 à 1 dans <b>data format</b> du VI Initialize System pour changer le format de <b>phasors</b> à virgule flottante.
+</nierror>
+<nierror code="354675">
+Electrical Power Suite:  La valeur de <b>ID PMU</b> est en-dehors de la gamme. La valeur de <b>ID PMU</b> doit être dans la gamme [1, 65534].
+</nierror>
+<nierror code="354689">
+Electrical Power Suite:  <b>station name</b>, <b>phasor name</b>, <b>analog name</b> et <b>digital names</b> ne peuvent pas dépasser 16 caractères. Ce VI contraint automatiquement les noms longs à 16 caractères.
+</nierror>
+<nierror code="354693">
+Electrical Power Suite:  Les nombres totaux de <b>max sample text</b> et <b>min sample text</b> pour chaque <b>public event information</b> ne peuvent pas dépasser 99.
+</nierror>
+<nierror code="354694">
+Electrical Power Suite:  La longueur de <b>channel phase identification</b> ne peut pas dépasser 2.
+</nierror>
+<nierror code="354695">
+Electrical Power Suite:  Les longueurs de <b>channel identifier</b>, <b>channel name</b> et <b>monitored circuit component</b> ne peuvent pas dépasser 64.
+</nierror>
+<nierror code="354696">
+Electrical Power Suite:  Le nombre de fréquences d'échantillonnage du fichier de données ne peut pas dépasser 999.
+</nierror>
+<nierror code="354697">
+Electrical Power Suite:  Le nombre de noms d'entrées doit être égal au nombre de valeurs d'entrées.
+</nierror>
+<nierror code="354698">
+Electrical Power Suite:  <b>station name</b> et <b>recording device name</b> ne peuvent pas contenir plus de 64 caractères.
+</nierror>
+<nierror code="354699">
+Electrical Power Suite:  Le nom de fichier ne peut pas avoir plus de 8 caractères.
+</nierror>
+<nierror code="363498">
+Electrical Power Suite:  Le coercition se produit quand ce VI quantifie la courbe en représentation discrète. La coercition risque d'engendrer une légère  au niveau du cadencement de fonctionnement ou de réinitialisation. 
+</nierror>
+<nierror code="363499">
+Electrical Power Suite:  Certaines valeurs de temps de fonctionnement ou de réinitialisation sont inférieures à ce que le type de données à virgule fixe interne peut représenter. Ce VI contraint ces valeurs à 0,002048.
+</nierror>
+</nidocument>

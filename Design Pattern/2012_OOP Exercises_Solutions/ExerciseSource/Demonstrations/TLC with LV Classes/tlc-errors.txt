@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<nidocument>
+<nicomment>
+
+</nicomment>
+<nierror code="5000">
+Cue Data Error
+</nierror>
+</nidocument>

@@ -1,0 +1,9 @@
+$(function(){function niCookieLaw(){var pnxCookie=PNX.utils.Cookie,CookieLawName='cookies_accepted',CookieLaw=getCookieLaw();var element=document.getElementById('cookieLaw');if(element!==null){if(CookieLaw==false){document.getElementById("cookieLaw").style.display="block";$("#btnUnderstood").click(function(e){cookieUnderstood();return false});}else{document.getElementById("cookieLaw").style.display="none";return false;}}
+function hasClass(el,cls){return el.className&&new RegExp("(\\s|^)"+cls+"(\\s|$)").test(el.className);}
+function getCookieLaw(){var a=0,b=parseInt(pnxCookie.get(CookieLawName));if((b==0)||isNaN(b)||(b=="")){a=false;}else{a=true;}
+return a;}
+function setCookieLaw(a){var b=0,dt=new Date(),o={};o.path='/';o.domain='ni.com';dt.setTime(dt.getTime()+(45*24*60*60*1000));o.expires=dt.toGMTString();cookieExpiration=dt;if(a){b=1}
+pnxCookie.set(CookieLawName,b,o);return false;}
+function cookieUnderstood(){setCookieLaw(true);toolbarHide();return false;}
+function toolbarHide(){$('#cookieLaw').fadeOut();return true;}}
+niCookieLaw();});

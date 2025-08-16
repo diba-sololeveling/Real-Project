@@ -1,0 +1,21 @@
+[ZWO ASI1600MM Pro]
+Auto Exp Max Exp = 30000ms
+Auto Exp Max Gain = 300
+Auto Exp Target Brightness = 100
+Bin = 1
+Brightness = 10
+Capture Area Size = 4656 * 3520
+Colour Format = RAW16
+Debayer Type = NONE
+Exposure = 741us
+Flip = None
+Gain = 246
+Hardware Bin = OFF
+High Speed Mode = OFF
+Pattern Adjust = 0
+StartX = 0
+StartY = 0
+Temperature = 28.5 C
+Timestamp Frames = OFF
+USB Limit = 80
+USB Port = 2.0

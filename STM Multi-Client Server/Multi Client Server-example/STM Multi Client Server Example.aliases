@@ -1,0 +1,6 @@
+[My Computer]
+My Computer = "192.168.150.83"
+
+[RT PXI Target]
+RT PXI Target = "192.168.150.9"
+

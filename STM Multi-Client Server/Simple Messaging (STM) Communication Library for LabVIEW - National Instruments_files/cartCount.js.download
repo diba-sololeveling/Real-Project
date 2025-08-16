@@ -1,0 +1,11 @@
+function cartCountCallback(e){if(e.carts.cart.totalCount){$(".cart-badge").attr("data-badge",Math.floor(e.carts.cart.totalCount));}}
+$(document).ready(function(){var sessionID=$.cookie("session_id");var profileID=$.cookie("profile_id");var wcRecurringOrder=checkIfRecurringOrderCookieExists();var wcAuthentication=checkIfAuthenticationOrderCookieExists();if(sessionID!==undefined||wcRecurringOrder!==false||profileID!==undefined||wcAuthentication!==false){updateCartCountOnWrapper();}
+function checkIfRecurringOrderCookieExists(){var cookieAvailable=false;for(var key in $.cookie()){if(key.toLowerCase().indexOf("wc_recurringorder_")>-1){cookieAvailable=true;break;}}
+return cookieAvailable;}
+function checkIfAuthenticationOrderCookieExists(){var cookieAvailable=false;for(var key in $.cookie()){if(key.toLowerCase().indexOf("wc_authentication_")>-1&&key.toLowerCase()!=="wc_authentication_-1002"){cookieAvailable=true;break;}}
+return cookieAvailable;}
+function getLocale(){return($.cookie("locale"))?$.cookie("locale"):"en-US";}
+function getServerTier(){var tier=NI.env.tier;if(tier==""){if(window.location.host==="forumstage.ni.com"){tier="-test";}}
+return tier;}
+function getCartAPIAddress(tier,locale){var cartAPI="/cart-rest/1/"+locale+"/carts/me/count";return window.location.host.indexOf("local")!=-1?cartAPI:"//www"+tier+".ni.com"+cartAPI;}
+function updateCartCountOnWrapper(){var tier=getServerTier();var locale=getLocale();var cartAPI=getCartAPIAddress(tier,locale);$.ajax({url:cartAPI,xhrFields:{withCredentials:true},jsonp:"count",dataType:"jsonp",jsonpCallback:"cartCountCallback",error:function(jqXHR,textStatus,errorThrown){console.log(jqXHR.status,textStatus,errorThrown);}});}});

@@ -1,0 +1,181 @@
+<?xml version='1.0' standalone='yes' ?>
+<LVData xmlns="http://www.ni.com/LVData">
+<Version>10.0</Version>
+<Array>
+<Name></Name>
+<Dimsize>5</Dimsize>
+<Object>
+<Name>Silence out</Name>
+<NumLevels>2</NumLevels>
+<Class>Single Tone.lvclass</Class>
+<Version>1.0.0.2</Version>
+<Version>1.0.0.0</Version>
+<Cluster>
+</Cluster>
+<Cluster>
+<Name>Single Tone.lvclass</Name>
+<NumElts>2</NumElts>
+<DBL>
+<Name>Frequency</Name>
+<Val>100.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Duration</Name>
+<Val>1.00000000000000</Val>
+</DBL>
+</Cluster>
+</Object>
+<Object>
+<Name>Silence out</Name>
+<NumLevels>2</NumLevels>
+<Class>Silence.lvclass</Class>
+<Version>1.0.0.1</Version>
+<Version>1.0.0.0</Version>
+<Cluster>
+</Cluster>
+<Cluster>
+<Name>Silence.lvclass</Name>
+<NumElts>1</NumElts>
+<DBL>
+<Name>Duration</Name>
+<Val>1.00000000000000</Val>
+</DBL>
+</Cluster>
+</Object>
+<Object>
+<Name>Silence out</Name>
+<NumLevels>2</NumLevels>
+<Class>Single Tone.lvclass</Class>
+<Version>1.0.0.2</Version>
+<Version>1.0.0.0</Version>
+<Cluster>
+</Cluster>
+<Cluster>
+<Name>Single Tone.lvclass</Name>
+<NumElts>2</NumElts>
+<DBL>
+<Name>Frequency</Name>
+<Val>500.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Duration</Name>
+<Val>3.00000000000000</Val>
+</DBL>
+</Cluster>
+</Object>
+<Object>
+<Name>Silence out</Name>
+<NumLevels>2</NumLevels>
+<Class>Silence.lvclass</Class>
+<Version>1.0.0.1</Version>
+<Version>1.0.0.0</Version>
+<Cluster>
+</Cluster>
+<Cluster>
+<Name>Silence.lvclass</Name>
+<NumElts>1</NumElts>
+<DBL>
+<Name>Duration</Name>
+<Val>1.00000000000000</Val>
+</DBL>
+</Cluster>
+</Object>
+<Object>
+<Name>Silence out</Name>
+<NumLevels>2</NumLevels>
+<Class>Aggregate Sound.lvclass</Class>
+<Version>1.0.0.2</Version>
+<Version>1.0.0.0</Version>
+<Cluster>
+</Cluster>
+<Cluster>
+<Name>Aggregate Sound.lvclass</Name>
+<NumElts>1</NumElts>
+<Array>
+<Name>Sounds</Name>
+<Dimsize>2</Dimsize>
+<Object>
+<Name>Sound</Name>
+<NumLevels>3</NumLevels>
+<Class>Fade.lvclass</Class>
+<Version>1.0.0.1</Version>
+<Version>1.0.0.2</Version>
+<Version>1.0.0.0</Version>
+<Cluster>
+</Cluster>
+<Cluster>
+<Name>Sound Modification.lvclass</Name>
+<NumElts>1</NumElts>
+<Object>
+<Name>Original</Name>
+<NumLevels>2</NumLevels>
+<Class>Single Tone.lvclass</Class>
+<Version>1.0.0.2</Version>
+<Version>1.0.0.0</Version>
+<Cluster>
+</Cluster>
+<Cluster>
+<Name>Single Tone.lvclass</Name>
+<NumElts>2</NumElts>
+<DBL>
+<Name>Frequency</Name>
+<Val>500.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Duration</Name>
+<Val>3.00000000000000</Val>
+</DBL>
+</Cluster>
+</Object>
+</Cluster>
+<Cluster>
+</Cluster>
+</Object>
+<Object>
+<Name>Sound</Name>
+<NumLevels>3</NumLevels>
+<Class>Fade.lvclass</Class>
+<Version>1.0.0.1</Version>
+<Version>1.0.0.2</Version>
+<Version>1.0.0.0</Version>
+<Cluster>
+</Cluster>
+<Cluster>
+<Name>Sound Modification.lvclass</Name>
+<NumElts>1</NumElts>
+<Object>
+<Name>Original</Name>
+<NumLevels>2</NumLevels>
+<Class>Single Tone.lvclass</Class>
+<Version>1.0.0.2</Version>
+<Version>1.0.0.0</Version>
+<Cluster>
+</Cluster>
+<Cluster>
+<Name>Single Tone.lvclass</Name>
+<NumElts>2</NumElts>
+<DBL>
+<Name>Frequency</Name>
+<Val>100.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Duration</Name>
+<Val>1.00000000000000</Val>
+</DBL>
+</Cluster>
+</Object>
+</Cluster>
+<Cluster>
+<Name>Fade.lvclass</Name>
+<NumElts>1</NumElts>
+<Boolean>
+<Name>Fade in?</Name>
+<Val>1</Val>
+</Boolean>
+</Cluster>
+</Object>
+</Array>
+</Cluster>
+</Object>
+</Array>
+</LVData>

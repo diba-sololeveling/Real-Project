@@ -1,0 +1,1 @@
+$(document).ready(function(){if(location.hostname.indexOf('aem-author')!==0&&!$.cookie("ftuef")){$.cookie('ftuef','1',{path:'/',domain:"ni.com"});setTimeout(function(){$('#firstExperience').modal('toggle');},2000);}});

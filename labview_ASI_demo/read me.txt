@@ -1,0 +1,5 @@
+move content of folder user.lib to user.lib in Labview install directory, 
+for example: D:\Program Files (x86)\National Instruments\LabVIEW 2012\user.lib
+
+
+将user.lib里的内容复制到Labview安装目录里的同名目录里，比如D:\Program Files (x86)\National Instruments\LabVIEW 2012\user.lib

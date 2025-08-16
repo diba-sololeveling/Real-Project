@@ -1,0 +1,2137 @@
+<!DOCTYPE html>
+<!-- saved from url=(0036)http://www.ni.com/tutorial/53683/en/ -->
+<html xmlns="http://www.w3.org/1999/xhtml" class="no-touch"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><script type="text/javascript" async="async" src="./Simple Messaging (STM) Communication Library for LabVIEW - National Instruments_files/ActivityServer.bs"></script><script src="./Simple Messaging (STM) Communication Library for LabVIEW - National Instruments_files/collapse.js.download"></script><script src="./Simple Messaging (STM) Communication Library for LabVIEW - National Instruments_files/dzutil.js.download"></script><script src="./Simple Messaging (STM) Communication Library for LabVIEW - National Instruments_files/breadcrumbs.js.download"></script><script src="./Simple Messaging (STM) Communication Library for LabVIEW - National Instruments_files/jquery-ui-1.8.5.custom.min.js.download"></script><script type="text/javascript" src="./Simple Messaging (STM) Communication Library for LabVIEW - National Instruments_files/1.txt"></script><script type="text/javascript" src="./Simple Messaging (STM) Communication Library for LabVIEW - National Instruments_files/_ate.track.config_resp"></script><script type="text/javascript" src="./Simple Messaging (STM) Communication Library for LabVIEW - National Instruments_files/moatframe.js.download"></script>
+
+
+
+<meta http-equiv="x-dns-prefetch-control" content="on">
+<link rel="dns-prefetch" href="http://fonts.googleapis.com/">
+<link rel="dns-prefetch" href="http://fonts.gstatic.com/">
+<link rel="dns-prefetch" href="http://assets.adobedtm.com/">
+<link rel="dns-prefetch" href="http://dpm.demdex.net/">
+<link rel="dns-prefetch" href="http://ds.serving-sys.com/">
+<link rel="dns-prefetch" href="http://bs.serving-sys.com/">
+<link rel="dns-prefetch" href="http://nsmetrics.ni.com/">
+<link rel="dns-prefetch" href="http://cdn.tt.omtrdc.net/">
+<link rel="dns-prefetch" href="http://ni.tt.omtrdc.net/">
+<link rel="dns-prefetch" href="http://s7d5.scene7.com/">
+<link rel="dns-prefetch" href="http://ni.scene7.com/">
+
+
+<meta name="Wrapper" content="yes">
+<meta name="wrapperid" content="pnx">
+
+<script type="text/javascript" src="./Simple Messaging (STM) Communication Library for LabVIEW - National Instruments_files/jquery.min.js.download"></script>
+
+<script src="./Simple Messaging (STM) Communication Library for LabVIEW - National Instruments_files/niua.min.js.download"></script>
+
+<script src="./Simple Messaging (STM) Communication Library for LabVIEW - National Instruments_files/loader.min.js.download"></script><script type="text/javascript" async="" src="./Simple Messaging (STM) Communication Library for LabVIEW - National Instruments_files/launch-EN631ff4947ff147df845126755435e7e4.min.js.download"></script><script type="text/javascript" async="" src="./Simple Messaging (STM) Communication Library for LabVIEW - National Instruments_files/survey.js.download"></script>
+
+<script type="text/javascript" src="./Simple Messaging (STM) Communication Library for LabVIEW - National Instruments_files/jquery-migrate-1.2.1.min.js.download"></script>
+
+<script type="text/javascript" src="./Simple Messaging (STM) Communication Library for LabVIEW - National Instruments_files/bootstrap.min.js.download"></script>
+
+<script src="./Simple Messaging (STM) Communication Library for LabVIEW - National Instruments_files/jquery-ui-1.9.2.js.download"></script>
+
+<link rel="stylesheet" href="./Simple Messaging (STM) Communication Library for LabVIEW - National Instruments_files/bootstrap.min.css">
+<script src="./Simple Messaging (STM) Communication Library for LabVIEW - National Instruments_files/ni.js.download"></script>
+
+<link rel="stylesheet" type="text/css" href="./Simple Messaging (STM) Communication Library for LabVIEW - National Instruments_files/jquery-ui.css">
+<link rel="stylesheet" type="text/css" href="./Simple Messaging (STM) Communication Library for LabVIEW - National Instruments_files/jqueryui.autocomplete.css">
+<link rel="stylesheet" href="./Simple Messaging (STM) Communication Library for LabVIEW - National Instruments_files/breadcrumb.css">
+
+<link rel="stylesheet" type="text/css" href="./Simple Messaging (STM) Communication Library for LabVIEW - National Instruments_files/fonts.css">
+<script src="./Simple Messaging (STM) Communication Library for LabVIEW - National Instruments_files/5806b6a478.js.download"></script><link rel="stylesheet" href="./Simple Messaging (STM) Communication Library for LabVIEW - National Instruments_files/pro.min.css" media="all"><link rel="stylesheet" href="./Simple Messaging (STM) Communication Library for LabVIEW - National Instruments_files/pro-v4-shims.min.css" media="all">
+
+<script src="./Simple Messaging (STM) Communication Library for LabVIEW - National Instruments_files/utils.js.download"></script>
+<script src="./Simple Messaging (STM) Communication Library for LabVIEW - National Instruments_files/up-data-dt.js.download"></script>
+<script src="./Simple Messaging (STM) Communication Library for LabVIEW - National Instruments_files/cartCount.js.download"></script>
+<script src="./Simple Messaging (STM) Communication Library for LabVIEW - National Instruments_files/cookielaw.js.download"></script>
+<script src="./Simple Messaging (STM) Communication Library for LabVIEW - National Instruments_files/jquery.accordion.js.download"></script>
+<script src="./Simple Messaging (STM) Communication Library for LabVIEW - National Instruments_files/wrapper.js.download"></script>
+<script src="./Simple Messaging (STM) Communication Library for LabVIEW - National Instruments_files/megamenu.js.download"></script>
+<script src="./Simple Messaging (STM) Communication Library for LabVIEW - National Instruments_files/contact-sales.js.download"></script>
+<script src="./Simple Messaging (STM) Communication Library for LabVIEW - National Instruments_files/first-experience.js.download"></script>
+
+<script src="./Simple Messaging (STM) Communication Library for LabVIEW - National Instruments_files/jquery.cookie.js.download"></script>
+<script src="./Simple Messaging (STM) Communication Library for LabVIEW - National Instruments_files/pnx.autocomplete.js.download"></script>
+<script src="./Simple Messaging (STM) Communication Library for LabVIEW - National Instruments_files/jquery.dotdotdot.min.js.download"></script>
+
+<link rel="stylesheet" type="text/css" href="./Simple Messaging (STM) Communication Library for LabVIEW - National Instruments_files/base.css">
+<link rel="stylesheet" type="text/css" href="./Simple Messaging (STM) Communication Library for LabVIEW - National Instruments_files/containers.css">
+<link rel="stylesheet" type="text/css" href="./Simple Messaging (STM) Communication Library for LabVIEW - National Instruments_files/content-blocks.css">
+<link rel="stylesheet" type="text/css" href="./Simple Messaging (STM) Communication Library for LabVIEW - National Instruments_files/icons.css">
+<link rel="stylesheet" type="text/css" href="./Simple Messaging (STM) Communication Library for LabVIEW - National Instruments_files/buttons.css">
+<link rel="stylesheet" type="text/css" href="./Simple Messaging (STM) Communication Library for LabVIEW - National Instruments_files/icon-fonts.css">
+
+<link rel="stylesheet" type="text/css" href="./Simple Messaging (STM) Communication Library for LabVIEW - National Instruments_files/wrapper.css">
+<link rel="stylesheet" type="text/css" href="./Simple Messaging (STM) Communication Library for LabVIEW - National Instruments_files/footer.css">
+<link rel="stylesheet" type="text/css" href="./Simple Messaging (STM) Communication Library for LabVIEW - National Instruments_files/search.css">
+<link rel="stylesheet" type="text/css" href="./Simple Messaging (STM) Communication Library for LabVIEW - National Instruments_files/megamenu.css">
+<link rel="stylesheet" type="text/css" href="./Simple Messaging (STM) Communication Library for LabVIEW - National Instruments_files/contact-sales.css">
+<link rel="stylesheet" type="text/css" href="./Simple Messaging (STM) Communication Library for LabVIEW - National Instruments_files/first-experience.css">
+
+<link rel="stylesheet" type="text/css" href="./Simple Messaging (STM) Communication Library for LabVIEW - National Instruments_files/non-responsive.css">
+
+<script type="text/javascript"><!--
+
+            // Load the files
+            NI.require({
+                css: [
+					"/widgets/jqueryui/1.8.5/css/ni/jquery-ui-1.8.5.css",
+					"/widgets/pnx/1.0/css/messaging.css",
+					"/css/global/neutral/editmode.css",
+					"/css/whitepaper/wp.base.css",
+                ],
+                js: [
+ 			        "/widgets/jqueryui/1.8.5/js/jquery-ui-1.8.5.custom.min.js",
+			        "/javascript/global/neutral/breadcrumbs.js",
+			        "/tutorial/js/dzutil.js",
+			        "/widgets/pnx/1.0/js/collapse.js"
+                ]
+			}, 
+			function() {
+				$('.review-trigger').click(function() {
+					$('.customer-reviews').trigger('click');					
+				});
+				imageEnchanter("[+] Enlarge Image", "nl", "tutorial");
+			    $('.collapse').collapse({
+	                collapsibleContent: '.collapse-content',
+	                onOpen: function(){$("#attachments").find(".collapse").addClass('pnx-block-1x');},
+	                onClose: function(){$("#attachments").find(".collapse").removeClass('pnx-block-1x');}
+			    });
+            });
+            
+		
+//--></script>
+<link rel="stylesheet" type="text/css" href="./Simple Messaging (STM) Communication Library for LabVIEW - National Instruments_files/wp.print.css" media="print">
+<title>Simple Messaging (STM) Communication Library for LabVIEW - National Instruments</title>
+<link rel="canonical" href="http://www.ni.com/tutorial/53683/en/">
+<meta name="DCSext.DocType" content="NI_Supported">
+<meta name="NiBoosts" content="UD:2017-03-20,RV:5.00,RN:1">
+<meta name="nigen16" content="5.00"> 
+<meta name="ContentType" content="tutorial">
+<meta name="Section" content="support">
+<meta name="PageType" content="leaf">
+<meta name="DeliveredBy" content="Generic Delivery Container">
+<meta name="DocumentID" content="53683">
+<meta name="DocumentCoreID" content="819e2075cceda510VgnVCM200000990aa482RCRD">
+<meta name="DocumentGlobalID" content="249e2075cceda510VgnVCM200000990aa482RCRD">
+<meta name="ShortTitle" content="Simple Messaging (STM) Communication Library for LabVIEW">
+<meta name="EnglishShortTitle" content="Simple Messaging (STM) Communication Library for LabVIEW">
+<meta name="Language" scheme="rfc3066" content="en">
+<meta name="Description" content="One of the main challenges of designing and implementing distributed systems where different parts of the system need to exchange data and information over the network, is defining...">
+<meta name="Keywords" content="">
+<meta name="Date" scheme="iso8601" content="2017-03-20T18:29:08">
+<meta name="UpdateDate" scheme="iso8601" content="2017-03-20T18:29:08">
+<meta name="robots" content="index,follow">
+<meta name="ProductCategories" content="28">
+<meta name="Country">
+<meta name="DocType" content="NI_Supported">
+<meta name="ContentFormat" content="VCM">
+<meta name="nigen1" content=""> 
+<meta name="nigen2" content="IndustrialAutomation,Control,Signal Acquisition &amp; Generation,Embedded Systems,Robotics"> 
+<meta name="nigen3" content="TCPandUDP,CommunicationNetworking"> 
+<meta name="nigen4" content="Ethernet"> 
+<meta name="nigen5"> 
+<meta name="nigen6"> 
+<meta name="nigen10" content="28"> 
+<meta name="nigen17" content=""> 
+<meta name="nigen23" content="Tutorial"> 
+<style type="text/css">.at-icon{fill:#fff;border:0}.at-icon-wrapper{display:inline-block;overflow:hidden}a .at-icon-wrapper{cursor:pointer}.at-rounded,.at-rounded-element .at-icon-wrapper{border-radius:12%}.at-circular,.at-circular-element .at-icon-wrapper{border-radius:50%}.addthis_32x32_style .at-icon{width:2pc;height:2pc}.addthis_24x24_style .at-icon{width:24px;height:24px}.addthis_20x20_style .at-icon{width:20px;height:20px}.addthis_16x16_style .at-icon{width:1pc;height:1pc}#at16lb{display:none;position:absolute;top:0;left:0;width:100%;height:100%;z-index:1001;background-color:#000;opacity:.001}#at_complete,#at_error,#at_share,#at_success{position:static!important}.at15dn{display:none}#at15s,#at16p,#at16p form input,#at16p label,#at16p textarea,#at_share .at_item{font-family:arial,helvetica,tahoma,verdana,sans-serif!important;font-size:9pt!important;outline-style:none;outline-width:0;line-height:1em}* html #at15s.mmborder{position:absolute!important}#at15s.mmborder{position:fixed!important;width:250px!important}#at15s{background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAABtJREFUeNpiZGBgaGAgAjAxEAlGFVJHIUCAAQDcngCUgqGMqwAAAABJRU5ErkJggg==);float:none;line-height:1em;margin:0;overflow:visible;padding:5px;text-align:left;position:absolute}#at15s a,#at15s span{outline:0;direction:ltr;text-transform:none}#at15s .at-label{margin-left:5px}#at15s .at-icon-wrapper{width:1pc;height:1pc;vertical-align:middle}#at15s .at-icon{width:1pc;height:1pc}.at4-icon{display:inline-block;background-repeat:no-repeat;background-position:top left;margin:0;overflow:hidden;cursor:pointer}.addthis_16x16_style .at4-icon,.addthis_default_style .at4-icon,.at4-icon,.at-16x16{width:1pc;height:1pc;line-height:1pc;background-size:1pc!important}.addthis_32x32_style .at4-icon,.at-32x32{width:2pc;height:2pc;line-height:2pc;background-size:2pc!important}.addthis_24x24_style .at4-icon,.at-24x24{width:24px;height:24px;line-height:24px;background-size:24px!important}.addthis_20x20_style .at4-icon,.at-20x20{width:20px;height:20px;line-height:20px;background-size:20px!important}.at4-icon.circular,.circular .at4-icon,.circular.aticon{border-radius:50%}.at4-icon.rounded,.rounded .at4-icon{border-radius:4px}.at4-icon-left{float:left}#at15s .at4-icon{text-indent:20px;padding:0;overflow:visible;white-space:nowrap;background-size:1pc;width:1pc;height:1pc;background-position:top left;display:inline-block;line-height:1pc}.addthis_vertical_style .at4-icon,.at4-follow-container .at4-icon{margin-right:5px}html>body #at15s{width:250px!important}#at15s.atm{background:none!important;padding:0!important;width:10pc!important}#at15s_inner{background:#fff;border:1px solid #fff;margin:0}#at15s_head{position:relative;background:#f2f2f2;padding:4px;cursor:default;border-bottom:1px solid #e5e5e5}.at15s_head_success{background:#cafd99!important;border-bottom:1px solid #a9d582!important}.at15s_head_success a,.at15s_head_success span{color:#000!important;text-decoration:none}#at15s_brand,#at15sptx,#at16_brand{position:absolute}#at15s_brand{top:4px;right:4px}.at15s_brandx{right:20px!important}a#at15sptx{top:4px;right:4px;text-decoration:none;color:#4c4c4c;font-weight:700}#at15sptx:hover{text-decoration:underline}#at16_brand{top:5px;right:30px;cursor:default}#at_hover{padding:4px}#at_hover .at_item,#at_share .at_item{background:#fff!important;float:left!important;color:#4c4c4c!important}#at_share .at_item .at-icon-wrapper{margin-right:5px}#at_hover .at_bold{font-weight:700;color:#000!important}#at_hover .at_item{width:7pc!important;padding:2px 3px!important;margin:1px;text-decoration:none!important}#at_hover .at_item.athov,#at_hover .at_item:focus,#at_hover .at_item:hover{margin:0!important}#at_hover .at_item.athov,#at_hover .at_item:focus,#at_hover .at_item:hover,#at_share .at_item.athov,#at_share .at_item:hover{background:#f2f2f2!important;border:1px solid #e5e5e5;color:#000!important;text-decoration:none}.ipad #at_hover .at_item:focus{background:#fff!important;border:1px solid #fff}.at15t{display:block!important;height:1pc!important;line-height:1pc!important;padding-left:20px!important;background-position:0 0;text-align:left}.addthis_button,.at15t{cursor:pointer}.addthis_toolbox a.at300b,.addthis_toolbox a.at300m{width:auto}.addthis_toolbox a{margin-bottom:5px;line-height:initial}.addthis_toolbox.addthis_vertical_style{width:200px}.addthis_button_facebook_like .fb_iframe_widget{line-height:100%}.addthis_button_facebook_like iframe.fb_iframe_widget_lift{max-width:none}.addthis_toolbox a.addthis_button_counter,.addthis_toolbox a.addthis_button_facebook_like,.addthis_toolbox a.addthis_button_facebook_send,.addthis_toolbox a.addthis_button_facebook_share,.addthis_toolbox a.addthis_button_foursquare,.addthis_toolbox a.addthis_button_linkedin_counter,.addthis_toolbox a.addthis_button_pinterest_pinit,.addthis_toolbox a.addthis_button_tweet{display:inline-block}.addthis_toolbox span.addthis_follow_label{display:none}.addthis_toolbox.addthis_vertical_style span.addthis_follow_label{display:block;white-space:nowrap}.addthis_toolbox.addthis_vertical_style a{display:block}.addthis_toolbox.addthis_vertical_style.addthis_32x32_style a{line-height:2pc;height:2pc}.addthis_toolbox.addthis_vertical_style .at300bs{margin-right:4px;float:left}.addthis_toolbox.addthis_20x20_style span{line-height:20px}.addthis_toolbox.addthis_32x32_style span{line-height:2pc}.addthis_toolbox.addthis_pill_combo_style .addthis_button_compact .at15t_compact,.addthis_toolbox.addthis_pill_combo_style a{float:left}.addthis_toolbox.addthis_pill_combo_style a.addthis_button_tweet{margin-top:-2px}.addthis_toolbox.addthis_pill_combo_style .addthis_button_compact .at15t_compact{margin-right:4px}.addthis_default_style .addthis_separator{margin:0 5px;display:inline}div.atclear{clear:both}.addthis_default_style .addthis_separator,.addthis_default_style .at4-icon,.addthis_default_style .at300b,.addthis_default_style .at300bo,.addthis_default_style .at300bs,.addthis_default_style .at300m{float:left}.at300b img,.at300bo img{border:0}a.at300b .at4-icon,a.at300m .at4-icon{display:block}.addthis_default_style .at300b,.addthis_default_style .at300bo,.addthis_default_style .at300m{padding:0 2px}.at300b,.at300bo,.at300bs,.at300m{cursor:pointer}.addthis_button_facebook_like.at300b:hover,.addthis_button_facebook_like.at300bs:hover,.addthis_button_facebook_send.at300b:hover,.addthis_button_facebook_send.at300bs:hover{opacity:1}.addthis_20x20_style .at15t,.addthis_20x20_style .at300bs{overflow:hidden;display:block;height:20px!important;width:20px!important;line-height:20px!important}.addthis_32x32_style .at15t,.addthis_32x32_style .at300bs{overflow:hidden;display:block;height:2pc!important;width:2pc!important;line-height:2pc!important}.at300bs{overflow:hidden;display:block;background-position:0 0;height:1pc;width:1pc;line-height:1pc!important}.addthis_default_style .at15t_compact,.addthis_default_style .at15t_expanded{margin-right:4px}#at_share .at_item{width:123px!important;padding:4px;margin-right:2px;border:1px solid #fff}#at16p{background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAABtJREFUeNpiZGBgaGAgAjAxEAlGFVJHIUCAAQDcngCUgqGMqwAAAABJRU5ErkJggg==);z-index:10000001;position:absolute;top:50%;left:50%;width:300px;padding:10px;margin:0 auto;margin-top:-185px;margin-left:-155px;font-family:arial,helvetica,tahoma,verdana,sans-serif;font-size:9pt;color:#5e5e5e}#at_share{margin:0;padding:0}#at16pt{position:relative;background:#f2f2f2;height:13px;padding:5px 10px}#at16pt a,#at16pt h4{font-weight:700}#at16pt h4{display:inline;margin:0;padding:0;font-size:9pt;color:#4c4c4c;cursor:default}#at16pt a{position:absolute;top:5px;right:10px;color:#4c4c4c;text-decoration:none;padding:2px}#at15sptx:focus,#at16pt a:focus{outline:thin dotted}#at15s #at16pf a{top:1px}#_atssh{width:1px!important;height:1px!important;border:0!important}.atm{width:10pc!important;padding:0;margin:0;line-height:9pt;letter-spacing:normal;font-family:arial,helvetica,tahoma,verdana,sans-serif;font-size:9pt;color:#444;background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAABtJREFUeNpiZGBgaGAgAjAxEAlGFVJHIUCAAQDcngCUgqGMqwAAAABJRU5ErkJggg==);padding:4px}.atm-f{text-align:right;border-top:1px solid #ddd;padding:5px 8px}.atm-i{background:#fff;border:1px solid #d5d6d6;padding:0;margin:0;box-shadow:1px 1px 5px rgba(0,0,0,.15)}.atm-s{margin:0!important;padding:0!important}.atm-s a:focus{border:transparent;outline:0;transition:none}#at_hover.atm-s a,.atm-s a{display:block;text-decoration:none;padding:4px 10px;color:#235dab!important;font-weight:400;font-style:normal;transition:none}#at_hover.atm-s .at_bold{color:#235dab!important}#at_hover.atm-s a:hover,.atm-s a:hover{background:#2095f0;text-decoration:none;color:#fff!important}#at_hover.atm-s .at_bold{font-weight:700}#at_hover.atm-s a:hover .at_bold{color:#fff!important}.atm-s a .at-label{vertical-align:middle;margin-left:5px;direction:ltr}.at_PinItButton{display:block;width:40px;height:20px;padding:0;margin:0;background-image:url(//s7.addthis.com/static/t00/pinit00.png);background-repeat:no-repeat}.at_PinItButton:hover{background-position:0 -20px}.addthis_toolbox .addthis_button_pinterest_pinit{position:relative}.at-share-tbx-element .fb_iframe_widget span{vertical-align:baseline!important}#at16pf{height:auto;text-align:right;padding:4px 8px}.at-privacy-info{position:absolute;left:7px;bottom:7px;cursor:pointer;text-decoration:none;font-family:helvetica,arial,sans-serif;font-size:10px;line-height:9pt;letter-spacing:.2px;color:#666}.at-privacy-info:hover{color:#000}.body .wsb-social-share .wsb-social-share-button-vert{padding-top:0;padding-bottom:0}.body .wsb-social-share.addthis_counter_style .addthis_button_tweet.wsb-social-share-button{padding-top:40px}.body .wsb-social-share.addthis_counter_style .addthis_button_facebook_like.wsb-social-share-button{padding-top:21px}@media print{#at4-follow,#at4-share,#at4-thankyou,#at4-whatsnext,#at4m-mobile,#at15s,.at4,.at4-recommended{display:none!important}}@media screen and (max-width:400px){.at4win{width:100%}}@media screen and (max-height:700px) and (max-width:400px){.at4-thankyou-inner .at4-recommended-container{height:122px;overflow:hidden}.at4-thankyou-inner .at4-recommended .at4-recommended-item:first-child{border-bottom:1px solid #c5c5c5}}</style><style type="text/css">.at-branding-logo{font-family:helvetica,arial,sans-serif;text-decoration:none;font-size:10px;display:inline-block;margin:2px 0;letter-spacing:.2px}.at-branding-logo .at-branding-icon{background-image:url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAMAAAC67D+PAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAAZQTFRF////+GlNUkcc1QAAAB1JREFUeNpiYIQDBjQmAwMmkwEM0JnY1WIxFyDAABGeAFEudiZsAAAAAElFTkSuQmCC")}.at-branding-logo .at-branding-icon,.at-branding-logo .at-privacy-icon{display:inline-block;height:10px;width:10px;margin-left:4px;margin-right:3px;margin-bottom:-1px;background-repeat:no-repeat}.at-branding-logo .at-privacy-icon{background-image:url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAkAAAAKCAMAAABR24SMAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAABhQTFRF8fr9ot/xXcfn2/P5AKva////////AKTWodjhjAAAAAd0Uk5T////////ABpLA0YAAAA6SURBVHjaJMzBDQAwCAJAQaj7b9xifV0kUKJ9ciWxlzWEWI5gMF65KUTv0VKkjVeTerqE/x7+9BVgAEXbAWI8QDcfAAAAAElFTkSuQmCC")}.at-branding-logo span{text-decoration:none}.at-branding-logo .at-branding-addthis,.at-branding-logo .at-branding-powered-by{color:#666}.at-branding-logo .at-branding-addthis:hover{color:#333}.at-cv-with-image .at-branding-addthis,.at-cv-with-image .at-branding-addthis:hover{color:#fff}a.at-branding-logo:visited{color:initial}.at-branding-info{display:inline-block;padding:0 5px;color:#666;border:1px solid #666;border-radius:50%;font-size:10px;line-height:9pt;opacity:.7;transition:all .3s ease;text-decoration:none}.at-branding-info span{border:0;clip:rect(0 0 0 0);height:1px;margin:-1px;overflow:hidden;padding:0;position:absolute;width:1px}.at-branding-info:before{content:'i';font-family:Times New Roman}.at-branding-info:hover{color:#0780df;border-color:#0780df}</style><link rel="stylesheet" type="text/css" href="./Simple Messaging (STM) Communication Library for LabVIEW - National Instruments_files/jquery-ui-1.8.5.css"><link rel="stylesheet" type="text/css" href="./Simple Messaging (STM) Communication Library for LabVIEW - National Instruments_files/messaging.css"><link rel="stylesheet" type="text/css" href="./Simple Messaging (STM) Communication Library for LabVIEW - National Instruments_files/editmode.css"><link rel="stylesheet" type="text/css" href="./Simple Messaging (STM) Communication Library for LabVIEW - National Instruments_files/wp.base.css"><script src="./Simple Messaging (STM) Communication Library for LabVIEW - National Instruments_files/EXb60249140ae84a5fb858eaf89564106b-libraryCode_source.min.js.download" async=""></script><style type="text/css">/*
+ * contextMenu.js v 1.4.0
+ * Author: Sudhanshu Yadav
+ * s-yadav.github.com
+ * Copyright (c) 2013 Sudhanshu Yadav.
+ * Dual licensed under the MIT and GPL licenses
+**/
+
+.iw-contextMenu {
+    box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.10) !important;
+    border: 1px solid #c8c7cc !important;
+    border-radius: 11px !important;
+    display: none;
+    z-index: 1000000132;
+    max-width: 300px !important;
+    width: auto !important;
+}
+
+.dark-mode .iw-contextMenu,
+.TnITTtw-dark-mode.iw-contextMenu,
+.TnITTtw-dark-mode .iw-contextMenu {
+    border-color: #747473 !important;
+}
+
+.iw-cm-menu {
+    background: #fff !important;
+    color: #000 !important;
+    margin: 0px !important;
+    padding: 0px !important;
+    overflow: visible !important;
+}
+
+.dark-mode .iw-cm-menu,
+.TnITTtw-dark-mode.iw-cm-menu,
+.TnITTtw-dark-mode .iw-cm-menu {
+    background: #525251 !important;
+    color: #FFF !important;
+}
+
+.iw-curMenu {
+}
+
+.iw-cm-menu li {
+    font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, Arial, Ubuntu, sans-serif !important;
+    list-style: none !important;
+    padding: 10px !important;
+    padding-right: 20px !important;
+    border-bottom: 1px solid #c8c7cc !important;
+    font-weight: 400 !important;
+    cursor: pointer !important;
+    position: relative !important;
+    font-size: 14px !important;
+    margin: 0 !important;
+    line-height: inherit !important;
+    border-radius: 0 !important;
+    display: block !important;
+}
+
+.dark-mode .iw-cm-menu li, .TnITTtw-dark-mode .iw-cm-menu li {
+    border-bottom-color: #747473 !important;
+}
+
+.iw-cm-menu li:first-child {
+    border-top-left-radius: 11px !important;
+    border-top-right-radius: 11px !important;
+}
+
+.iw-cm-menu li:last-child {
+    border-bottom-left-radius: 11px !important;
+    border-bottom-right-radius: 11px !important;
+    border-bottom: none !important;
+}
+
+.iw-mOverlay {
+    position: absolute !important;
+    width: 100% !important;
+    height: 100% !important;
+    top: 0px !important;
+    left: 0px !important;
+    background: #FFF !important;
+    opacity: .5 !important;
+}
+
+.iw-contextMenu li.iw-mDisable {
+    opacity: 0.3 !important;
+    cursor: default !important;
+}
+
+.iw-mSelected {
+    background-color: #F6F6F6 !important;
+}
+
+.dark-mode .iw-mSelected, .TnITTtw-dark-mode .iw-mSelected {
+    background-color: #676766 !important;
+}
+
+.iw-cm-arrow-right {
+    width: 0 !important;
+    height: 0 !important;
+    border-top: 5px solid transparent !important;
+    border-bottom: 5px solid transparent !important;
+    border-left: 5px solid #000 !important;
+    position: absolute !important;
+    right: 5px !important;
+    top: 50% !important;
+    margin-top: -5px !important;
+}
+
+.dark-mode .iw-cm-arrow-right, .TnITTtw-dark-mode .iw-cm-arrow-right {
+    border-left-color: #FFF !important;
+}
+
+.iw-mSelected > .iw-cm-arrow-right {
+}
+
+/*context menu css end */</style><style type="text/css">@-webkit-keyframes load4 {
+    0%,
+    100% {
+        box-shadow: 0 -3em 0 0.2em, 2em -2em 0 0em, 3em 0 0 -1em, 2em 2em 0 -1em, 0 3em 0 -1em, -2em 2em 0 -1em, -3em 0 0 -1em, -2em -2em 0 0;
+    }
+    12.5% {
+        box-shadow: 0 -3em 0 0, 2em -2em 0 0.2em, 3em 0 0 0, 2em 2em 0 -1em, 0 3em 0 -1em, -2em 2em 0 -1em, -3em 0 0 -1em, -2em -2em 0 -1em;
+    }
+    25% {
+        box-shadow: 0 -3em 0 -0.5em, 2em -2em 0 0, 3em 0 0 0.2em, 2em 2em 0 0, 0 3em 0 -1em, -2em 2em 0 -1em, -3em 0 0 -1em, -2em -2em 0 -1em;
+    }
+    37.5% {
+        box-shadow: 0 -3em 0 -1em, 2em -2em 0 -1em, 3em 0em 0 0, 2em 2em 0 0.2em, 0 3em 0 0em, -2em 2em 0 -1em, -3em 0em 0 -1em, -2em -2em 0 -1em;
+    }
+    50% {
+        box-shadow: 0 -3em 0 -1em, 2em -2em 0 -1em, 3em 0 0 -1em, 2em 2em 0 0em, 0 3em 0 0.2em, -2em 2em 0 0, -3em 0em 0 -1em, -2em -2em 0 -1em;
+    }
+    62.5% {
+        box-shadow: 0 -3em 0 -1em, 2em -2em 0 -1em, 3em 0 0 -1em, 2em 2em 0 -1em, 0 3em 0 0, -2em 2em 0 0.2em, -3em 0 0 0, -2em -2em 0 -1em;
+    }
+    75% {
+        box-shadow: 0em -3em 0 -1em, 2em -2em 0 -1em, 3em 0em 0 -1em, 2em 2em 0 -1em, 0 3em 0 -1em, -2em 2em 0 0, -3em 0em 0 0.2em, -2em -2em 0 0;
+    }
+    87.5% {
+        box-shadow: 0em -3em 0 0, 2em -2em 0 -1em, 3em 0 0 -1em, 2em 2em 0 -1em, 0 3em 0 -1em, -2em 2em 0 0, -3em 0em 0 0, -2em -2em 0 0.2em;
+    }
+}
+
+@keyframes load4 {
+    0%,
+    100% {
+        box-shadow: 0 -3em 0 0.2em, 2em -2em 0 0em, 3em 0 0 -1em, 2em 2em 0 -1em, 0 3em 0 -1em, -2em 2em 0 -1em, -3em 0 0 -1em, -2em -2em 0 0;
+    }
+    12.5% {
+        box-shadow: 0 -3em 0 0, 2em -2em 0 0.2em, 3em 0 0 0, 2em 2em 0 -1em, 0 3em 0 -1em, -2em 2em 0 -1em, -3em 0 0 -1em, -2em -2em 0 -1em;
+    }
+    25% {
+        box-shadow: 0 -3em 0 -0.5em, 2em -2em 0 0, 3em 0 0 0.2em, 2em 2em 0 0, 0 3em 0 -1em, -2em 2em 0 -1em, -3em 0 0 -1em, -2em -2em 0 -1em;
+    }
+    37.5% {
+        box-shadow: 0 -3em 0 -1em, 2em -2em 0 -1em, 3em 0em 0 0, 2em 2em 0 0.2em, 0 3em 0 0em, -2em 2em 0 -1em, -3em 0em 0 -1em, -2em -2em 0 -1em;
+    }
+    50% {
+        box-shadow: 0 -3em 0 -1em, 2em -2em 0 -1em, 3em 0 0 -1em, 2em 2em 0 0em, 0 3em 0 0.2em, -2em 2em 0 0, -3em 0em 0 -1em, -2em -2em 0 -1em;
+    }
+    62.5% {
+        box-shadow: 0 -3em 0 -1em, 2em -2em 0 -1em, 3em 0 0 -1em, 2em 2em 0 -1em, 0 3em 0 0, -2em 2em 0 0.2em, -3em 0 0 0, -2em -2em 0 -1em;
+    }
+    75% {
+        box-shadow: 0em -3em 0 -1em, 2em -2em 0 -1em, 3em 0em 0 -1em, 2em 2em 0 -1em, 0 3em 0 -1em, -2em 2em 0 0, -3em 0em 0 0.2em, -2em -2em 0 0;
+    }
+    87.5% {
+        box-shadow: 0em -3em 0 0, 2em -2em 0 -1em, 3em 0 0 -1em, 2em 2em 0 -1em, 0 3em 0 -1em, -2em 2em 0 0, -3em 0em 0 0, -2em -2em 0 0.2em;
+    }
+}</style><style type="text/css">/* This is not a zero-length file! */</style></head>
+<body data-gr-c-s-loaded="true">
+<a id="top"></a>
+<div class="pnx-page-wrap grid16">
+
+<div id="ZN_0wWxj0NUZX5UFeZ">
+
+</div>
+<nav class="ni-wrapper-header  noindex">
+
+
+<ul class="flex-container">
+<li class="ni-logo">
+<a class="analytics-headerlogo-link" href="http://www.ni.com/"></a>
+</li>
+
+<li class="toggle">
+<a href="javascript:void(0)">
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+</a>
+<span class="sr-only">Toggle navigation</span>
+</li>
+<li class="mobile-spacer"></li>
+<div class="header-menu">
+<li class="solutions nia-menu-item dropdown mega-dropdown" lang="nl-NL">
+<a class="analytics-headersolutions-link" href="http://www.ni.com/en-us/solutions.html">Solutions</a>
+<div class="dropdown-menu mega-dropdown-menu">
+<div class="ni-megamenu-desktop">
+<div class="ni-megamenu-solutions">
+<div class="row">
+<div class="col-sm-12">
+<span class="ni-megamenu-title">How we think about solutions</span>
+<h2>We create solutions with you tailored to your industry needs.</h2>
+</div>
+</div>
+<div class="row">
+<div class="col-sm-4">
+<div class="ni-live-image">
+<a class="analytics-mmsolutions-image" href="http://www.ni.com/en-us/innovations/semiconductor.html"><img src="./Simple Messaging (STM) Communication Library for LabVIEW - National Instruments_files/semiconductor_321" class="img-responsive"></a>
+<p>Semiconductor </p>
+</div>
+</div>
+<div class="col-sm-4">
+<div class="ni-live-image">
+<a class="analytics-mmsolutions-image" href="http://www.ni.com/en-us/innovations/automotive.html"><img src="./Simple Messaging (STM) Communication Library for LabVIEW - National Instruments_files/automotive_321" class="img-responsive"></a>
+<p>Automotive  </p>
+</div>
+</div>
+<div class="col-sm-4">
+<div class="ni-live-image">
+<a class="analytics-mmsolutions-image" href="http://www.ni.com/en-us/innovations/aerospace-defense.html"><img src="./Simple Messaging (STM) Communication Library for LabVIEW - National Instruments_files/aerospace_defense_govt_321" class="img-responsive"></a>
+<p>Aerospace, Defense, &amp; Government </p>
+</div>
+</div>
+</div>
+<div class="row">
+<div class="col-sm-4">
+<div class="ni-live-image">
+<a class="analytics-mmsolutions-image" href="http://www.ni.com/en-us/innovations/electronics.html"><img src="./Simple Messaging (STM) Communication Library for LabVIEW - National Instruments_files/electronics_321" class="img-responsive"></a>
+<p>Electronics </p>
+</div>
+</div>
+<div class="col-sm-4">
+<div class="ni-live-image">
+<a class="analytics-mmsolutions-image" href="http://www.ni.com/en-us/innovations/energy.html"><img src="./Simple Messaging (STM) Communication Library for LabVIEW - National Instruments_files/energy_321" class="img-responsive"></a>
+<p>Energy</p>
+</div>
+</div>
+<div class="col-sm-4">
+<div class="ni-live-image">
+<a class="analytics-mmsolutions-image" href="http://www.ni.com/en-us/innovations/academic-research.html"><img src="./Simple Messaging (STM) Communication Library for LabVIEW - National Instruments_files/academic_research_321" class="img-responsive"></a>
+<p>Academic &amp; Research</p>
+</div>
+</div>
+</div>
+<div class="row">
+<div class="ni-rebrand-button">
+<a class="analytics-mmsolutions-button" role="button" href="http://www.ni.com/en-us/solutions.html">Learn about solutions </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li class="products nia-menu-item dropdown mega-dropdown" lang="nl-NL">
+<a class="analytics-headerproducts-link" href="http://www.ni.com/en-us/shop.html">Products</a>
+<div class="dropdown-menu mega-dropdown-menu">
+<div class="ni-megamenu-desktop">
+<div class="ni-megamenu-products">
+<div class="row">
+<div class="col-sm-3">
+<h3>Software</h3>
+<ul>
+<li><a class="analytics-mmproducts-link" href="http://www.ni.com/en-us/shop/labview.html">LabVIEW</a></li>
+<li><a class="analytics-mmproducts-link" href="http://www.ni.com/en-us/shop/electronic-test-instrumentation/application-software-for-electronic-test-and-instrumentation-category/what-is-teststand.html">TestStand</a></li>
+<li><a class="analytics-mmproducts-link" href="http://www.ni.com/en-us/shop/data-acquisition-and-control/flexlogger.html">FlexLogger</a></li>
+<li><a class="analytics-mmproducts-link" href="http://www.ni.com/en-us/shop/electronic-test-instrumentation/application-software-for-electronic-test-and-instrumentation-category/systemlink.html">SystemLink</a></li>
+<li><a class="analytics-mmproducts-link" href="http://www.ni.com/en-us/shop/data-acquisition-and-control/application-software-for-data-acquisition-and-control-category/what-is-diadem.html">DIAdem</a></li>
+<li><a class="analytics-mmproducts-link" href="http://www.ni.com/en-us/shop/data-acquisition-and-control/application-software-for-data-acquisition-and-control-category/what-is-veristand.html">VeriStand</a></li>
+</ul>
+<h4>Software Suites</h4>
+<ul>
+<li><a class="analytics-mmproducts-link" href="http://www.ni.com/en-us/shop/select/automated-test-software-suite">Automated Test Software Suite</a></li>
+<li><a class="analytics-mmproducts-link" href="http://www.ni.com/en-us/shop/select/embedded-control-and-monitoring-software-suite">Embedded Control and Monitoring Software Suite</a></li>
+<li><a class="analytics-mmproducts-link" href="http://www.ni.com/en-us/shop/select/hil-and-real-time-test-software-suite">HIL and Real-Time Software Suite</a></li>
+</ul>
+<h3>SERVICES</h3>
+<ul>
+<li><a class="analytics-mmproducts-link" href="http://www.ni.com/en-us/shop/services/hardware/repair-replacement-services.html">Repair Services</a></li>
+<li><a class="analytics-mmproducts-link" href="http://www.ni.com/en-us/shop/services/hardware/calibration-services.html">Calibration</a></li>
+<li><a class="analytics-mmproducts-link" href="http://www.ni.com/en-us/shop/services.html">NI Services Program</a></li>
+<li><a class="analytics-mmproducts-link" href="http://www.ni.com/en-us/shop/select/training-entitlements-category">Purchase Training</a></li>
+</ul>
+</div>
+<div class="col-sm-3">
+<h3>HARDWARE</h3>
+<h4>Data Acquisition and Control </h4>
+<ul>
+<li><a class="analytics-mmproducts-link" href="http://www.ni.com/en-us/shop/select/multifunction-io-category">Multifunction I/O</a></li>
+<li><a class="analytics-mmproducts-link" href="http://www.ni.com/en-us/shop/select/voltage-category">Voltage</a></li>
+<li><a class="analytics-mmproducts-link" href="http://www.ni.com/en-us/shop/select/current-category">Current</a></li>
+<li><a class="analytics-mmproducts-link" href="http://www.ni.com/en-us/shop/select/digital-io-category">Digital I/O</a></li>
+<li><a class="analytics-mmproducts-link" href="http://www.ni.com/en-us/shop/select/packaged-controllers-category">Packaged Controllers</a></li>
+<li><a class="analytics-mmproducts-link" href="http://www.ni.com/en-us/shop/select/compactdaq-chassis-category">CompactDAQ Chassis</a></li>
+<li><a class="analytics-mmproducts-link" href="http://www.ni.com/en-us/shop/select/temperature-category">Temperature</a></li>
+<li><a class="analytics-mmproducts-link" href="http://www.ni.com/en-us/shop/select/sound-and-vibration-category">Sound and Vibration</a></li>
+<li><a class="analytics-mmproducts-link" href="http://www.ni.com/en-us/shop/select/strain-pressure-and-force-category">Strain, Pressure, and Force</a></li>
+<li><a class="analytics-mmproducts-link" href="http://www.ni.com/en-us/shop/select/machine-vision-category">Machine Vision</a></li>
+<li><a class="analytics-mmproducts-link" href="http://www.ni.com/en-us/shop/select/motion-control-category">Motion Control</a></li>
+</ul>
+<ul>
+<li>
+<h4>Electronic Test and Instrumentation</h4>
+</li>
+<li><a class="analytics-mmproducts-link" href="http://www.ni.com/en-us/shop/select/oscilloscopes-category">Oscilloscopes</a></li>
+<li><a class="analytics-mmproducts-link" href="http://www.ni.com/en-us/shop/select/power-supplies-and-loads-category">Power Supplies and Loads</a></li>
+<li><a class="analytics-mmproducts-link" href="http://www.ni.com/en-us/shop/select/switches-category">Switches</a></li>
+<li><a class="analytics-mmproducts-link" href="http://www.ni.com/en-us/shop/select/gpib-serial-and-ethernet-category">GPIB, Serial, and Ethernet</a></li>
+<li><a class="analytics-mmproducts-link" href="http://www.ni.com/en-us/shop/select/digital-multimeters-category">Digital Multimeters</a></li>
+</ul>
+</div>
+<div class="col-sm-3">
+<h4>Wireless Design and Test</h4>
+<ul>
+<li><a class="analytics-mmproducts-link" href="http://www.ni.com/en-us/shop/select/software-defined-radios-category">Software Defined Radios</a></li>
+<li><a class="analytics-mmproducts-link" href="http://www.ni.com/en-us/shop/select/rf-signal-generators-category">RF Signal Generators</a></li>
+<li><a class="analytics-mmproducts-link" href="http://www.ni.com/en-us/shop/select/vector-signal-transceivers-category">Vector Signal Transceivers</a></li>
+</ul>
+<h4>Accessories</h4>
+<ul>
+<li><a class="analytics-mmproducts-link" href="http://www.ni.com/en-us/shop/select/power-accessories-category">Power Accessories</a></li>
+<li><a class="analytics-mmproducts-link" href="http://www.ni.com/en-us/shop/select/connectors-category">Connectors</a></li>
+<li><a class="analytics-mmproducts-link" href="http://www.ni.com/en-us/shop/select/cables-category">Cables</a></li>
+<li><a class="analytics-mmproducts-link" href="http://www.ni.com/en-us/shop/select/sensors-category">Sensors</a></li>
+</ul>
+</div>
+<div class="col-sm-3">
+<div class="ni-live-image">
+<a class="analytics-mmproducts-image" href="http://www.ni.com/en-us/shop/pc-based-measurement-and-control-system.html">
+<img src="./Simple Messaging (STM) Communication Library for LabVIEW - National Instruments_files/pc_based_system_small">
+<div class="ni-live-text">
+<h4>PC-Based Systems </h4>
+<p>Benchtop Measurement and Test</p>
+</div>
+</a>
+</div>
+<div class="ni-live-image">
+<a class="analytics-mmproducts-image" href="http://www.ni.com/en-us/shop/compactrio.html">
+<img src="./Simple Messaging (STM) Communication Library for LabVIEW - National Instruments_files/c-rio-9045-v-1-r-1-cl">
+<div class="ni-live-text">
+<h4>CompactRIO </h4>
+<p>Distributed Measurement and Control</p>
+</div>
+</a>
+</div>
+<div class="ni-live-image">
+<a class="analytics-mmproducts-image" href="http://www.ni.com/en-us/shop/pxi.html">
+<img src="./Simple Messaging (STM) Communication Library for LabVIEW - National Instruments_files/pxi-1092-v-1-r-1-cl">
+<div class="ni-live-text">
+<h4>PXI</h4>
+<p>High-Performance Test</p>
+</div>
+</a>
+</div>
+<div class="ni-live-image">
+<a class="analytics-mmproducts-image" href="http://www.ni.com/en-us/shop/software-portfolio.html">
+<img src="./Simple Messaging (STM) Communication Library for LabVIEW - National Instruments_files/teststand-1">
+<div class="ni-live-text">
+<h4>SOFTWARE</h4>
+<p>Systems Engineering Software</p>
+</div>
+</a>
+</div>
+<div class="ni-rebrand-button">
+<a class="analytics-mmproducts-button" role="button" href="http://www.ni.com/en-us/shop.html">See all</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li class="perspectives nia-menu-item" lang="nl-NL">
+<a class="analytics-headerperspectives-link" href="http://www.ni.com/en-us/perspectives.html">Perspectives</a>
+</li>
+<li class="support nia-menu-item dropdown mega-dropdown" lang="nl-NL">
+<a class="analytics-headersupport-link" href="http://www.ni.com/en-us/support.html">Support</a>
+<div class="dropdown-menu mega-dropdown-menu">
+<div class="ni-megamenu-desktop">
+<div class="ni-megamenu-support">
+<div class="row">
+<div class="col-sm-3">
+<h3>Resources</h3>
+<ul>
+<li><a class="analytics-mmsupport-link" href="http://www.ni.com/en-us/support/downloads.html">Software Downloads</a></li>
+<li><a class="analytics-mmsupport-link" href="http://www.ni.com/myni/products/en/">Register and Activate</a></li>
+<li><a class="analytics-mmsupport-link" href="http://www.ni.com/manuals/">Product Documentation</a></li>
+<li><a class="analytics-mmsupport-link" href="http://learn.ni.com/training">Online Training</a></li>
+<li><a class="analytics-mmsupport-link" href="http://www.ni.com/kb/">KnowledgeBase</a></li>
+<li><a class="analytics-mmsupport-link" href="http://forums.ni.com/t5/Example-Programs/ct-p/code-documents">Code Examples</a></li>
+</ul>
+</div>
+<div class="col-sm-9">
+<div class="row">
+<h3>Popular Software Downloads</h3>
+</div>
+<div class="row">
+<div class="ni-software-download-image">
+<a class="analytics-mmsupport-image" href="http://www.ni.com/en-us/support/downloads/software-products/download.labview-nxg.html"><img src="./Simple Messaging (STM) Communication Library for LabVIEW - National Instruments_files/labviewnxg">
+<h3>LabVIEW NXG</h3>
+</a>
+</div>
+<div class="ni-software-download-image">
+<a class="analytics-mmsupport-image" href="http://www.ni.com/en-us/support/downloads/software-products/download.labview.html"><img src="./Simple Messaging (STM) Communication Library for LabVIEW - National Instruments_files/labview">
+<h3>LabVIEW</h3>
+</a>
+</div>
+<div class="ni-software-download-image">
+<a class="analytics-mmsupport-image" href="http://www.ni.com/en-us/support/downloads/software-products/download.systemlink.html"><img src="./Simple Messaging (STM) Communication Library for LabVIEW - National Instruments_files/multisim">
+<h3>SystemLink</h3>
+</a>
+</div>
+</div>
+</div>
+</div>
+<div class="row">
+<div class="col-sm-3">
+<h3>Request Support</h3>
+<p>You can request repair, schedule calibration, or get technical support. A valid service agreement may be required.  </p>
+<a class="analytics-mmsupport-link" href="http://sine.ni.com/srm/app/getassistance">Open a service request</a>
+</div>
+<div class="col-sm-3">
+<h3>Popular Driver Downloads</h3>
+<a class="analytics-mmsupport-link" href="http://www.ni.com/en-us/support/downloads/drivers/download.ni-daqmx.html">NI-DAQmx</a>
+<p>Provides support for NI data acquisition and signal conditioning devices.  </p>
+</div>
+<div class="col-sm-3">
+<a class="analytics-mmsupport-link" href="http://www.ni.com/en-us/support/downloads/drivers/download.ni-visa.html">NI-VISA</a>
+<p>Provides support for Ethernet, GPIB, serial, USB, and other types of instruments.  </p>
+</div>
+<div class="col-sm-3">
+<a class="analytics-mmsupport-link" href="http://www.ni.com/en-us/support/downloads/drivers/download.ni-488-2.html">NI-488.2</a>
+<p>Provides support for NI GPIB controllers and NI embedded controllers with GPIB ports.  </p>
+</div>
+</div>
+<div class="row">
+<div class="ni-rebrand-button col-sm-12">
+<a class="analytics-mmsupport-button" role="button" href="http://www.ni.com/en-us/support.html">All support resources</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li class="community nia-menu-item" lang="nl-NL">
+<a class="analytics-headercommunity-link" href="http://forums.ni.com/">Community</a>
+</li>
+<li class="nia-menu-item  spacer" lang="nl-NL"></li>
+<li class="about nia-menu-item nia-utils" lang="nl-NL">
+<a class="analytics-header-link" href="http://www.ni.com/en-us/about-ni.html">About</a>
+</li>
+<li class="contact nia-menu-item nia-utils" lang="nl-NL">
+<a class="analytics-header-link" href="http://www.ni.com/en-us/contact-us.html">Contact Us</a>
+</li>
+<li class="nia-menu-item  nia-utils header-icon account" lang="nl-NL">
+<a class="account-link" href="http://www.ni.com/tutorial/53683/en/#">
+<svg viewBox="0 0 27.8 27.8">
+<path d="M18.16,6.15a5,5,0,1,1-5-5A5,5,0,0,1,18.16,6.15Zm-1,8h-8a8,8,0,0,0-8,8v4h24v-4A8,8,0,0,0,17.14,14.16Zm-4-.49V26.13">
+</path>
+</svg>
+</a>
+<div class="account-content"><a class="analytics-headeraccount-link" href="https://www.ni.com/myni">tiba sh  </a><br> <a class="analytics-headerlogout-link" href="https://lumen.ni.com/idp/slo/logout">Log out </a></div>
+</li>
+<li class="nia-menu-item nia-utils account-mobile" lang="nl-NL">
+<a class="analytics-headeraccount-link" href="http://www.ni.com/myni/dashboard/">Account</a>
+</li>
+<li class="nia-menu-item  nia-utils header-icon wrapper-search" lang="nl-NL">
+<a href="http://www.ni.com/tutorial/53683/en/#" id="wrapperSearchId">
+<svg viewBox="0 0 26.33 26.84">
+<circle cx="11.15" cy="11.15" r="10"></circle>
+<path d="M21.76,23.09l7.07,7.07" transform="translate(-3.64 -4.47)"></path>
+</svg>
+</a>
+</li>
+<li class="wrapper-search-form">
+<form id="wrapper-search-form" name="autoComplete-global" type="GET" action="http://search.ni.com/nisearch/app/main">
+<div class="autoCompleteItem-global">
+<input type="text" name="q" placeholder="Search for things like LabVIEW" class="niAutocompleteInput ui-autocomplete-input" data-search-type="globalSearch" autocomplete="off" lang="nl-NL"><span role="status" aria-live="polite" class="ui-helper-hidden-accessible"></span>
+<input type="hidden" value="" name="sn" id="snparam" lang="nl-NL">
+<input type="hidden" value="tech" name="ap" id="apparam" lang="nl-NL">
+<input type="hidden" value="en" name="lang" id="langparam" lang="nl-NL">
+<input type="hidden" value="" name="fil" id="filparam" lang="nl-NL">
+
+<button type="submit" class="search-submit">
+<svg viewBox="0 0 26.33 26.84">
+<circle cx="11.15" cy="11.15" r="10"></circle>
+<path d="M21.76,23.09l7.07,7.07" transform="translate(-3.64 -4.47)"></path>
+</svg>
+</button>
+<button type="reset" class="close">
+<i class="fal fa-times" aria-hidden="true"></i>
+</button>
+<ul class="ui-autocomplete ui-menu ui-widget ui-widget-content ui-corner-all" id="ui-id-1" tabindex="0" style="z-index: -1; display: none;"></ul></div>
+</form>
+</li>
+</div>
+<li class="nia-menu-item nia-utils header-icon cart-badge" data-badge="0" lang="nl-NL">
+<a class="analytics-headercart-link" href="http://sine.ni.com/apps/utf8/nios.store?action=view_cart&amp;loc=nl-NL">
+<svg viewBox="0 0 27.82 27.82">
+<path class="header-icon" d="M4.71,21.73H20.52A9.72,9.72,0,0,0,30.24,12V8.24H4.71V21.73Z" transform="translate(-3.56 -3.71)"></path>
+<path class="header-icon" d="M9.06,21.47v2.11a2.44,2.44,0,0,0,2.4,2.47H25.67M4.48,4.86H6.65A2.44,2.44,0,0,1,9.06,7.33V8.47" transform="translate(-3.56 -3.71)"></path>
+<path class="header-icon" d="M21.58,29.18A1.2,1.2,0,1,0,22.78,28,1.2,1.2,0,0,0,21.58,29.18Zm-10.51,0A1.21,1.21,0,1,0,12.27,28,1.2,1.2,0,0,0,11.07,29.18Z" transform="translate(-3.56 -3.71)"></path>
+</svg>
+</a>
+</li>
+<div class="mobile-nav ni-megamenu-mobile" data-depth="0" style="display: none;">
+<input type="hidden" id="mobileNavPos" value="0">
+<ul data-depth="0" style="display: block; left: 0px;">
+<li>
+<a href="javascript:void(0);" class="open-list analytics-headersolutions-link" data-target="1">Solutions
+<span class="glyphicon glyphicon-menu-right arrow"></span>
+</a>
+<ul data-depth="1" style="display: none;">
+<li><a href="http://www.ni.com/en-us/innovations/semiconductor.html" class="analytics-mmsolutions-link closed-list">Semiconductor </a> </li>
+<li><a href="http://www.ni.com/en-us/innovations/automotive.html" class="analytics-mmsolutions-link closed-list">Automotive  </a> </li>
+<li><a href="http://www.ni.com/en-us/innovations/aerospace-defense.html" class="analytics-mmsolutions-link closed-list">Aerospace, Defense, &amp; Government </a> </li>
+<li><a href="http://www.ni.com/en-us/innovations/electronics.html" class="analytics-mmsolutions-link closed-list">Electronics </a> </li>
+<li><a href="http://www.ni.com/en-us/innovations/energy.html" class="analytics-mmsolutions-link closed-list">Energy</a> </li>
+<li><a href="http://www.ni.com/en-us/innovations/academic-research.html" class="analytics-mmsolutions-link closed-list">Academic &amp; Research</a> </li>
+<li>
+<div class="ni-rebrand-button">
+<a class="analytics-mmsolutions-button" role="button" href="http://www.ni.com/en-us/solutions.html">Learn about solutions </a>
+</div>
+</li>
+</ul>
+</li>
+<li>
+<a href="javascript:void(0);" class="open-list analytics-headerproducts-link" data-target="1">Products
+<span class="glyphicon glyphicon-menu-right arrow"></span>
+</a>
+<ul data-depth="1" style="display: none;">
+<li>
+<h3>Software</h3>
+</li>
+<li><a class="analytics-mmproducts-link" href="http://www.ni.com/en-us/shop/labview.html">LabVIEW</a></li>
+<li><a class="analytics-mmproducts-link" href="http://www.ni.com/en-us/shop/electronic-test-instrumentation/application-software-for-electronic-test-and-instrumentation-category/what-is-teststand.html">TestStand</a></li>
+<li><a class="analytics-mmproducts-link" href="http://www.ni.com/en-us/shop/data-acquisition-and-control/flexlogger.html">FlexLogger</a></li>
+<li><a class="analytics-mmproducts-link" href="http://www.ni.com/en-us/shop/electronic-test-instrumentation/application-software-for-electronic-test-and-instrumentation-category/systemlink.html">SystemLink</a></li>
+<li><a class="analytics-mmproducts-link" href="http://www.ni.com/en-us/shop/data-acquisition-and-control/application-software-for-data-acquisition-and-control-category/what-is-diadem.html">DIAdem</a></li>
+<li><a class="analytics-mmproducts-link" href="http://www.ni.com/en-us/shop/data-acquisition-and-control/application-software-for-data-acquisition-and-control-category/what-is-veristand.html">VeriStand</a></li>
+<li>
+<h4>Software Suites</h4>
+</li>
+<li><a class="analytics-mmproducts-link" href="http://www.ni.com/en-us/shop/select/automated-test-software-suite">Automated Test Software Suite</a></li>
+<li><a class="analytics-mmproducts-link" href="http://www.ni.com/en-us/shop/select/embedded-control-and-monitoring-software-suite">Embedded Control and Monitoring Software Suite</a></li>
+<li><a class="analytics-mmproducts-link" href="http://www.ni.com/en-us/shop/select/hil-and-real-time-test-software-suite">HIL and Real-Time Software Suite</a></li>
+<li>
+<h3>SERVICES</h3>
+</li>
+<li><a class="analytics-mmproducts-link" href="http://www.ni.com/en-us/shop/services/hardware/repair-replacement-services.html">Repair Services</a></li>
+<li><a class="analytics-mmproducts-link" href="http://www.ni.com/en-us/shop/services/hardware/calibration-services.html">Calibration</a></li>
+<li><a class="analytics-mmproducts-link" href="http://www.ni.com/en-us/shop/services.html">NI Services Program</a></li>
+<li><a class="analytics-mmproducts-link" href="http://www.ni.com/en-us/shop/select/training-entitlements-category">Purchase Training</a></li>
+<li>
+<h3>HARDWARE</h3>
+</li>
+<li>
+<h4>Data Acquisition and Control </h4>
+</li>
+<li><a class="analytics-mmproducts-link" href="http://www.ni.com/en-us/shop/select/multifunction-io-category">Multifunction I/O</a></li>
+<li><a class="analytics-mmproducts-link" href="http://www.ni.com/en-us/shop/select/voltage-category">Voltage</a></li>
+<li><a class="analytics-mmproducts-link" href="http://www.ni.com/en-us/shop/select/current-category">Current</a></li>
+<li><a class="analytics-mmproducts-link" href="http://www.ni.com/en-us/shop/select/digital-io-category">Digital I/O</a></li>
+<li><a class="analytics-mmproducts-link" href="http://www.ni.com/en-us/shop/select/packaged-controllers-category">Packaged Controllers</a></li>
+<li><a class="analytics-mmproducts-link" href="http://www.ni.com/en-us/shop/select/compactdaq-chassis-category">CompactDAQ Chassis</a></li>
+<li><a class="analytics-mmproducts-link" href="http://www.ni.com/en-us/shop/select/temperature-category">Temperature</a></li>
+<li><a class="analytics-mmproducts-link" href="http://www.ni.com/en-us/shop/select/sound-and-vibration-category">Sound and Vibration</a></li>
+<li><a class="analytics-mmproducts-link" href="http://www.ni.com/en-us/shop/select/strain-pressure-and-force-category">Strain, Pressure, and Force</a></li>
+<li><a class="analytics-mmproducts-link" href="http://www.ni.com/en-us/shop/select/machine-vision-category">Machine Vision</a></li>
+<li><a class="analytics-mmproducts-link" href="http://www.ni.com/en-us/shop/select/motion-control-category">Motion Control</a></li>
+<li>
+<h4>Electronic Test and Instrumentation</h4>
+</li>
+<li><a class="analytics-mmproducts-link" href="http://www.ni.com/en-us/shop/select/oscilloscopes-category">Oscilloscopes</a></li>
+<li><a class="analytics-mmproducts-link" href="http://www.ni.com/en-us/shop/select/power-supplies-and-loads-category">Power Supplies and Loads</a></li>
+<li><a class="analytics-mmproducts-link" href="http://www.ni.com/en-us/shop/select/switches-category">Switches</a></li>
+<li><a class="analytics-mmproducts-link" href="http://www.ni.com/en-us/shop/select/gpib-serial-and-ethernet-category">GPIB, Serial, and Ethernet</a></li>
+<li><a class="analytics-mmproducts-link" href="http://www.ni.com/en-us/shop/select/digital-multimeters-category">Digital Multimeters</a></li>
+<li>
+<h4>Wireless Design and Test</h4>
+</li>
+<li><a class="analytics-mmproducts-link" href="http://www.ni.com/en-us/shop/select/software-defined-radios-category">Software Defined Radios</a></li>
+<li><a class="analytics-mmproducts-link" href="http://www.ni.com/en-us/shop/select/rf-signal-generators-category">RF Signal Generators</a></li>
+<li><a class="analytics-mmproducts-link" href="http://www.ni.com/en-us/shop/select/vector-signal-transceivers-category">Vector Signal Transceivers</a></li>
+<li>
+<h4>Accessories</h4>
+</li>
+<li><a class="analytics-mmproducts-link" href="http://www.ni.com/en-us/shop/select/power-accessories-category">Power Accessories</a></li>
+<li><a class="analytics-mmproducts-link" href="http://www.ni.com/en-us/shop/select/connectors-category">Connectors</a></li>
+<li><a class="analytics-mmproducts-link" href="http://www.ni.com/en-us/shop/select/cables-category">Cables</a></li>
+<li><a class="analytics-mmproducts-link" href="http://www.ni.com/en-us/shop/select/sensors-category">Sensors</a></li>
+<li>
+<div class="ni-rebrand-button">
+<a class="analytics-mmproducts-button" role="button" href="http://www.ni.com/en-us/shop.html">See all</a>
+</div>
+</li>
+</ul>
+</li>
+<li>
+<a href="http://www.ni.com/en-us/perspectives.html" class="closed-list analytics-headerperspectives-link">Perspectives</a>
+</li>
+<li>
+<a href="javascript:void(0);" class="open-list analytics-headersupport-link" data-target="1">Support
+<span class="glyphicon glyphicon-menu-right arrow"></span>
+</a>
+<ul data-depth="1" style="display: none;">
+<li>
+<h4>Resources</h4>
+</li>
+<li><a class="analytics-mmsupport-link closed-list" href="http://www.ni.com/en-us/support/downloads.html">Software Downloads</a></li>
+<li><a class="analytics-mmsupport-link closed-list" href="http://www.ni.com/myni/products/en/">Register and Activate</a></li>
+<li><a class="analytics-mmsupport-link closed-list" href="http://www.ni.com/manuals/">Product Documentation</a></li>
+<li><a class="analytics-mmsupport-link closed-list" href="http://learn.ni.com/training">Online Training</a></li>
+<li><a class="analytics-mmsupport-link closed-list" href="http://www.ni.com/kb/">KnowledgeBase</a></li>
+<li><a class="analytics-mmsupport-link closed-list" href="http://forums.ni.com/t5/Example-Programs/ct-p/code-documents">Code Examples</a></li>
+<li>
+<h4>Popular Software Downloads</h4>
+</li>
+<li><a href="http://www.ni.com/en-us/support/downloads/software-products/download.labview-nxg.html" class="analytics-mmsupport-link closed-list">LabVIEW NXG</a> </li>
+<li><a href="http://www.ni.com/en-us/support/downloads/software-products/download.labview.html" class="analytics-mmsupport-link closed-list">LabVIEW</a> </li>
+<li><a href="http://www.ni.com/en-us/support/downloads/software-products/download.systemlink.html" class="analytics-mmsupport-link closed-list">SystemLink</a> </li>
+<li>
+<h4>Popular Driver Downloads</h4>
+</li>
+<li><a href="http://www.ni.com/en-us/support/downloads/drivers/download.ni-daqmx.html" class="analytics-mmsupport-link closed-list">NI-DAQmx</a> </li>
+<li><a href="http://www.ni.com/en-us/support/downloads/drivers/download.ni-visa.html" class="analytics-mmsupport-link closed-list">NI-VISA</a> </li>
+<li><a href="http://www.ni.com/en-us/support/downloads/drivers/download.ni-488-2.html" class="analytics-mmsupport-link closed-list">NI-488.2</a> </li>
+<li>
+<h4>Request Support</h4>
+</li>
+<li>
+<span class="note">
+You can request repair, schedule calibration, or get technical support. A valid service agreement may be required. 
+</span>
+<a href="http://sine.ni.com/srm/app/getassistance" class="analytics-mmsupport-link closed-list bold">Open a service request</a>
+</li>
+<li>
+<div class="ni-rebrand-button">
+<a class="analytics-mmsupport-button" role="button" href="http://www.ni.com/en-us/support.html">All support resources</a>
+</div>
+</li>
+</ul>
+</li>
+<li>
+</li>
+<li>
+<a href="http://forums.ni.com/" class="closed-list analytics-headercommunity-link">Community</a>
+</li>
+<li>
+<a href="http://www.ni.com/en-us/about-ni.html" class="analytics-header-link closed-list">About</a>
+</li>
+<li>
+<a href="http://www.ni.com/en-us/contact-us.html" class="analytics-header-link closed-list">Contact Us</a>
+</li>
+<li>
+<a href="http://www.ni.com/myni/dashboard/" class="analytics-headeraccount-link closed-list">Account</a>
+</li>
+</ul>
+</div>
+</ul>
+</nav>
+<div class="container global-header-breadcrumb"><a href="http://www.ni.com/">Home</a> &gt; <a href="http://www.ni.com/tutorials/">Tutorials</a> &gt; Simple Messaging (STM) Communication Library for LabVIEW</div>
+<div id="tempDowntime">
+
+</div>
+
+<span class="no-print">
+<input type="hidden" id="breadcrumbsJSON" value="{&quot;breadcrumbs&quot; : [{&quot;label&quot; : &quot;Home&quot;, &quot;link&quot; : &quot;http://www.ni.com/&quot;}, {&quot;label&quot; : &quot;Tutorials&quot;, &quot;link&quot; : &quot;http://www.ni.com/tutorials/&quot;}, {&quot;label&quot; : &quot;Simple Messaging (STM) Communication Library for LabVIEW&quot;, &quot;link&quot; : &quot;#&quot;}]}">
+<input type="hidden" id="originalURL" value="http://ws-cl12c-community-ext-prod.natinst.com/tutorial/app/main/p/lang/en/id/53683/urlsrc/rewrite/">
+</span>
+
+<div class="pnx-content clearfix">
+<div class="grid12 left">
+
+<div class="clearfix pnx-block-2x ">
+<h1 class="wp-title">Simple Messaging (STM) Communication Library for LabVIEW</h1>
+<div class="wp-publishinfo pnx-block-2x noindex">Publish Date:&nbsp;mrt 20, 2017
+<span class="no-print">
+|
+1 Ratings |&nbsp;<strong>5.00</strong> out of 5
+|
+<a href="javascript:window.print()"><i class="pnx-icn-print"></i>Print</a>
+|
+<a href="http://sine.ni.com/apps/utf8/nidz_display_comments.create_comment?p_title=Simple+Messaging+%28STM%29+Communication+Library+for+LabVIEW&amp;p_doc_id=DZTUT-53683-EN&amp;p_doc_type=DZTUT&amp;p_url=http://www.ni.com/tutorial/53683/en&amp;p_doc_url_id=53683" rel="nofollow">Submit your review</a>
+</span>
+</div>
+<h2>Overview</h2>
+<div class="pnx-block-2x"><p>One of the main challenges of designing and implementing distributed systems where different parts of the system need to exchange data and information over the network, is defining and building an effective communication protocol.</p>
+<p>The Simple Messaging Communication Library (STM) can enhance the performance, usability, maintainability and scalability of a distributed system by providing a simple but effective messaging layer in your application.</p>
+<p>Unlike raw communications APIs, using formatted packets makes data packaging and transfer more manageable and improves throughput by minimizing the transmission of repetitive data.</p></div>
+<h2>Table of Contents</h2><ol class="pnx-block-2x">
+<li><a href="http://www.ni.com/tutorial/53683/en/#toc1">Background</a></li>
+<li><a href="http://www.ni.com/tutorial/53683/en/#toc2">Theory of Operation</a></li>
+<li><a href="http://www.ni.com/tutorial/53683/en/#toc3">Implementation</a></li>
+<li><a href="http://www.ni.com/tutorial/53683/en/#toc4">Simple Messaging API</a></li>
+<li><a href="http://www.ni.com/tutorial/53683/en/#toc5">Using the STM API to Send Data</a></li>
+<li><a href="http://www.ni.com/tutorial/53683/en/#toc6">Using the STM API to Receive Data</a></li>
+<li><a href="http://www.ni.com/tutorial/53683/en/#toc7">Conclusion</a></li>
+</ol>
+<div id="primarycontentcontainer" class="tutorial-body"><h3>Download</h3>
+<p>You can install the latest version of the STM library directly from <a href="vipm://ni_lib_stm?repo_url=http://ftp.ni.com/evaluation/labview/lvtn/vipm">VI Package Manager</a>. Older versions of the STM library for use in existing applications are available in the <a href="http://forums.ni.com/t5/Reference-Design-Content/Simple-Messaging-STM-Communication-Library/ta-p/3493691">Reference Design Portal</a>.</p>
+<p>Please post your questions, comments and feedback about the STM library in the&nbsp;<a href="http://forums.ni.com/ni/board/message?board.id=Components&amp;message.id=5"><u>STM discussion forum</u></a>.</p>
+<p>&nbsp;</p>
+<a id="toc1"></a><h3>1. Background</h3>
+<p>For embedded LabVIEW applications, communication with a remote client is often a critical part of the project. Embedded applications often function as 'data servers' because their primary role is to report information (status, acquired data, analyzed data, etc.) to the client.&nbsp; They are also often capable of responding to commands from the client to perform application-specific activities.</p>
+<p>The complexity of these applications is reflected in the network communication requirements.&nbsp; The LabVIEW Real-Time Communication Wizard provides a solution, but an alternative approach is needed for other embedded targets and for applications that outgrow the capacity of wizard-based tools.</p>
+<p>The TCP/IP protocol is the most common method for sharing information between hosts. The TCP/IP protocol provides a medium for data sharing, but it is up to the application to implement the logic that optimizes performance and makes sense of the data. For more sophisticated applications, the following additional functionality is desirable as part of the communication protocol:</p>
+<ul class="pnx-bulleted-list">
+<li>Ability to send meta information for ease of data manipulation</li>
+<li>Ability to send and receive data with a naming convention</li>
+<li>Ability to send and receive many data types (string, I8, array of doubles, clusters, etc.)</li>
+</ul>
+<p>This document describes a simple messaging protocol that addresses these requirements.&nbsp;</p>
+<p>The installer for the Simple Messaging Library (STM), which includes example code, can be found at the link at the beginning of this document.&nbsp;&nbsp;Some of the examples emphasize LabVIEW Real-Time applications, but most will run on any LabVIEW platform.</p>
+<p>This document illustrates an approach to LabVIEW network communication using the TCP/IP protocol (Simple TCP Messaging - STM). In addition, STM also supports UDP&nbsp;and serial as transport layers. &nbsp;</p>
+<p>You may also consider using network-enabled Shared Variables in your application, which provide a high-level programming interface for data exchange between system components, but are not specifically designed for messaging.</p>
+<ul class="pnx-bulleted-list">
+<li><a href="http://www.ni.com/tutorial/9900/en/">Developing Portable Shared Variable Applications</a></li>
+<li><a href="https://decibel.ni.com/content/groups/shared-variable-benchmarking-utility">Buffered Network-Published Shared Variables: Components and Architecture</a> <a href="https://decibel.ni.com/content/groups/shared-variable-benchmarking-utility">Shared Variable Benchmarking</a></li>
+<li><a href="http://www.ni.com/compactriodevguide/sec2.htm">NI LabVIEW for CompactRIO Developer’s Guide: Best Practices for Network Communication</a></li>
+</ul>
+<p>&nbsp;</p>
+<p class="right no-print"> <a class="back-to-top" href="http://www.ni.com/tutorial/53683/en/#top">Back to Top</a> </p><a id="toc2"></a><h3>2. Theory of Operation</h3>
+<p>The communication protocol should have the following characteristics:</p>
+<ul class="pnx-bulleted-list">
+<li>Easily packages and parses data</li>
+<li>Hides the transport layer (TCP, UDP, etc.) implementation details</li>
+<li>Minimizes network traffic by sending data only when it is needed</li>
+<li>Minimizes impact in the overall overhead and throughput</li>
+<li>Lends itself to communication with environments other than LabVIEW - C, C++, etc.</li>
+</ul>
+<p>In every messaging protocol there is some overhead (meta data) associated with parsing the data stream on the receiving end. Sending a complete set of meta data with every package adds significant overhead.<br>
+<br>
+Since we are focusing on high-performance applications, we want to minimize the communication overhead by sending a reduced set of meta information with each packet. The approach used&nbsp;by the STM protocol is to create a separate "meta data" message containing an indexed list of meta information that is sent once whenever an STM connection is made between hosts. By doing this, each host has all of the information that it needs to decode subsequent messages. When sending a message, the host packetizes the data with a meta data index that the receiver can use to look up the decoding information.<br>
+<br>
+You will see that by using this approach we are able to create an abstraction from the transport layer, where the user sends and receives data by name.&nbsp; The underlying transfer mechanism is completely hidden.</p>
+<p>&nbsp;</p>
+<p class="right no-print"> <a class="back-to-top" href="http://www.ni.com/tutorial/53683/en/#top">Back to Top</a> </p><a id="toc3"></a><h3>3. Implementation</h3>
+<p>Now that we have explained the concept, we will discuss the LabVIEW implementation.<br>
+<br>
+The meta data is implemented as an array of clusters. Each array element contains the data properties necessary to package and decode one variable value. We have only defined the 'Name' property, but using a cluster allows you to customize the STM by adding meta properties (such as data type) according to your application requirements. The meta data cluster is a TypeDef, so adding properties should not break existing code.</p>
+<p>The following figure shows an example of the meta data cluster configured for two variables: 'Iteration' and 'RandomData'.</p>
+<p>&nbsp;</p>
+<p style=" text-align: center;"><img alt="" width="125" src="./Simple Messaging (STM) Communication Library for LabVIEW - National Instruments_files/image43532.jpg" height="42"><br>
+<b>Figure 1. Meta Data Array of Strings</b></p>
+<p><br>
+<br>
+Before each data variable is transmitted, a packet is created that includes fields for the Data Size, the Meta Data ID and the data itself. Figure 2 shows the packet format.<br>
+<br>
+</p>
+<p style=" text-align: center;"><img alt="" width="522" src="./Simple Messaging (STM) Communication Library for LabVIEW - National Instruments_files/b3416ce2469.gif" height="58"></p>
+<p style=" text-align: center;"><b>Figure 2. Packet Format</b></p>
+<p style=" text-align: left;"><br>
+The Meta Data ID field is populated with the index of the meta data array element corresponding to the data variable. The receiving host uses the Meta Data ID to index the meta data array to get the properties of the message data. This mechanism is very effective since it allows for ease of use (read and write to variable names) with minimum overhead.<br> 
+<br>
+Since only the Meta Data ID is transferred, notice how the meta data cluster can be extended to include more static variable properties without impacting the transmission overhead.<br>
+<br>
+The STM protocol is more efficient and has higher throughput when transmitting large data payloads. Each message includes 48 (32 + 16) bits of overhead for the data size and Meta Data ID.&nbsp; A Boolean converted to string is represented by 1 character (8 bits). When a Boolean value is sent, the payload efficiency is 8 bits / (48 + 8) bits, or 14%. When an array of 1000 doubles (1000*64 bits) is sent, however, the payload efficiency is much higher (64,000 bits / 64,048 bits = 99.9%).</p>
+<p>When streaming a significant number of individual data values, we recommend aggregating them into an array before sending them.</p>
+<p>&nbsp;</p>
+<p class="right no-print"> <a class="back-to-top" href="http://www.ni.com/tutorial/53683/en/#top">Back to Top</a> </p><a id="toc4"></a><h3>4. Simple Messaging API</h3>
+<p>The STM API is very simple. For basic operation it consists of a Read VI and a Write VI. There are also two supplemental VIs to transmit the Meta Data, but their use is not mandatory. Each of the main VIs are polymorphic which allows for the use with different transport layers. &nbsp;The API for each layer is very similar. &nbsp;The following is a brief description of the main API VIs (only the TCP/IP versions are shown). &nbsp;Additional utility VIs are installed as well and are documented in the VI Help.<br>
+<br>
+<b>STM Write Message:</b> Use this VI to send any type of data to a remote host. This VI creates a packet based on the data, the data name and meta data information. When this VI is called, it retrieves the index of the variable specified by Name in the meta data array. It then assembles the message packet and sends it to the remote host via TCP/IP using the connection ID.&nbsp;</p>
+<p>The data must be in string format for transmission. Use the Flatten to String primitive to convert the message data to a string.<br>
+<br>
+The Connection Info consists of a transport layer reference and the meta data array. &nbsp;This is an output from both the STM Read Meta Data and STM Write Meta Data VIs.</p>
+<p style=" text-align: center;"><img alt="" src="./Simple Messaging (STM) Communication Library for LabVIEW - National Instruments_files/STM_Write_Messge_(TCP)c.png"></p>
+<p style=" text-align: center;"><b>STM Write Message (TCP).vi</b></p>
+<p><b>STM Read Message:</b> Use this VI to receive any type of data from a remote host. This VI reads and unpacks the meta data index and flattened string data.&nbsp; It looks up the meta element and returns it along with the data string.&nbsp; The application can then convert the flattened data to the message data type using the name or other meta properties as a guide.&nbsp; In the example below, the variable named "RandomData" is always converted to an "Array of Doubles" data type).</p>
+<p>This VI is usually used inside a loop. Since there is no guarantee that data will arrive at a given time, use the 'timeout' parameter to allow the loop to run periodically and use the 'Timed Out?' indicator to know whether to process the returned values.</p>
+<p align="center"><img alt="" src="./Simple Messaging (STM) Communication Library for LabVIEW - National Instruments_files/STM_Read_Message_(TCP)_1c.png"></p>
+<p align="center"><b>STM Read Message (TCP).vi</b><br>
+</p>
+<p><b>STM Write Meta Data:</b> Use this VI to send meta data information to a remote host. For correct message interpretation, the meta data must be consistent on both receiving and sending side. Instead of maintaining copies of the data on each host, we recommend that you maintain the meta data on the server and use this VI to send it to clients as they connect.</p>
+<p style=" text-align: center;"><img alt="" src="./Simple Messaging (STM) Communication Library for LabVIEW - National Instruments_files/STM_Write_Meta_Data_(TCP_Ref)c.png"><br>
+<b>STM Write Meta Data (TCP).vi</b><br>
+</p>
+<p><strong>STM Read Meta Data:</strong> Use this VI to receive meta data information from a remote computer. This VI reads and unpacks the meta data array, which can be passed to the read and write VIs.</p>
+<p style=" text-align: center;"><img alt="" src="./Simple Messaging (STM) Communication Library for LabVIEW - National Instruments_files/STM_Read_Meta_Data_(TCP_Ref)c.png"><br>
+<b>STM Read Meta Data (TCP).vi&nbsp;</b></p>
+<p align="left">&nbsp;</p>
+<p class="right no-print"> <a class="back-to-top" href="http://www.ni.com/tutorial/53683/en/#top">Back to Top</a> </p><a id="toc5"></a><h3 align="left">5. Using the STM API to Send Data</h3>
+<p>The following figure shows an example of a data server using the STM API. Notice that this program sends the meta data to a remote host as soon as a connection is established. The example writes two values: the iteration counter and an array of doubles. The meta data contains the description for these two variables (as shown in Figure 1).</p>
+<p>Note that you only need to wire the variable name to the STM Write Message VI, which takes care of creating and sending the message packet for you. This abstraction allows you to send data by name, while hiding the underlying complexity of the TCP/IP protocol.</p>
+<p>Also note that the application flattens the data to a string before it is sent.&nbsp; For simple data types (including those shown in Figure 3) it is possible to use a typecast, which is slightly faster than the Flatten to String VI.&nbsp; However Flatten to String also works with complex data types such as clusters and waveforms.</p>
+<p style=" text-align: center;">&nbsp;</p>
+<p style=" text-align: center;"><a onclick="window.open(&#39;/tutorial/app/largeimage?lang=nl&amp;imageurl=%2Fcms%2Fimages%2Fdevzone%2Ftut%2FSTM_Basic_Server.png&#39;,&#39;awindow&#39;,&#39;scrollbars=yes, resizable=yes&#39;);return false;" href="http://www.ni.com/tutorial/53683/en/#"><img alt="" src="./Simple Messaging (STM) Communication Library for LabVIEW - National Instruments_files/STM_Basic_Server.png" style="width: 740px; height: 230px;"></a><span class="no-print wp-enlarge-link"><a onclick="window.open(&#39;/tutorial/app/largeimage?lang=nl&amp;imageurl=%2Fcms%2Fimages%2Fdevzone%2Ftut%2FSTM_Basic_Server.png&#39;,&#39;awindow&#39;,&#39;scrollbars=yes, resizable=yes&#39;);return false;" href="http://www.ni.com/tutorial/53683/en/#"><br>[+] Enlarge Image</a></span>
+<b><br>
+Figure 3. Basic STM Server Example</b></p>
+<p style=" text-align: left;">&nbsp;</p>
+<p>As you can see, the protocol can be customized and expanded to fit your application requirements.&nbsp; As you add variables, simply add an entry to the meta data array and a corresponding STM Write Message VI for that variable.</p>
+<p>&nbsp;</p>
+<p class="right no-print"> <a class="back-to-top" href="http://www.ni.com/tutorial/53683/en/#top">Back to Top</a> </p><a id="toc6"></a><h3>6. Using the STM API to Receive Data</h3>
+<p>Receiving data is also very simple.&nbsp; The design pattern shown in Figure 4 waits for the meta data when the connection is established with the server. It then uses the STM Read Message VI to wait for incoming messages. When a message is received, it converts the data and assigns it to a local value according to the meta data name.</p>
+<p>The case structure driven by the data name provides an expandable method for handling data conversion. &nbsp;As you add variables, simply create a case with the code to convert the variable to the right type and to send it to the right destination.&nbsp;</p>
+<p>Note that an outer case structure handles timeout events.<br>
+<br>
+</p>
+<p style=" text-align: center;"><a onclick="window.open(&#39;/tutorial/app/largeimage?lang=nl&amp;imageurl=%2Fcms%2Fimages%2Fdevzone%2Ftut%2FSTM_Basic_Client.png&#39;,&#39;awindow&#39;,&#39;scrollbars=yes, resizable=yes&#39;);return false;" href="http://www.ni.com/tutorial/53683/en/#"><img alt="" src="./Simple Messaging (STM) Communication Library for LabVIEW - National Instruments_files/STM_Basic_Client.png" style="width: 740px; height: 233px;"></a><span class="no-print wp-enlarge-link"><a onclick="window.open(&#39;/tutorial/app/largeimage?lang=nl&amp;imageurl=%2Fcms%2Fimages%2Fdevzone%2Ftut%2FSTM_Basic_Client.png&#39;,&#39;awindow&#39;,&#39;scrollbars=yes, resizable=yes&#39;);return false;" href="http://www.ni.com/tutorial/53683/en/#"><br>[+] Enlarge Image</a></span>
+<br>
+<b>Figure 4. Basic STM Client Example</b><br>
+</p>
+<p>One advantage of this design pattern is that it centralizes the code that receives data and assigns it to local values.</p>
+<p>Another advantage is that the STM Read Message VI sleeps until data is received (or a timeout occurs), so the loop is driven at the rate of incoming data. This guarantees that no data is lost and no CPU time is wasted polling for incoming data.<br>
+<br>
+<b>Note:</b> Since the client has no knowledge of the meta data until run time, the developer must be sure that the application handles all possible incoming variables. It is a good practice to implement a 'Default' case to trap any 'unknown' variables as an error condition.</p>
+<p>&nbsp;</p>
+<p class="right no-print"> <a class="back-to-top" href="http://www.ni.com/tutorial/53683/en/#top">Back to Top</a> </p><a id="toc7"></a><h3>7. Conclusion</h3>
+<p>The STM protocol can significantly improve productivity and client/server performance.&nbsp;The STM protocol abstracts the transport layer, which enables you to create intuitive code that is easier to expand and maintain.</p>
+<p>The STM library is suitable for many client/server applications, but it also provides a foundation for higher-level design patterns. To read about a design pattern for command-based bidirectional communication, please see the article on <a href="http://www.ni.com/tutorial/53682/en/" target="_blank">Command-based Communication</a>.</p>
+<p>The <a href="http://www.ni.com/tutorial/53679/en/">Multi-client Server Design Pattern Using Simple TCP/IP Messaging</a> provides a more complex design pattern for use of STM in a Client Server architecture.</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+</div>
+<p class="right no-print"> <a class="back-to-top" href="http://www.ni.com/tutorial/53683/en/#top">Back to Top</a> </p>
+</div>
+
+</div>
+<div class="grid4 right clearfix no-print noindex">
+<div class="pnx-container-group">
+
+<div class="pnx-container">
+<h3>Bookmark &amp; Share</h3>
+<div class="pnx-sidebar-content">
+<div class="docbox">
+<script src="./Simple Messaging (STM) Communication Library for LabVIEW - National Instruments_files/addthis_widget.js.download" type="text/javascript" charset="utf-8"><!--
+
+//--></script>
+<script src="./Simple Messaging (STM) Communication Library for LabVIEW - National Instruments_files/share.js.download" type="text/javascript" charset="utf-8"><!--
+<!--//-->
+//--></script>
+<div class="social-share-wrapper">
+<div class="addthis_toolbox addthis_default_style socialMedia-toolbar">
+<a href="http://www.addthis.com/bookmark.php?v=250&amp;pubid=ra-4d9f12be33ab9b64" class="addthis_button_compact at300m" style="margin-right: 6px"><span class="at-icon-wrapper" style="background-color: rgb(255, 101, 80); line-height: 16px; height: 16px; width: 16px;"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 32 32" version="1.1" role="img" aria-labelledby="at-svg-addthis-1" title="More" alt="More" class="at-icon at-icon-addthis" style="width: 16px; height: 16px;"><title id="at-svg-addthis-1">AddThis</title><g><path d="M18 14V8h-4v6H8v4h6v6h4v-6h6v-4h-6z" fill-rule="evenodd"></path></g></svg></span>Share</a>
+<a class="addthis_button_facebook at300b" title="Facebook" href="http://www.ni.com/tutorial/53683/en/#"><span class="at-icon-wrapper" style="background-color: rgb(59, 89, 152); line-height: 16px; height: 16px; width: 16px;"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 32 32" version="1.1" role="img" aria-labelledby="at-svg-facebook-2" title="Facebook" alt="Facebook" class="at-icon at-icon-facebook" style="width: 16px; height: 16px;"><title id="at-svg-facebook-2">Facebook</title><g><path d="M22 5.16c-.406-.054-1.806-.16-3.43-.16-3.4 0-5.733 1.825-5.733 5.17v2.882H9v3.913h3.837V27h4.604V16.965h3.823l.587-3.913h-4.41v-2.5c0-1.123.347-1.903 2.198-1.903H22V5.16z" fill-rule="evenodd"></path></g></svg></span></a> <a class="addthis_button_twitter at300b" title="Twitter" href="http://www.ni.com/tutorial/53683/en/#"><span class="at-icon-wrapper" style="background-color: rgb(29, 161, 242); line-height: 16px; height: 16px; width: 16px;"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 32 32" version="1.1" role="img" aria-labelledby="at-svg-twitter-3" title="Twitter" alt="Twitter" class="at-icon at-icon-twitter" style="width: 16px; height: 16px;"><title id="at-svg-twitter-3">Twitter</title><g><path d="M27.996 10.116c-.81.36-1.68.602-2.592.71a4.526 4.526 0 0 0 1.984-2.496 9.037 9.037 0 0 1-2.866 1.095 4.513 4.513 0 0 0-7.69 4.116 12.81 12.81 0 0 1-9.3-4.715 4.49 4.49 0 0 0-.612 2.27 4.51 4.51 0 0 0 2.008 3.755 4.495 4.495 0 0 1-2.044-.564v.057a4.515 4.515 0 0 0 3.62 4.425 4.52 4.52 0 0 1-2.04.077 4.517 4.517 0 0 0 4.217 3.134 9.055 9.055 0 0 1-5.604 1.93A9.18 9.18 0 0 1 6 23.85a12.773 12.773 0 0 0 6.918 2.027c8.3 0 12.84-6.876 12.84-12.84 0-.195-.005-.39-.014-.583a9.172 9.172 0 0 0 2.252-2.336" fill-rule="evenodd"></path></g></svg></span></a> <a class="addthis_button_linkedin at300b" target="_blank" title="LinkedIn" href="http://www.ni.com/tutorial/53683/en/#"><span class="at-icon-wrapper" style="background-color: rgb(0, 119, 181); line-height: 16px; height: 16px; width: 16px;"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 32 32" version="1.1" role="img" aria-labelledby="at-svg-linkedin-4" title="LinkedIn" alt="LinkedIn" class="at-icon at-icon-linkedin" style="width: 16px; height: 16px;"><title id="at-svg-linkedin-4">LinkedIn</title><g><path d="M26 25.963h-4.185v-6.55c0-1.56-.027-3.57-2.175-3.57-2.18 0-2.51 1.7-2.51 3.46v6.66h-4.182V12.495h4.012v1.84h.058c.558-1.058 1.924-2.174 3.96-2.174 4.24 0 5.022 2.79 5.022 6.417v7.386zM8.23 10.655a2.426 2.426 0 0 1 0-4.855 2.427 2.427 0 0 1 0 4.855zm-2.098 1.84h4.19v13.468h-4.19V12.495z" fill-rule="evenodd"></path></g></svg></span></a>
+<div class="atclear"></div></div>
+</div>
+</div>
+</div>
+</div>
+<hr>
+
+
+<div class="pnx-container">
+<h3>Ratings</h3>
+<div class="pnx-sidebar-content">
+<script type="text/javascript"><!--
+
+		//<![CDATA[
+			function validateAndSubmitRating(form)
+			{
+			  message = validateRatingFields(form);
+			  if (message.length == 0)
+			  {		
+				if(form.querySelector('input[name="p_answer"]:checked') != null){
+					if(form.querySelector('input[name="p_answer"]:checked').value === "yes"){
+						NIAnalytics.captureRating({"eventName":"ThumbClick","eventLabel":"helpful"})
+					}
+					else if(form.querySelector('input[name="p_answer"]:checked').value === "no"){
+						NIAnalytics.captureRating({"eventName":"ThumbClick","eventLabel":"not helpful"})
+					}
+				}
+				form.p_url.value = form.p_url.value + form.p_rank.value;
+				form.submit();
+			  }
+			  else
+			  {
+			    alert(message);
+			  }
+			}
+			
+			function validateRatingFields(form)
+			{
+			  message = "";
+			  if (form.p_rank.selectedIndex == 0)
+			  {
+				  message = message + "Please choose a rating value.\r\n";
+			  }
+			  return message;
+			}
+
+			function radioButtonChecked(button)
+			{
+			  var radio_choice = false;
+			  for (counter = 0; counter < button.length && !radio_choice; counter++)
+			  {
+			    radio_choice = button[counter].checked;
+			  }
+			  return radio_choice;
+			}
+			//]]>
+		
+//--></script>
+<form action="http://www.ni.com/white-paper/feedback" method="post" name="ratingform">
+<input type="hidden" name="p_guid" value="dztut-53683|en">
+<input type="hidden" name="p_url_root" value="http://sine.ni.com"> <input type="hidden" name="p_url" value="http://www.ni.com/tutorial/53683/en/rating/">
+<input type="hidden" name="p_rating_type" value="DZTUT">
+<p class="pnx-block-1x">Rate this document
+<br> <select name="p_rank">
+<option selected="true">Select a Rating</option>
+<option value="1">1 - Poor</option>
+<option value="2">2</option>
+<option value="3">3</option>
+<option value="4">4</option>
+<option value="5">5 - Excellent</option>
+</select>
+</p>
+<p class="pnx-block-1x">Answered Your Question?
+<br> <input type="radio" name="p_answer" value="yes">
+Yes <input type="radio" name="p_answer" value="no"> No
+</p>
+<p>
+<a class="pnx-btn pnx-btn-nav" href="javascript:validateAndSubmitRating(document.forms.ratingform)">
+<span class="pnx-btn-text"> Submit </span>
+</a>
+</p>
+</form>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+
+
+<div class="container">
+<div id="cookieLaw" style="display: none;">
+<div class="row">
+<div class="col-xs-12 col-sm-10">
+<p>This site uses cookies to offer you a better browsing experience. Learn more about our <a href="https://www.ni.com/en-us/about-ni/legal/privacy-statement.html" target="_blank">privacy statement</a> and <a href="https://www.ni.com/en-us/about-ni/legal/cookies.html" target="_blank">cookie policy.</a></p>
+</div>
+<div class="col-xs-12 col-sm-2 text-right">
+<button id="btnUnderstood" class="ni-btn ni-btn-tertiary" style="text-transform:none" type="button">Yes, I accept</button>
+</div>
+</div>
+</div>
+</div>
+<a href="http://www.ni.com/tutorial/53683/en/#" id="contactSalesBtn" class="hidden" rel="popover" data-popover-default="Contact sales" data-popover-close="Close" data-popover-content-desktop="#contactSalesDesktop" data-popover-content-mobile="#contactSalesMobile" data-original-title="" title=""></a>
+<div id="contactSalesDesktop" class="hidden">
+<form method="POST" role="form" action="http://www.ni.com/tutorial/53683/en/" onsubmit="return false;">
+<div class="questions" data-offset-width="316">
+<p>What would you like to do? We can help you get started.</p>
+<a href="http://www.ni.com/tutorial/53683/en/#" class="primaryBtn block slideNavigator" data-popver-nextslide="1">Contact our sales team</a>
+<a href="http://www.ni.com/en-us/support.html" class="outlineBtn block supportNavigator">Looking for support? </a>
+</div>
+<div id="contactSalesform" data-offset-width="572" class="hidden">
+<h3>How can we help?</h3>
+<div class="row">
+<div class="col-xs-6">
+<div class="form-group">
+<input type="text" class="form-control" id="first_name" name="first_name" maxlength="40" placeholder="First name" required="">
+</div>
+</div>
+<div class="col-xs-6">
+<div class="form-group">
+<input type="text" class="form-control" id="last_name" name="last_name" maxlength="80" placeholder="Last name" required="">
+</div>
+</div>
+</div>
+<div class="row">
+<div class="col-xs-6">
+<div class="form-group">
+<input type="email" class="form-control" id="email" maxlength="80" name="email" placeholder="Business email" data-validation-required="" required="">
+</div>
+</div>
+<div class="col-xs-6">
+<div class="form-group">
+<input type="text" class="form-control" id="company" maxlength="40" name="company" placeholder="Company name">
+</div>
+</div>
+</div>
+<div class="row">
+<div class="col-xs-6">
+<div class="form-group">
+<input type="text" class="form-control" id="phone" name="phone" placeholder="Phone number" required="">
+</div>
+</div>
+<div class="col-xs-3">
+<div class="form-group">
+<select class="form-control countrList" id="country" maxlength="40" name="country" required="">
+<option selected="" disabled="" value="">Country</option>
+</select>
+</div>
+</div>
+</div>
+<div class="row">
+<div class="col-xs-12">
+<div class="form-group">
+<textarea class="form-control" id="description" name="description" rows="5" placeholder="Message"></textarea>
+</div>
+</div>
+</div>
+<div class="row">
+<div class="col-xs-8">
+<div class="form-group">
+<label class="checkbox-inline">
+Every company tells you they’re serious about privacy. We’re not just any company. Learn about the steps we take to protect your personal data. <a href="http://www.ni.com/privacy">Review our Privacy Statement</a>.
+</label>
+</div>
+</div>
+<div class="col-xs-4">
+
+<input type="submit" class="primaryBtn block slideNavigator formSubmitter" data-popver-nextslide="2" value="Send">
+</div>
+<div class="col-xs-12">
+<hr>
+</div>
+</div>
+<div class="row">
+<div class="col-xs-6">
+<a href="http://www.ni.com/tutorial/53683/en/#" class="slideNavigator prevSlide" data-popver-nextslide="0"><i class="fas fa-chevron-left" aria-hidden="true"></i></a>
+</div>
+<div class="col-xs-6 text-right phone"><div class="ni-contact-sales-number"></div></div>
+</div>
+</div>
+<div class="thanksSlide hidden text-center" data-offset-width="572">
+<p class="thanks">Thanks!</p>
+<p class="thanksMsg">We'll be in touch soon!</p>
+<img src="./Simple Messaging (STM) Communication Library for LabVIEW - National Instruments_files/logo_2020_white.svg" alt="">
+</div>
+<input type="hidden" name="description_prefix" value="Customer requesting help via Contact Sales Team form on ni.com.">
+<input type="hidden" name="oid" value="00D3J0000008aho">
+<input type="hidden" name="Privacy_Policy_Acceptance_Reason__c" value="Customer entered contact data and requested a callback on www.ni.com/contact-sales form.">
+<input type="hidden" name="lead_source" value="ni.com - Sales Form">
+<input type="hidden" name="recordType" value="012i0000000xsPz">
+<input type="hidden" name="00Ni000000FoVoC" value="Request a Callback">
+<input type="hidden" name="00Ni000000FoVoB" value="cREQ Date">
+</form>
+</div>
+<div id="contactSalesMobile" class="hidden">
+<form method="POST" role="form" action="http://www.ni.com/tutorial/53683/en/" onsubmit="return false;">
+<div class="questions" data-offset-width="316">
+<p>What would you like to do? We can help you get started.</p>
+<a href="http://www.ni.com/tutorial/53683/en/#" class="primaryBtn block slideNavigator" data-popver-nextslide="1">Contact our sales team</a>
+<a href="http://www.ni.com/en-us/support.html" class="outlineBtn block supportNavigator">Looking for support? </a>
+</div>
+<div class="mobileForm1 hidden" data-offset-width="316">
+<h3>How can we help?</h3>
+<div class="row">
+<div class="col-xs-12">
+<div class="form-group">
+<textarea class="form-control" id="description" name="description" rows="8" placeholder="Message"></textarea>
+</div>
+</div>
+</div>
+<div class="row">
+<div class="col-xs-8">
+<a href="http://www.ni.com/tutorial/53683/en/#" class="slideNavigator prevSlide pull-left" data-popver-nextslide="0"><i class="fas fa-chevron-left" aria-hidden="true"></i></a>
+<div class="text-center phone"><div class="ni-contact-sales-number"></div></div>
+</div>
+<div class="col-xs-4 text-right">
+<a href="http://www.ni.com/tutorial/53683/en/#" class="primaryBtn block slideNavigator" data-popver-nextslide="2">Next</a>
+</div>
+</div>
+</div>
+<div class="mobileForm2 hidden" data-offset-width="316">
+<h3>How can we help?</h3>
+<div class="row">
+<div class="col-xs-12">
+<div class="form-group">
+<input type="text" class="form-control" id="first_name" name="first_name" maxlength="40" placeholder="First name" required="">
+</div>
+</div>
+</div>
+<div class="row">
+<div class="col-xs-12">
+<div class="form-group">
+<input type="text" class="form-control" id="last_name" name="last_name" maxlength="80" placeholder="Last name" required="">
+</div>
+</div>
+</div>
+<div class="row">
+<div class="col-xs-12">
+<div class="form-group">
+<input type="email" class="form-control" id="email" maxlength="80" name="email" placeholder="Business email" required="">
+</div>
+</div>
+</div>
+<div class="row">
+<div class="col-xs-12">
+<div class="form-group">
+<input type="text" class="form-control" id="company" maxlength="40" name="company" placeholder="Company name">
+</div>
+</div>
+</div>
+<div class="row">
+<div class="col-xs-12">
+<div class="form-group">
+<input type="text" class="form-control" id="phone" name="phone" placeholder="Phone number" required="">
+</div>
+</div>
+</div>
+<div class="row">
+<div class="col-xs-12">
+<div class="form-group">
+<select class="form-control countrList" id="country" maxlength="40" name="country" required="">
+<option selected="" disabled="" value="">Country</option>
+</select>
+</div>
+</div>
+</div>
+<div class="row">
+<div class="col-xs-12">
+<div class="form-group">
+<label class="checkbox-inline">
+Every company tells you they’re serious about privacy. We’re not just any company. Learn about the steps we take to protect your personal data. <a href="http://www.ni.com/privacy">Review our Privacy Statement</a>.
+</label>
+</div>
+</div>
+</div>
+<div class="row">
+<div class="col-xs-8">
+<div class="phone"><div class="ni-contact-sales-number"></div></div>
+</div>
+<div class="col-xs-4 text-right">
+
+ <input type="submit" class="primaryBtn block slideNavigator formSubmitter" data-popver-nextslide="3" value="Send">
+</div>
+</div>
+</div>
+<div class="thanksSlide hidden text-center" data-offset-width="316">
+<p class="thanks">Thanks!</p>
+<p class="thanksMsg">We'll be in touch soon!</p>
+<img src="./Simple Messaging (STM) Communication Library for LabVIEW - National Instruments_files/logo_2020_white.svg" alt="">
+</div>
+<input type="hidden" name="description_prefix" value="Customer requesting help via Contact Sales Team form on ni.com.">
+<input type="hidden" name="oid" value="00D3J0000008aho">
+<input type="hidden" name="Privacy_Policy_Acceptance_Reason__c" value="Customer entered contact data and requested a callback on www.ni.com/contact-sales form.">
+<input type="hidden" name="lead_source" value="ni.com - Sales Form">
+<input type="hidden" name="recordType" value="012i0000000xsPz">
+<input type="hidden" name="00Ni000000FoVoC" value="Request a Callback">
+<input type="hidden" name="00Ni000000FoVoB" value="cREQ Date">
+</form>
+</div>
+
+<div id="firstExperience" class="ni-first-experience modal fade" role="dialog">
+<div class="modal-dialog  modal-sm" role="document">
+<div class="rectangle"></div>
+<div class="modal-content">
+<div class="modal-header ni-margin-4x">
+<h2>National Instruments is now NI.</h2>
+<span class="close"></span>
+</div>
+<div class="modal-body ni-margin-4x">
+<div class="row">
+<div class="col-md-12">
+<p>You probably noticed we have a new look, but <a href="https://www.ni.com/en-us/perspectives/a-letter-from-eric-starkloff.html">our focus</a> remains on you. We've expanded our offerings to better serve you so that you can take on the complex challenges facing humanity today, tomorrow, and for the next 100 years. It's time. Let's Engineer Ambitiously.</p>
+</div>
+</div>
+</div>
+<div class="modal-footer">
+<div class="row">
+<div class="col-md-12">
+<div class="row">
+<div class="ni-text-align-left col-md-12">
+<div class="ni-primary-button">
+<a role="button" href="https://events.ni.com/profile/web/index.cfm?PKWebId=0x983260001">Watch the Livestream</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<footer class="ni-wrapper-footer footer noindex">
+<div class="container-fluid footer-header"></div>
+<div class="flex-container">
+<div class="container-fluid footer-body">
+<div>
+<div class="row">
+<div class="col-md-3 col-xs-12">
+<div class="logo-container">
+<img src="./Simple Messaging (STM) Communication Library for LabVIEW - National Instruments_files/logo_forrest" class="logo" alt="" width="71">
+<div class="slogan">
+Engineer
+<span class="indented">Ambitiously.</span>
+</div>
+</div>
+</div>
+<div class="col-md-2 col-xs-12">
+<div class="section-title">Solutions</div>
+<ul class="section-links">
+<li>
+<a class="analytics-footersolutions-link" href="http://www.ni.com/en-us/innovations/semiconductor.html">Semiconductor</a>
+</li>
+<li>
+<a class="analytics-footersolutions-link" href="http://www.ni.com/en-us/innovations/automotive.html">Automotive</a>
+</li>
+<li>
+<a class="analytics-footersolutions-link" href="http://www.ni.com/en-us/innovations/aerospace-defense.html">Aerospace, Defense, &amp; Government</a>
+</li>
+<li>
+<a class="analytics-footersolutions-link" href="http://www.ni.com/en-us/innovations/academic-research.html">Academic &amp; Research</a>
+</li>
+<li>
+<a class="analytics-footersolutions-link" href="http://www.ni.com/en-us/innovations/wireless.html">Wireless</a>
+</li>
+<li>
+<a class="analytics-footersolutions-link" href="http://www.ni.com/en-us/innovations/electronics.html">Electronics</a>
+</li>
+<li>
+<a class="analytics-footersolutions-link" href="http://www.ni.com/en-us/innovations/energy.html">Energy</a>
+</li>
+<li>
+<a class="analytics-footersolutions-link" href="http://www.ni.com/en-us/innovations/industrial-machinery.html">Industrial Machinery</a>
+</li>
+<li>
+<a class="analytics-footersolutions-link" href="http://www.ni.com/en-us/innovations/transportation-and-heavy-equipment.html">Heavy Equipment</a>
+ </li>
+<li>
+<a class="analytics-footersolutions-link" href="http://www.ni.com/en-us/partners.html">Partners</a>
+</li>
+</ul>
+</div>
+<div class="col-md-2 col-xs-12">
+<div class="section-title">Orders</div>
+<ul class="section-links">
+<li>
+<a class="analytics-footerorders-link" href="http://www.ni.com/status/en/">Order Status and History</a>
+</li>
+<li>
+<a class="analytics-footerorders-link" href="http://sine.ni.com/apps/utf8/nios.store?action=purchase_form">Order by Part Number</a>
+</li>
+<li>
+<a class="analytics-footerorders-link" href="http://sine.ni.com/myproducts/app/main.xhtml">Activate a Product</a>
+</li>
+<li>
+<a class="analytics-footerorders-link" href="http://sine.ni.com/apps/utf8/niwq.retrieve_quote">Retrieve a Quote</a>
+</li>
+<li>
+<a class="analytics-footerorders-link" href="http://www.ni.com/en-us/about-ni/legal/service-terms.html">Terms of Service</a>
+</li>
+</ul>
+</div>
+<div class="col-md-2 col-xs-12">
+<div class="section-title">Company</div>
+<ul class="section-links">
+<li>
+<a class="analytics-footercompany-link" href="http://www.ni.com/en-us/about-ni/leadership.html/">Leadership</a>
+</li>
+<li>
+<a class="analytics-footercompany-link" href="http://www.ni.com/en-us/about-ni/careers.html">Careers</a>
+</li>
+<li>
+<a class="analytics-footercompany-link" href="http://investor.ni.com/">Investor Relations</a>
+</li>
+<li>
+<a class="analytics-footercompany-link" href="http://www.ni.com/en-us/about-ni/newsroom.html">Newsroom</a>
+</li>
+<li>
+<a class="analytics-footercompany-link" href="http://www.ni.com/en-us/about-ni/corporate-responsibility.html">Corporate Responsibility</a>
+</li>
+<li>
+<a class="analytics-footercompany-link" href="http://www.ni.com/en-us/about-ni/corporate-quality.html">Supply Chain &amp; Quality</a>
+</li>
+<li>
+<a class="analytics-footercompany-link" href="http://www.ni.com/en-us/events.html">Events</a>
+</li>
+<li>
+<a class="analytics-footercompany-link" href="https://events.ni.com/profile/web/index.cfm?PKWebId=0x983260001">Watch the Livestream</a>
+</li>
+</ul>
+ </div>
+<div class="col-md-2 col-xs-12">
+<div class="section-title">Support</div>
+<ul class="section-links">
+
+<li>
+<a class="analytics-footersupport-link" id="downloads" href="http://www.ni.com/en-us/support/downloads.html">Downloads</a>
+</li>
+
+<li>
+<a class="analytics-footersupport-link" id="manuals" href="http://www.ni.com/manuals/">Product Documentation</a>
+</li>
+
+<li>
+<a class="analytics-footersupport-link" href="http://forums.ni.com/t5/Discussion-Forums/ct-p/discussion-forums">Discussion Forums</a>
+</li>
+
+<li>
+<a class="analytics-footersupport-link" href="http://sine.ni.com/srm/app/getassistance">Submit a Service Request</a>
+</li>
+
+<li>
+<a class="analytics-footersupport-link" id="site-feedback" href="http://www.ni.com/tutorial/53683/en/#"></a>
+</li>
+</ul>
+<div class="socialIcons">
+<div class="col-xs-6 col-sm-8 bg-line hidden-md"></div>
+<div class="text-left">
+<a class="analytics-footer-link" href="http://www.facebook.com/NationalInstruments/">
+<i class="fab fa-facebook" aria-hidden="true"></i>
+</a>
+<a class="analytics-footer-link" href="http://twitter.com/NIglobal">
+<i class="fab fa-twitter" aria-hidden="true"></i>
+</a>
+<a class="analytics-footer-link" href="http://www.linkedin.com/company/national-instruments/">
+<i class="fab fa-linkedin" aria-hidden="true"></i>
+</a>
+<a class="analytics-footer-link" href="http://www.youtube.com/nationalinstruments">
+<i class="fab fa-youtube" aria-hidden="true"></i>
+</a>
+</div>
+</div>
+</div>
+</div>
+<div class="row footer-bottomLinks pull-left">
+<div class="col-xs-12">
+<div>
+<a class="global-gateway analytics-footer-link pull-left" href="http://www.ni.com/global-gateway?rtrn=http%3A%2F%2Fwww.ni.com%2Ftutorial%2F53683%2Fen%2F"><img src="./Simple Messaging (STM) Communication Library for LabVIEW - National Instruments_files/nl.png" alt="" width="21"><span>Nederland</span></a>
+</div>
+<div class="legal pull-left">
+<a class="analytics-footer-link" href="http://www.ni.com/en-us/about-ni/legal.html">LEGAL</a>&nbsp;|&nbsp;
+<a class="analytics-footer-link" href="http://www.ni.com/en-us/about-ni/legal/privacy-statement.html">PRIVACY</a>
+</div>
+<div class="allRights"> © <span class="copyright">2020</span> NI. ALL RIGHTS RESERVED.</div>
+<div class="ni-contact-number-container">
+</div>
+</div>
+</div>
+</div>
+</div>
+</div></footer>
+
+
+
+</div><div id="_atssh" style="visibility: hidden; height: 1px; width: 1px; position: absolute; top: -9999px; z-index: 100000;"><iframe id="_atssh412" title="AddThis utility frame" style="height: 1px; width: 1px; position: absolute; top: 0px; z-index: 100000; border: 0px; left: 0px;" src="./Simple Messaging (STM) Communication Library for LabVIEW - National Instruments_files/sh.f48a1a04fe8dbf021b4cda1d.html"></iframe></div><style id="service-icons-0"></style>
+
+<div class="responsive-bootstrap-toolkit"><div class="device-xs visible-xs visible-xs-block"></div><div class="device-sm visible-sm visible-sm-block"></div><div class="device-md visible-md visible-md-block"></div><div class="device-lg visible-lg visible-lg-block"></div></div><script>
+if (typeof digitalData === "undefined") {
+  digitalData = { };
+}
+
+if (typeof digitalData.event === "undefined") {
+    digitalData.event = [];
+}
+
+if (typeof NIAnalytics === "undefined") {
+  function NIAnalytics() { }
+}
+
+NIAnalytics.getMetaTag = function(name) { 
+	var metaTagArray = document.getElementsByTagName("meta");
+	for (var i = 0; i < metaTagArray.length; i++) {
+		if (metaTagArray[i].name.toLowerCase() == name.toLowerCase()) {
+			return metaTagArray[i].content;
+		}
+	}
+  return "";
+}
+
+NIAnalytics.setAndTrack = function(variableName, value){
+    switch(typeof variableName){
+        case "object":
+            var analyticsName = variableName[0].toLowerCase().replace("evar","v").replace("prop","c");
+            for (var i = 0; i < variableName.length; i++) {
+                if(i === 0){
+                    s[variableName[i]] = value;
+                } else {
+                    s[variableName[i]] = "D="+analyticsName;
+                }
+                s.linkTrackVars += ","+variableName[i];
+              }
+        break;
+
+        case "string":
+        default:
+            s[variableName] = value;
+            s.linkTrackVars += ","+variableName;
+        break;
+
+    }
+}
+
+NIAnalytics.generateDcrParams = function(acceptedProps, json){
+  var dcrParams = {};
+  for (var prop in json) {
+    if(acceptedProps.indexOf(prop) > -1) {
+      dcrParams[prop] = json[prop];
+    }else{
+      console.warn("Unknown analytics parameter: " + prop + " Accepted params: "+acceptedProps.join(", "));
+    }
+  }
+  return dcrParams;
+};
+
+NIAnalytics.createNestedObject = function( base, names, value ) {
+    var lastName = arguments.length === 3 ? names.pop() : false;
+    for( var i = 0; i < names.length; i++ ) {
+        base = base[ names[i] ] = base[ names[i] ] || {};
+    }
+    if( lastName ) base = base[ lastName ] = value;
+    return base;
+};
+
+NIAnalytics.setCookie = function(cname, cvalue, sPath, domain) {
+    var d = new Date();
+    d.setTime(d.getTime() + (30*24*60*60*1000));
+    var expires = "expires="+d.toUTCString();     
+    document.cookie = encodeURIComponent(cname) + "=" + encodeURIComponent(cvalue) + "; " + expires + (domain ? "; domain=" + domain : "") + (sPath ? "; path=" + sPath : "");
+}
+
+NIAnalytics.getQueryValue = function(variable, query) {
+    	var vars = query.split('&');
+      for (var i = 0; i < vars.length; i++) {
+      	var pair = vars[i].split('=');
+        if (decodeURIComponent(pair[0]) == variable) {
+        	return decodeURIComponent(pair[1]);
+        }
+      }
+    }
+
+NIAnalytics.getMappedValue = function(map, key) {
+  if (typeof key === "undefined" || key === "") return "";
+  if (isNaN(Number(key))) return key.toLowerCase();
+  
+  var cat;
+  var mapPieces = map.split(".");
+  var tmp = window;
+  for (var i = 0; i<mapPieces.length; i++){
+    if (tmp[mapPieces[i]] !== undefined && tmp[mapPieces[i]] !== null){
+    	tmp = tmp[mapPieces[i]];
+      if (i === mapPieces.length-1){
+  			cat = tmp[key];
+      }
+    }
+    else break;
+  }
+  
+  var manualCat;
+  var manualMapPieces = "refdata.hrid.manual-entry".split(".");
+  var manualTmp = window;
+  for (var i = 0; i<manualMapPieces.length; i++){
+    if (manualTmp[manualMapPieces[i]] !== undefined && manualTmp[manualMapPieces[i]] !== null){
+    	manualTmp = manualTmp[manualMapPieces[i]];
+      if (i === manualMapPieces.length-1){
+  			manualCat = manualTmp[key];
+      }
+    }
+    else if (cat === undefined) return key;
+  }
+  
+  return ((cat !== undefined)?cat:((manualCat !== undefined)?manualCat:key));
+}
+
+NIAnalytics.getMappedValueFromDataLayer = function(map, keyString) {
+  if (typeof keyString === "undefined" || keyString === "") return "";
+  var key;
+  var levels= keyString.split(".");
+  if (levels[0] === "digitalData"){
+    levels.splice(0,1);
+    function dig(inWhat,levels){
+			if (levels.length == 1) {
+        if (levels[0].indexOf("[") === -1){
+          var deepest = inWhat[levels[0]];
+          if(typeof deepest !== "undefined"){
+            return deepest;
+          }
+        } else {
+          var deepestWithArray = inWhat[levels[0].split("[")[0]][levels[0].split("[")[1].split("]")[0]];
+          if(typeof deepestWithArray !== "undefined"){
+          	return deepestWithArray;
+          }
+        }
+			}
+			else {
+        if (levels[0].indexOf("[") === -1){
+          var deep = inWhat[levels[0]];
+          if(typeof deep !== "undefined"){
+            return dig(deep,levels.splice(1,levels.length-1));
+          }
+        } else {
+          if (!digitalData.hasOwnProperty(levels[0].split("[")[0])) {
+        		return "";
+        	}
+          var deepWithArray = inWhat[levels[0].split("[")[0]][levels[0].split("[")[1].split("]")[0]];
+          if(typeof deepWithArray !== "undefined"){
+          	return dig(deepWithArray,levels.splice(1,levels.length-1));
+          }
+        }
+			}
+    }
+    key = dig(digitalData,levels);
+  } else return "";
+  
+  var cat;
+  var mapPieces = map.split(".");
+  var tmp = window;
+  for (var i = 0; i<mapPieces.length; i++){
+    if (tmp[mapPieces[i]] !== undefined && tmp[mapPieces[i]] !== null){
+    	tmp = tmp[mapPieces[i]];
+      if (i === mapPieces.length-1){
+  			cat = tmp[key];
+      }
+    }
+    else break;
+  }
+  
+  var manualCat;
+  var manualMapPieces = "refdata.hrid.manual-entry".split(".");
+  var manualTmp = window;
+  for (var i = 0; i<manualMapPieces.length; i++){
+    if (manualTmp[manualMapPieces[i]] !== undefined && manualTmp[manualMapPieces[i]] !== null){
+    	manualTmp = manualTmp[manualMapPieces[i]];
+      if (i === manualMapPieces.length-1){
+  			manualCat = manualTmp[key];
+      }
+    }
+    else if (cat === undefined) return key;
+  }
+  
+  return ((cat !== undefined)?cat:((manualCat !== undefined)?manualCat:key));
+}
+
+NIAnalytics.getEventByName = function(name) {
+	var eventArray = _satellite.getVar("EVENT:DL");
+  for (var i = 0; i < eventArray.length; i++){
+    if (eventArray[i].eventInfo.eventName == name) return eventArray[i].eventInfo;
+  }
+  return undefined;
+}
+
+NIAnalytics.getLastEventByName = function(name) {
+	var eventArray = _satellite.getVar("EVENT:DL");
+  for (var i = Math.max(0, eventArray.length - 1); i >= 0; i--){
+    if (eventArray[i].eventInfo.eventName == name) return eventArray[i].eventInfo;
+  }
+  return undefined;
+}
+
+NIAnalytics.deleteFromDataLayer = function(toDeleteString) {
+  var levels= toDeleteString.split(".");
+  if (levels[0] === "digitalData"){
+    levels.splice(0,1);
+    function dig(inWhat,levels){
+			if (levels.length == 1) {
+				if (typeof inWhat[levels[0]] !== "undefined") inWhat[levels[0]] = "";
+			}
+			else {
+				if(typeof inWhat[levels[0]] !== "undefined"){
+					dig(inWhat[levels[0]],levels.splice(1,levels.length-1));
+				}
+			}
+    }
+    dig(digitalData,levels);
+  }
+}
+
+NIAnalytics.captureNavigation = function(json) { 
+    var acceptedProps = ["eventName", "eventLabel", "eventDetail", "relatedProductID", "email", "items", "internalCampaign", "tntParam"];
+    var dcrParams = NIAnalytics.generateDcrParams(acceptedProps, json);
+
+    if(json.hasOwnProperty("internalCampaign")){
+        var t = new Date();
+        t.setTime(t.getTime()+1800000);
+        if(!s.c_w("icidAnalytics",1,t)){s.c_w("icidAnalytics",1,0)}
+        NIAnalytics.createNestedObject( digitalData, ["page", "attributes", "internalCampaign"], json["internalCampaign"]);
+    }
+
+    if(json.hasOwnProperty("tntParam")){
+        NIAnalytics.createNestedObject( digitalData, ["page", "attributes", "tntParam"], json["tntParam"]);
+    }
+
+    digitalData.event.push({"eventInfo": dcrParams});
+    _satellite.track("captureNavigation", dcrParams);
+}
+
+
+globalLoaded = false;
+callbackVPL = false;
+NIAnalytics.captureVirtualPageLoad = function(json) {
+  if (globalLoaded) {
+  	s.clearVars();
+  	for (var prop in json) {
+    	switch(prop) {
+      	case "pageTabContent": 
+      		NIAnalytics.createNestedObject( digitalData, ["page", "pageInfo", "pageTabContent"], json["pageTabContent"]);
+      		break;
+      	case "category":
+      		NIAnalytics.createNestedObject( digitalData, ["product[0]", "category", "category"], json["category"]);
+      		NIAnalytics.createNestedObject( digitalData, ["page", "pageInfo", "pageTabContent"], NIAnalytics.getMappedValue("refdata.hrid.pmdm_categories", json["category"]));
+      		break;
+      	case "partNumber":
+      		NIAnalytics.createNestedObject( digitalData, ["product[0]", "productInfo", "partNumber"], json["partNumber"]);
+      		break;
+      	default:
+        	console.error("Unknown analytics parameter: " + prop);
+    	}
+  	}
+  	_satellite.track("captureVirtualPageLoad");
+  } else {
+    callbackVPL = true;
+    callbackJson = json;
+  }
+}
+
+NIAnalytics.captureSearchSubmit = function(json) {
+    var acceptedProps = ["onsiteSearchTypedOrSuggested", "onsiteSearchAutocompleteRank", "onsiteSearchAutocompleteLOV", "eventLabel"];
+    var dcrParams = NIAnalytics.generateDcrParams(acceptedProps, json);
+
+    if(json.hasOwnProperty("onsiteSearchTypedOrSuggested")){
+        NIAnalytics.createNestedObject( digitalData, ["onsiteSearch", "onsiteSearchInfo", "onsiteSearchTypedOrSuggested"], json["onsiteSearchTypedOrSuggested"]);
+    }
+
+    if(json.hasOwnProperty("onsiteSearchAutocompleteRank")){
+        NIAnalytics.createNestedObject( digitalData, ["onsiteSearch", "onsiteSearchInfo", "onsiteSearchAutocompleteRank"], json["onsiteSearchAutocompleteRank"]);
+    }
+
+    if(json.hasOwnProperty("onsiteSearchAutocompleteLOV")){
+        NIAnalytics.createNestedObject( digitalData, ["onsiteSearch", "onsiteSearchInfo", "onsiteSearchAutocompleteLOV"], json["onsiteSearchAutocompleteLOV"]);
+    }
+
+    if(json.hasOwnProperty("eventLabel")){
+        var hasSearchType = false;
+        for (var i in digitalData.event) {
+          if (digitalData.event[i].eventInfo.eventName === "searchType") {
+          	digitalData.event[i].eventInfo.eventLabel = json["eventLabel"];
+            hasSearchType = true;
+            break;
+          }
+        }
+        if (!hasSearchType) {
+        	var tmp = {"eventInfo":{"eventName":"searchType","eventLabel":json["eventLabel"]}}
+        	digitalData.event.push(tmp);
+        }
+    }
+
+    _satellite.track("captureSearchSubmit", dcrParams);
+}
+
+NIAnalytics.captureSearchInstead = function(json) {
+    var acceptedProps = ["onsiteSearchSearchInsteadFor", "onsiteSearchDym"];
+    var dcrParams = NIAnalytics.generateDcrParams(acceptedProps, json);
+
+    if(json.hasOwnProperty("onsiteSearchSearchInsteadFor")){
+        NIAnalytics.createNestedObject( digitalData, ["onsiteSearch", "onsiteSearchInfo", "onsiteSearchSearchInsteadFor"], json["onsiteSearchSearchInsteadFor"]);
+    }
+
+    if(json.hasOwnProperty("onsiteSearchDym")){
+        NIAnalytics.createNestedObject( digitalData, ["onsiteSearch", "onsiteSearchInfo", "onsiteSearchDym"], json["onsiteSearchDym"]);
+    }
+
+    _satellite.track("captureSearchInstead", dcrParams);
+}
+
+NIAnalytics.captureSearchFilter = function(json) {
+    var acceptedProps = ["onsiteSearchScenario", "onsiteSearchSecondaryFilter"];
+    var dcrParams = NIAnalytics.generateDcrParams(acceptedProps, json);
+
+    if(json.hasOwnProperty("onsiteSearchScenario")){
+        NIAnalytics.createNestedObject( digitalData, ["onsiteSearch", "onsiteSearchInfo", "onsiteSearchScenario"], json["onsiteSearchScenario"]);
+        NIAnalytics.captureSearchFilterParam = "onsiteSearchScenario";
+    }
+
+    if(json.hasOwnProperty("onsiteSearchSecondaryFilter")){
+        NIAnalytics.createNestedObject( digitalData, ["onsiteSearch", "onsiteSearchInfo", "onsiteSearchSecondaryFilter"], json["onsiteSearchSecondaryFilter"]);
+        NIAnalytics.captureSearchFilterParam = "onsiteSearchSecondaryFilter";
+    }
+
+    _satellite.track("captureSearchFilter", dcrParams);
+}
+
+
+// Product Detail Pages
+NIAnalytics.captureProductFilter = function(json) {
+    var acceptedProps = ["filterNav", "filterFacet"];
+    var dcrParams = NIAnalytics.generateDcrParams(acceptedProps, json);
+
+    if(json.hasOwnProperty("filterNav")){
+        NIAnalytics.createNestedObject( digitalData, ["page", "attributes", "filterNav"], json["filterNav"]);
+    }
+
+    if(json.hasOwnProperty("filterFacet")){
+        NIAnalytics.createNestedObject( digitalData, ["page", "attributes", "filterFacet"], json["filterFacet"]);
+    }
+
+    _satellite.track("captureProductFilter", dcrParams);
+}
+
+// Product Detail Pages
+NIAnalytics.captureProductDetail = function(json) {
+    var acceptedProps = ["partNumber"];
+    var dcrParams = NIAnalytics.generateDcrParams(acceptedProps, json);
+
+    if(json.hasOwnProperty("partNumber")){
+        digitalData.product[0].productInfo.partNumber = json["partNumber"];
+    }
+
+    s.clearVars();
+
+    _satellite.track("captureProductDetail", dcrParams);
+}
+
+/* Assessment */
+if (window.addEventListener) {
+	window.addEventListener("beforeunload", function (){
+    if (_satellite.getVar("ASSESSMENT_QUESTIONID:EV:DL") != ""){
+      _satellite.track("captureOutcomeFallOff");
+    }
+	});
+} else {
+	window.attachEvent("beforeunload", function (){
+    if (_satellite.getVar("ASSESSMENT_QUESTIONID:EV:DL") != ""){
+      _satellite.track("captureOutcomeFallOff");
+    }
+	});
+}
+
+NIAnalytics.captureOutcome = function(json) {
+  var acceptedProps = ["eventName", "eventAction", "start", "assessmentLabel", "outcomeLabel", "eventLabel", "email"];
+  var dcrParams = NIAnalytics.generateDcrParams(acceptedProps, json);
+
+  if(json.hasOwnProperty("eventAction")){
+    if(json["eventAction"] === "start"){
+      digitalData.event.push({"eventInfo": dcrParams});
+      _satellite.track("captureOutcomeStart", dcrParams);      
+    }
+
+    if(json["eventAction"] === "complete"){
+      var event = NIAnalytics.getEventByName(json["eventName"]);
+      if (event) {
+        event.eventAction = json["eventAction"];
+        if (json["outcomeLabel"]){
+          event.outcomeLabel = json["outcomeLabel"];
+        }
+        if(json.hasOwnProperty("email")){
+          event.email = json.email;
+        }
+      } else {
+        var tmp = {"eventInfo": ""};
+        tmp.eventInfo = event = json;
+        digitalData.event.push(tmp);
+      }
+      NIAnalytics.eventName = event.eventName;
+      _satellite.track("captureOutcomeComplete", event);
+      if (event.eventName === "assessment") event["questionID"] = "";
+    }
+  }
+}
+
+NIAnalytics.captureAssessmentQuestion = function(questionID) {
+	var assess = NIAnalytics.getEventByName("assessment");
+  if (assess.questionID !== undefined) assess.questionID = assess.questionID + "," + questionID;
+  else assess.questionID = questionID;
+  if (questionID === undefined) {
+    console.error("The parameter: questionID is undefined!");
+  }
+}
+
+NIAnalytics.captureResultClick = function(json) {
+    var acceptedProps = ["onsiteSearchClickedRank", "onsiteSearchClickTitle", "clickTitleUrl"];
+    var dcrParams = NIAnalytics.generateDcrParams(acceptedProps, json);
+
+    if(json.hasOwnProperty("onsiteSearchClickedRank")){
+        NIAnalytics.createNestedObject( digitalData, ["onsiteSearch", "onsiteSearchInfo", "onsiteSearchClickedRank"], json["onsiteSearchClickedRank"]);
+    }
+
+    if(json.hasOwnProperty("onsiteSearchClickTitle")){
+        NIAnalytics.createNestedObject( digitalData, ["onsiteSearch", "onsiteSearchInfo", "onsiteSearchClickTitle"], json["onsiteSearchClickTitle"]);
+    }
+
+    if(json.hasOwnProperty("clickTitleUrl")){
+        NIAnalytics.createNestedObject( digitalData, ["onsiteSearch", "onsiteSearchInfo", "clickTitleUrl"], json["clickTitleUrl"]);
+    }
+
+    _satellite.track("captureResultClick", dcrParams);
+}
+
+NIAnalytics.captureRating = function(json) {
+    var acceptedProps = ["eventName", "eventLabel"];
+    var dcrParams = NIAnalytics.generateDcrParams(acceptedProps, json);
+
+    digitalData.event.push({"eventInfo": dcrParams});
+    _satellite.track("captureRating", dcrParams);
+}
+
+NIAnalytics.captureFilter = function(json) {
+    var acceptedProps = ["filterPair"];
+    var dcrParams = NIAnalytics.generateDcrParams(acceptedProps, json);
+
+    if(json.hasOwnProperty("filterPair")){
+        NIAnalytics.createNestedObject( digitalData, ["page", "attributes", "filterPair"], json["filterPair"]);
+    }
+
+    _satellite.track("captureFilter", dcrParams);
+}
+
+NIAnalytics.captureDownload = function(json) {
+    var acceptedProps = ["eventLabel", "gbRoot", "email", "downloadProduct"];
+    var dcrParams = NIAnalytics.generateDcrParams(acceptedProps, json);
+    dcrParams["eventName"] = "downloadgb";
+
+    digitalData.event.push({"eventInfo": dcrParams});
+	_satellite.track("captureDownload", dcrParams);
+  
+  function checkVariable(){
+     if ( NIAnalytics.transactionID == undefined ){
+       window.setTimeout(function(){ checkVariable(); },100);
+     }
+  }
+	checkVariable();
+  return NIAnalytics.transactionID;
+}
+
+NIAnalytics.captureTargetEvent = function(json) {
+    var acceptedProps = ["eventLabel"];
+    var dcrParams = NIAnalytics.generateDcrParams(acceptedProps, json);
+    dcrParams["eventName"] = "TargetEvent";
+
+    digitalData.event.push({"eventInfo": dcrParams});
+    _satellite.track("captureTargetEvent", dcrParams);
+}
+
+NIAnalytics.captureMedia = function(json) {
+  var e = {"eventInfo" : {}};
+  for (var prop in json) {
+    switch(prop) {
+      case "eventName":
+      case "eventAction":
+      	e.eventInfo[prop] = json[prop];
+        break;
+      case "mediaName": 
+      case "mediaLength":
+      case "mediaPlayerName":
+        if (!e.eventInfo.attributes) e.eventInfo.attributes = {};
+        e.eventInfo.attributes[prop] = json[prop]||"";
+        break;
+      default:
+        console.error("Unknown analytics parameter: " + prop);
+    }
+  }
+  e.eventInfo.eventAction = e.eventInfo.eventAction || e.eventInfo.eventName;
+  e.eventInfo.attributes.mediaPlayerName = e.eventInfo.attributes.mediaPlayerName || "Brightcove Smart Player";
+  
+  digitalData.event.push(e);
+  var mediaName = e.eventInfo.attributes.mediaName;
+  NIAnalytics.createNestedObject( digitalData, ["media", "mediaName"], mediaName);
+  if (e.eventInfo.eventAction === "start") {
+    s.Media.open(mediaName, e.eventInfo.attributes.mediaLength, e.eventInfo.attributes.mediaPlayerName);
+	s.events = null;
+    s.pageName = _satellite.getVar("PAGE_NAME") + ":" +  e.eventInfo.attributes.mediaName;
+    s.contextData.complete = "";
+  	s.contextData.start = e.eventInfo.eventName;
+		s.Media.track(mediaName);
+  } else if (e.eventInfo.eventAction == "complete") {
+    s.Media.stop(mediaName, e.eventInfo.attributes.mediaLength);
+  	s.Media.close(mediaName);
+  	s.events = "event16";
+    s.pageName = _satellite.getVar("PAGE_NAME") + ":" +  e.eventInfo.attributes.mediaName;
+  	s.contextData.start = "";
+  	s.contextData.complete = e.eventInfo.eventName;
+  	s.Media.track(mediaName);
+  }
+}
+
+NIAnalytics.captureCheckout = function (json) {
+    var acceptedProps = ["eventName", "eventDetail", "items"];
+    var dcrParams = NIAnalytics.generateDcrParams(acceptedProps, json);
+
+    digitalData.event.push({"eventInfo": dcrParams});
+    _satellite.track("captureCheckout", dcrParams);
+}
+
+NIAnalytics.capturePopularDownload = function (json) {   
+    var acceptedProps = ["onsiteSearchTypedOrSuggested", "onsiteSearchScenario", "onsiteSearchClickTitle", "eventName", "eventLabel"];
+    var dcrParams = NIAnalytics.generateDcrParams(acceptedProps, json);
+
+    if(json.hasOwnProperty("onsiteSearchTypedOrSuggested")){
+        NIAnalytics.createNestedObject( digitalData, ["onsiteSearch", "onsiteSearchInfo", "onsiteSearchTypedOrSuggested"], json["onsiteSearchTypedOrSuggested"]);
+    }
+
+    if(json.hasOwnProperty("onsiteSearchScenario")){
+        NIAnalytics.createNestedObject( digitalData, ["onsiteSearch", "onsiteSearchInfo", "onsiteSearchScenario"], json["onsiteSearchScenario"]);
+        NIAnalytics.captureSearchFilterParam = "onsiteSearchScenario";
+    }
+
+    if(json.hasOwnProperty("onsiteSearchClickTitle")){
+        NIAnalytics.createNestedObject( digitalData, ["onsiteSearch", "onsiteSearchInfo", "onsiteSearchClickTitle"], json["onsiteSearchClickTitle"]);
+    }
+
+    digitalData.event.push({"eventInfo": dcrParams});
+    _satellite.track("capturePopularDownload", dcrParams);    
+}
+
+NIAnalytics.captureCartRemove = function (json) {
+    var acceptedProps = ["eventName", "eventDetail", "items"];
+    var dcrParams = NIAnalytics.generateDcrParams(acceptedProps, json);
+
+    digitalData.event.push({"eventInfo": dcrParams});
+    _satellite.track("captureCartRemove", dcrParams);
+}
+
+NIAnalytics.captureCmtyInteraction = function(json) {
+    var acceptedProps = ["eventName", "eventLabel"];
+    var dcrParams = NIAnalytics.generateDcrParams(acceptedProps, json);
+
+    digitalData.event.push({"eventInfo": dcrParams});
+    _satellite.track("captureCmtyInteraction", dcrParams);
+}
+
+NIAnalytics.captureCartAdd = function (json) {
+    var acceptedProps = ["eventName", "items", "currency", "revenue", "startFlag", "source", "eventDetail"];
+    var dcrParams = NIAnalytics.generateDcrParams(acceptedProps, json);
+
+    if(json.hasOwnProperty("eventDetail")){
+        if(typeof digitalData.cart === "undefined") { digitalData.cart = {};}
+        if(typeof digitalData.cart.cartID === "undefined") { digitalData.cart.cartID = "";}
+        if (digitalData.cart.cartID === "") {
+            digitalData.cart.cartID = json["eventDetail"];
+        }
+    }
+
+    digitalData.event.push({"eventInfo": dcrParams});
+    _satellite.track("captureCartAdd", dcrParams);
+}
+
+NIAnalytics.captureMultimedia = function(json){
+  var acceptedProps = ["eventName", "eventLabel", "gbroot"];
+  var dcrParams = NIAnalytics.generateDcrParams(acceptedProps, json);
+
+  digitalData.event.push({"eventInfo": dcrParams});
+  _satellite.track("captureMultimedia", dcrParams);    
+}
+
+</script><script>_satellite["__runScript1"](function(event, target) {
+if (typeof digitalData === "undefined") {
+  digitalData = { };
+}
+if (typeof NIUA !== "undefined") {
+  var myNIUA = NIUA.getNIUA({"minutesBeforeExpire": 2, "apikey":"cd9a922c-dc20-436d-a09a-c7143406edfc"});
+  myNIUA.ready().then(function(){
+    myNIUA.getEmail().then(function(data){
+            if(data.response.success) {
+              digitalData.valueToHash = data.response.email;
+              NIAnalytics.createNestedObject( digitalData, ["user", "hashedEmail"], _satellite.getVar("MD5_HASH"));
+            }
+    }, function(error){
+      console.log("Error while processing email.");
+    });
+  });
+}
+});</script><script>_satellite["__runScript2"](function(event, target) {
+function getPageName() {
+  var myPath = location.pathname;
+  var myHost = location.hostname;
+  var pathRegex = new RegExp("/((?:lang/)?(?:d|esa|f|i|ja|ko|zhs|zht|en|de|es|fr|it|pt|nl|pl|ru|cs|sv|fi|da|no|hu|ro|sr|sl|hr)(?:/|$))");
+  var cleanUpRegex = /(?:\/(rating|lang\/invalid|lang|diff|clone|edit|delete))|(?:\.(?:html|htm))/g;
+  var myPageName = "";
+
+  if (myPath.match(/\/[a-z]{2}\-[a-z]{2}\/.*/)) {
+    myPageName = myHost + myPath.replace(/\/[a-z]{2}\-[a-z]{2}(\/.*)/, "$1");
+  } else if (myPath.match(/\/[a-z]{2}\-[a-z]{2}\.html/)) {
+    myPageName = myHost + myPath.replace(/\/[a-z]{2}\-[a-z]{2}\.html/, "/");
+  } else {
+    myPageName = myHost + myPath.replace(pathRegex, "/");
+  }
+
+  myPageName = myPageName.replace(cleanUpRegex, "");
+  return myPageName;
+}
+
+var dnb_pages = ["www.ni.com/", "www.ni.com/support/downloads/drivers/download.ni-visa", "www.ni.com/shop", "www.ni.com/shop/select/pxi-controllers-category", "www.ni.com/innovations", "www.ni.com/shop/pxi", "www.ni.com/shop/select/pxi-chassis", "www.ni.com/shop/select/pxi-modules-category", "www.ni.com/shop/select/pxi-source-measure-unit", "www.ni.com/support/downloads/software-products/download.labview"];
+
+if (dnb_pages.indexOf(getPageName()) > -1) {
+  var dnbImgTag = document.createElement("img");
+  dnbImgTag.src = "//api9251.d41.co/sync/img?req=api9251&cust=111";
+  dnbImgTag.width = "1";
+  dnbImgTag.height = "1";
+  dnbImgTag.border = "0";
+  document.getElementsByTagName('head')[0].appendChild(dnbImgTag);
+}
+
+targetPageParamsAll = function () {
+    return {
+        "mbox3rdPartyId": _satellite.getVar('HASHED_EMAIL'),
+        "profile": {
+            "mboxThirdPartyId": _satellite.getVar('HASHED_EMAIL'),
+            "ateGroup": _satellite.getVar('ATE_GROUP'),
+          	"dltsGroup": _satellite.getVar('DLTS_GROUP'),
+          	"flexGroup": _satellite.getVar('FLEX_GROUP'),
+            "TurkeyAD": _satellite.getVar('TURKEYA&B_GROUP')
+        }
+    };
+};
+
+});</script><script>
+globalLoaded = true;
+if(typeof(callbackVPL) != "undefined"){
+  if (callbackVPL) {
+  	NIAnalytics.captureVirtualPageLoad(callbackJson);
+	}
+}
+</script><script type="text/javascript" src="./Simple Messaging (STM) Communication Library for LabVIEW - National Instruments_files/saved_resource"></script><script type="text/javascript" src="./Simple Messaging (STM) Communication Library for LabVIEW - National Instruments_files/saved_resource(1)"></script></body></html>

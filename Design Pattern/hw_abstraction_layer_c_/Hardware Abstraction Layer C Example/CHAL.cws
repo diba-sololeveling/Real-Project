@@ -1,0 +1,921 @@
+[Workspace Header]
+Version = 1200
+Pathname = "/d/perforce_workspace_pacific1666/Ivi/Research/C-based HAL/C-based HAL/CHAL.cws"
+CVI Dir = "/d/program files (x86)/national instruments/cvi2012"
+CVI Shared Dir = "/D/Program Files (x86)/National Instruments/Shared/CVI"
+CVI Pub Local Dir = "/C/ProgramData/National Instruments/CVI2012"
+CVI Pub Global Dir = "/C/ProgramData/National Instruments/CVI"
+IVI Standard Root Dir = "/C/Program Files (x86)/IVI Foundation/IVI"
+IVI Standard Root 64-bit Dir = "/C/Program Files/IVI Foundation/IVI"
+VXIplug&play Framework Dir = "/C/Program Files (x86)/IVI Foundation/VISA/winnt"
+VXIplug&play Framework 64-bit Dir = "/C/Program Files/IVI Foundation/VISA/win64"
+Number of Projects = 7
+Active Project = 7
+Project 0001 = "GenSignals/GenSignals.prj"
+Project 0002 = "ReadDmmMeas/ReadDmmMeas.prj"
+Project 0003 = "Adapter.tkdpo4k.GenSignals/adapter.tkdpo4k.gensignals.prj"
+Project 0004 = "Adapter.hp34401a.ReadDmmMeas/adapter.hp34401a.readdmmmeas.prj"
+Project 0005 = "Adapter.fl2638.ReadDmmMeas/adapter.fl2638.readdmmmeas.prj"
+Project 0006 = "ASL/ASL.prj"
+Project 0007 = "ASLClientCodeExample/ASLClientCodeExample.prj"
+Drag Bar Left = 302
+Window Top = 103
+Window Left = 26
+Window Bottom = 605
+Window Right = 752
+Maximized = True
+Maximized Children = True
+Max32 Number Of Errors = 20
+Track Include File Dependencies = True
+Prompt For Missing Includes = True
+Stop On First Error File = False
+Bring Up Err Win For Warnings = True
+Show Build Dialog = False
+Save Changes Before Running = "Always"
+Save Changes Before Compiling = "Always"
+Hide Windows = False
+Break At First Statement = False
+Sort Type = "File Name"
+Number of Opened Files = 6
+Window Confinement Region Enabled = True
+MainColumnWidth = 285
+FileDateColumnWidth = 70
+FileSizeColumnWidth = 70
+StatusColumnWidth = 70
+
+[Project Header 0001]
+Version = 1200
+Don't Update DistKit = False
+Platform Code = 4
+Build Configuration = "Release64"
+Warn User If Debugging Release = 1
+Batch Build Release = True
+Batch Build Debug = True
+Force Rebuild = False
+
+[Project Header 0002]
+Version = 1200
+Don't Update DistKit = False
+Platform Code = 4
+Build Configuration = "Debug"
+Warn User If Debugging Release = 1
+Batch Build Release = True
+Batch Build Debug = True
+Force Rebuild = False
+
+[Project Header 0003]
+Version = 1200
+Don't Update DistKit = False
+Platform Code = 4
+Build Configuration = "Debug"
+Warn User If Debugging Release = 1
+Batch Build Release = True
+Batch Build Debug = True
+Force Rebuild = False
+
+[Project Header 0004]
+Version = 1200
+Don't Update DistKit = False
+Platform Code = 4
+Build Configuration = "Debug"
+Warn User If Debugging Release = 1
+Batch Build Release = True
+Batch Build Debug = True
+Force Rebuild = False
+
+[Project Header 0005]
+Version = 1200
+Don't Update DistKit = False
+Platform Code = 4
+Build Configuration = "Debug"
+Warn User If Debugging Release = 1
+Batch Build Release = True
+Batch Build Debug = True
+Force Rebuild = False
+
+[Project Header 0006]
+Version = 1200
+Don't Update DistKit = False
+Platform Code = 4
+Build Configuration = "Debug64"
+Warn User If Debugging Release = 1
+Batch Build Release = True
+Batch Build Debug = True
+Force Rebuild = False
+
+[Project Header 0007]
+Version = 1200
+Don't Update DistKit = False
+Platform Code = 4
+Build Configuration = "Debug"
+Warn User If Debugging Release = 0
+Batch Build Release = True
+Batch Build Debug = True
+Force Rebuild = False
+
+[File 0001]
+Path Line0001 = "/d/perforce_workspace_pacific1666/Ivi/Research/C-based HAL/C-based HAL/GenSignal"
+Path Line0002 = "s/GenSignals.fp"
+File Type = "Function Panel"
+Disk Date = 3481690563
+In Projects = "1,6,"
+Window Top = 56
+Window Left = 24
+Window Height = 400
+Window Width = 400
+
+[File 0002]
+Path Line0001 = "/d/perforce_workspace_pacific1666/Ivi/Research/C-based HAL/C-based HAL/ReadDmmMe"
+Path Line0002 = "as/ReadDmmMeas.fp"
+File Type = "Function Panel"
+Disk Date = 3481690392
+In Projects = "2,6,"
+Window Height = 694
+Window Width = 1378
+
+[File 0003]
+Path = "/c/Program Files (x86)/IVI Foundation/IVI/Drivers/tkdpo4k/tkdpo4k.fp"
+File Type = "Function Panel"
+Disk Date = 3481068608
+In Projects = "3,"
+Window Height = 961
+Window Width = 1378
+
+[File 0004]
+Path Line0001 = "/d/perforce_workspace_pacific1666/Ivi/Research/C-based HAL/C-based HAL/Adapter.t"
+Path Line0002 = "kdpo4k.GenSignals/tkdpo4kgensignals.fp"
+File Type = "Function Panel"
+Disk Date = 3481690945
+In Projects = "3,"
+Window Top = 164
+Window Left = 80
+Window Height = 400
+Window Width = 400
+
+[File 0005]
+Path = "/c/Program Files (x86)/IVI Foundation/IVI/Drivers/hp34401a/hp34401a.fp"
+File Type = "Function Panel"
+Disk Date = 3458717902
+In Projects = "4,"
+Window Top = 56
+Window Left = 24
+Window Height = 400
+Window Width = 400
+
+[File 0006]
+Path Line0001 = "/d/perforce_workspace_pacific1666/Ivi/Research/C-based HAL/C-based HAL/Adapter.h"
+Path Line0002 = "p34401a.ReadDmmMeas/hp34401areaddmmmeas.fp"
+File Type = "Function Panel"
+Disk Date = 3481690982
+In Projects = "4,"
+Window Top = 56
+Window Left = 24
+Window Height = 400
+Window Width = 400
+
+[File 0007]
+Path Line0001 = "/d/perforce_workspace_pacific1666/Ivi/Research/C-based HAL/C-based HAL/Adapter.f"
+Path Line0002 = "l2638.ReadDmmMeas/fl2638readdmmmeas.fp"
+File Type = "Function Panel"
+Disk Date = 3481691001
+In Projects = "5,"
+Window Height = 961
+Window Width = 1378
+
+[File 0008]
+Path Line0001 = "/d/perforce_workspace/InstrumentDriver/Drivers/PnP/Released/Certified/CVI/fl2638"
+Path Line0002 = "/fl2638.fp"
+File Type = "Function Panel"
+Disk Date = 3477958267
+In Projects = "5,"
+
+[File 0009]
+Path Line0001 = "/d/perforce_workspace_pacific1666/Ivi/Research/C-based HAL/C-based HAL/ASLClient"
+Path Line0002 = "CodeExample/ASLClientCodeExample.c"
+File Type = "CSource"
+Disk Date = 3482216809
+In Projects = "7,"
+Window Top = 30
+Window Left = 10
+Window Z-Order = 1
+Source Window State = "1,0,14,14,0,86,86,0,0,193,0,0,0,0,0,50,0,0,28,67,479,720,1,0,"
+
+[File 0010]
+Path Line0001 = "/d/perforce_workspace_pacific1666/Ivi/Research/C-based HAL/C-based HAL/GenSignal"
+Path Line0002 = "s/GenSignals.c"
+File Type = "CSource"
+Disk Date = 3482216237
+In Projects = "1,"
+Window Top = 110
+Window Left = 52
+Source Window State = "1,564,564,564,67,76,76,0,0,0,0,321,0,0,0,0,540,0,564,74,479,720,1,15,"
+Breakpoint 0001 = "490,0,enabled,"
+
+[File 0011]
+Path = "/d/perforce_workspace_pacific1666/Ivi/Research/C-based HAL/C-based HAL/ASL/ASL.c"
+File Type = "CSource"
+Disk Date = 3482216743
+In Projects = "6,"
+Window Top = 83
+Window Left = 38
+Window Z-Order = 5
+Source Window State = "1,10,10,10,21,33,21,0,0,80,0,0,0,0,0,25,18,0,10,24,479,720,1,10,"
+
+[File 0012]
+Path Line0001 = "/d/perforce_workspace_pacific1666/Ivi/Research/C-based HAL/C-based HAL/Adapter.f"
+Path Line0002 = "l2638.ReadDmmMeas/fl2638readdmmmeas.c"
+File Type = "CSource"
+Disk Date = 3482216520
+In Projects = "5,"
+Window Top = 83
+Window Left = 38
+Window Z-Order = 2
+Source Window State = "1,0,12,12,0,79,79,0,3,80,0,0,0,0,0,25,0,0,0,0,479,720,1,0,"
+
+[File 0013]
+Path Line0001 = "/d/perforce_workspace_pacific1666/Ivi/Research/C-based HAL/C-based HAL/Adapter.f"
+Path Line0002 = "l2638.ReadDmmMeas/fl2638readdmmmeas.h"
+File Type = "Include"
+Disk Date = 3482216624
+In Projects = "5,"
+Window Top = 110
+Window Left = 52
+Window Z-Order = 6
+Source Window State = "1,0,7,7,0,78,78,0,3,80,0,30,0,0,0,23,0,0,0,0,443,720,1,15,"
+
+[File 0014]
+Path = "/d/perforce_workspace_pacific1666/Ivi/Research/C-based HAL/C-based HAL/ASL/ASL.h"
+File Type = "Include"
+Disk Date = 3482216688
+In Projects = "6,"
+Window Top = 56
+Window Left = 24
+Window Z-Order = 4
+Source Window State = "1,0,7,7,0,79,79,0,3,80,0,0,0,0,0,25,0,0,0,0,479,720,1,0,"
+
+[File 0015]
+Path Line0001 = "/d/perforce_workspace_pacific1666/Ivi/Research/C-based HAL/C-based HAL/ASLClient"
+Path Line0002 = "CodeExample/ASLClientCodeExample.h"
+File Type = "Include"
+Disk Date = 3482216773
+In Projects = "7,"
+Window Top = 32
+Window Left = 10
+Window Z-Order = 3
+Source Window State = "1,5,5,5,13,39,13,0,0,76,0,0,0,0,0,17,0,0,5,33,349,683,1,0,"
+
+[File 0016]
+Path Line0001 = "/d/perforce_workspace_pacific1666/Ivi/Research/C-based HAL/C-based HAL/GenSignal"
+Path Line0002 = "s/GenSignals.h"
+File Type = "Include"
+Disk Date = 3482216267
+In Projects = "1,"
+Window Top = 191
+Window Left = 94
+Source Window State = "1,18,18,18,23,46,23,0,0,0,0,0,0,0,0,0,0,0,18,37,479,720,1,0,"
+
+[File 0017]
+Path Line0001 = "/d/perforce_workspace_pacific1666/Ivi/Research/C-based HAL/C-based HAL/ReadDmmMe"
+Path Line0002 = "as/ReadDmmMeas.c"
+File Type = "CSource"
+Disk Date = 3482216236
+In Projects = "2,"
+Window Top = 115
+Window Left = 66
+Source Window State = "1,588,588,588,67,76,76,0,0,0,0,0,0,0,0,0,577,0,588,74,479,720,1,15,"
+
+[File 0018]
+Path Line0001 = "/d/perforce_workspace_pacific1666/Ivi/Research/C-based HAL/C-based HAL/ReadDmmMe"
+Path Line0002 = "as/ReadDmmMeas.h"
+File Type = "Include"
+Disk Date = 3482216295
+In Projects = "2,"
+Window Top = 30
+Window Left = 10
+Source Window State = "1,18,18,18,24,47,24,0,0,0,0,0,0,0,0,0,9,0,18,38,443,720,1,0,"
+
+[File 0019]
+Path Line0001 = "/d/perforce_workspace_pacific1666/Ivi/Research/C-based HAL/C-based HAL/Adapter.t"
+Path Line0002 = "kdpo4k.GenSignals/tkdpo4kgensignals.c"
+File Type = "CSource"
+Disk Date = 3482216560
+In Projects = "3,"
+Window Top = 30
+Window Left = 10
+Source Window State = "1,63,65,65,0,27,27,0,0,0,0,0,0,0,0,0,81,0,99,38,479,720,1,0,"
+
+[File 0020]
+Path Line0001 = "/d/perforce_workspace_pacific1666/Ivi/Research/C-based HAL/C-based HAL/Adapter.t"
+Path Line0002 = "kdpo4k.GenSignals/tkdpo4kgensignals.h"
+File Type = "Include"
+Disk Date = 3482216618
+In Projects = "3,"
+Window Top = 56
+Window Left = 24
+Source Window State = "1,19,19,19,19,36,36,0,0,0,0,0,0,0,0,0,0,0,19,31,443,720,1,0,"
+
+[File 0021]
+Path Line0001 = "/d/perforce_workspace_pacific1666/Ivi/Research/C-based HAL/C-based HAL/Adapter.h"
+Path Line0002 = "p34401a.ReadDmmMeas/hp34401areaddmmmeas.c"
+File Type = "CSource"
+Disk Date = 3482216476
+In Projects = "4,"
+Window Top = 56
+Window Left = 24
+Source Window State = "1,64,65,65,0,26,26,0,0,0,0,47,0,0,0,0,66,0,62,77,479,720,1,15,"
+
+[File 0022]
+Path Line0001 = "/d/perforce_workspace_pacific1666/Ivi/Research/C-based HAL/C-based HAL/Adapter.h"
+Path Line0002 = "p34401a.ReadDmmMeas/hp34401areaddmmmeas.h"
+File Type = "Include"
+Disk Date = 3482216619
+In Projects = "4,"
+Window Top = 83
+Window Left = 38
+Source Window State = "1,20,20,20,19,36,19,0,0,0,0,0,0,0,0,0,0,0,20,31,443,720,1,15,"
+
+[File 0023]
+Path Line0001 = "/d/perforce_workspace_pacific1666/Ivi/Research/C-based HAL/C-based HAL/ASL/msvc/"
+Path Line0002 = "ASL.lib"
+File Type = "Library"
+Disk Date = 3482217799
+In Projects = "7,"
+
+[Default Build Config 0001 Debug]
+Generate Browse Info = True
+Enable Uninitialized Locals Runtime Warning = True
+Batch Build = True
+Profile = "Disabled"
+Debugging Level = "Standard"
+Execution Trace = "Disabled"
+Command Line Args = ""
+Working Directory = ""
+External Process Path = ""
+
+[Default Build Config 0001 Release]
+Generate Browse Info = True
+Enable Uninitialized Locals Runtime Warning = True
+Batch Build = True
+Profile = "Disabled"
+Debugging Level = "Standard"
+Execution Trace = "Disabled"
+Command Line Args = ""
+Working Directory = ""
+External Process Path = ""
+
+[Default Build Config 0001 Debug64]
+Generate Browse Info = True
+Enable Uninitialized Locals Runtime Warning = True
+Batch Build = True
+Profile = "Disabled"
+Debugging Level = "Standard"
+Execution Trace = "Disabled"
+Command Line Args = ""
+Working Directory = ""
+External Process Path = ""
+
+[Default Build Config 0001 Release64]
+Generate Browse Info = True
+Enable Uninitialized Locals Runtime Warning = True
+Batch Build = True
+Profile = "Disabled"
+Debugging Level = "Standard"
+Execution Trace = "Disabled"
+Command Line Args = ""
+Working Directory = ""
+External Process Path = ""
+
+[Build Options 0001]
+Generate Browse Info = True
+Enable Uninitialized Locals Runtime Warning = True
+Execution Trace = "Disabled"
+Profile = "Disabled"
+Debugging Level = "Standard"
+Break On Library Errors = True
+Break On First Chance Exceptions = False
+
+[Execution Target 0001]
+Execution Target Address = "Local desktop computer"
+Execution Target Port = 0
+Execution Target Type = 0
+
+[SCC Options 0001]
+Use global settings = True
+SCC Provider = ""
+SCC Project = ""
+Local Path = ""
+Auxiliary Path = ""
+Perform Same Action For .h File As For .uir File = "Ask"
+Perform Same Action For .cds File As For .prj File = "Ask"
+Username = ""
+Comment = ""
+Use Default Username = False
+Use Default Comment = False
+Suppress CVI Error Messages = False
+Always show confirmation dialog = True
+
+[DLL Debugging Support 0001]
+External Process Path = ""
+
+[Command Line Args 0001]
+Command Line Args = ""
+Working Directory = ""
+
+[Default Build Config 0002 Debug]
+Generate Browse Info = True
+Enable Uninitialized Locals Runtime Warning = True
+Batch Build = True
+Profile = "Disabled"
+Debugging Level = "Standard"
+Execution Trace = "Disabled"
+Command Line Args = ""
+Working Directory = ""
+External Process Path = ""
+
+[Default Build Config 0002 Release]
+Generate Browse Info = True
+Enable Uninitialized Locals Runtime Warning = True
+Batch Build = True
+Profile = "Disabled"
+Debugging Level = "Standard"
+Execution Trace = "Disabled"
+Command Line Args = ""
+Working Directory = ""
+External Process Path = ""
+
+[Default Build Config 0002 Debug64]
+Generate Browse Info = True
+Enable Uninitialized Locals Runtime Warning = True
+Batch Build = True
+Profile = "Disabled"
+Debugging Level = "Standard"
+Execution Trace = "Disabled"
+Command Line Args = ""
+Working Directory = ""
+External Process Path = ""
+
+[Default Build Config 0002 Release64]
+Generate Browse Info = True
+Enable Uninitialized Locals Runtime Warning = True
+Batch Build = True
+Profile = "Disabled"
+Debugging Level = "Standard"
+Execution Trace = "Disabled"
+Command Line Args = ""
+Working Directory = ""
+External Process Path = ""
+
+[Build Options 0002]
+Generate Browse Info = True
+Enable Uninitialized Locals Runtime Warning = True
+Execution Trace = "Disabled"
+Profile = "Disabled"
+Debugging Level = "Standard"
+Break On Library Errors = True
+Break On First Chance Exceptions = False
+
+[Execution Target 0002]
+Execution Target Address = "Local desktop computer"
+Execution Target Port = 0
+Execution Target Type = 0
+
+[SCC Options 0002]
+Use global settings = True
+SCC Provider = ""
+SCC Project = ""
+Local Path = ""
+Auxiliary Path = ""
+Perform Same Action For .h File As For .uir File = "Ask"
+Perform Same Action For .cds File As For .prj File = "Ask"
+Username = ""
+Comment = ""
+Use Default Username = False
+Use Default Comment = False
+Suppress CVI Error Messages = False
+Always show confirmation dialog = True
+
+[DLL Debugging Support 0002]
+External Process Path = ""
+
+[Command Line Args 0002]
+Command Line Args = ""
+Working Directory = ""
+
+[Default Build Config 0003 Debug]
+Generate Browse Info = True
+Enable Uninitialized Locals Runtime Warning = True
+Batch Build = True
+Profile = "Disabled"
+Debugging Level = "Standard"
+Execution Trace = "Disabled"
+Command Line Args = ""
+Working Directory = ""
+External Process Path = ""
+
+[Default Build Config 0003 Release]
+Generate Browse Info = True
+Enable Uninitialized Locals Runtime Warning = True
+Batch Build = True
+Profile = "Disabled"
+Debugging Level = "Standard"
+Execution Trace = "Disabled"
+Command Line Args = ""
+Working Directory = ""
+External Process Path = ""
+
+[Default Build Config 0003 Debug64]
+Generate Browse Info = True
+Enable Uninitialized Locals Runtime Warning = True
+Batch Build = True
+Profile = "Disabled"
+Debugging Level = "Standard"
+Execution Trace = "Disabled"
+Command Line Args = ""
+Working Directory = ""
+External Process Path = ""
+
+[Default Build Config 0003 Release64]
+Generate Browse Info = True
+Enable Uninitialized Locals Runtime Warning = True
+Batch Build = True
+Profile = "Disabled"
+Debugging Level = "Standard"
+Execution Trace = "Disabled"
+Command Line Args = ""
+Working Directory = ""
+External Process Path = ""
+
+[Build Options 0003]
+Generate Browse Info = True
+Enable Uninitialized Locals Runtime Warning = True
+Execution Trace = "Disabled"
+Profile = "Disabled"
+Debugging Level = "Standard"
+Break On Library Errors = True
+Break On First Chance Exceptions = False
+
+[Execution Target 0003]
+Execution Target Address = "Local desktop computer"
+Execution Target Port = 0
+Execution Target Type = 0
+
+[SCC Options 0003]
+Use global settings = True
+SCC Provider = ""
+SCC Project = ""
+Local Path = ""
+Auxiliary Path = ""
+Perform Same Action For .h File As For .uir File = "Ask"
+Perform Same Action For .cds File As For .prj File = "Ask"
+Username = ""
+Comment = ""
+Use Default Username = False
+Use Default Comment = False
+Suppress CVI Error Messages = False
+Always show confirmation dialog = True
+
+[DLL Debugging Support 0003]
+External Process Path = ""
+
+[DLLs Used By Executable 0003]
+DLL 0001 = "/C/Program Files (x86)/IVI Foundation/IVI/bin/tkdpo4k_32.dll"
+
+[DLLs Used By Executable x64 0003]
+DLL 0001 = "/C/Program Files/IVI Foundation/IVI/bin/tkdpo4k_64.dll"
+
+[Command Line Args 0003]
+Command Line Args = ""
+Working Directory = ""
+
+[Default Build Config 0004 Debug]
+Generate Browse Info = True
+Enable Uninitialized Locals Runtime Warning = True
+Batch Build = True
+Profile = "Disabled"
+Debugging Level = "Standard"
+Execution Trace = "Disabled"
+Command Line Args = ""
+Working Directory = ""
+External Process Path = ""
+
+[Default Build Config 0004 Release]
+Generate Browse Info = True
+Enable Uninitialized Locals Runtime Warning = True
+Batch Build = True
+Profile = "Disabled"
+Debugging Level = "Standard"
+Execution Trace = "Disabled"
+Command Line Args = ""
+Working Directory = ""
+External Process Path = ""
+
+[Default Build Config 0004 Debug64]
+Generate Browse Info = True
+Enable Uninitialized Locals Runtime Warning = True
+Batch Build = True
+Profile = "Disabled"
+Debugging Level = "Standard"
+Execution Trace = "Disabled"
+Command Line Args = ""
+Working Directory = ""
+External Process Path = ""
+
+[Default Build Config 0004 Release64]
+Generate Browse Info = True
+Enable Uninitialized Locals Runtime Warning = True
+Batch Build = True
+Profile = "Disabled"
+Debugging Level = "Standard"
+Execution Trace = "Disabled"
+Command Line Args = ""
+Working Directory = ""
+External Process Path = ""
+
+[Build Options 0004]
+Generate Browse Info = True
+Enable Uninitialized Locals Runtime Warning = True
+Execution Trace = "Disabled"
+Profile = "Disabled"
+Debugging Level = "Standard"
+Break On Library Errors = True
+Break On First Chance Exceptions = False
+
+[Execution Target 0004]
+Execution Target Address = "Local desktop computer"
+Execution Target Port = 0
+Execution Target Type = 0
+
+[SCC Options 0004]
+Use global settings = True
+SCC Provider = ""
+SCC Project = ""
+Local Path = ""
+Auxiliary Path = ""
+Perform Same Action For .h File As For .uir File = "Ask"
+Perform Same Action For .cds File As For .prj File = "Ask"
+Username = ""
+Comment = ""
+Use Default Username = False
+Use Default Comment = False
+Suppress CVI Error Messages = False
+Always show confirmation dialog = True
+
+[DLL Debugging Support 0004]
+External Process Path = ""
+
+[DLLs Used By Executable 0004]
+DLL 0001 = "/C/Program Files (x86)/IVI Foundation/IVI/bin/hp34401a_32.dll"
+
+[DLLs Used By Executable x64 0004]
+DLL 0001 = "/C/Program Files/IVI Foundation/IVI/bin/hp34401a_64.dll"
+
+[Command Line Args 0004]
+Command Line Args = ""
+Working Directory = ""
+
+[Default Build Config 0005 Debug]
+Generate Browse Info = True
+Enable Uninitialized Locals Runtime Warning = True
+Batch Build = True
+Profile = "Disabled"
+Debugging Level = "Standard"
+Execution Trace = "Disabled"
+Command Line Args = ""
+Working Directory = ""
+External Process Path = ""
+
+[Default Build Config 0005 Release]
+Generate Browse Info = True
+Enable Uninitialized Locals Runtime Warning = True
+Batch Build = True
+Profile = "Disabled"
+Debugging Level = "Standard"
+Execution Trace = "Disabled"
+Command Line Args = ""
+Working Directory = ""
+External Process Path = ""
+
+[Default Build Config 0005 Debug64]
+Generate Browse Info = True
+Enable Uninitialized Locals Runtime Warning = True
+Batch Build = True
+Profile = "Disabled"
+Debugging Level = "Standard"
+Execution Trace = "Disabled"
+Command Line Args = ""
+Working Directory = ""
+External Process Path = ""
+
+[Default Build Config 0005 Release64]
+Generate Browse Info = True
+Enable Uninitialized Locals Runtime Warning = True
+Batch Build = True
+Profile = "Disabled"
+Debugging Level = "Standard"
+Execution Trace = "Disabled"
+Command Line Args = ""
+Working Directory = ""
+External Process Path = ""
+
+[Build Options 0005]
+Generate Browse Info = True
+Enable Uninitialized Locals Runtime Warning = True
+Execution Trace = "Disabled"
+Profile = "Disabled"
+Debugging Level = "Standard"
+Break On Library Errors = True
+Break On First Chance Exceptions = False
+
+[Execution Target 0005]
+Execution Target Address = "Local desktop computer"
+Execution Target Port = 0
+Execution Target Type = 0
+
+[SCC Options 0005]
+Use global settings = True
+SCC Provider = ""
+SCC Project = ""
+Local Path = ""
+Auxiliary Path = ""
+Perform Same Action For .h File As For .uir File = "Ask"
+Perform Same Action For .cds File As For .prj File = "Ask"
+Username = ""
+Comment = ""
+Use Default Username = False
+Use Default Comment = False
+Suppress CVI Error Messages = False
+Always show confirmation dialog = True
+
+[DLL Debugging Support 0005]
+External Process Path = ""
+
+[Command Line Args 0005]
+Command Line Args = ""
+Working Directory = ""
+
+[Default Build Config 0006 Debug]
+Generate Browse Info = True
+Enable Uninitialized Locals Runtime Warning = True
+Batch Build = True
+Profile = "Disabled"
+Debugging Level = "Standard"
+Execution Trace = "Disabled"
+Command Line Args = ""
+Working Directory = ""
+External Process Path = ""
+
+[Default Build Config 0006 Release]
+Generate Browse Info = True
+Enable Uninitialized Locals Runtime Warning = True
+Batch Build = True
+Profile = "Disabled"
+Debugging Level = "Standard"
+Execution Trace = "Disabled"
+Command Line Args = ""
+Working Directory = ""
+External Process Path = ""
+
+[Default Build Config 0006 Debug64]
+Generate Browse Info = True
+Enable Uninitialized Locals Runtime Warning = True
+Batch Build = True
+Profile = "Disabled"
+Debugging Level = "Standard"
+Execution Trace = "Disabled"
+Command Line Args = ""
+Working Directory = ""
+External Process Path = ""
+
+[Default Build Config 0006 Release64]
+Generate Browse Info = True
+Enable Uninitialized Locals Runtime Warning = True
+Batch Build = True
+Profile = "Disabled"
+Debugging Level = "Standard"
+Execution Trace = "Disabled"
+Command Line Args = ""
+Working Directory = ""
+External Process Path = ""
+
+[Build Options 0006]
+Generate Browse Info = True
+Enable Uninitialized Locals Runtime Warning = True
+Execution Trace = "Disabled"
+Profile = "Disabled"
+Debugging Level = "Standard"
+Break On Library Errors = True
+Break On First Chance Exceptions = False
+
+[Execution Target 0006]
+Execution Target Address = "Local desktop computer"
+Execution Target Port = 0
+Execution Target Type = 0
+
+[SCC Options 0006]
+Use global settings = True
+SCC Provider = ""
+SCC Project = ""
+Local Path = ""
+Auxiliary Path = ""
+Perform Same Action For .h File As For .uir File = "Ask"
+Perform Same Action For .cds File As For .prj File = "Ask"
+Username = ""
+Comment = ""
+Use Default Username = False
+Use Default Comment = False
+Suppress CVI Error Messages = False
+Always show confirmation dialog = True
+
+[DLL Debugging Support 0006]
+External Process Path = ""
+
+[Command Line Args 0006]
+Command Line Args = ""
+Working Directory = ""
+
+[Default Build Config 0007 Debug]
+Generate Browse Info = True
+Enable Uninitialized Locals Runtime Warning = True
+Batch Build = True
+Profile = "Disabled"
+Debugging Level = "Standard"
+Execution Trace = "Disabled"
+Command Line Args = ""
+Working Directory = ""
+External Process Path = ""
+
+[Default Build Config 0007 Release]
+Generate Browse Info = True
+Enable Uninitialized Locals Runtime Warning = True
+Batch Build = True
+Profile = "Disabled"
+Debugging Level = "Standard"
+Execution Trace = "Disabled"
+Command Line Args = ""
+Working Directory = ""
+External Process Path = ""
+
+[Default Build Config 0007 Debug64]
+Generate Browse Info = True
+Enable Uninitialized Locals Runtime Warning = True
+Batch Build = True
+Profile = "Disabled"
+Debugging Level = "Standard"
+Execution Trace = "Disabled"
+Command Line Args = ""
+Working Directory = ""
+External Process Path = ""
+
+[Default Build Config 0007 Release64]
+Generate Browse Info = True
+Enable Uninitialized Locals Runtime Warning = True
+Batch Build = True
+Profile = "Disabled"
+Debugging Level = "Standard"
+Execution Trace = "Disabled"
+Command Line Args = ""
+Working Directory = ""
+External Process Path = ""
+
+[Build Options 0007]
+Generate Browse Info = True
+Enable Uninitialized Locals Runtime Warning = True
+Execution Trace = "Disabled"
+Profile = "Disabled"
+Debugging Level = "Standard"
+Break On Library Errors = True
+Break On First Chance Exceptions = False
+
+[Execution Target 0007]
+Execution Target Address = "Local desktop computer"
+Execution Target Port = 0
+Execution Target Type = 0
+
+[SCC Options 0007]
+Use global settings = True
+SCC Provider = ""
+SCC Project = ""
+Local Path = ""
+Auxiliary Path = ""
+Perform Same Action For .h File As For .uir File = "Ask"
+Perform Same Action For .cds File As For .prj File = "Ask"
+Username = ""
+Comment = ""
+Use Default Username = False
+Use Default Comment = False
+Suppress CVI Error Messages = False
+Always show confirmation dialog = True
+
+[DLL Debugging Support 0007]
+External Process Path = ""
+
+[DLLs Used By Executable 0007]
+DLL 0001 = "/C/Program Files (x86)/IVI Foundation/IVI/bin/ASL.dll"
+
+[DLLs Used By Executable x64 0007]
+DLL 0001 = "/C/Program Files (x86)/IVI Foundation/IVI/bin/ASL.dll"
+
+[Command Line Args 0007]
+Command Line Args = ""
+Working Directory = ""
+

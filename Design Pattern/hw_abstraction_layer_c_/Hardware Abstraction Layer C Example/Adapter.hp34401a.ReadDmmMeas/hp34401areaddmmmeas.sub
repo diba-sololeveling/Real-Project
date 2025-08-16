@@ -1,0 +1,2735 @@
+FPAttributeValueFile
+
+n  SubType="IVI" 
+
+n  SubVersion="1" 
+
+v AAC_RangeTable DataType="d" 
+ HP34401AMULTIMETERMEAS_VAL_AUTO_RANGE_ON (-1.00000000000000E+0)
+  ""
+
+ HP34401AMULTIMETERMEAS_VAL_AUTO_RANGE_OFF (-2.00000000000000E+0)
+  ""
+
+ 1.0 (1.00000000000000E+0)
+  ""
+
+ 3.0 (3.00000000000000E+0)
+  ""
+
+
+v ADC_RangeTable DataType="d" 
+ HP34401AMULTIMETERMEAS_VAL_AUTO_RANGE_ON (-1.00000000000000E+0)
+  ""
+
+ HP34401AMULTIMETERMEAS_VAL_AUTO_RANGE_OFF (-2.00000000000000E+0)
+  ""
+
+ 0.01 (1.00000000000000E-2)
+  ""
+
+ 0.1 (1.00000000000000E-1)
+  ""
+
+ 1.0 (1.00000000000000E+0)
+  ""
+
+ 3.0 (3.00000000000000E+0)
+  ""
+
+
+v CURR_RangeTableForHP34410A DataType="d" 
+ HP34401AMULTIMETERMEAS_VAL_AUTO_RANGE_ON (-1.00000000000000E+0)
+  ""
+
+ HP34401AMULTIMETERMEAS_VAL_AUTO_RANGE_OFF (-2.00000000000000E+0)
+  ""
+
+ HP34401AMULTIMETERMEAS_VAL_AUTO_RANGE_ONCE (-3.00000000000000E+0)
+  ""
+
+ 0.0001 (1.00000000000000E-4)
+  ""
+
+ 0.001 (1.00000000000000E-3)
+  ""
+
+ 0.01 (1.00000000000000E-2)
+  ""
+
+ 0.1 (1.00000000000000E-1)
+  ""
+
+ 1 (1.00000000000000E+0)
+  ""
+
+ 3.0 (3.00000000000000E+0)
+  ""
+
+
+v Cap_RangeTable DataType="d" 
+ HP34401AMULTIMETERMEAS_VAL_AUTO_RANGE_ON (-1.00000000000000E+0)
+  ""
+
+ HP34401AMULTIMETERMEAS_VAL_AUTO_RANGE_OFF (-2.00000000000000E+0)
+  ""
+
+ HP34401AMULTIMETERMEAS_VAL_AUTO_RANGE_ONCE (-3.00000000000000E+0)
+  ""
+
+ 0.000000001 (1.00000000000000E-9)
+  ""
+
+ 0.00000001 (1.00000000000000E-8)
+  ""
+
+ 0.0000001 (1.00000000000000E-7)
+  ""
+
+ 0.000001 (1.00000000000000E-6)
+  ""
+
+ 0.00001 (1.00000000000000E-5)
+  ""
+
+
+v Ohms_RangeTable DataType="d" 
+ HP34401AMULTIMETERMEAS_VAL_AUTO_RANGE_ON (-1.00000000000000E+0)
+  ""
+
+ HP34401AMULTIMETERMEAS_VAL_AUTO_RANGE_OFF (-2.00000000000000E+0)
+  ""
+
+ 100.0 (1.00000000000000E+2)
+  ""
+
+ 1000.0 (1.00000000000000E+3)
+  ""
+
+ 10000.0 (1.00000000000000E+4)
+  ""
+
+ 100000.0 (1.00000000000000E+5)
+  ""
+
+ 1000000.0 (1.00000000000000E+6)
+  ""
+
+ 10000000.0 (1.00000000000000E+7)
+  ""
+
+ 100000000.0 (1.00000000000000E+8)
+  ""
+
+
+v Ohms_RangeTableForHP34410A DataType="d" 
+ HP34401AMULTIMETERMEAS_VAL_AUTO_RANGE_ON (-1.00000000000000E+0)
+  ""
+
+ HP34401AMULTIMETERMEAS_VAL_AUTO_RANGE_OFF (-2.00000000000000E+0)
+  ""
+
+ HP34401AMULTIMETERMEAS_VAL_AUTO_RANGE_ONCE (-3.00000000000000E+0)
+  ""
+
+ 100.0 (1.00000000000000E+2)
+  ""
+
+ 1000.0 (1.00000000000000E+3)
+  ""
+
+ 10000.0 (1.00000000000000E+4)
+  ""
+
+ 100000.0 (1.00000000000000E+5)
+  ""
+
+ 1000000.0 (1.00000000000000E+6)
+  ""
+
+ 10000000.0 (1.00000000000000E+7)
+  ""
+
+ 100000000.0 (1.00000000000000E+8)
+  ""
+
+ 1000000000.0 (1.00000000000000E+9)
+  ""
+
+
+v VOLT_RangeTable DataType="d" 
+ HP34401AMULTIMETERMEAS_VAL_AUTO_RANGE_ON (-1.00000000000000E+0)
+  ""
+
+ HP34401AMULTIMETERMEAS_VAL_AUTO_RANGE_OFF (-2.00000000000000E+0)
+  ""
+
+ 0.1 (1.00000000000000E-1)
+  ""
+
+ 1.0 (1.00000000000000E+0)
+  ""
+
+ 10.0 (1.00000000000000E+1)
+  ""
+
+ 100.0 (1.00000000000000E+2)
+  ""
+
+ 1000.0 (1.00000000000000E+3)
+  ""
+
+
+v VOLT_RangeTableForHP34410A DataType="d" 
+ HP34401AMULTIMETERMEAS_VAL_AUTO_RANGE_ON (-1.00000000000000E+0)
+  ""
+
+ HP34401AMULTIMETERMEAS_VAL_AUTO_RANGE_OFF (-2.00000000000000E+0)
+  ""
+
+ HP34401AMULTIMETERMEAS_VAL_AUTO_RANGE_ONCE (-3.00000000000000E+0)
+  ""
+
+ 0.1 (1.00000000000000E-1)
+  ""
+
+ 1.0 (1.00000000000000E+0)
+  ""
+
+ 10.0 (1.00000000000000E+1)
+  ""
+
+ 100.0 (1.00000000000000E+2)
+  ""
+
+ 1000.0 (1.00000000000000E+3)
+  ""
+
+
+v attrAcMaxFreqTable1 DataType="d" 
+ 300000.0 (3.00000000000000E+5)
+  ""
+
+
+v attrAcMaxFreqTable2 DataType="d" 
+ 5000.0 (5.00000000000000E+3)
+  ""
+
+
+v attrAcMinFreqTable1 DataType="d" 
+ 200.0 (2.00000000000000E+2)
+  ""
+
+ 20.0 (2.00000000000000E+1)
+  ""
+
+ 3.0 (3.00000000000000E+0)
+  ""
+
+
+v attrAcMinFreqTable2 DataType="d" 
+ 200.0 (2.00000000000000E+2)
+  ""
+
+ 20.0 (2.00000000000000E+1)
+  ""
+
+ 3.0 (3.00000000000000E+0)
+  ""
+
+
+v attrActualRangeTable DataType="i" 
+ HP34401AMULTIMETERMEAS_VAL_DC_VOLTS (1)
+  ""
+
+ HP34401AMULTIMETERMEAS_VAL_AC_VOLTS (2)
+  ""
+
+ HP34401AMULTIMETERMEAS_VAL_DC_CURRENT (3)
+  ""
+
+ HP34401AMULTIMETERMEAS_VAL_AC_CURRENT (4)
+  ""
+
+ HP34401AMULTIMETERMEAS_VAL_2_WIRE_RES (5)
+  ""
+
+ HP34401AMULTIMETERMEAS_VAL_4_WIRE_RES (101)
+  ""
+
+ HP34401AMULTIMETERMEAS_VAL_DC_VOLTS_RATIO (1003)
+  ""
+
+ HP34401AMULTIMETERMEAS_VAL_CAPACITANCE (1004)
+  ""
+
+
+v attrApertureFreqPeriodTableForHP34401AMULTIMETERMEAS DataType="d" 
+ 0.01 (1.00000000000000E-2)
+  ""
+
+ 0.1 (1.00000000000000E-1)
+  ""
+
+ 1.0 (1.00000000000000E+0)
+  ""
+
+
+v attrApertureFreqPeriodTableForHP34410A DataType="d" 
+ 0.001 (1.00000000000000E-3)
+  ""
+
+ 0.01 (1.00000000000000E-2)
+  ""
+
+ 0.1 (1.00000000000000E-1)
+  ""
+
+ 1.0 (1.00000000000000E+0)
+  ""
+
+
+v attrApertureTableForHP34401AMULTIMETERMEAS DataType="d" 
+ 0.02 (2.00000000000000E-2)
+  ""
+
+ 0.2 (2.00000000000000E-1)
+  ""
+
+ 1.0 (1.00000000000000E+0)
+  ""
+
+ 10.0 (1.00000000000000E+1)
+  ""
+
+ 100.0 (1.00000000000000E+2)
+  ""
+
+
+v attrApertureTableForHP34410A DataType="d" 
+ 0.006 (6.00000000000000E-3)
+  ""
+
+ 0.02 (2.00000000000000E-2)
+  ""
+
+ 0.06 (6.00000000000000E-2)
+  ""
+
+ 0.2 (2.00000000000000E-1)
+  ""
+
+ 1.0 (1.00000000000000E+0)
+  ""
+
+ 2.0 (2.00000000000000E+0)
+  ""
+
+ 10.0 (1.00000000000000E+1)
+  ""
+
+ 100.0 (1.00000000000000E+2)
+  ""
+
+
+v attrApertureTableForHP34411A DataType="d" 
+ 0.001 (1.00000000000000E-3)
+  ""
+
+ 0.002 (2.00000000000000E-3)
+  ""
+
+ 0.006 (6.00000000000000E-3)
+  ""
+
+ 0.02 (2.00000000000000E-2)
+  ""
+
+ 0.06 (6.00000000000000E-2)
+  ""
+
+ 0.2 (2.00000000000000E-1)
+  ""
+
+ 1.0 (1.00000000000000E+0)
+  ""
+
+ 2.0 (2.00000000000000E+0)
+  ""
+
+ 10.0 (1.00000000000000E+1)
+  ""
+
+ 100.0 (1.00000000000000E+2)
+  ""
+
+
+v attrAutoZeroRangeTable DataType="i" 
+ HP34401AMULTIMETERMEAS_VAL_AUTO_ZERO_OFF (0)
+  "Disables the DMM from taking any more Zero Readings.  The DMM subtract "
+  "the last Zero Reading from all subsequent values it measures."
+
+ HP34401AMULTIMETERMEAS_VAL_AUTO_ZERO_ON (1)
+  "Configures the DMM to take a Zero Reading for each measurement.  The DMM "
+  "subtracts the Zero Reading from the value it measures."
+
+ HP34401AMULTIMETERMEAS_VAL_AUTO_ZERO_ONCE (2)
+  "Configures the DMM to take a Zero Reading immediately.  The DMM then "
+  "subtracts this Zero Reading from all subsequent values it measures."
+
+
+v attrDbmReferenceRangeTable DataType="i" 
+ HP34401AMULTIMETERMEAS_VAL_50_OHMS (50)
+  "50 ohms"
+
+ HP34401AMULTIMETERMEAS_VAL_75_OHMS (75)
+  "75 ohms"
+
+ HP34401AMULTIMETERMEAS_VAL_93_OHMS (93)
+  "93 ohms"
+
+ HP34401AMULTIMETERMEAS_VAL_110_OHMS (110)
+  "110 ohms"
+
+ HP34401AMULTIMETERMEAS_VAL_124_OHMS (124)
+  "124 ohms"
+
+ HP34401AMULTIMETERMEAS_VAL_125_OHMS (125)
+  "125 ohms"
+
+ HP34401AMULTIMETERMEAS_VAL_135_OHMS (135)
+  "135 ohms"
+
+ HP34401AMULTIMETERMEAS_VAL_150_OHMS (150)
+  "150 ohms"
+
+ HP34401AMULTIMETERMEAS_VAL_250_OHMS (250)
+  "250 ohms"
+
+ HP34401AMULTIMETERMEAS_VAL_300_OHMS (300)
+  "300 ohms"
+
+ HP34401AMULTIMETERMEAS_VAL_500_OHMS (500)
+  "500 ohms"
+
+ HP34401AMULTIMETERMEAS_VAL_600_OHMS (600)
+  "600 ohms"
+
+ HP34401AMULTIMETERMEAS_VAL_800_OHMS (800)
+  "800 ohms"
+
+ HP34401AMULTIMETERMEAS_VAL_900_OHMS (900)
+  "900 ohms"
+
+ HP34401AMULTIMETERMEAS_VAL_1000_OHMS (1000)
+  "1 kohms"
+
+ HP34401AMULTIMETERMEAS_VAL_1200_OHMS (1200)
+  "1.2 kohms"
+
+ HP34401AMULTIMETERMEAS_VAL_8000_OHMS (8000)
+  "8 kohms"
+
+
+v attrFunctionRangeTableForHP34401AMULTIMETERMEAS DataType="i" 
+ HP34401AMULTIMETERMEAS_VAL_DC_VOLTS (1)
+  ""
+
+ HP34401AMULTIMETERMEAS_VAL_AC_VOLTS (2)
+  ""
+
+ HP34401AMULTIMETERMEAS_VAL_DC_CURRENT (3)
+  ""
+
+ HP34401AMULTIMETERMEAS_VAL_AC_CURRENT (4)
+  ""
+
+ HP34401AMULTIMETERMEAS_VAL_2_WIRE_RES (5)
+  ""
+
+ HP34401AMULTIMETERMEAS_VAL_4_WIRE_RES (101)
+  ""
+
+ HP34401AMULTIMETERMEAS_VAL_DIODE (1001)
+  ""
+
+ HP34401AMULTIMETERMEAS_VAL_CONTINUITY (1002)
+  ""
+
+ HP34401AMULTIMETERMEAS_VAL_FREQ (104)
+  ""
+
+ HP34401AMULTIMETERMEAS_VAL_PERIOD (105)
+  ""
+
+ HP34401AMULTIMETERMEAS_VAL_DC_VOLTS_RATIO (1003)
+  ""
+
+
+v attrFunctionRangeTableForHP34410A DataType="i" 
+ HP34401AMULTIMETERMEAS_VAL_DC_VOLTS (1)
+  ""
+
+ HP34401AMULTIMETERMEAS_VAL_AC_VOLTS (2)
+  ""
+
+ HP34401AMULTIMETERMEAS_VAL_DC_CURRENT (3)
+  ""
+
+ HP34401AMULTIMETERMEAS_VAL_AC_CURRENT (4)
+  ""
+
+ HP34401AMULTIMETERMEAS_VAL_2_WIRE_RES (5)
+  ""
+
+ HP34401AMULTIMETERMEAS_VAL_4_WIRE_RES (101)
+  ""
+
+ HP34401AMULTIMETERMEAS_VAL_DIODE (1001)
+  ""
+
+ HP34401AMULTIMETERMEAS_VAL_CONTINUITY (1002)
+  ""
+
+ HP34401AMULTIMETERMEAS_VAL_FREQ (104)
+  ""
+
+ HP34401AMULTIMETERMEAS_VAL_PERIOD (105)
+  ""
+
+ HP34401AMULTIMETERMEAS_VAL_TEMPERATURE (108)
+  ""
+
+ HP34401AMULTIMETERMEAS_VAL_CAPACITANCE (1004)
+  ""
+
+
+v attrFunctionRangeTableForHPE1412A DataType="i" 
+ HP34401AMULTIMETERMEAS_VAL_DC_VOLTS (1)
+  "DC Volts"
+
+ HP34401AMULTIMETERMEAS_VAL_AC_VOLTS (2)
+  "AC Volts"
+
+ HP34401AMULTIMETERMEAS_VAL_DC_CURRENT (3)
+  "DC Current"
+
+ HP34401AMULTIMETERMEAS_VAL_AC_CURRENT (4)
+  "AC Current"
+
+ HP34401AMULTIMETERMEAS_VAL_2_WIRE_RES (5)
+  "2 Wire Resistance"
+
+ HP34401AMULTIMETERMEAS_VAL_4_WIRE_RES (101)
+  "4 Wire Resistance"
+
+ HP34401AMULTIMETERMEAS_VAL_FREQ (104)
+  "Frequency"
+
+ HP34401AMULTIMETERMEAS_VAL_PERIOD (105)
+  "Period"
+
+ HP34401AMULTIMETERMEAS_VAL_DC_VOLTS_RATIO (1003)
+  "DC Volts Ratio.  This measurement function takes a dc reference voltage "
+  "measurement from the 'Sense' terminal and a voltage measurement from the "
+  "'Input' terminal and returns a ratio reading using the following "
+  "equation.\n"
+  "\n"
+  "     reading = (dc signal voltage) / (dc reference voltage)"
+
+
+v attrMathOperationRangeTable DataType="i" 
+ HP34401AMULTIMETERMEAS_VAL_MATH_OFF (0)
+  "The DMM disables all math operations."
+
+ HP34401AMULTIMETERMEAS_VAL_MATH_NULL (1)
+  "Configures the DMM to perform the null operation.  The null operation can "
+  "be applied to all measurement functions except for continuity, diode, or "
+  "DC volts ratio. \n"
+  "\n"
+  "When you enable the null operation, the readings you obtain from the "
+  "hp34401amultimetermeas_Read and hp34401amultimetermeas_Fetch functions "
+  "are calculated using the following equation.\n"
+  "\n"
+  "   reading = input signal - null offset\n"
+  "\n"
+  "You use the HP34401AMULTIMETERMEAS_ATTR_MATH_NULL_OFFSET attribute to "
+  "specify the null offset.  If you fail to set the null offset after "
+  "enabling the null operation, the DMM automatically sets the next reading "
+  "as the null offset."
+
+ HP34401AMULTIMETERMEAS_VAL_MATH_DB (2)
+  "Configures the DMM to perform the decibel operation.  Decibel operation "
+  "only  applies to the DC Volts and AC Volts measurement functions.\n"
+  "\n"
+  "When you enable the decibel operation, the readings you obtain from the "
+  "hp34401amultimetermeas_Read and hp34401amultimetermeas_Fetch functions "
+  "are calculated using the following equation.\n"
+  "\n"
+  "   reading = input signal in dBm - relative value in dBm\n"
+  "\n"
+  "You use the HP34401AMULTIMETERMEAS_ATTR_MATH_DB_REFERENCE attribute to "
+  "specify the relative value.  If you fail to set the dB reference after "
+  "enabling the dB operation, the DMM automatically sets the next reading as "
+  "the dB reference."
+
+ HP34401AMULTIMETERMEAS_VAL_MATH_DBM (3)
+  "Configures the DMM to perform the dBm operation.  The dBm operation only "
+  "applies to the DC Volts and AC Volts measurement functions.\n"
+  "\n"
+  "The dBm operation calculates the power delivered to a resistance "
+  "reference to 1 milliwatt.  When you enable the dBm operation, the "
+  "readings you obtain from the hp34401amultimetermeas_Read and "
+  "hp34401amultimetermeas_Fetch functions are calculated using the following "
+  "equation.\n"
+  "\n"
+  "   reading = 10 * Log(input signal^2/reference resistance/1mW)\n"
+  "\n"
+  "You use the HP34401AMULTIMETERMEAS_ATTR_MATH_DBM_REFERENCE attribute to "
+  "specify the dBm reference resistance."
+
+ HP34401AMULTIMETERMEAS_VAL_MATH_MIN_MAX (4)
+  "Configures the DMM to perform the min-max operation.  The min-max \n"
+  "operation can be applied to all measurement functions except for "
+  "continuity or diode.  The min-max operations stores the minimum and "
+  "maximum readings during a series of measurements.  The DMM then "
+  "calculates the average of all readings and records the number of readings "
+  "taken since min-max was enabled.  You fetch the min-max operation's data "
+  "by using the hp34401amultimetermeas_FetchMinMax function."
+
+ HP34401AMULTIMETERMEAS_VAL_MATH_LIMIT (5)
+  "Configures the DMM to perform the limit operation.  The limit operation "
+  "can be applied to all measurement functions except for continuity or "
+  "diode.  The limit operation enables you to perform pass/fail testing to "
+  "lower and upper limits that you specify.  You use the "
+  "HP34401AMULTIMETERMEAS_ATTR_MATH_LIMIT_LOWER and "
+  "HP34401AMULTIMETERMEAS_ATTR_MATH_LIMIT_LOWER attributes to configure the "
+  "lower and upper limits respectively."
+
+
+v attrMeasCompleteDestRangeTable DataType="i" 
+ HP34401AMULTIMETERMEAS_VAL_EXTERNAL (2)
+  "The DMM sends the measurement-complete signal on the external trigger "
+  "line."
+
+
+v attrModel DataType="i" 
+ HP34401AMULTIMETERMEAS_VAL_MODEL_34401A (1)
+  ""
+
+ HP34401AMULTIMETERMEAS_VAL_MODEL_34410A (2)
+  ""
+
+ HP34401AMULTIMETERMEAS_VAL_MODEL_34411A (3)
+  ""
+
+ HP34401AMULTIMETERMEAS_VAL_MODEL_E1412A (4)
+  ""
+
+ HP34401AMULTIMETERMEAS_VAL_MODEL_L4411A (5)
+  ""
+
+
+v attrResolutionACRangeTable DataType="d" 
+ 0.000001 (1.00000000000000E-6)
+  ""
+
+
+v attrResolutionCAPRangeTable DataType="d" 
+ 0.0001 (1.00000000000000E-4)
+  ""
+
+
+v attrResolutionDCRangeTableForHP34401AMULTIMETERMEAS DataType="d" 
+ 0.02 (2.00000000000000E-2)
+  ""
+
+ 0.2 (2.00000000000000E-1)
+  ""
+
+ 1 (1.00000000000000E+0)
+  ""
+
+ 10 (1.00000000000000E+1)
+  ""
+
+ 100 (1.00000000000000E+2)
+  ""
+
+
+v attrResolutionDCRangeTableForHP34410A DataType="d" 
+ 0.006 (6.00000000000000E-3)
+  ""
+
+ 0.02 (2.00000000000000E-2)
+  ""
+
+ 0.06 (6.00000000000000E-2)
+  ""
+
+ 0.2 (2.00000000000000E-1)
+  ""
+
+ 1 (1.00000000000000E+0)
+  ""
+
+ 2 (2.00000000000000E+0)
+  ""
+
+ 10 (1.00000000000000E+1)
+  ""
+
+ 100 (1.00000000000000E+2)
+  ""
+
+
+v attrResolutionDCRangeTableForHP34411A DataType="d" 
+ 0.001 (1.00000000000000E-3)
+  ""
+
+ 0.002 (2.00000000000000E-3)
+  ""
+
+ 0.006 (6.00000000000000E-3)
+  ""
+
+ 0.02 (2.00000000000000E-2)
+  ""
+
+ 0.06 (6.00000000000000E-2)
+  ""
+
+ 0.2 (2.00000000000000E-1)
+  ""
+
+ 1 (1.00000000000000E+0)
+  ""
+
+ 2 (2.00000000000000E+0)
+  ""
+
+ 10 (1.00000000000000E+1)
+  ""
+
+ 100 (1.00000000000000E+2)
+  ""
+
+
+v attrResolutionFREQRangeTableForHP34401AMULTIMETERMEAS DataType="d" 
+ 0.01 (1.00000000000000E-2)
+  ""
+
+ 0.1 (1.00000000000000E-1)
+  ""
+
+ 1 (1.00000000000000E+0)
+  ""
+
+
+v attrResolutionFREQRangeTableForHP34410A DataType="d" 
+ 0.001 (1.00000000000000E-3)
+  ""
+
+ 0.01 (1.00000000000000E-2)
+  ""
+
+ 0.1 (1.00000000000000E-1)
+  ""
+
+ 1 (1.00000000000000E+0)
+  ""
+
+
+v attrSampleTriggerRangeTable DataType="i" 
+ HP34401AMULTIMETERMEAS_VAL_DELAY (1001)
+  ""
+
+
+v attrSampleTriggerRangeTableForHP34410A DataType="i" 
+ HP34401AMULTIMETERMEAS_VAL_IMMEDIATE (1)
+  ""
+
+ HP34401AMULTIMETERMEAS_VAL_INTERVAL (10)
+  "The DMM waits between measurements for the length of time you specify "
+  "with the HP34401AMULTIMETERMEAS_SAMPLE_INTERVAL attribute."
+
+ HP34401AMULTIMETERMEAS_VAL_DELAY (1001)
+  ""
+
+
+v attrTempRtdAlphaRangeTable DataType="d" 
+ 0.00385 (3.85000000000000E-3)
+  ""
+
+
+v attrTempThermistorResRangeTable DataType="d" 
+ 2252 (2.25200000000000E+3)
+  ""
+
+ 5000 (5.00000000000000E+3)
+  ""
+
+ 10000 (1.00000000000000E+4)
+  ""
+
+
+v attrTempTransducerTypeRangeTable DataType="i" 
+ HP34401AMULTIMETERMEAS_VAL_THERMISTOR (2)
+  ""
+
+ HP34401AMULTIMETERMEAS_VAL_2_WIRE_RTD (3)
+  ""
+
+ HP34401AMULTIMETERMEAS_VAL_4_WIRE_RTD (4)
+  ""
+
+ HP34401AMULTIMETERMEAS_VAL_4_THERMISTOR (1001)
+  ""
+
+
+v attrThresholdVoltageRangeTable DataType="d" 
+ HP34401AMULTIMETERMEAS_VAL_AUTO_THRESHOLD_ON (-1.00000000000000E+0)
+  ""
+
+ HP34401AMULTIMETERMEAS_VAL_AUTO_THRESHOLD_OFF (-2.00000000000000E+0)
+  ""
+
+ 0.1 (1.00000000000000E-1)
+  ""
+
+ 1.0 (1.00000000000000E+0)
+  ""
+
+ 10.0 (1.00000000000000E+1)
+  ""
+
+ 100.0 (1.00000000000000E+2)
+  ""
+
+ 1000.0 (1.00000000000000E+3)
+  ""
+
+
+v attrThresholdVoltageRangeTableForHP34410A DataType="d" 
+ HP34401AMULTIMETERMEAS_VAL_AUTO_THRESHOLD_ON (-1.00000000000000E+0)
+  ""
+
+ HP34401AMULTIMETERMEAS_VAL_AUTO_THRESHOLD_OFF (-2.00000000000000E+0)
+  ""
+
+ HP34401AMULTIMETERMEAS_VAL_AUTO_THRESHOLD_ONCE (-3.00000000000000E+0)
+  ""
+
+ 0.1 (1.00000000000000E-1)
+  ""
+
+ 1.0 (1.00000000000000E+0)
+  ""
+
+ 10.0 (1.00000000000000E+1)
+  ""
+
+ 100.0 (1.00000000000000E+2)
+  ""
+
+ 1000.0 (1.00000000000000E+3)
+  ""
+
+
+v attrTriggerSlopeRangeTable DataType="i" 
+ HP34401AMULTIMETERMEAS_VAL_POSITIVE (0)
+  "Positive slope"
+
+ HP34401AMULTIMETERMEAS_VAL_NEGATIVE (1)
+  "Negative slope"
+
+
+v attrTriggerSourceRangeTableForHP34401AMULTIMETERMEAS DataType="i" 
+ HP34401AMULTIMETERMEAS_VAL_IMMEDIATE (1)
+  ""
+
+ HP34401AMULTIMETERMEAS_VAL_EXTERNAL (2)
+  ""
+
+ HP34401AMULTIMETERMEAS_VAL_SOFTWARE_TRIG (3)
+  ""
+
+
+v attrTriggerSourceRangeTableForHP34411A DataType="i" 
+ HP34401AMULTIMETERMEAS_VAL_IMMEDIATE (1)
+  ""
+
+ HP34401AMULTIMETERMEAS_VAL_EXTERNAL (2)
+  ""
+
+ HP34401AMULTIMETERMEAS_VAL_SOFTWARE_TRIG (3)
+  ""
+
+ HP34401AMULTIMETERMEAS_VAL_INTERNAL (1002)
+  ""
+
+
+v attrTriggerSourceRangeTableForHPE1412A DataType="i" 
+ HP34401AMULTIMETERMEAS_VAL_IMMEDIATE (1)
+  ""
+
+ HP34401AMULTIMETERMEAS_VAL_EXTERNAL (2)
+  ""
+
+ HP34401AMULTIMETERMEAS_VAL_SOFTWARE_TRIG (3)
+  ""
+
+ HP34401AMULTIMETERMEAS_VAL_TTL0 (111)
+  ""
+
+ HP34401AMULTIMETERMEAS_VAL_TTL1 (112)
+  ""
+
+ HP34401AMULTIMETERMEAS_VAL_TTL2 (113)
+  ""
+
+ HP34401AMULTIMETERMEAS_VAL_TTL3 (114)
+  ""
+
+ HP34401AMULTIMETERMEAS_VAL_TTL4 (115)
+  ""
+
+ HP34401AMULTIMETERMEAS_VAL_TTL5 (116)
+  ""
+
+ HP34401AMULTIMETERMEAS_VAL_TTL6 (117)
+  ""
+
+ HP34401AMULTIMETERMEAS_VAL_TTL7 (118)
+  ""
+
+
+v Boolean_values DataType="i" 
+ VI_TRUE (1)
+  "True"
+
+ VI_FALSE (0)
+  "False"
+
+
+v attrApertureDefaultTable DataType="d" 
+ 0.02 (2.00000000000000E-2)
+  ""
+
+ 0.2 (2.00000000000000E-1)
+  ""
+
+ 1.0 (1.00000000000000E+0)
+  ""
+
+ 10.0 (1.00000000000000E+1)
+  ""
+
+ 100.0 (1.00000000000000E+2)
+  ""
+
+
+v attrApertureDefaultTableFor34410A DataType="d" 
+ 0.006 (6.00000000000000E-3)
+  ""
+
+ 0.02 (2.00000000000000E-2)
+  ""
+
+ 0.06 (6.00000000000000E-2)
+  ""
+
+ 0.2 (2.00000000000000E-1)
+  ""
+
+ 1.0 (1.00000000000000E+0)
+  ""
+
+ 2.0 (2.00000000000000E+0)
+  ""
+
+ 10.0 (1.00000000000000E+1)
+  ""
+
+ 100.0 (1.00000000000000E+2)
+  ""
+
+
+v attrApertureDefaultTableFor34411A DataType="d" 
+ 0.001 (1.00000000000000E-3)
+  ""
+
+ 0.002 (2.00000000000000E-3)
+  ""
+
+ 0.006 (6.00000000000000E-3)
+  ""
+
+ 0.02 (2.00000000000000E-2)
+  ""
+
+ 0.06 (6.00000000000000E-2)
+  ""
+
+ 0.2 (2.00000000000000E-1)
+  ""
+
+ 1.0 (1.00000000000000E+0)
+  ""
+
+ 2.0 (2.00000000000000E+0)
+  ""
+
+ 10.0 (1.00000000000000E+1)
+  ""
+
+ 100.0 (1.00000000000000E+2)
+  ""
+
+
+v attrApertureFreqPeriodTable DataType="d" 
+ 0.01 (1.00000000000000E-2)
+  ""
+
+ 0.1 (1.00000000000000E-1)
+  ""
+
+ 1.0 (1.00000000000000E+0)
+  ""
+
+
+v Other_RangeTable DataType="d" 
+ HP34401AMULTIMETERMEAS_VAL_AUTO_RANGE_ON (-1.00000000000000E+0)
+  ""
+
+
+v attrAperture_Func_RangeTable DataType="i" 
+ HP34401AMULTIMETERMEAS_VAL_DC_VOLTS (1)
+  ""
+
+ HP34401AMULTIMETERMEAS_VAL_DC_CURRENT (3)
+  ""
+
+ HP34401AMULTIMETERMEAS_VAL_2_WIRE_RES (5)
+  ""
+
+ HP34401AMULTIMETERMEAS_VAL_4_WIRE_RES (101)
+  ""
+
+ HP34401AMULTIMETERMEAS_VAL_FREQ (104)
+  ""
+
+ HP34401AMULTIMETERMEAS_VAL_PERIOD (105)
+  ""
+
+ HP34401AMULTIMETERMEAS_VAL_DC_VOLTS_RATIO (1001)
+  ""
+
+
+v attrAperture_FreqPeriod_Table DataType="d" 
+ 0.01 (1.00000000000000E-2)
+  ""
+
+ 0.1 (1.00000000000000E-1)
+  ""
+
+ 1.0 (1.00000000000000E+0)
+  ""
+
+
+v attrAperture_RestOfThem_Table DataType="d" 
+ 0.02 (2.00000000000000E-2)
+  ""
+
+ 0.2 (2.00000000000000E-1)
+  ""
+
+ 1.0 (1.00000000000000E+0)
+  ""
+
+ 10.0 (1.00000000000000E+1)
+  ""
+
+ 100.0 (1.00000000000000E+2)
+  ""
+
+
+v attrRes_Func_RangeTable DataType="d" 
+ HP34401AMULTIMETERMEAS_VAL_DC_VOLTS (1.00000000000000E+0)
+  ""
+
+ HP34401AMULTIMETERMEAS_VAL_AC_VOLTS (2.00000000000000E+0)
+  ""
+
+ HP34401AMULTIMETERMEAS_VAL_DC_CURRENT (3.00000000000000E+0)
+  ""
+
+ HP34401AMULTIMETERMEAS_VAL_AC_CURRENT (4.00000000000000E+0)
+  ""
+
+ HP34401AMULTIMETERMEAS_VAL_2_WIRE_RES (5.00000000000000E+0)
+  ""
+
+ HP34401AMULTIMETERMEAS_VAL_4_WIRE_RES (1.01000000000000E+2)
+  ""
+
+ HP34401AMULTIMETERMEAS_VAL_DC_VOLTS_RATIO (0.00000000000000E+0)
+  ""
+
+
+v resolACMeasurementTable DataType="d" 
+ HP34401AMULTIMETERMEAS_VAL_6_5_DIGITS (0.00000000000000E+0)
+  ""
+
+
+v resolContDiodeTable DataType="d" 
+ HP34401AMULTIMETERMEAS_VAL_4_5_DIGITS (0.00000000000000E+0)
+  ""
+
+
+v resolCurrent1Table DataType="d" 
+ HP34401AMULTIMETERMEAS_VAL_4_5_DIGITS (0.00000000000000E+0)
+  ""
+
+ HP34401AMULTIMETERMEAS_VAL_5_5_DIGITS (0.00000000000000E+0)
+  ""
+
+ HP34401AMULTIMETERMEAS_VAL_6_5_DIGITS (0.00000000000000E+0)
+  ""
+
+
+v resolCurrent2Table DataType="d" 
+ HP34401AMULTIMETERMEAS_VAL_4_5_DIGITS (0.00000000000000E+0)
+  ""
+
+ HP34401AMULTIMETERMEAS_VAL_5_5_DIGITS (0.00000000000000E+0)
+  ""
+
+ HP34401AMULTIMETERMEAS_VAL_6_5_DIGITS (0.00000000000000E+0)
+  ""
+
+
+v resolCurrent3Table DataType="d" 
+ HP34401AMULTIMETERMEAS_VAL_4_5_DIGITS (0.00000000000000E+0)
+  ""
+
+ HP34401AMULTIMETERMEAS_VAL_5_5_DIGITS (0.00000000000000E+0)
+  ""
+
+ HP34401AMULTIMETERMEAS_VAL_6_5_DIGITS (0.00000000000000E+0)
+  ""
+
+
+v resolCurrent4Table DataType="d" 
+ HP34401AMULTIMETERMEAS_VAL_4_5_DIGITS (0.00000000000000E+0)
+  ""
+
+ HP34401AMULTIMETERMEAS_VAL_5_5_DIGITS (0.00000000000000E+0)
+  ""
+
+ HP34401AMULTIMETERMEAS_VAL_6_5_DIGITS (0.00000000000000E+0)
+  ""
+
+
+v resolResistance1Table DataType="d" 
+ HP34401AMULTIMETERMEAS_VAL_4_5_DIGITS (0.00000000000000E+0)
+  ""
+
+ HP34401AMULTIMETERMEAS_VAL_5_5_DIGITS (0.00000000000000E+0)
+  ""
+
+ HP34401AMULTIMETERMEAS_VAL_6_5_DIGITS (0.00000000000000E+0)
+  ""
+
+
+v resolResistance2Table DataType="d" 
+ HP34401AMULTIMETERMEAS_VAL_4_5_DIGITS (0.00000000000000E+0)
+  ""
+
+ HP34401AMULTIMETERMEAS_VAL_5_5_DIGITS (0.00000000000000E+0)
+  ""
+
+ HP34401AMULTIMETERMEAS_VAL_6_5_DIGITS (0.00000000000000E+0)
+  ""
+
+
+v resolResistance3Table DataType="d" 
+ HP34401AMULTIMETERMEAS_VAL_4_5_DIGITS (0.00000000000000E+0)
+  ""
+
+ HP34401AMULTIMETERMEAS_VAL_5_5_DIGITS (0.00000000000000E+0)
+  ""
+
+ HP34401AMULTIMETERMEAS_VAL_6_5_DIGITS (0.00000000000000E+0)
+  ""
+
+
+v resolResistance4Table DataType="d" 
+ HP34401AMULTIMETERMEAS_VAL_4_5_DIGITS (0.00000000000000E+0)
+  ""
+
+ HP34401AMULTIMETERMEAS_VAL_5_5_DIGITS (0.00000000000000E+0)
+  ""
+
+ HP34401AMULTIMETERMEAS_VAL_6_5_DIGITS (0.00000000000000E+0)
+  ""
+
+
+v resolResistance5Table DataType="d" 
+ HP34401AMULTIMETERMEAS_VAL_4_5_DIGITS (0.00000000000000E+0)
+  ""
+
+ HP34401AMULTIMETERMEAS_VAL_5_5_DIGITS (0.00000000000000E+0)
+  ""
+
+ HP34401AMULTIMETERMEAS_VAL_6_5_DIGITS (0.00000000000000E+0)
+  ""
+
+
+v resolResistance6Table DataType="d" 
+ HP34401AMULTIMETERMEAS_VAL_4_5_DIGITS (0.00000000000000E+0)
+  ""
+
+ HP34401AMULTIMETERMEAS_VAL_5_5_DIGITS (0.00000000000000E+0)
+  ""
+
+ HP34401AMULTIMETERMEAS_VAL_6_5_DIGITS (0.00000000000000E+0)
+  ""
+
+
+v resolResistance7Table DataType="d" 
+ HP34401AMULTIMETERMEAS_VAL_4_5_DIGITS (0.00000000000000E+0)
+  ""
+
+ HP34401AMULTIMETERMEAS_VAL_5_5_DIGITS (0.00000000000000E+0)
+  ""
+
+ HP34401AMULTIMETERMEAS_VAL_6_5_DIGITS (0.00000000000000E+0)
+  ""
+
+
+v resolVolt1Table DataType="d" 
+ HP34401AMULTIMETERMEAS_VAL_4_5_DIGITS (0.00000000000000E+0)
+  ""
+
+ HP34401AMULTIMETERMEAS_VAL_5_5_DIGITS (0.00000000000000E+0)
+  ""
+
+ HP34401AMULTIMETERMEAS_VAL_6_5_DIGITS (0.00000000000000E+0)
+  ""
+
+
+v resolVolt2Table DataType="d" 
+ HP34401AMULTIMETERMEAS_VAL_4_5_DIGITS (0.00000000000000E+0)
+  ""
+
+ HP34401AMULTIMETERMEAS_VAL_5_5_DIGITS (0.00000000000000E+0)
+  ""
+
+ HP34401AMULTIMETERMEAS_VAL_6_5_DIGITS (0.00000000000000E+0)
+  ""
+
+
+v resolVolt3Table DataType="d" 
+ HP34401AMULTIMETERMEAS_VAL_4_5_DIGITS (0.00000000000000E+0)
+  ""
+
+ HP34401AMULTIMETERMEAS_VAL_5_5_DIGITS (0.00000000000000E+0)
+  ""
+
+ HP34401AMULTIMETERMEAS_VAL_6_5_DIGITS (0.00000000000000E+0)
+  ""
+
+
+v resolVolt4Table DataType="d" 
+ HP34401AMULTIMETERMEAS_VAL_4_5_DIGITS (0.00000000000000E+0)
+  ""
+
+ HP34401AMULTIMETERMEAS_VAL_5_5_DIGITS (0.00000000000000E+0)
+  ""
+
+ HP34401AMULTIMETERMEAS_VAL_6_5_DIGITS (0.00000000000000E+0)
+  ""
+
+
+v resolVolt5Table DataType="d" 
+ HP34401AMULTIMETERMEAS_VAL_4_5_DIGITS (0.00000000000000E+0)
+  ""
+
+ HP34401AMULTIMETERMEAS_VAL_5_5_DIGITS (0.00000000000000E+0)
+  ""
+
+ HP34401AMULTIMETERMEAS_VAL_6_5_DIGITS (0.00000000000000E+0)
+  ""
+
+
+v FreqPeriod_RangeTable DataType="d" 
+ HP34401AMULTIMETERMEAS_VAL_AUTO_RANGE_ON (-1.00000000000000E+0)
+  ""
+
+ HP34401AMULTIMETERMEAS_VAL_AUTO_RANGE_OFF (-2.00000000000000E+0)
+  ""
+
+ 0.1 (1.00000000000000E-1)
+  ""
+
+ 1.0 (1.00000000000000E+0)
+  ""
+
+ 10.0 (1.00000000000000E+1)
+  ""
+
+ 100.0 (1.00000000000000E+2)
+  ""
+
+ 1000.0 (1.00000000000000E+3)
+  ""
+
+
+v VACRangeTable DataType="d" 
+ HP34401AMULTIMETERMEAS_VAL_AUTO_RANGE_ON (-1.00000000000000E+0)
+  "Configures the DMM to calculate the range before each measurement "
+  "automatically. "
+
+ HP34401AMULTIMETERMEAS_VAL_AUTO_RANGE_OFF (-2.00000000000000E+0)
+  "Disables auto-ranging.  The DMM sets the range to the value it most "
+  "recently calculated."
+
+ HP34401AMULTIMETERMEAS_VAL_AUTO_RANGE_ONCE (-3.00000000000000E+0)
+  "Configures the DMM to calculate the range before the next measurement.  "
+  "The DMM uses this range value for all subsequent measurements."
+
+ 0.1 (1.00000000000000E-1)
+  ""
+
+ 1.0 (1.00000000000000E+0)
+  ""
+
+ 10.0 (1.00000000000000E+1)
+  ""
+
+ 100.0 (1.00000000000000E+2)
+  ""
+
+ 1000.0 (1.00000000000000E+3)
+  ""
+
+
+v VDCRangeTable DataType="d" 
+ HP34401AMULTIMETERMEAS_VAL_AUTO_RANGE_ON (-1.00000000000000E+0)
+  "Configures the DMM to calculate the range before each measurement "
+  "automatically. "
+
+ HP34401AMULTIMETERMEAS_VAL_AUTO_RANGE_OFF (-2.00000000000000E+0)
+  "Disables auto-ranging.  The DMM sets the range to the value it most "
+  "recently calculated."
+
+ HP34401AMULTIMETERMEAS_VAL_AUTO_RANGE_ONCE (-3.00000000000000E+0)
+  "Configures the DMM to calculate the range before the next measurement.  "
+  "The DMM uses this range value for all subsequent measurements."
+
+ 0.1 (1.00000000000000E-1)
+  ""
+
+ 1.0 (1.00000000000000E+0)
+  ""
+
+ 10.0 (1.00000000000000E+1)
+  ""
+
+ 100.0 (1.00000000000000E+2)
+  ""
+
+ 1000.0 (1.00000000000000E+3)
+  ""
+
+
+v attrAcMaxFreqTable DataType="d" 
+ 300000.0 (3.00000000000000E+5)
+  "300.0k hertz"
+
+
+v attrAcMinFreqTable DataType="d" 
+ 20.0 (2.00000000000000E+1)
+  "20.0 hertz"
+
+
+v attrResolutionRangeTable DataType="d" 
+ HP34401AMULTIMETERMEAS_VAL_3_5_DIGITS (3.50000000000000E+0)
+  "3-1/2 digits"
+
+ HP34401AMULTIMETERMEAS_VAL_4_DIGITS (4.00000000000000E+0)
+  "4 digits"
+
+ HP34401AMULTIMETERMEAS_VAL_4_5_DIGITS (4.50000000000000E+0)
+  "4-1/2 digits"
+
+ HP34401AMULTIMETERMEAS_VAL_5_DIGITS (5.00000000000000E+0)
+  "5 digits"
+
+ HP34401AMULTIMETERMEAS_VAL_5_5_DIGITS (5.50000000000000E+0)
+  "5-1/2 digits"
+
+ HP34401AMULTIMETERMEAS_VAL_6_DIGITS (6.00000000000000E+0)
+  "6 digits"
+
+ HP34401AMULTIMETERMEAS_VAL_6_5_DIGITS (6.50000000000000E+0)
+  "6-1/2 digits"
+
+ HP34401AMULTIMETERMEAS_VAL_7_DIGITS (7.00000000000000E+0)
+  "7 digits"
+
+ HP34401AMULTIMETERMEAS_VAL_7_5_DIGITS (7.50000000000000E+0)
+  "7-1/2 digits"
+
+
+v ohmsRangeTable DataType="d" 
+ HP34401AMULTIMETERMEAS_VAL_AUTO_RANGE_ON (-1.00000000000000E+0)
+  "Configures the DMM to calculate the range before each measurement "
+  "automatically. "
+
+ HP34401AMULTIMETERMEAS_VAL_AUTO_RANGE_OFF (-2.00000000000000E+0)
+  "Disables auto-ranging.  The DMM sets the range to the value it most "
+  "recently calculated."
+
+ HP34401AMULTIMETERMEAS_VAL_AUTO_RANGE_ONCE (-3.00000000000000E+0)
+  "Configures the DMM to calculate the range before the next measurement.  "
+  "The DMM uses this range value for all subsequent measurements."
+
+ 100.0 (1.00000000000000E+2)
+  ""
+
+ 1000.0 (1.00000000000000E+3)
+  ""
+
+ 10000.0 (1.00000000000000E+4)
+  ""
+
+ 100000.0 (1.00000000000000E+5)
+  ""
+
+ 1000000.0 (1.00000000000000E+6)
+  ""
+
+ 10000000.0 (1.00000000000000E+7)
+  ""
+
+ 100000000.0 (1.00000000000000E+8)
+  ""
+
+
+v attrTriggerDelayRangeTable DataType="d" 
+ HP34401AMULTIMETERMEAS_VAL_AUTO_DELAY_ON (-1.00000000000000E+0)
+  "Configures the DMM to calculate the trigger delay before each measurement."
+
+ HP34401AMULTIMETERMEAS_VAL_AUTO_DELAY_OFF (-2.00000000000000E+0)
+  "Stops the DMM from calculating the trigger delay.  Sets the trigger delay "
+  "to the last trigger delay the DMM calculated.\n"
+
+
+v attrApertureTimeUnitsRangeTable DataType="i" 
+ HP34401AMULTIMETERMEAS_VAL_SECONDS (0)
+  "Seconds"
+
+ HP34401AMULTIMETERMEAS_VAL_POWER_LINE_CYCLES (1)
+  "Power Line Cycles"
+
+
+0 hp34401amultimetermeas_SetAttributeViInt32 3 4 false s DataType="ViInt32" 
+0 hp34401amultimetermeas_GetAttributeViInt32 3 4 false g DataType="ViInt32" 
+0 hp34401amultimetermeas_CheckAttributeViInt32 3 4 false s DataType="ViInt32" 
+0 hp34401amultimetermeas_SetAttributeViReal64 3 4 false s DataType="ViReal64" 
+0 hp34401amultimetermeas_GetAttributeViReal64 3 4 false g DataType="ViReal64" 
+0 hp34401amultimetermeas_CheckAttributeViReal64 3 4 false s DataType="ViReal64" 
+0 hp34401amultimetermeas_SetAttributeViSession 3 4 false s DataType="ViSession" 
+0 hp34401amultimetermeas_GetAttributeViSession 3 4 false g DataType="ViSession" 
+0 hp34401amultimetermeas_CheckAttributeViSession 3 4 false s DataType="ViSession" 
+0 hp34401amultimetermeas_SetAttributeViBoolean 3 4 false s DataType="ViBoolean" 
+0 hp34401amultimetermeas_GetAttributeViBoolean 3 4 false g DataType="ViBoolean" 
+0 hp34401amultimetermeas_CheckAttributeViBoolean 3 4 false s DataType="ViBoolean" 
+0 hp34401amultimetermeas_SetAttributeViString 3 4 false s DataType="ViString" 
+0 hp34401amultimetermeas_GetAttributeViString 3 5 false g DataType="ViString" 
+0 hp34401amultimetermeas_CheckAttributeViString 3 4 false s DataType="ViString" 
+
+1 all "Inherent IVI Attributes" 
+ "Attributes common to all IVI instrument drivers."
+
+2 all "User Options" 
+ "Attributes you can set to affect the operation of this instrument driver.\n"
+ "    "
+
+3 all "Range Check" HP34401AMULTIMETERMEAS_ATTR_RANGE_CHECK ViBoolean gs Boolean_values 
+ "Specifies whether to validate attribute values and function parameters.  "
+ "If enabled, the instrument driver validates the parameter values that you "
+ "pass to driver functions.  Range checking parameters is very useful for "
+ "debugging.  After you validate your program, you can set this attribute to "
+ "VI_FALSE to disable range checking and maximize performance.\n"
+ "    The default value is VI_TRUE.   Use the "
+ "hp34401amultimetermeas_InitWithOptions function to override this value.\n"
+ "    "
+
+3 all "Query Instrument Status" HP34401AMULTIMETERMEAS_ATTR_QUERY_INSTRUMENT_STATUS ViBoolean gs Boolean_values 
+ "Specifies whether the instrument driver queries the instrument status "
+ "after each operation.  Querying the instrument status is very useful for "
+ "debugging.  After you validate your program, you can set this attribute to "
+ "VI_FALSE to disable status checking and maximize performance\n"
+ "    The instrument driver can choose to ignore status checking for "
+ "particular attributes regardless of the setting of this attribute.\n"
+ "    The default value is VI_TRUE.   Use the "
+ "hp34401amultimetermeas_InitWithOptions function to override this value.\n"
+ "    "
+
+3 all "Cache" HP34401AMULTIMETERMEAS_ATTR_CACHE ViBoolean gs Boolean_values 
+ "Specifies whether to cache the value of attributes.  When caching is "
+ "enabled, the instrument driver keeps track of the current instrument "
+ "settings and avoids sending redundant commands to the instrument.  Thus, "
+ "you can significantly increase execution speed.\n"
+ "    The instrument driver can choose always to cache or never to cache "
+ "particular attributes regardless of the setting of this attribute.\n"
+ "    The default value is VI_TRUE.   Use the "
+ "hp34401amultimetermeas_InitWithOptions function to override this value.\n"
+ "    "
+
+3 all "Simulate" HP34401AMULTIMETERMEAS_ATTR_SIMULATE ViBoolean gs Boolean_values 
+ "Specifies whether or not to simulate instrument driver I/O operations.  If "
+ "simulation is enabled, instrument driver functions perform range checking "
+ "and call Ivi_GetAttribute and Ivi_SetAttribute functions, but they do not "
+ "perform instrument I/O.  For output parameters that represent instrument "
+ "data, the instrument driver functions return calculated values.\n"
+ "    The default value is VI_FALSE.   Use the "
+ "hp34401amultimetermeas_InitWithOptions function to override this value.\n"
+ "    "
+
+3 all "Record Value Coercions" HP34401AMULTIMETERMEAS_ATTR_RECORD_COERCIONS ViBoolean gs Boolean_values 
+ "Specifies whether the IVI engine keeps a list of the value coercions it "
+ "makes for ViInt32 and ViReal64 attributes.  You call "
+ "hp34401amultimetermeas_GetNextCoercionRecord to extract and delete the "
+ "oldest coercion record from the list.\n"
+ "    The default value is VI_FALSE.   Use the "
+ "hp34401amultimetermeas_InitWithOptions function to override this value.\n"
+ "    "
+
+3 all "Interchange Check" HP34401AMULTIMETERMEAS_ATTR_INTERCHANGE_CHECK ViBoolean gs Boolean_values 
+ "Specifies whether to perform interchangeability checking and retrieve "
+ "interchangeability warnings when you call hp34401amultimetermeas_Initiate, "
+ "hp34401amultimetermeas_Read or hp34401amultimetermeas_ReadMultiPoint. \n"
+ "\n"
+ "The default value is VI_FALSE.\n"
+ "\n"
+ "Interchangeability warnings indicate that using your application with a "
+ "different instrument might cause different behavior.  You call "
+ "hp34401amultimetermeas_GetNextInterchangeWarning to extract interchange "
+ "warnings.  Call the hp34401amultimetermeas_ClearInterchangeWarnings "
+ "function to clear the list of interchangeability warnings without reading "
+ "them.\n"
+ "\n"
+ "Interchangeability checking examines the attributes in a capability group "
+ "only if you specify a value for at least one attribute within that group.  "
+ "Interchangeability warnings can occur when an attribute affects the "
+ "behavior of the instrument and you have not set that attribute, or the "
+ "attribute has been invalidated since you set it.\n"
+ "    "
+
+2 all "Driver Identification" 
+ "Attributes that provide identity and version information about this "
+ "instrument driver.\n"
+ "    "
+
+3 all "Description" HP34401AMULTIMETERMEAS_ATTR_SPECIFIC_DRIVER_DESCRIPTION ViString g 
+ "A string that contains a brief description of the specific driver\n"
+ "    "
+
+3 all "Driver Prefix" HP34401AMULTIMETERMEAS_ATTR_SPECIFIC_DRIVER_PREFIX ViString g 
+ "A string that contains the prefix for the instrument driver.  The name of "
+ "each user-callable function in this driver starts with this prefix.\n"
+ "    "
+
+3 all "Driver Vendor" HP34401AMULTIMETERMEAS_ATTR_SPECIFIC_DRIVER_VENDOR ViString g 
+ "A string that contains the name of the vendor that supplies this driver.\n"
+ "    "
+
+3 all "Revision" HP34401AMULTIMETERMEAS_ATTR_SPECIFIC_DRIVER_REVISION ViString g 
+ "A string that contains additional version information about this "
+ "instrument driver.\n"
+ "    "
+
+3 all "Class Specification Major Version" HP34401AMULTIMETERMEAS_ATTR_SPECIFIC_DRIVER_CLASS_SPEC_MAJOR_VERSION ViInt32 g 
+ "The major version number of the class specification with which this driver "
+ "is compliant.\n"
+ "    "
+
+3 all "Class Specification Minor Version" HP34401AMULTIMETERMEAS_ATTR_SPECIFIC_DRIVER_CLASS_SPEC_MINOR_VERSION ViInt32 g 
+ "The minor version number of the class specification with which this driver "
+ "is compliant.\n"
+ "    "
+
+2 all "Driver Capabilities" 
+ "Attributes that provide information about the capabilities of this "
+ "instrument driver.\n"
+ "    "
+
+3 all "Supported Instrument Models" HP34401AMULTIMETERMEAS_ATTR_SUPPORTED_INSTRUMENT_MODELS ViString g 
+ "Contains a model code of the instrument. For drivers that support more "
+ "than one device, this attribute contains a comma-separated list of "
+ "supported instrument models.\n"
+ "    "
+
+3 all "Class Group Capabilities" HP34401AMULTIMETERMEAS_ATTR_GROUP_CAPABILITIES ViString g 
+ "A string that contains a comma-separated list of class-extention groups "
+ "that this driver implements.\n"
+ "    "
+
+3 all "Number of Channels" HP34401AMULTIMETERMEAS_ATTR_CHANNEL_COUNT ViInt32 g 
+ "Indicates the number of channels that the specific instrument driver "
+ "supports.  \n"
+ "    For each attribute for which the IVI_VAL_MULTI_CHANNEL flag attribute "
+ "is set, the IVI engine maintains a separate cache value for each channel.\n"
+ "    "
+
+2 all "Instrument Identification" 
+ "Attributes that provide identity information about the instrument that you "
+ "are using.    "
+
+3 all "Manufacturer" HP34401AMULTIMETERMEAS_ATTR_INSTRUMENT_MANUFACTURER ViString g 
+ "A string that contains the name of the instrument manufacturer you are "
+ "currently using.\n"
+ "    "
+
+3 all "Model" HP34401AMULTIMETERMEAS_ATTR_INSTRUMENT_MODEL ViString g 
+ "A string that contains the model number or name of the instrument that you "
+ "are currently using.\n"
+ "    "
+
+3 all "Firmware Revision" HP34401AMULTIMETERMEAS_ATTR_INSTRUMENT_FIRMWARE_REVISION ViString g 
+ "A string that contains the firmware revision information for the "
+ "instrument you are currently using.\n"
+ "    "
+
+2 all "Error Info" 
+ "Attributes for error information.\n"
+ "    "
+
+2 all "Advanced Session Information" 
+ "Attributes that contain additional information concerning the instrument "
+ "driver session.\n"
+ "    "
+
+3 all "Driver Setup" HP34401AMULTIMETERMEAS_ATTR_DRIVER_SETUP ViString g 
+ "This attribute indicates the Driver Setup string that the user specified "
+ "when initializing the driver.\n"
+ "\n"
+ "Some cases exist where the end-user must specify instrument driver options "
+ "at initialization time.  An example of this is specifying a particular "
+ "instrument model from among a family of instruments that the driver "
+ "supports.  This is useful when using simulation.  The end-user can specify "
+ "driver-specific options through the DriverSetup keyword in the "
+ "optionsString parameter to the hp34401amultimetermeas_InitWithOptions "
+ "function, or through the IVI Configuration Utility.\n"
+ "\n"
+ "If the user does not specify a Driver Setup string, this attribute returns "
+ "an empty string.\n"
+ "    "
+
+3 all "Logical Name" HP34401AMULTIMETERMEAS_ATTR_LOGICAL_NAME ViString g 
+ "A string containing the logical name you specified when opening the "
+ "current IVI session.\n"
+ "     You may pass a logical name to the hp34401amultimetermeas_init or "
+ "hp34401amultimetermeas_InitWithOptions functions.  The IVI Configuration "
+ "utility must contain an entry for the logical name.  The logical name "
+ "entry refers to a virtual instrument section in the IVI Configuration "
+ "file.  The virtual instrument section specifies a physical device and "
+ "initial user options.\n"
+ "    "
+
+3 all "Resource Descriptor" HP34401AMULTIMETERMEAS_ATTR_IO_RESOURCE_DESCRIPTOR ViString g 
+ "Indicates the resource descriptor the driver uses to identify the physical "
+ "device.\n"
+ "    If you initialize the driver with a logical name, this attribute "
+ "contains the resource descriptor that corresponds to the entry in the IVI "
+ "Configuration utility.  \n"
+ "    If you initialize the instrument driver with the resource descriptor, "
+ "this attribute contains that value.\n"
+ "    "
+
+1 all "Basic Operation" 
+ "Attributes that control the basic features of the DMM."
+
+2 all "Function" HP34401AMULTIMETERMEAS_ATTR_FUNCTION ViInt32 gs attrFunctionRangeTableForHP34401AMULTIMETERMEAS 
+ "Specifies the measurement function.\n"
+ "\n"
+ "Valid Values:\n"
+ "\n"
+ "For HP34401AMULTIMETERMEAS:\n"
+ "HP34401AMULTIMETERMEAS_VAL_DC_VOLTS       - DC Volts (Default)\n"
+ "HP34401AMULTIMETERMEAS_VAL_AC_VOLTS       - AC Volts\n"
+ "HP34401AMULTIMETERMEAS_VAL_DC_CURRENT     - DC Current\n"
+ "HP34401AMULTIMETERMEAS_VAL_AC_CURRENT     - AC Current\n"
+ "HP34401AMULTIMETERMEAS_VAL_2_WIRE_RES     - 2-Wire Resistance\n"
+ "HP34401AMULTIMETERMEAS_VAL_4_WIRE_RES     - 4-Wire Resistance\n"
+ "HP34401AMULTIMETERMEAS_VAL_FREQ           - Frequency\n"
+ "HP34401AMULTIMETERMEAS_VAL_PERIOD         - Period\n"
+ "HP34401AMULTIMETERMEAS_VAL_DIODE          - Diode\n"
+ "HP34401AMULTIMETERMEAS_VAL_CONTINUITY     - Continuity\n"
+ "HP34401AMULTIMETERMEAS_VAL_DC_VOLTS_RATIO - DC Volts Ratio\n"
+ "\n"
+ "For HPE1412A:\n"
+ "HP34401AMULTIMETERMEAS_VAL_DC_VOLTS       - DC Volts (Default)\n"
+ "HP34401AMULTIMETERMEAS_VAL_AC_VOLTS       - AC Volts\n"
+ "HP34401AMULTIMETERMEAS_VAL_DC_CURRENT     - DC Current\n"
+ "HP34401AMULTIMETERMEAS_VAL_AC_CURRENT     - AC Current\n"
+ "HP34401AMULTIMETERMEAS_VAL_2_WIRE_RES     - 2-Wire Resistance\n"
+ "HP34401AMULTIMETERMEAS_VAL_4_WIRE_RES     - 4-Wire Resistance\n"
+ "HP34401AMULTIMETERMEAS_VAL_FREQ           - Frequency\n"
+ "HP34401AMULTIMETERMEAS_VAL_PERIOD         - Period\n"
+ "HP34401AMULTIMETERMEAS_VAL_DC_VOLTS_RATIO - DC Volts Ratio\n"
+ "\n"
+ "For AG34410A/AG34411A/AGL4411A:\n"
+ "HP34401AMULTIMETERMEAS_VAL_DC_VOLTS       - DC Volts (Default)\n"
+ "HP34401AMULTIMETERMEAS_VAL_AC_VOLTS       - AC Volts\n"
+ "HP34401AMULTIMETERMEAS_VAL_DC_CURRENT     - DC Current\n"
+ "HP34401AMULTIMETERMEAS_VAL_AC_CURRENT     - AC Current\n"
+ "HP34401AMULTIMETERMEAS_VAL_2_WIRE_RES     - 2-Wire Resistance\n"
+ "HP34401AMULTIMETERMEAS_VAL_4_WIRE_RES     - 4-Wire Resistance\n"
+ "HP34401AMULTIMETERMEAS_VAL_FREQ           - Frequency\n"
+ "HP34401AMULTIMETERMEAS_VAL_PERIOD         - Period\n"
+ "HP34401AMULTIMETERMEAS_VAL_CAPACITANCE    - Capacitance\n"
+ "HP34401AMULTIMETERMEAS_VAL_TEMPERATURE    - Temperature\n"
+ "HP34401AMULTIMETERMEAS_VAL_DIODE          - Diode\n"
+ "HP34401AMULTIMETERMEAS_VAL_CONTINUITY     - Continuity"
+
+2 all "Range" HP34401AMULTIMETERMEAS_ATTR_RANGE ViReal64 gs 
+ "Specifies the measurement range you want to use. Use positive values to "
+ "specify the absolute value of the maximum expected measurement.\n"
+ "\n"
+ "The value of the measurement range must be in units appropriate for the "
+ "HP34401AMULTIMETERMEAS_ATTR_FUNCTION attribute. For example, when you set "
+ "the HP34401AMULTIMETERMEAS_ATTR_FUNCTION attribute to "
+ "HP34401AMULTIMETERMEAS_VAL_DC_VOLTS, you must specify the range in volts. "
+ "Setting this parameter to 10.0 configures the DMM to measure DC voltages "
+ "from -10.0 to +10.0 volts.\n"
+ "\n"
+ "The driver reserves the following negative values for controlling the "
+ "auto-ranging capability of the DMM.\n"
+ "\n"
+ "Defined Values:\n"
+ "HP34401AMULTIMETERMEAS_VAL_AUTO_RANGE_OFF  (-2.0)  - Auto-Range Off\n"
+ "HP34401AMULTIMETERMEAS_VAL_AUTO_RANGE_ON   (-1.0)  - Auto-Range On\n"
+ "\n"
+ "Only for AG34410A/AG34411A/AGL4411A:\n"
+ "HP34401AMULTIMETERMEAS_VAL_AUTO_RANGE_ONCE (-3.0)  - Auto-Range Once\n"
+ "\n"
+ "Valid Manual Range:\n"
+ "\n"
+ "For HP34401AMULTIMETERMEAS and HPE1412A:\n"
+ "The valid manual range depends on the measurement function. The following "
+ "table lists the valid manual ranges.\n"
+ "\n"
+ " --------------------------------------------------------------\n"
+ " |    Function    |   Min Value    |     Max Value    | Unit  |      \n"
+ " --------------------------------------------------------------\n"
+ " | DC Volts       |  0.1           |  1000.0          | volts |\n"
+ " | AC Volts       |  0.1           |  1000.0          | volts |\n"
+ " | DC Current     |  0.01          |  3.0             | amps  |\n"
+ " | AC Current     |  1.0           |  3.0             | amps  |\n"
+ " | 2-Wire Res     |  100.0         |  100.0E6         | ohms  |\n"
+ " | 4-Wire Res     |  100.0         |  100.0E6         | ohms  |\n"
+ " | Frequency      |  Auto-Range On |  Auto-Range On   | ----- |\n"
+ " | Period         |  Auto-Range On |  Auto-Range On   | ----- |\n"
+ " | Diode          |  Auto-Range On |  Auto-Range On   | ----- |\n"
+ " | Continuity     |  Auto-Range On |  Auto-Range On   | ----- |\n"
+ " | DC Volts Ratio |  0.1           |  1000.0          | volts |\n"
+ " --------------------------------------------------------------\n"
+ "\n"
+ "For HP34401AMULTIMETERMEAS and HPE1412A:\n"
+ "The valid manual range depends on the measurement function. The following "
+ "table lists the valid manual ranges.\n"
+ "\n"
+ " --------------------------------------------------------------\n"
+ " |    Function    |   Min Value    |     Max Value    | Unit  |      \n"
+ " --------------------------------------------------------------\n"
+ " | DC Volts       |  0.1           |  1000.0          | volts |\n"
+ " | AC Volts       |  0.1           |  1000.0          | volts |\n"
+ " | DC Current     |  0.0001        |  3.0             | amps  |\n"
+ " | AC Current     |  0.0001        |  3.0             | amps  |\n"
+ " | 2-Wire Res     |  100.0         |  100.0E7         | ohms  |\n"
+ " | 4-Wire Res     |  100.0         |  100.0E7         | ohms  |\n"
+ " | Frequency      |  Auto-Range On |  Auto-Range On   | ----- |\n"
+ " | Period         |  Auto-Range On |  Auto-Range On   | ----- |\n"
+ " | Capacitance    |  1.0E-9        |  1.0E-5          | farads|\n"
+ " | Temperature    |  Auto-Range On |  Auto-Range On   | ----- | \n"
+ " | Diode          |  Auto-Range On |  Auto-Range On   | ----- |\n"
+ " | Continuity     |  Auto-Range On |  Auto-Range On   | ----- |\n"
+ " --------------------------------------------------------------\n"
+ "\n"
+ "Default Value: HP34401AMULTIMETERMEAS_VAL_AUTO_RANGE_ON\n"
+ "\n"
+ "Notes:\n"
+ "\n"
+ "(1) You must set this attribute to "
+ "HP34401AMULTIMETERMEAS_VAL_AUTO_RANGE_ON when the "
+ "HP34401AMULTIMETERMEAS_ATTR_FUNCTION attribute is set to Diode, "
+ "Continuity, Frequency, or Period.\n"
+ "\n"
+ "(2) When the HP34401AMULTIMETERMEAS_ATTR_FUNCTION attribute is set to DC "
+ "Volts Ratio, this attribute specifies the range of the signal connected to "
+ "the Input terminals. The signal connected to the Sense terminals always is "
+ "set to Auto-Range On.\n"
+ "\n"
+ "(3) When you set this attribute to "
+ "HP34401AMULTIMETERMEAS_VAL_AUTO_RANGE_OFF or "
+ "HP34401AMULTIMETERMEAS_VAL_AUTO_RANGE_ONCE, further queries of this "
+ "attribute return the actual range.\n"
+ "\n"
+ "(4) When you set this attribute to "
+ "HP34401AMULTIMETERMEAS_VAL_AUTO_RANGE_ON, you can obtain the actual range "
+ "the DMM is using by getting the value of the "
+ "HP34401AMULTIMETERMEAS_ATTR_AUTO_RANGE_VALUE attribute.\n"
+ "\n"
+ "(5) When you set this attribute to "
+ "HP34401AMULTIMETERMEAS_VAL_AUTO_RANGE_ONCE, the DMM performs an immediate "
+ "auto-range and then sets auto-ranging to OFF. The query therefore returns "
+ "\"0\"."
+
+2 all "Resolution" HP34401AMULTIMETERMEAS_ATTR_RESOLUTION_ABSOLUTE ViReal64 gs 
+ "Specifies the measurement resolution in absolute units.\n"
+ "\n"
+ "The value of the measurement resolution must be in units appropriate for "
+ "the measurement function, as shown in the following table. \n"
+ "\n"
+ "  DC Volts           - volts\n"
+ "  AC Volts           - volts\n"
+ "  DC Current         - amperes\n"
+ "  AC Current         - amperes\n"
+ "  2-Wire Resistance  - ohms\n"
+ "  4-Wire Resistance  - ohms\n"
+ "  Frequency          - hertz\n"
+ "  Period             - seconds\n"
+ "  Capacitance        - farads\n"
+ "  Temperature        - celsius     \n"
+ "  Diode              - volts\n"
+ "  Continuity         - ohms \n"
+ "  DC Volts Ratio     - volts\n"
+ "\n"
+ "Valid Range:\n"
+ "The measurement resolution depends on the current measurement function and "
+ "the current measurement range that you specify with the "
+ "HP34401AMULTIMETERMEAS_ATTR_FUNCTION and the "
+ "HP34401AMULTIMETERMEAS_ATTR_RANGE attributes.   \n"
+ "\n"
+ "For HP34401AMULTIMETERMEAS and HP1412A:\n"
+ "DC Volts, DC Current, 2-Wire Resistance, 4-Wire Resistance, and DC Volts "
+ "Ratio:\n"
+ " ---------------------------------------------------------\n"
+ " |        PLCs         |    Resolution    |   MIN, MAX   |    \n"
+ " ---------------------------------------------------------\n"
+ " | 0.02  PLC           | 100 ppm x Range  |      MAX     |\n"
+ " | 0.2   PLC           | 10  ppm x Range  |    -------   |\n"
+ " | 1     PLC (Default) | 3.0 ppm x Range  |    -------   |\n"
+ " | 10    PLC           | 1.0 ppm x Range  |    -------   |\n"
+ " | 100   PLC           | 0.3 ppm x Range  |      MIN     |\n"
+ " ---------------------------------------------------------\n"
+ "Frequency and Period:\n"
+ " ---------------------------------------------------------\n"
+ " |       Aperture      |    Resolution    |   MIN, MAX   |    \n"
+ " ---------------------------------------------------------\n"
+ " |    0.01  Second     | 100 ppm x Range  |      MAX     |\n"
+ " |    0.1   Second     | 10  ppm x Range  |    --------  |\n"
+ " |    1.0   Second     | 1.0 ppm x Range  |      MIN     |\n"
+ " ---------------------------------------------------------\n"
+ "AC Volts, and AC Current:\n"
+ " Resolution = 1.0 ppm x Range\n"
+ "Diode:\n"
+ " Fixed to 1.0E-5\n"
+ "Continuity:\n"
+ " Fixed to 0.01\n"
+ "\n"
+ "For AG34410A/AG34411A/AGL4411A:\n"
+ "DC Volts, DC Current, 2-Wire Resistance, 4-Wire Resistance, and "
+ "Temperature:\n"
+ " "
+ "---------------------------------------------------------------------------"
+ "-\n"
+ " |        PLCs                |    Resolution     |      DEF, MIN, MAX     "
+ " |\n"
+ " "
+ "---------------------------------------------------------------------------"
+ "-\n"
+ " | 0.001 (34411A/L4411A Only) | 30   ppm x Range  | MAX (for "
+ "34411A/L4411A) |\n"
+ " | 0.002 (34411A/L4411A Only) | 15   ppm x Range  |       -----------      "
+ " |\n"
+ " | 0.006 PLC                  | 6.0  ppm x Range  | MAX (for "
+ "34410A/L4411A) |\n"
+ " | 0.02  PLC                  | 3.0  ppm x Range  |       -----------      "
+ " |\n"
+ " | 0.06  PLC                  | 1.5  ppm x Range  |       -----------      "
+ " |\n"
+ " | 0.2   PLC                  | 0.7  ppm x Range  |       -----------      "
+ " |\n"
+ " | 1     PLC (Default)        | 0.3  ppm x Range  |           DEF          "
+ " |\n"
+ " | 2     PLC                  | 0.2  ppm x Range  |       -----------      "
+ " |\n"
+ " | 10    PLC                  | 0.1  ppm x Range  |       -----------      "
+ " |\n"
+ " | 100   PLC                  | 0.03 ppm x Range  |           MIN          "
+ " |\n"
+ " "
+ "---------------------------------------------------------------------------"
+ "-\n"
+ "Frequency and Period:\n"
+ " -------------------------------------------------------------\n"
+ " |       Aperture      |    Resolution     |  DEF, MIN, MAX   |    \n"
+ " -------------------------------------------------------------\n"
+ " |    0.001 Second     | 100  ppm x Range  |       MAX        |\n"
+ " |    0.01  Second     | 10   ppm x Range  |   -----------    |\n"
+ " |    0.1   Second     | 1.0  ppm x Range  |       DEF        |\n"
+ " |    1.0   Second     | 0.1  ppm x Range  |       MIN        |\n"
+ " -------------------------------------------------------------\n"
+ "AC Volts, and AC Current:\n"
+ " Resolution = 1.0 ppm x Range\n"
+ "Capacitance:\n"
+ " Resolution = 10  ppm x Range\n"
+ "Diode:\n"
+ " Fixed to 1.0E-5\n"
+ "Continuity:\n"
+ " Fixed to 0.01\n"
+ "\n"
+ "Default Value: 0.0001 volts"
+
+1 all "Trigger" 
+ "Attributes that configure the triggering capabilities of the DMM."
+
+2 all "Trigger Delay" HP34401AMULTIMETERMEAS_ATTR_TRIGGER_DELAY ViReal64 gs 
+ "Specifies the length of time the DMM waits after receiving a trigger but "
+ "before taking a measurement. Use positive values to specify the trigger "
+ "delay in seconds. The driver reserves negative values for configuring the "
+ "DMM to calculate the trigger delay automatically.\n"
+ "\n"
+ "Setting this attribute to HP34401AMULTIMETERMEAS_VAL_AUTO_DELAY_ON "
+ "configures the DMM to calculate the trigger delay before each measurement.\n"
+ "\n"
+ "Setting this attribute to HP34401AMULTIMETERMEAS_VAL_AUTO_DELAY_OFF stops "
+ "the DMM from calculating the trigger delay and sets the trigger delay to "
+ "the last automatically calculated value.\n"
+ "\n"
+ "Valid Positive Range: 0.0 to 3600.0 seconds\n"
+ "\n"
+ "Note: For this instrument, the HP34401AMULTIMETERMEAS_ATTR_TRIGGER_DELAY "
+ "and \n"
+ "HP34401AMULTIMETERMEAS_ATTR_SAMPLE attributes are analogous to each other."
+
+2 all "Trigger Source" HP34401AMULTIMETERMEAS_ATTR_TRIGGER_SOURCE ViInt32 gs attrTriggerSourceRangeTableForHP34401AMULTIMETERMEAS 
+ "Specifies the trigger source.  After you call either the "
+ "hp34401amultimetermeas_Read or the hp34401amultimetermeas_Initiate "
+ "function, the DMM waits for the trigger you specify with this attribute.  "
+ "After receiving the trigger, the DMM waits the length of time you specify "
+ "with the HP34401AMULTIMETERMEAS_ATTR_TRIGGER_DELAY attribute before taking "
+ "a measurement.\n"
+ "\n"
+ "Valid Values:\n"
+ "\n"
+ "For HP34401AMULTIMETERMEAS and AG34410A:\n"
+ "HP34401AMULTIMETERMEAS_VAL_IMMEDIATE     - Immediate (Default)\n"
+ "HP34401AMULTIMETERMEAS_VAL_EXTERNAL      - External\n"
+ "HP34401AMULTIMETERMEAS_VAL_SOFTWARE_TRIG - Software Trigger Function\n"
+ "\n"
+ "For HPE1412A:\n"
+ "HP34401AMULTIMETERMEAS_VAL_IMMEDIATE     - Immediate (Default)\n"
+ "HP34401AMULTIMETERMEAS_VAL_EXTERNAL      - External\n"
+ "HP34401AMULTIMETERMEAS_VAL_SOFTWARE_TRIG - Software Trigger Function\n"
+ "HP34401AMULTIMETERMEAS_VAL_TTL<0-7>      - TTL lines <0-7>\n"
+ "\n"
+ "For AG34411A/AGL4411A:\n"
+ "HP34401AMULTIMETERMEAS_VAL_IMMEDIATE     - Immediate (Default)\n"
+ "HP34401AMULTIMETERMEAS_VAL_EXTERNAL      - External\n"
+ "HP34401AMULTIMETERMEAS_VAL_SOFTWARE_TRIG - Software Trigger Function\n"
+ "HP34401AMULTIMETERMEAS_VAL_INTERNAL      - Internal"
+
+1 all "TriggerSlope" 
+ "Attributes that configure the slope of the trigger."
+
+2 all "Trigger Slope" HP34401AMULTIMETERMEAS_ATTR_TRIGGER_SLOPE ViInt32 gs attrTriggerSlopeRangeTable 
+ "Specifies whether the instrument uses the rising edge or the falling edge "
+ "of the trigger signal on the rear-panel Ext Trig BNC connector.\n"
+ "\n"
+ "Valid Values:\n"
+ "HP34401AMULTIMETERMEAS_VAL_NEGATIVE   -  Negative\n"
+ "HP34401AMULTIMETERMEAS_VAL_POSITIVE   -  Positive\n"
+ "\n"
+ "Default Value: Negative"
+
+2 all "Output Trigger Slope" HP34401AMULTIMETERMEAS_ATTR_OUTPUT_TRIGGER_SLOPE ViInt32 gs attrTriggerSlopeRangeTable 
+ "Specifies the slope of the complete output signal of the voltmeter on the "
+ "rear-panel VM Comp BNC connector.\n"
+ "\n"
+ "Valid Values:\n"
+ "HP34401AMULTIMETERMEAS_VAL_NEGATIVE   -  Negative\n"
+ "HP34401AMULTIMETERMEAS_VAL_POSITIVE   -  Positive\n"
+ "\n"
+ "Default Value: Negative"
+
+1 all "AC Measurement" 
+ "Attributes that configure additional parameters for AC volts and AC "
+ "current measurements."
+
+2 all "AC Minimum Frequency" HP34401AMULTIMETERMEAS_ATTR_AC_MIN_FREQ ViReal64 gs 
+ "Specifies the minimum frequency component of the input signal for AC "
+ "measurements. The value of this attribute affects instrument behavior only "
+ "when you set the HP34401AMULTIMETERMEAS_ATTR_FUNCTION attribute to an AC "
+ "measurement.\n"
+ "    \n"
+ "Valid Values: 3.0, 20.0, 200.0 Hz\n"
+ "\n"
+ "Note: The driver coerces all valid values you specify for this attribute "
+ "to either 3.0, 20.0, or 200.0."
+
+2 all "AC Maximum Frequency" HP34401AMULTIMETERMEAS_ATTR_AC_MAX_FREQ ViReal64 gs 
+ "Specifies the maximum frequency component of the input signal for AC "
+ "measurements. The value of this attribute affects instrument behavior only "
+ "when you set the HP34401AMULTIMETERMEAS_ATTR_FUNCTION attribute to an AC "
+ "measurement.\n"
+ "    \n"
+ "Valid Range: \n"
+ "\n"
+ "For HP34401AMULTIMETERMEAS and HPE1412A:\n"
+ "The valid range depends on the selected AC measurement, as shown in the "
+ "following list:\n"
+ "   AC Volts:    300.0E3 Hz\n"
+ "   AC Current:  5.0E3 Hz\n"
+ "\n"
+ "For AG34410A/AG34411A/AGL4411A:\n"
+ "   300.0E3 Hz\n"
+ "\n"
+ "Note: The driver coerces all valid values you specify for this attribute "
+ "to the maximum frequency."
+
+1 all "Frequency Measurements" 
+ "Attributes that configure additional parameters for frequency and period "
+ "measurements."
+
+2 all "Frequency Voltage Range" HP34401AMULTIMETERMEAS_ATTR_FREQ_VOLTAGE_RANGE ViReal64 gs attrThresholdVoltageRangeTableForHP34410A 
+ "Specifies the amplitude range, in volts RMS, of the input signal for "
+ "frequency and period measurements. The value of this attribute affects "
+ "instrument behavior only when the IVIDMM_ATTR_FUNCTION attribute is set to "
+ "a Frequency or Period measurement.\n"
+ "\n"
+ "Defined Values:\n"
+ "\n"
+ "HP34401AMULTIMETERMEAS_VAL_AUTO_RANGE_ON   (-1.0) - Auto-Range On\n"
+ "HP34401AMULTIMETERMEAS_VAL_AUTO_RANGE_OFF  (-2.0) - Auto-Range Off\n"
+ "\n"
+ "Only for AG34410A/AG34411A/AGL4411A:\n"
+ "HP34401AMULTIMETERMEAS_VAL_AUTO_RANGE_ONCE (-3.0) - Auto-Range Once\n"
+ "\n"
+ "Valid Manual Range: 0.0 - 1000.0 volts RMS \n"
+ "                 \n"
+ "Default Value: 10.0 volts RMS"
+
+1 all "Temperature Measurements" 
+ "Attributes that configure additional parameters for temperature "
+ "measurements."
+
+2 all "Transducer Type" HP34401AMULTIMETERMEAS_ATTR_TEMP_TRANSDUCER_TYPE ViInt32 gs attrTempTransducerTypeRangeTable 
+ "Specifies the transducer probe type to use for temperature measurements of "
+ "the DMM. The driver sets the value of this attribute.\n"
+ "\n"
+ "Valid Values:\n"
+ "HP34401AMULTIMETERMEAS_VAL_THERMISTOR    - 2-Wire Thermistor\n"
+ "HP34401AMULTIMETERMEAS_VAL_4_THERMISTOR  - 4-Wire Thermistor\n"
+ "HP34401AMULTIMETERMEAS_VAL_2_WIRE_RTD    - 2-Wire RTD\n"
+ "HP34401AMULTIMETERMEAS_VAL_4_WIRE_RTD    - 4-Wire RTD (Default)"
+
+1 all "Resistance Temperature Device" 
+ "Attributes that configure the resistance temperature device."
+
+2 all "RTD Alpha" HP34401AMULTIMETERMEAS_ATTR_TEMP_RTD_ALPHA ViReal64 gs attrTempRtdAlphaRangeTable 
+ "Specifies the resistance temperature device (RTD) type for temperature "
+ "measurements of the DMM.\n"
+ "\n"
+ "Valid Values:\n"
+ "This attribute supports only Type 85 RTDs (0.00385) for RTD temperature "
+ "measurements.\n"
+ "\n"
+ "Note: This attribute affects both 2-wire and 4-wire RTD measurements."
+
+2 all "RTD Resistance" HP34401AMULTIMETERMEAS_ATTR_TEMP_RTD_RES ViReal64 gs 
+ "Specifies the nominal resistance (Ro), in Ohms, for resistance temperature "
+ "device (RTD) measurements of the DMM. The driver sets the value of this "
+ "attribute.\n"
+ "\n"
+ "Valid Values:\n"
+ "49.0 - 2100.0 Ohms\n"
+ "\n"
+ "Note: This attribute affects both 2-wire and 4-wire RTD measurements."
+
+2 all "Temperature RTD Compensation Enable" HP34401AMULTIMETERMEAS_ATTR_TEMP_RTD_COMPENSATION_ENABLED ViBoolean gs Boolean_values 
+ "Enables or disables offset compensation for temperature measurements of "
+ "the DMM. Offset compensation removes the effects of small DC voltages "
+ "being measured in the circuit. The driver sets the value of this "
+ "attribute.\n"
+ "\n"
+ "Default Value: VI_FALSE - Off                                              "
+ "       \n"
+ "\n"
+ "Note: This attribute affects both 2-wire and 4-wire resistance temperature "
+ "device (RTD) measurements."
+
+1 all "Thermistor" 
+ "Attributes that configure the thermistor transducer type.\n"
+
+2 all "Thermistor Resistance" HP34401AMULTIMETERMEAS_ATTR_TEMP_THERMISTOR_RES ViReal64 gs attrTempThermistorResRangeTable 
+ "Specifies the thermistor type, in Ohms, for temperature measurements of "
+ "the DMM. The driver sets the value of this attribute.\n"
+ "\n"
+ "Valid Values:\n"
+ "2252.0, 5000.0, and 10000.0 Ohms\n"
+ "\n"
+ "Note: This attribute affects both 2-wire and 4-wire resistance temperature "
+ "device (RTD) measurements."
+
+1 all "Multi-Point Acquisition" 
+ "Attributes that define extensions for DMMs capable of acquiring "
+ "measurements on multiple triggers and acquiring multiple measurements for "
+ "each trigger."
+
+2 all "Trigger Count" HP34401AMULTIMETERMEAS_ATTR_TRIGGER_COUNT ViInt32 gs 
+ "Specifies the number of triggers the DMM accepts before returning to the "
+ "idle state.\n"
+ "    \n"
+ "Valid Range:\n"
+ "\n"
+ "For HP34401AMULTIMETERMEAS, HPE1412A, and AG34410A:\n"
+ "1 - 50000\n"
+ "\n"
+ "For AG34411A/AGL4411A:\n"
+ "1 - 1000000"
+
+2 all "Sample Count" HP34401AMULTIMETERMEAS_ATTR_SAMPLE_COUNT ViInt32 gs 
+ "Specifies the number of measurements, or samples, the DMM takes each time "
+ "it receives a trigger.\n"
+ "    \n"
+ "Valid Range:\n"
+ "\n"
+ "For HP34401AMULTIMETERMEAS, HPE1412A, and AG34410A:\n"
+ "1 - 50000\n"
+ "\n"
+ "For AG34411A/AGL4411A:\n"
+ "1 - 1000000"
+
+2 all "Sample Trigger" HP34401AMULTIMETERMEAS_ATTR_SAMPLE_TRIGGER ViInt32 gs attrSampleTriggerRangeTable 
+ "Specifies the sample trigger source. This attribute affects instrument "
+ "operation only when the HP34401AMULTIMETERMEAS_ATTR_SAMPLE_COUNT attribute "
+ "is greater than 1. When the DMM takes a measurement and the "
+ "HP34401AMULTIMETERMEAS_ATTR_SAMPLE_COUNT attribute is greater than 1, the "
+ "DMM does not take the next measurement until the event you specify with "
+ "this attribute occurs.\n"
+ "\n"
+ "Valid Values:\n"
+ "\n"
+ "For HP34401AMULTIMETERMEAS and HPE1412A:\n"
+ "HP34401AMULTIMETERMEAS_VAL_INTERVAL     - Interval (Default)\n"
+ "HP34401AMULTIMETERMEAS_VAL_DELAY        - Delay\n"
+ "\n"
+ "For AG34410A/AG34411A/AGL4411A:\n"
+ "HP34401AMULTIMETERMEAS_VAL_IMMEDIATE    - Immediate\n"
+ "HP34401AMULTIMETERMEAS_VAL_INTERVAL     - Interval (Default)\n"
+ "HP34401AMULTIMETERMEAS_VAL_DELAY        - Delay\n"
+ "\n"
+ "Notes:\n"
+ "\n"
+ "(1) HP34401AMULTIMETERMEAS_VAL_DELAY - The first sample starts one trigger "
+ "delay time after the trigger. Then the instrument driver inserts the "
+ "trigger delay time between the first and second samples, the second and "
+ "third samples, and so on.\n"
+ "\n"
+ "(2) HP34401AMULTIMETERMEAS_VAL_INTERVAL - The first sample starts one "
+ "trigger delay time after the trigger. However, the second sample starts "
+ "one sample interval after the start of the first sample, and so on.\n"
+ "\n"
+ "(3) HP34401AMULTIMETERMEAS_VAL_IMMEDIATE - The first sample starts one "
+ "trigger delay time after the trigger. However, the second sample starts "
+ "immediately after the first sample, and so forth."
+
+2 all "Sample Interval" HP34401AMULTIMETERMEAS_ATTR_SAMPLE_INTERVAL ViReal64 gs 
+ "Specifies the length of the time interval, in seconds, between samples. "
+ "The driver sets the value of this attribute.\n"
+ "\n"
+ "If the HP34401AMULTIMETERMEAS_ATTR_SAMPLE_COUNT attribute is greater than "
+ "1 and the HP34401AMULTIMETERMEAS_ATTR_SAMPLE_TRIGGER attribute is set to "
+ "HP34401AMULTIMETERMEAS_VAL_INTERVAL, the DMM waits between measurements "
+ "for the length of time you specify in this parameter. Otherwise, this "
+ "attribute does not affect the behavior of the instrument.\n"
+ "\n"
+ "Valid Range: 0.0 - 3600.0 seconds\n"
+ "\n"
+ "Default Value: 0.0 second\n"
+ "\n"
+ "Notes:\n"
+ "\n"
+ "(1) For 34401A or E1412A model, Sample Interval can not be lower than the "
+ "Trigger Delay."
+
+2 all "Meas Complete Destination" HP34401AMULTIMETERMEAS_ATTR_MEAS_COMPLETE_DEST ViInt32 gs attrMeasCompleteDestRangeTable 
+ "Specifies the destination of the measurement-complete signal that the DMM "
+ "generates after each measurement. This signal is commonly referred to as "
+ "Voltmeter Complete."
+
+1 all "AutoZero" 
+ "Attributes that configure the auto-zero mode."
+
+2 all "Auto Zero" HP34401AMULTIMETERMEAS_ATTR_AUTO_ZERO ViInt32 gs attrAutoZeroRangeTable 
+ "Specifies the auto-zero mode. In general, the auto-zero capability of a "
+ "DMM normalizes all measurements based on a zero reading. When auto-zeroing "
+ "is enabled, the DMM internally disconnects the input signal and takes a "
+ "zero reading. The DMM then subtracts the zero reading from the "
+ "measurement. This operation prevents offset voltages present in the input "
+ "circuitry of the DMM from affecting measurement accuracy."
+
+1 all "Math Operations" 
+ "Attributes for configuring the DMM to perform a math operation."
+
+2 all "Math Operation" HP34401AMULTIMETERMEAS_ATTR_MATH_OPERATION ViInt32 gs attrMathOperationRangeTable 
+ "Specifies the math operation to use. Five math operations are available, "
+ "but you can enable only one at a time. Each math operation either performs "
+ "a mathematical operation on each reading or stores data on a series of "
+ "readings."
+
+2 all "dB Reference" HP34401AMULTIMETERMEAS_ATTR_MATH_DB_REFERENCE ViReal64 gs 
+ "Specifies the dB relative reference, in dBm, to use in the decibel "
+ "operation.  You must set the HP34401AMULTIMETERMEAS_ATTR_MATH_OPERATION "
+ "attribute to HP34401AMULTIMETERMEAS_VAL_MATH_DB before accessing this "
+ "attribute.\n"
+ "\n"
+ "Valid Range: -200.0 to 200.0 dBm"
+
+2 all "dBm Reference" HP34401AMULTIMETERMEAS_ATTR_MATH_DBM_REFERENCE ViInt32 gs attrDbmReferenceRangeTable 
+ "Specifies the dBm reference resistance to use in the dBm operation."
+
+2 all "Limit Upper" HP34401AMULTIMETERMEAS_ATTR_MATH_LIMIT_UPPER ViReal64 gs 
+ "Specifies the upper limit of the limit operation.\n"
+ "\n"
+ "The value of this attribute must be in units appropriate for the "
+ "HP34401AMULTIMETERMEAS_ATTR_FUNCTION attribute, as shown in the following "
+ "table.\n"
+ "\n"
+ "  DC Volts           - volts\n"
+ "  AC Volts           - volts\n"
+ "  DC Current         - amperes\n"
+ "  AC Current         - amperes\n"
+ "  2-Wire Resistance  - ohms\n"
+ "  4-Wire Resistance  - ohms\n"
+ "  Frequency          - hertz\n"
+ "  Period             - seconds\n"
+ "  Capacitance        - farads\n"
+ "  Temperature        - celsius\n"
+ "  DC Volts Ratio     - unitless\n"
+ "\n"
+ "Valid Range:\n"
+ "The valid range depends on the Measurement Function parameter of the "
+ "hp34401amultimetermeas_ConfigureMeasurement function, as shown in the "
+ "following table.\n"
+ "\n"
+ "For HP34401AMULTIMETERMEAS and HPE1412A:\n"
+ " ----------------------------------------------------------\n"
+ " |    Function    |   Min Value  |    Max Value   | Unit  |      \n"
+ " ----------------------------------------------------------\n"
+ " | DC Volts       |  -1200.0     |    1200.0      | volts |\n"
+ " | AC Volts       |  -1200.0     |    1200.0      | volts |\n"
+ " | DC Current     |  -3.6        |    3.6         | amps  |\n"
+ " | AC Current     |  -3.6        |    3.6         | amps  |\n"
+ " | 2-Wire Res     |  -120.0E6    |    120.0E6     | ohms  |\n"
+ " | 4-Wire Res     |  -120.0E6    |    120.0E6     | ohms  |\n"
+ " | Frequency      |  -120.0E3    |    120.0E3     | hertz |\n"
+ " | Period         |  -1.2        |    1.2         | secs  |\n"
+ " | DC Volts Ratio |  -9.9E37     |    9.9E37      | ----- |\n"
+ " ----------------------------------------------------------\n"
+ "\n"
+ "For AG34410A/AG34411A/AGL4411A:\n"
+ " -----------------------------------------------------------\n"
+ " |    Function    |   Min Value  |    Max Value   | Unit   |      \n"
+ " -----------------------------------------------------------\n"
+ " | DC Volts       |  -1200.0     |    1200.0      | volts  |\n"
+ " | AC Volts       |  -1200.0     |    1200.0      | volts  |\n"
+ " | DC Current     |  -3.6        |    3.6         | amps   |\n"
+ " | AC Current     |  -3.6        |    3.6         | amps   |\n"
+ " | 2-Wire Res     |  -120.0E7    |    120.0E7     | ohms   |\n"
+ " | 4-Wire Res     |  -120.0E7    |    120.0E7     | ohms   |\n"
+ " | Frequency      |  -120.0E3    |    120.0E3     | hertz  |\n"
+ " | Period         |  -1.2        |    1.2         | secs   |\n"
+ " | Capacitance    |  -1.2E-5     |    1.2E-5      | farads |\n"
+ " | Temperature    |  -1.0E15     |    1.0E15      | celsius|\n"
+ " -----------------------------------------------------------\n"
+ "\n"
+ "Default Value: 0.0\n"
+ "\n"
+ "Note: This attribute must be greater than or equal to the "
+ "HP34401AMULTIMETERMEAS_ATTR_MATH_LIMIT_LOWER attribute value."
+
+2 all "Limit Lower" HP34401AMULTIMETERMEAS_ATTR_MATH_LIMIT_LOWER ViReal64 gs 
+ "Specifies the lower limit of the limit operation.\n"
+ "\n"
+ "The value of this attribute must be in units appropriate for the "
+ "HP34401AMULTIMETERMEAS_ATTR_FUNCTION attribute, as shown in the following "
+ "table.\n"
+ "\n"
+ "  DC Volts           - volts\n"
+ "  AC Volts           - volts\n"
+ "  DC Current         - amperes\n"
+ "  AC Current         - amperes\n"
+ "  2-Wire Resistance  - ohms\n"
+ "  4-Wire Resistance  - ohms\n"
+ "  Frequency          - hertz\n"
+ "  Period             - seconds\n"
+ "  Capacitance        - farads\n"
+ "  Temperature        - celsius\n"
+ "  DC Volts Ratio     - unitless\n"
+ "\n"
+ "Valid Range:\n"
+ "The valid range depends on the Measurement Function parameter of the "
+ "hp34401amultimetermeas_ConfigureMeasurement function, as shown in the "
+ "following table.\n"
+ "\n"
+ "For HP34401AMULTIMETERMEAS and HPE1412A:\n"
+ " ----------------------------------------------------------\n"
+ " |    Function    |   Min Value  |    Max Value   | Unit  |      \n"
+ " ----------------------------------------------------------\n"
+ " | DC Volts       |  -1200.0     |    1200.0      | volts |\n"
+ " | AC Volts       |  -1200.0     |    1200.0      | volts |\n"
+ " | DC Current     |  -3.6        |    3.6         | amps  |\n"
+ " | AC Current     |  -3.6        |    3.6         | amps  |\n"
+ " | 2-Wire Res     |  -120.0E6    |    120.0E6     | ohms  |\n"
+ " | 4-Wire Res     |  -120.0E6    |    120.0E6     | ohms  |\n"
+ " | Frequency      |  -120.0E3    |    120.0E3     | hertz |\n"
+ " | Period         |  -1.2        |    1.2         | secs  |\n"
+ " | DC Volts Ratio |  -9.9E37     |    9.9E37      | ----- |\n"
+ " ----------------------------------------------------------\n"
+ "\n"
+ "For AG34410A/AG34411A/AGL4411A:\n"
+ " -----------------------------------------------------------\n"
+ " |    Function    |   Min Value  |    Max Value   | Unit   |      \n"
+ " -----------------------------------------------------------\n"
+ " | DC Volts       |  -1200.0     |    1200.0      | volts  |\n"
+ " | AC Volts       |  -1200.0     |    1200.0      | volts  |\n"
+ " | DC Current     |  -3.6        |    3.6         | amps   |\n"
+ " | AC Current     |  -3.6        |    3.6         | amps   |\n"
+ " | 2-Wire Res     |  -120.0E7    |    120.0E7     | ohms   |\n"
+ " | 4-Wire Res     |  -120.0E7    |    120.0E7     | ohms   |\n"
+ " | Frequency      |  -120.0E3    |    120.0E3     | hertz  |\n"
+ " | Period         |  -1.2        |    1.2         | secs   |\n"
+ " | Capacitance    |  -1.2E-5     |    1.2E-5      | farads |\n"
+ " | Temperature    |  -1.0E15     |    1.0E15      | celsius|\n"
+ " -----------------------------------------------------------\n"
+ "\n"
+ "Default Value: 0.0\n"
+ "\n"
+ "Note: This attribute must be less than or equal to the "
+ "HP34401AMULTIMETERMEAS_ATTR_MATH_LIMIT_UPPER attribute value."
+
+2 all "Null Offset" HP34401AMULTIMETERMEAS_ATTR_MATH_NULL_OFFSET ViReal64 gs 
+ "Specifies the null offset to use in the null operation. You must set "
+ "HP34401AMULTIMETERMEAS_ATTR_MATH_OPERATION to "
+ "HP34401AMULTIMETERMEAS_VAL_MATH_NULL before accessing this attribute.\n"
+ "\n"
+ "The value of this attribute must be in units appropriate for the "
+ "HP34401AMULTIMETERMEAS_ATTR_FUNCTION attribute, as shown in the following "
+ "table.\n"
+ "\n"
+ "  DC Volts           - volts\n"
+ "  AC Volts           - volts\n"
+ "  DC Current         - amperes\n"
+ "  AC Current         - amperes\n"
+ "  2-Wire Resistance  - ohms\n"
+ "  4-Wire Resistance  - ohms\n"
+ "  Frequency          - hertz\n"
+ "  Period             - seconds\n"
+ "  Capacitance        - farads\n"
+ "  Temperature        - celsius\n"
+ "  DC Volts Ratio     - unitless\n"
+ "\n"
+ "Valid Range:\n"
+ "The valid range depends on the Measurement Function parameter of the "
+ "hp34401amultimetermeas_ConfigureMeasurement function, as shown in the "
+ "following table.\n"
+ "\n"
+ "For HP34401AMULTIMETERMEAS and HPE1412A:\n"
+ " ----------------------------------------------------------\n"
+ " |    Function    |   Min Value  |    Max Value   | Unit  |      \n"
+ " ----------------------------------------------------------\n"
+ " | DC Volts       |  -1200.0     |    1200.0      | volts |\n"
+ " | AC Volts       |  -1200.0     |    1200.0      | volts |\n"
+ " | DC Current     |  -3.6        |    3.6         | amps  |\n"
+ " | AC Current     |  -3.6        |    3.6         | amps  |\n"
+ " | 2-Wire Res     |  -120.0E6    |    120.0E6     | ohms  |\n"
+ " | 4-Wire Res     |  -120.0E6    |    120.0E6     | ohms  |\n"
+ " | Frequency      |  -120.0E3    |    120.0E3     | hertz |\n"
+ " | Period         |  -1.2        |    1.2         | secs  |\n"
+ " | DC Volts Ratio |  -9.9E37     |    9.9E37      | ----- |\n"
+ " ----------------------------------------------------------\n"
+ "\n"
+ "For HP34410A/AG34411A/AGL4411A:\n"
+ " -----------------------------------------------------------\n"
+ " |    Function    |   Min Value  |    Max Value   | Unit   |      \n"
+ " -----------------------------------------------------------\n"
+ " | DC Volts       |  -1200.0     |    1200.0      | volts  |\n"
+ " | AC Volts       |  -1200.0     |    1200.0      | volts  |\n"
+ " | DC Current     |  -3.6        |    3.6         | amps   |\n"
+ " | AC Current     |  -3.6        |    3.6         | amps   |\n"
+ " | 2-Wire Res     |  -120.0E7    |    120.0E7     | ohms   |\n"
+ " | 4-Wire Res     |  -120.0E7    |    120.0E7     | ohms   |\n"
+ " | Frequency      |  -120.0E3    |    120.0E3     | hertz  |\n"
+ " | Period         |  -1.2        |    1.2         | secs   |\n"
+ " | Capacitance    |  -1.2E-5     |    1.2E-5      | farads |\n"
+ " | Temperature    |  -1.0E15     |    1.0E15      | celsius|\n"
+ " -----------------------------------------------------------\n"
+ "\n"
+ "Default Value: 0.0"
+
+1 all "Configuration Information" 
+ "Attributes that return information about the current state of the "
+ "instrument."
+
+2 all "Auto Range Value" HP34401AMULTIMETERMEAS_ATTR_AUTO_RANGE_VALUE ViReal64 g 
+ "Returns the actual range the DMM is currently using, even when the DMM is "
+ "auto-ranging. The value of this attribute must be in units appropriate for "
+ "the HP34401AMULTIMETERMEAS_ATTR_FUNCTION attribute, as shown in the "
+ "following table.\n"
+ "\n"
+ "  DC Volts           - volts\n"
+ "  AC Volts           - volts\n"
+ "  DC Current         - amperes\n"
+ "  AC Current         - amperes\n"
+ "  2-Wire Resistance  - ohms\n"
+ "  4-Wire Resistance  - ohms\n"
+ "  Frequency          - hertz\n"
+ "  Period             - seconds\n"
+ "  Capacitance        - farads\n"
+ "  Temperature        - celsius\n"
+ "  DC Volts Ratio     - unitless\n"
+ "\n"
+ "\n"
+ "Valid Range:\n"
+ "The valid range depends on the Measurement Function parameter of the "
+ "hp34401amultimetermeas_ConfigureMeasurement function, as shown in the "
+ "following table.\n"
+ "\n"
+ "For HP34401AMULTIMETERMEAS and HPE1412A:\n"
+ " --------------------------------------------------------------\n"
+ " |    Function    |   Min Value   |     Max Value     | Unit  |      \n"
+ " --------------------------------------------------------------\n"
+ " | DC Volts       |  0.1          |  1000.0           | volts |\n"
+ " | AC Volts       |  0.1          |  1000.0           | volts |\n"
+ " | DC Current     |  0.01         |  3.0              | amps  |\n"
+ " | AC Current     |  1.0          |  3.0              | amps  |\n"
+ " | 2-Wire Res     |  100.0        |  100.0E6          | ohms  |\n"
+ " | 4-Wire Res     |  100.0        |  100.0E6          | ohms  |\n"
+ " | Frequency      |  300000.0     |  300000.0         | hertz |\n"
+ " | Period         |  0.3333       |  0.3333           | secs  |\n"
+ " | Diode          |  1.0          |  1.0              | volts |\n"
+ " | Continuity     |  1000.0       |  1000.0           | ohms  |\n"
+ " | DC Volts Ratio |  0.1          |  1000.0           | volts |\n"
+ " --------------------------------------------------------------\n"
+ "\n"
+ "For AG34410A/AG34411A/AGL4411A:\n"
+ " ---------------------------------------------------------------\n"
+ " |    Function    |   Min Value   |     Max Value     | Unit   |      \n"
+ " ---------------------------------------------------------------\n"
+ " | DC Volts       |  0.1          |  1000.0           | volts  |\n"
+ " | AC Volts       |  0.1          |  1000.0           | volts  |\n"
+ " | DC Current     |  0.0001       |  3.0              | amps   |\n"
+ " | AC Current     |  0.0001       |  3.0              | amps   |\n"
+ " | 2-Wire Res     |  100.0        |  100.0E7          | ohms   |\n"
+ " | 4-Wire Res     |  100.0        |  100.0E7          | ohms   |\n"
+ " | Frequency      |  300000.0     |  300000.0         | hertz  |\n"
+ " | Period         |  0.3333       |  0.3333           | secs   |\n"
+ " | Capacitance    |  1.0E-9       |  1.0E-5           | farads |\n"
+ " | Temperature    |  1000.0       |  1000.0           | celsius|\n"
+ " | Diode          |  1.0          |  1.0              | volts  |\n"
+ " | Continuity     |  1000.0       |  1000.0           | ohms   |\n"
+ " ---------------------------------------------------------------\n"
+ "\n"
+ "Note: When you set HP34401AMULTIMETERMEAS_ATTR_FUNCTION to DC Volts Ratio, "
+ "this attribute specifies the range of the signal connected to the Input "
+ "terminals.  The signal connected to the Sense terminals always is set to "
+ "auto-range."
+
+2 all "Aperture Time" HP34401AMULTIMETERMEAS_ATTR_APERTURE_TIME ViReal64 gs 
+ "Specifies the measurement aperture time for the current configuration. The "
+ "value of this attribute affects instrument behavior only when you set the "
+ "HP34401AMULTIMETERMEAS_ATTR_FUNCTION attribute to a measurement function "
+ "other than AC Volts, AC Current, Capacitance, Continuity, or Diode.\n"
+ "\n"
+ "The units for this attribute are either seconds or powerline cycles "
+ "(PLCs), whichever is appropriate for the "
+ "HP34401AMULTIMETERMEAS_ATTR_FUNCTION attribute.\n"
+ "\n"
+ "Valid Range:\n"
+ "The valid range depends on the Measurement Function parameter of the "
+ "hp34401amultimetermeas_ConfigureMeasurement function, as shown in the "
+ "following table.\n"
+ "\n"
+ "   DC Volts           - 0.02, 0.2, 1.0, 10.0, 100.0 PLCs\n"
+ "   AC Volts           - not applicable\n"
+ "   DC Current         - 0.02, 0.2, 1.0, 10.0, 100.0 PLCs\n"
+ "   AC Current         - not applicable\n"
+ "   2-Wire Resistance  - 0.02, 0.2, 1.0, 10.0, 100.0 PLCs\n"
+ "   4-Wire Resistance  - 0.02, 0.2, 1.0, 10.0, 100.0 PLCs\n"
+ "   Frequency          - 0.01, 0.1, 1.0 seconds\n"
+ "   Period             - 0.01, 0.1, 1.0 seconds\n"
+ "   DC Volts Ratio     - 0.02, 0.2, 1.0, 10.0, 100.0 PLCs"
+
+2 all "Aperture Time Units" HP34401AMULTIMETERMEAS_ATTR_APERTURE_TIME_UNITS ViInt32 g 
+ "Returns the units for the HP34401AMULTIMETERMEAS_ATTR_APERTURE_TIME "
+ "attribute.\n"
+ "\n"
+ "Defined Values:\n"
+ "\n"
+ "HP34401AMULTIMETERMEAS_VAL_SECONDS (0)           - seconds\n"
+ "HP34401AMULTIMETERMEAS_VAL_POWER_LINE_CYCLES (1) - powerline cycles (PLCs)\n"
+
+1 all "Miscellaneous Attributes" 
+ "Attributes that configure miscellaneous parameters."
+
+2 all "Model" HP34401AMULTIMETERMEAS_ATTR_MODEL ViInt32 gs attrModel 
+ "Specifies the instrument model.\n"
+ "\n"
+ "Valid Values:\n"
+ "\n"
+ "HP34401AMULTIMETERMEAS_VAL_MODEL_34401A - HP34401AMULTIMETERMEAS (Default)\n"
+ "HP34401AMULTIMETERMEAS_VAL_MODEL_34410A - AG34410A\n"
+ "HP34401AMULTIMETERMEAS_VAL_MODEL_34411A - AG34411A\n"
+ "HP34401AMULTIMETERMEAS_VAL_MODEL_E1412A - HPE1412A\n"
+ "HP34401AMULTIMETERMEAS_VAL_MODEL_L4411A - AGL4411A"
+
+2 all "ID Query Response" HP34401AMULTIMETERMEAS_ATTR_ID_QUERY_RESPONSE ViString g 
+ "Returns the ID Query response string.  The instrument driver receives the "
+ "value of this attribute when you set the ID Query parameter of the "
+ "hp34401amultimetermeas_init or hp34401amultimetermeas_InitWithOptions "
+ "functions to VI_TRUE."
+
+2 all "Frequency Threshold Voltage" HP34401AMULTIMETERMEAS_ATTR_FREQ_THRESHOLD_VOLTAGE ViReal64 gs attrThresholdVoltageRangeTable 
+ "Specifies the threshold voltage for the frequency measurement function. "
+ "The value of this attribute affects instrument behavior only when you set "
+ "the HP34401AMULTIMETERMEAS_ATTR_FUNCTION attribute to the Frequency "
+ "measurement function.\n"
+ "\n"
+ "Use positive values to represent the absolute value of the maximum "
+ "expected voltage. The driver reserves negative values for controlling the "
+ "auto-threshold ranging capability of the DMM.\n"
+ "\n"
+ "Valid Constant Values:\n"
+ "HP34401AMULTIMETERMEAS_VAL_AUTO_THRESHOLD_ON - The DMM automatically "
+ "calculates the threshold voltage before each measurement.\n"
+ "HP34401AMULTIMETERMEAS_VAL_AUTO_THRESHOLD_OFF - The DMM stops "
+ "auto-threshold ranging and keeps the range fixed at the current maximum "
+ "threshold voltage.\n"
+ "HP34401AMULTIMETERMEAS_VAL_AUTO_THRESHOLD_ONCE (AG34410A/AG34411A/AGL4411A "
+ "only) - The DMM performs an immediate auto-range and then sets "
+ "auto-ranging to OFF. The query therefore returns "
+ "\"0\".\n"
+ "\n"
+ "Valid Manual Range: 0.1 to 1000.0 volts\n"
+ "\n"
+ "Note: When you set this attribute to "
+ "HP34401AMULTIMETERMEAS_VAL_AUTO_THRESHOLD_OFF or "
+ "HP34401AMULTIMETERMEAS_VAL_AUTO_THRESHOLD_ONCE, further queries of this "
+ "attribute return the actual threshold."
+
+2 all "Period Threshold Voltage" HP34401AMULTIMETERMEAS_ATTR_PERIOD_THRESHOLD_VOLTAGE ViReal64 gs attrThresholdVoltageRangeTable 
+ "Specifies the threshold voltage for the period measurement function. The "
+ "value of this attribute affects instrument behavior only when you set the "
+ "HP34401AMULTIMETERMEAS_ATTR_FUNCTION attribute to the Period measurement "
+ "function. \n"
+ "\n"
+ "Use positive values to represent the absolute value of the maximum "
+ "expected voltage.  The driver reserves negative values for controlling the "
+ "auto-threshold ranging capability of the DMM.\n"
+ "\n"
+ "Valid Constant Values:\n"
+ "HP34401AMULTIMETERMEAS_VAL_AUTO_THRESHOLD_ON - The DMM automatically "
+ "calculates the threshold voltage before each measurement.\n"
+ "HP34401AMULTIMETERMEAS_VAL_AUTO_THRESHOLD_OFF - The DMM stops "
+ "auto-threshold ranging and keeps the range fixed at the current maximum "
+ "threshold voltage.\n"
+ "HP34401AMULTIMETERMEAS_VAL_AUTO_THRESHOLD_ONCE (AG34410A/AG34411A/AGL4411A "
+ "only) - The DMM performs an immediate auto-range and then sets "
+ "auto-ranging to OFF. The query therefore returns "
+ "\"0\".\n"
+ "\n"
+ "Valid Manual Range: 0.1 to 1000.0 volts\n"
+ "\n"
+ "Note: When you set this attribute to "
+ "HP34401AMULTIMETERMEAS_VAL_AUTO_THRESHOLD_OFF or "
+ "HP34401AMULTIMETERMEAS_VAL_AUTO_THRESHOLD_ONCE, further queries of this "
+ "attribute return the actual threshold."
+
+2 all "Resistance Offset Compensation attribute" HP34401AMULTIMETERMEAS_ATTR_RES_OFFSET_COMPENSATION_ENABLED ViBoolean gs Boolean_values 
+ "Enables resistance offset compensation. Offset compensation removes the "
+ "effects of small DC voltages in the circuit being measured. This technique "
+ "involves taking the difference between two resistance measurements, one "
+ "with the current source set to the normal value, and one with the current "
+ "source set to a lower value.\n"
+ "\n"
+ "Default Values: VI_FALSE - Off    \n"
+ "\n"
+ "Note: This value affects both 2-wire and 4-wire resistance measurements."
+
+2 all "Auto-Resistance Enable" HP34401AMULTIMETERMEAS_ATTR_AUTO_RESISTANCE_ENABLED ViBoolean gs Boolean_values 
+ "Specifies whether to enable automatic input resistance. The value of this "
+ "attribute affects instrument behavior only when you set the "
+ "HP34401AMULTIMETERMEAS_ATTR_FUNCTION attribute to DC Volts.\n"
+ "\n"
+ "Normally, the input resistance of the DMM is fixed at 10 Mohms to minimize "
+ "noise pick-up. To reduce the effects of measurement loading errors, you "
+ "can set the input resistance to a value greater than 10 Gohms.\n"
+ "\n"
+ "Setting this attribute to VI_FALSE fixes the input resistance at 10 Mohms. "
+ "If you set this attribute to VI_TRUE, the input resistance is set to "
+ "greater than 10 Gohms when the range of the DC Volts measurement function "
+ "is equal to or less than 10.0 volts. Otherwise, the input resistance is "
+ "always 10 Mohms."
+
+2 all "Beeper Enable" HP34401AMULTIMETERMEAS_ATTR_BEEPER_ENABLED ViBoolean gs Boolean_values 
+ "Specifies whether to enable the beeper.  When you disable the beeper, the "
+ "DMM does not emit a tone when:\n"
+ " - A new minimum or maximum is found in a min-max test.\n"
+ " - A stable reading is captured in a reading hold.\n"
+ " - A limit is exceeded in a limit test.\n"
+ " - A forward-biased diode is measured in the Diode measurement function."
+
+2 all "Display Enable" HP34401AMULTIMETERMEAS_ATTR_DISPLAY_ENABLED ViBoolean gs Boolean_values 
+ "Specifies whether to enable the front panel display screen of the "
+ "instrument.  VI_TRUE enables the display. VI_FALSE disables the display so "
+ "that readings are not sent to the display, and all display announcements "
+ "except 'ERROR' and 'Shift' are disabled. Disabling the display increases "
+ "the measurement rate."
+
+2 all "Terminal Route" HP34401AMULTIMETERMEAS_ATTR_TERMINAL_ROUTE ViInt32 g 
+ "Returns whether the front input terminals or the rear input terminals are "
+ "enabled. Only one set of input terminals can be enabled at any time. You "
+ "can select the input terminals only from the front panel.\n"
+ "\n"
+ "Valid Values:\n"
+ "\n"
+ "HP34401AMULTIMETERMEAS_VAL_TERMINAL_FRONT (1) - Front input terminals are "
+ "enabled.\n"
+ "HP34401AMULTIMETERMEAS_VAL_TERMINAL_REAR  (2) - Rear input terminals are "
+ "enabled."
+
+2 all "TTL0 Enabled" HP34401AMULTIMETERMEAS_ATTR_TTL0_ENABLED ViBoolean gs Boolean_values 
+ ""
+
+2 all "TTL1 Enabled" HP34401AMULTIMETERMEAS_ATTR_TTL1_ENABLED ViBoolean gs Boolean_values 
+ ""
+
+2 all "TTL2 Enabled" HP34401AMULTIMETERMEAS_ATTR_TTL2_ENABLED ViBoolean gs Boolean_values 
+ ""
+
+2 all "TTL3 Enabled" HP34401AMULTIMETERMEAS_ATTR_TTL3_ENABLED ViBoolean gs Boolean_values 
+ ""
+
+2 all "TTL4 Enabled" HP34401AMULTIMETERMEAS_ATTR_TTL4_ENABLED ViBoolean gs Boolean_values 
+ ""
+
+2 all "TTL5 Enabled" HP34401AMULTIMETERMEAS_ATTR_TTL5_ENABLED ViBoolean gs Boolean_values 
+ ""
+
+2 all "TTL6 Enabled" HP34401AMULTIMETERMEAS_ATTR_TTL6_ENABLED ViBoolean gs Boolean_values 
+ ""
+
+2 all "TTL6 Enabled" HP34401AMULTIMETERMEAS_ATTR_TTL7_ENABLED ViBoolean gs Boolean_values 
+ ""
+
+1 all "Hidden Attributes (not user-viewable)" 
+ "    "
+
+2 all "Volts DC aperture time attribute" HP34401AMULTIMETERMEAS_ATTR_APERTURE_TIME_VDC ViReal64 hidden attrApertureTableForHP34401AMULTIMETERMEAS 
+ "Volts DC aperture time attribute"
+
+2 all "DC current aperture time attribute" HP34401AMULTIMETERMEAS_ATTR_APERTURE_TIME_ADC ViReal64 hidden attrApertureTableForHP34401AMULTIMETERMEAS 
+ "DC current aperture time attribute"
+
+2 all "Four wire resistance aperture time" HP34401AMULTIMETERMEAS_ATTR_APERTURE_TIME_FRES ViReal64 hidden attrApertureTableForHP34401AMULTIMETERMEAS 
+ "Four wire resistance aperture time"
+
+2 all "Resistance aperture time attribute" HP34401AMULTIMETERMEAS_ATTR_APERTURE_TIME_RES ViReal64 hidden attrApertureTableForHP34401AMULTIMETERMEAS 
+ "Resistance aperture time attribute"
+
+2 all "Temperature aperture time attribute" HP34401AMULTIMETERMEAS_ATTR_APERTURE_TIME_TEMP ViReal64 hidden attrApertureTableForHP34401AMULTIMETERMEAS 
+ "Temperature aperture time attribute"
+
+2 all "Frequency aperture time" HP34401AMULTIMETERMEAS_ATTR_APERTURE_TIME_FREQ ViReal64 hidden attrApertureFreqPeriodTableForHP34401AMULTIMETERMEAS 
+ "Frequency aperture time\n"
+ "\n"
+ "Notes:\n"
+ "(1) This value affects both frequency and period measurements."
+
+2 all "Period aperture time" HP34401AMULTIMETERMEAS_ATTR_APERTURE_TIME_PER ViReal64 hidden attrApertureFreqPeriodTableForHP34401AMULTIMETERMEAS 
+ "Period aperture time\n"
+ "\n"
+ "Notes:\n"
+ "(1) This value affects both frequency and period measurements."
+
+2 all "DC resolution attribute" HP34401AMULTIMETERMEAS_ATTR_RESOLUTION_VDC ViReal64 hidden attrResolutionDCRangeTableForHP34401AMULTIMETERMEAS 
+ "DC relative resolution attribute:\n"
+ "relative resolution = absolute resolution / range"
+
+2 all "DC Current resolution attribute" HP34401AMULTIMETERMEAS_ATTR_RESOLUTION_ADC ViReal64 hidden attrResolutionDCRangeTableForHP34401AMULTIMETERMEAS 
+ "DC Current relative resolution attribute:\n"
+ "relative resolution = absolute resolution / range"
+
+2 all "4-wire resistance resolution attribute" HP34401AMULTIMETERMEAS_ATTR_RESOLUTION_FRES ViReal64 hidden attrResolutionDCRangeTableForHP34401AMULTIMETERMEAS 
+ "4-wire resistance relative resolution attribute:\n"
+ "relative resolution = absolute resolution / range"
+
+2 all "2-wire resistance resolution attribute" HP34401AMULTIMETERMEAS_ATTR_RESOLUTION_RES ViReal64 hidden attrResolutionDCRangeTableForHP34401AMULTIMETERMEAS 
+ "2-wire relative resistance resolution attribute:\n"
+ "relative resolution = absolute resolution / range"
+
+2 all "Temperature resolution attribute" HP34401AMULTIMETERMEAS_ATTR_RESOLUTION_TEMP ViReal64 hidden attrResolutionDCRangeTableForHP34410A 
+ "Temperature relative resolution attribute:\n"
+ "relative resolution = absolute resolution / range"
+
+2 all "Frequency  resolution attribute" HP34401AMULTIMETERMEAS_ATTR_RESOLUTION_FREQ ViReal64 hidden attrResolutionFREQRangeTableForHP34401AMULTIMETERMEAS 
+ "Frequency relative resolution attribute:\n"
+ "relative resolution = absolute resolution / range"
+
+2 all "Period resolution attribute" HP34401AMULTIMETERMEAS_ATTR_RESOLUTION_PER ViReal64 hidden attrResolutionFREQRangeTableForHP34401AMULTIMETERMEAS 
+ "Period relative resolution attribute:\n"
+ "relative resolution = absolute resolution / range"
+
+2 all "AC Voltage and Current Resolution Attribute" HP34401AMULTIMETERMEAS_ATTR_RESOLUTION_AC ViReal64 hidden attrResolutionACRangeTable 
+ "AC Voltage and Current relative resolution attribute:\n"
+ "relative resolution = absolute resolution / range"
+
+2 all "Capacitance resolution attribute" HP34401AMULTIMETERMEAS_ATTR_RESOLUTION_CAP ViReal64 hidden attrResolutionCAPRangeTable 
+ "Capacitance relative resolution attribute:\n"
+ "relative resolution = absolute resolution / range"
+
+2 all "DC volts range attribute" HP34401AMULTIMETERMEAS_ATTR_RANGE_VDC ViReal64 hidden VOLT_RangeTable 
+ "DC volts range attribute"
+
+2 all "DC current range attribute" HP34401AMULTIMETERMEAS_ATTR_RANGE_ADC ViReal64 hidden ADC_RangeTable 
+ "DC current range attribute"
+
+2 all "Four wire resistance range attribute" HP34401AMULTIMETERMEAS_ATTR_RANGE_FRES ViReal64 hidden Ohms_RangeTable 
+ "Four wire resistance range attribute"
+
+2 all "Resistance range attribute" HP34401AMULTIMETERMEAS_ATTR_RANGE_RES ViReal64 hidden Ohms_RangeTable 
+ "Resistance range attribute"
+
+2 all "AC current range attribute" HP34401AMULTIMETERMEAS_ATTR_RANGE_AAC ViReal64 hidden AAC_RangeTable 
+ "AC current range attribute"
+
+2 all "ATTR_RANGE_VAC" HP34401AMULTIMETERMEAS_ATTR_RANGE_VAC ViReal64 hidden VOLT_RangeTable 
+ "AC voltage range attribute"
+
+2 all "Capacitance  range  attribute" HP34401AMULTIMETERMEAS_ATTR_RANGE_CAP ViReal64 hidden Cap_RangeTable 
+ "Capacitance  range  attribute"
+
+2 all "hp34401amultimetermeas_ATTR_INVALIDATE_NULL_OFFSET" HP34401AMULTIMETERMEAS_ATTR_INVALIDATE_NULL_OFFSET ViBoolean hidden Boolean_values 
+ "Invalidate null offset"
+
+2 all "hp34401amultimetermeas_ATTR_INVALIDATE_DB_REFERENCE" HP34401AMULTIMETERMEAS_ATTR_INVALIDATE_DB_REFERENCE ViBoolean hidden Boolean_values 
+ "Invalidate db reference"
+

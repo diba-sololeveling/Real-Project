@@ -1,0 +1,50 @@
+v1.0.0 - Dec 20, 2009
+[Note - Disk hierarchy has changed.  Backwards compatibility may be broken.]
+-Rearranged disk hierarchy.
+-Significant additions to the unit testing.
+-Created open g package to distribute framework.
+
+
+v0.12.0 - Nov 1, 2009
+[Note - Public api has changed.  Backwards compatibility may be broken.]
+-Renamed Interfaceable:GetInterface to Interfaceable:CastToInterface.
+-Renamed Interfaceable:RecoverObject to Interfaceable:CastToInterfaceable.
+-Changed connector panes and icons for CastToInterface and CastToInterfaceable.
+-Added context help text to CastToInterfaceable.
+-Changed error message generated when CastToInterfaceable fails.
+
+
+v0.11.0 - Oct 18, 2009
+[Note - Public api has changed. Backwards compatibility may be broken.]
+-The framework now follows a more intuitive model where the interfaceable object is "cast" into an Interface, operated on using the Interface, and "cast" back into the original object. This allows the framework to work with static, by-ref, and by-val data in classes and more closely follows Labview's data-flow model.
+-Added Interfaceable:RecoverObject method. (Name is likely to change in a future version.)
+-Changed connector pane of Interfaceable:GetInterface method to one similar to the 'To More Specific Class' primitive.
+-IUnknown now has both protected and community scoped methods for SetTargetObject and GetTargetObject.
+-Added by-val, by-ref, and static objects for unit testing. Added test cases for testing by-val and by-ref object. Added mock interface IInt and concrete implementations.
+-Changed some banners and icons.
+
+
+v0.10.0 - Oct 13, 2009
+[Note - Public api has changed.  Backwards compatibility is broken.]
+-Removed the InterfaceBag from the framework.  Interfaceable classes now override Interfaceable:_GetInterfaces and simply return an array containing the concrete interfaces that have been implemented for that class.
+-Changed the concrete interface retrieval mechanism from a string-based 'name' comparison to using the Preserve Run-Time Class primitive.
+-Removed all name properties from IUnknown.
+-Updated BabyDemo to reflect new public api.
+-Created some new UML diagrams to reflect the new design.
+
+
+v0.9.1 - Oct 3, 2009
+-Changed the way InterfaceBag is used within the Baby class.  Instead of storing an InterfaceBag with custom default value in private data, an InterfaceBag object is dynamically created at run time every time Baby:_GetInterfaces is called.
+
+
+v0.9.0 - Oct 1, 2009
+-Refactored out the dependency on the Collection Framework. The Interface Framework is now self sufficient.
+-Renamed "Interface" class to "IUnknown" to help avoid confusion.
+-Renamed "InterfaceCollection" class to "InterfaceBag," since it no longer derives from the Collection Framework.
+-IUnknown now contains an Interfaceable object rather than a DVR to an Interfaceable object. (Thanks kugr!)
+-Removed friend relationship between Baby and ISleepableBaby. (Thanks SciWare!)
+-Added several UML diagrams to the documentation. (Use Star UML to view the core document.)
+
+
+v0.8.0 - Sep 22, 2009
+-Initial release on Lava

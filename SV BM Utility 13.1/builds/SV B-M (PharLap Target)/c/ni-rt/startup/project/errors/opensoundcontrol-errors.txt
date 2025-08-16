@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<nidocument>
+<nicomment>
+<nifamily familyname="Open Sound Control" displayname="Open Sound Control">
+</nifamily>
+</nicomment>
+<nierror code="-6502">
+The OSC bundle is not properly formatted.
+</nierror>
+<nierror code="-6500">
+The OSC Message is not properly formatted.
+</nierror>
+<nierror code="-6501">
+The argument type tag does not match the expected type.
+</nierror>
+<nierror code="-6503">
+The address string is not properly formatted.  Address strings must begin with a "/".
+</nierror>
+<nierror code="-6504">
+The string argument is not properly formatted.  String arguments can only contain non-null ASCII characters.
+</nierror>
+<nierror code="-6505">
+The address space is not properly formatted.
+</nierror>
+</nidocument>

@@ -1,0 +1,3 @@
+$(document).ready(function(){var breadcrumbJson=$('#breadcrumbsJSON').val(),bcObj=jQuery.parseJSON(breadcrumbJson),crumbsList='';if(bcObj!==null)
+{bcLength=bcObj.breadcrumbs.length;$(bcObj.breadcrumbs).each(function(i){var $this=jQuery(this),label=$this[0].label,link=$this[0].link;if((i+1)==bcLength){crumbsList+=label}else{crumbsList+='<a href="'+link+'">'+label+'</a> > '}});}
+$('.global-header-breadcrumb').html(crumbsList);});

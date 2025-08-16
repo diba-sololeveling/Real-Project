@@ -1,0 +1,18 @@
+[Linux-RT Target]
+Linux-RT Target = "0.0.0.0"
+
+[My Computer]
+My Computer = "192.168.150.84"
+
+[Networked Computer/Device]
+Networked Computer/Device = "0.0.0.0"
+
+[PharLap Target]
+PharLap Target = "0.0.0.0"
+
+[VxWorks Target]
+VxWorks Target = "0.0.0.0"
+
+[Windows Embedded Standard Device]
+Windows Embedded Standard Device = "0.0.0.0"
+

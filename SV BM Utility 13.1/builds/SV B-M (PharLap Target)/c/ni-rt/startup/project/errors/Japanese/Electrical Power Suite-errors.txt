@@ -1,0 +1,322 @@
+<?XML Version="1.0">
+<nidocument>
+<nicomment>
+<nifamily familyname="Electrical Power Suite" displayname="Electrical Power Suite">
+</nifamily>
+</nicomment>
+<nierror code="-363499">
+Electrical Power Suite:  <b>time multiplier setting</b>は、0.025～20以内である必要があります。
+</nierror>
+<nierror code="-363498">
+Electrical Power Suite:  <b>GD</b>は、2～64以内である必要があります。
+</nierror>
+<nierror code="-363497">
+Electrical Power Suite:  <b>reset time parameters</b>の値は、0より大きい必要があります。
+</nierror>
+<nierror code="-363496">
+Electrical Power Suite:  <b>curve data</b>の値は、0以上である必要があります。
+</nierror>
+<nierror code="-363494">
+Electrical Power Suite:  <b>reset level</b>は、「FPGA Threshold (Over)」VIの<b>Gs</b>以下、または「FPGA Threshold (Under)」VIの<b>Gs</b>以上である必要があります。
+</nierror>
+<nierror code="-354699">
+Electrical Power Suite:  このVIをリアルタイムターゲットで実行する場合、<b>開くモード(open mode)</b>をCreateまたはCreate or replaceに設定する必要があります。
+</nierror>
+<nierror code="-354698">
+Electrical Power Suite:  <b>analog channel info</b>および <b>status channel info</b>の数値は空白以外もしくは999,999を超えない値である必要があります。
+</nierror>
+<nierror code="-354697">
+Electrical Power Suite:  <b>タイムスタンプ乗数（timestamp multiplier）</b>は0以上である必要があります。
+</nierror>
+<nierror code="-354696">
+Electrical Power Suite:  データチャネル番号が実際の構成と一致していません。
+</nierror>
+<nierror code="-354695">
+Electrical Power Suite:  必要なファイルが開かれていません。
+</nierror>
+<nierror code="-354694">
+Electrical Power Suite:  製造者の名前は文字で始まる必要があります。
+</nierror>
+<nierror code="-354693">
+Electrical Power Suite:  エントリ名の文字のASCIIコードは10進数で33から127の間である必要があります。
+</nierror>
+<nierror code="-354692">
+Electrical Power Suite:  エントリ名は3～32文字の1つの単語で始まる必要があります。
+</nierror>
+<nierror code="-354691">
+Electrical Power Suite:  <b>開くモード(open mode)</b>をCreateまたはCreate or replaceに設定する必要があります。
+</nierror>
+<nierror code="-354690">
+Electrical Power Suite:  <b>開くモード(open mode）</b>をOpen (read only)に設定する必要があります。
+</nierror>
+<nierror code="-354689">
+Electrical Power Suite:  <b>物理チャンネル</b>には、同じチャネルが複数存在します。
+</nierror>
+<nierror code="-354688">
+Electrical Power Suite:  <b>物理チャンネル</b>には、指定されたフェーザチャネルが存在しません。
+</nierror>
+<nierror code="-354687">
+Electrical Power Suite:  <b>レポートレート</b>の値が無効です。
+</nierror>
+<nierror code="-354686">
+Electrical Power Suite:  <b>タイムベース</b>と<b>PMUの数</b>の値は0でないことが必要です。
+</nierror>
+<nierror code="-354685">
+Electrical Power Suite:  デジタルワードごとの最大チャネル数は16です。
+</nierror>
+<nierror code="-354684">
+Electrical Power Suite:  <b>フェーザ</b>および<b>振幅および位相</b>は配列サイズが同じことが必要です。
+</nierror>
+<nierror code="-354683">
+Electrical Power Suite:  <b>周波数上限</b>および<b>周波数下限</b>、および<b>df/dt制限</b>の値はすべて0より大きいことが必要です。
+</nierror>
+<nierror code="-354682">
+Electrical Power Suite:  <b>周波数上限</b>の値は<b>周波数下限</b>の値より大きいことが必要です。
+</nierror>
+<nierror code="-354681">
+Electrical Power Suite:  <b>振幅下限</b>および<b>振幅上限</b>の値は0より大きいことが必要です。
+</nierror>
+<nierror code="-354680">
+Electrical Power Suite:  <b>振幅上限</b>の値は<b>振幅下限</b>の値より大きいことが必要です。
+</nierror>
+<nierror code="-354679">
+Electrical Power Suite:  <b>位相差異上限</b>の値は0より大きく、π以下である必要があります。
+</nierror>
+<nierror code="-354678">
+Electrical Power Suite:  <b>magnitudes in</b>および<b>timestamps</b>のサイズは物理チャンネル数と同じである必要があります。
+</nierror>
+<nierror code="-354677">
+Electrical Power Suite:  <b>magnitudes</b>、<b>phases</b>、<b>timestamps</b>のチャンネル数は同じである必要があります。
+</nierror>
+<nierror code="-354676">
+Electrical Power Suite:  <b>data in</b>のサンプル数は、前回の反復からの<b>samples to read</b>の値と同じである必要があります。
+</nierror>
+<nierror code="-354675">
+Electrical Power Suite:  <b>GPS information</b>のサンプル数は、前回の反復からの<b>samples to read</b>の値と同じである必要があります。
+</nierror>
+<nierror code="-354674">
+Electrical Power Suite:  <b>max time error</b>の値は0以上である必要があります。
+</nierror>
+<nierror code="-354673">
+Electrical Power Suite:  <b>channel index</b>の値はチャンネル数から1を引いた値未満である必要があります。
+</nierror>
+<nierror code="-354672">
+Electrical Power Suite:  公称のF/実際のFは0より大きくする必要があります。
+</nierror>
+<nierror code="-354669">
+Electrical Power Suite:  合算間隔には、その合算間隔の次に高い時間単位で割り切れる値を指定する必要があります。 たとえば、時間単位として秒を指定した場合、次に高い時間単位は分です。 この場合、10、12、15、20など分母60で割り切れる値が合算間隔として指定できます。
+</nierror>
+<nierror code="-354668">
+Electrical Power Suite:  合算間隔（aggregation interval）は、以後2回の時間差よりも大きくする必要があります。
+</nierror>
+<nierror code="-354667">
+Electrical Power Suite:  <b>データフラッグ(data flags)</b>のサイズは、<b>データ(data)</b>のサイズと同じである必要があります。
+</nierror>
+<nierror code="-354666">
+Electrical Power Suite:  <b>データフラッグ(data flags)</b>の第1次元のサイズは、<b>データ(data)</b>の第1次元のサイズと同じである必要があります。
+</nierror>
+<nierror code="-354665">
+Electrical Power Suite:  <b>EN50160限度(EN50160 limits)</b>のサイズは、<b>データ(data)</b>の第3次元のサイズと同じである必要があります。
+</nierror>
+<nierror code="-354664">
+Electrical Power Suite:  <b>channel units</b>の長さが範囲外です。<b>channel units</b>の長さは[1,32]の範囲内である必要があります。
+</nierror>
+<nierror code="-354659">
+Electrical Power Suite:  <b>最小変化レート（min rate of change）</b>が範囲外です。
+</nierror>
+<nierror code="-354658">
+Electrical Power Suite:  <b>最大電圧変化（max voltage change）</b>が範囲外です。
+</nierror>
+<nierror code="-354657">
+Electrical Power Suite:  <b>最小安定状態差異（min steady state difference）</b>が範囲外です。
+</nierror>
+<nierror code="-354656">
+Electrical Power Suite:  <b>安定状態の安定度（steadiness of steady state）</b>が範囲外です。
+</nierror>
+<nierror code="-354655">
+Electrical Power Suite:  <b>最小安定状態期間（min steady state duration）</b>が範囲外です。
+</nierror>
+<nierror code="-354654">
+Electrical Power Suite:  <b>上昇しきい値（swell threshold）</b>が範囲外です。
+</nierror>
+<nierror code="-354653">
+Electrical Power Suite:  <b>低下しきい値（dip threshold）</b>が範囲外です。
+</nierror>
+<nierror code="-354652">
+Electrical Power Suite:  <b>中断しきい値（interruption threshold）</b>が範囲外です。
+</nierror>
+<nierror code="-354651">
+Electrical Power Suite:  <b>ヒステリシス</b>が範囲外です。
+</nierror>
+<nierror code="-354649">
+Electrical Power Suite:  <b>実際の範囲(actual ranges）</b>のサイズは、<b>スペクトル(spectra in)</b>のサイズと同じである必要があります。
+</nierror>
+<nierror code="-354648">
+Electrical Power Suite:  <b>ゲイン(gains)</b>と<b>位相遅延(phase delays)</b>の第1次元のサイズは、<b>スペクトル(spectra in)</b>のサイズ以上である必要があります。
+</nierror>
+<nierror code="-354647">
+Electrical Power Suite:  <b>ゲイン(gains)</b>と<b>位相遅延(phase delays)</b>の第2次元のサイズは、<b>キャリブレーション周波数（frequencies to calibrate）</b>のサイズと同じである必要があります。
+</nierror>
+<nierror code="-354646">
+Electrical Power Suite:  <b>ゲイン(gains)</b>と<b>位相遅延(phase delays)</b>の第3次元のサイズは、<b>キャリブレーション範囲（ranges to calibrate）</b>のサイズと同じである必要があります。
+</nierror>
+<nierror code="-354645">
+Electrical Power Suite:  物理チャンネルの構成は<b>データ(data in)</b>の配線情報と一致しません。
+</nierror>
+<nierror code="-354644">
+Electrical Power Suite:  <b>キャリブレーション周波数(frequencies to calibrate)</b>の値は昇順である必要があります。
+</nierror>
+<nierror code="-354643">
+Electrical Power Suite:  <b>位相遅延（phase delays）</b>の行数は、<b>１サイクル基本ベクトル（one-cycle fundamental vectors in）</b>のサイズ以上である必要があります。
+</nierror>
+<nierror code="-354642">
+Electrical Power Suite:  <b>位相遅延（phase delays）</b>の列数は、<b>キャリブレーション範囲（ranges to calibrate）</b>のサイズと同じである必要があります。
+</nierror>
+<nierror code="-354641">
+Electrical Power Suite:  <b>実際の範囲（actual ranges）</b>のサイズは、<b>１サイクル基本ベクトル（one-cycle fundamental vectors in）</b>のサイズと同じである必要があります。
+</nierror>
+<nierror code="-354640">
+Electrical Power Suite:  <b>キャリブレーション範囲(ranges to calibrate)</b>の値は昇順である必要があります。
+</nierror>
+<nierror code="-354639">
+Electrical Power Suite:  <b>全範囲のRMS値（full-range RMS values）</b>のサイズは、<b>波形（waveforms in）</b>のサイズ以上である必要があります。
+</nierror>
+<nierror code="-354638">
+Electrical Power Suite:  <b>オフセット</b>のサイズは、<b>波形サイズ（waveforms in）</b>のサイズ以上である必要があります。
+</nierror>
+<nierror code="-354637">
+Electrical Power Suite:  <b>ゲイン</b>の行数は、<b>波形サイズ（waveforms in）</b>のサイズ以上である必要があります。
+</nierror>
+<nierror code="-354636">
+Electrical Power Suite:  <b>ゲイン(gains)</b>の列数は、<b>キャリブレーション範囲(ranges to calibrate)</b>の列数と同じである必要があります。
+</nierror>
+<nierror code="-354635">
+Electrical Power Suite:  <b>実際の範囲（actual ranges）</b>のサイズは、<b>波形（waveforms in）</b>のサイズと同じである必要があります。
+</nierror>
+<nierror code="-354634">
+Electrical Power Suite:  <b>検知しきい値（detection threshold）</b>が範囲外です。
+</nierror>
+<nierror code="-354633">
+Electrical Power Suite:  <b>開始論理1長（start logical 0 length）</b>が範囲外です。
+</nierror>
+<nierror code="-354632">
+Electrical Power Suite:  <b>開始論理0長（start logical 0 length）</b>が範囲外です。
+</nierror>
+<nierror code="-354631">
+Electrical Power Suite:  <b>最大イベント長</b>が範囲外です。
+</nierror>
+<nierror code="-354630">
+Electrical Power Suite:  <b>信号周波数</b>が範囲外です。
+</nierror>
+<nierror code="-354629">
+Electrical Power Suite:  <b>データ指標</b>の値が<b>データ（data in）</b>の値と一致しません。
+</nierror>
+<nierror code="-354628">
+Electrical Power Suite:  <b>スペクトル指標</b>または<b>ベクトル指標</b>の値が<b>複素スペクトル</b>と一致しません。
+</nierror>
+<nierror code="-354627">
+Electrical Power Suite:  <b>データ(data in)</b>の列数は物理チャンネル数と一致しません。
+</nierror>
+<nierror code="-354626">
+Electrical Power Suite:  <b>チャンネル指標(channel index)</b>の値が<b>波形(waveforms)</b>と一致しません。
+</nierror>
+<nierror code="-354625">
+Electrical Power Suite:  <b>上限</b>は<b>下限</b>よりも大きくする必要があります。
+</nierror>
+<nierror code="-354624">
+Electrical Power Suite:  <b>ヒステリシス</b>は0以上である必要があります。
+</nierror>
+<nierror code="-354623">
+Electrical Power Suite:  有効なデジタル数式関数ではありません。
+</nierror>
+<nierror code="-354622">
+Electrical Power Suite:  <b>データ(data in)</b>の行数は10または12サイクル毎のサンプル数と一致しません。
+</nierror>
+<nierror code="-354619">
+Electrical Power Suite:  <b>感度（sensitivity）</b>のサイズは、<b>波形サイズ（waveforms in）</b>のサイズ以上である必要があります。
+</nierror>
+<nierror code="-354618">
+Electrical Power Suite:  <b>CT/VT率(CT/VT ratio)</b>のサイズは、<b>波形サイズ（waveforms in）</b>のサイズ以上である必要があります。
+</nierror>
+<nierror code="-354617">
+Electrical Power Suite:  サンプル数/サイクルは128から512の範囲である必要があります。
+</nierror>
+<nierror code="-354616">
+Electrical Power Suite:  サイクルごとのサンプル数は偶数である必要があります。
+</nierror>
+<nierror code="-354615">
+Electrical Power Suite:  「DAQmxタイミング(サンプルクロック)」VIの<b>レート</b>は、「Initialize System」VIの<b>samples per cycle</b>の値を、50 Hzの電力システムでは57.5で、60 Hzの電力システムでは69で乗算した値よりも大きい必要があります。
+</nierror>
+<nierror code="-354614">
+Electrical Power Suite:  <b>チャネル数</b>は1から16の間である必要があります。
+</nierror>
+<nierror code="-354613">
+Electrical Power Suite:  <b>参照チャネル指標（reference channel index）</b>は、<b>チャネル数</b>-1よりも小さくする必要があります。
+</nierror>
+<nierror code="-354612">
+Electrical Power Suite:  サイクルごとのサンプル数は192である必要があります。
+</nierror>
+<nierror code="-354609">
+Electrical Power Suite:  <b>間隔長</b>が範囲外です。 <b>間隔長</b>をマイナスにすることはできません。
+</nierror>
+<nierror code="-354606">
+Electrical Power Suite:  <b>最大高調波次元</b>が範囲外です。
+</nierror>
+<nierror code="-354604">
+Electrical Power Suite:  入力配列のサイズは3である必要があります。
+</nierror>
+<nierror code="354609">
+Electrical Power Suite:  電圧データと電流データのチャネル数が等しくありません。
+</nierror>
+<nierror code="354618">
+Electrical Power Suite:  バランスの不均衡なシステムでは、再計算した位相電圧が近似値です。
+</nierror>
+<nierror code="354669">
+Electrical Power Suite:  有効な結果を得るには、入力データ配列の長さは少なくとも一週間である必要があります。
+</nierror>
+<nierror code="354671">
+Electrical Power Suite:  <b>analogs</b>の値は16ビット整数として範囲外です。Initialize System VIの<b>data format</b>でBit 2を1に設定し、<b>analogs</b>の形式を浮動小数点に変更します。
+</nierror>
+<nierror code="354672">
+Electrical Power Suite:  <b>df/dt</b>の値は16ビット整数として範囲外です。Initialize System VIの<b>data format</b>でBit 3を1に設定し、<b>df/dt</b>の形式を浮動小数点に変更します。
+</nierror>
+<nierror code="354673">
+Electrical Power Suite:  公称周波数からの周波数偏差は16ビット整数として範囲外です。Initialize System VIの<b>data format</b>でBit 3を1に設定し、<b>frequency</b>の形式を浮動小数点に変更します。
+</nierror>
+<nierror code="354674">
+Electrical Power Suite:  <b>phasors</b>の値は16ビット整数として範囲外です。Initialize System VIの<b>data format</b>でBit 1を1に設定し、<b>phasors</b>の形式を浮動小数点に変更します。
+</nierror>
+<nierror code="354675">
+Electrical Power Suite:  <b>PMU ID</b>の値が範囲外です。<b>PMU ID</b>の値は、[1, 65534]の範囲である必要があります。
+</nierror>
+<nierror code="354689">
+Electrical Power Suite:  <b>station name</b>、<b>phasor name</b>、<b>analog name</b>、<b>digital names</b>は16文字以下である必要があります。このVIは長い名前を16文字に強制変換します。
+</nierror>
+<nierror code="354693">
+Electrical Power Suite:  各<b>public event information</b>の<b>max sample text</b>および<b>min sample text</b>の合計数は99を超えない値である必要があります。
+</nierror>
+<nierror code="354694">
+Electrical Power Suite:  <b>channel phase identification</b>の長さは2を超えない値である必要があります。
+</nierror>
+<nierror code="354695">
+Electrical Power Suite:  <b>channel identifier</b>、<b>channel name</b>、<b>monitored circuit component</b>の長さは64を超えない値である必要があります。
+</nierror>
+<nierror code="354696">
+Electrical Power Suite:  データファイル内のサンプルレートの数は、999以下である必要があります。
+</nierror>
+<nierror code="354697">
+Electrical Power Suite:  エントリ名の数は、エントリ値の数と同じである必要があります。
+</nierror>
+<nierror code="354698">
+Electrical Power Suite:  <b>ステーション名</b>と<b>記録用機器名</b>は64文字以下である必要があります。
+</nierror>
+<nierror code="354699">
+Electrical Power Suite:  ファイル名は8文字以下である必要があります。
+</nierror>
+<nierror code="363498">
+Electrical Power Suite:  強制変換は、このVIが離散表現のカーブを量子化するときに起こります。強制変換により動作タイミングおよびリセットタイミングの確度がわずかに劣化する可能性があります。 
+</nierror>
+<nierror code="363499">
+Electrical Power Suite:  動作時間またはリセット時間の値が、固定小数点内部データタイプの値より小さい値です。このVIはこれらの値を0.002048に強制変換します。
+</nierror>
+</nidocument>
